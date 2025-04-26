@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endless Playground</title>
+    <style>
+        /* Basic reset */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding-top: 60px; /* to avoid content hiding behind header */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
 
+        /* Header and Footer Styles */
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Main content */
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Portrait Styling */
+        .portrait {
+            width: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Mobile-friendly */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            p {
+                font-size: 1em;
+            }
+            .portrait {
+                width: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header"></div>
+
+    <main>
+        <h1>Welcome to My Endless Playground!</h1>
+        <p>Here I am exploring new ideas, meeting like-minded individuals, and sharing my thoughts and projects. This is where creativity and curiosity collide. My goal is to build a space for open-minded conversations and intellectual exchanges.</p>
+
+        <img src="images/portret.png" alt="My Portrait" class="portrait">
+
+        <p>Stay tuned for more updates and feel free to reach out!</p>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
