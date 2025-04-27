@@ -84,9 +84,17 @@
          font-size: 0.9em;
          color: #4b5172;
          text-decoration: none;
+         text-align: center;
+         line-height: 1.3;
         }
-        
-        
+        .span-all {
+    grid-column: span 3; /* This makes the div span across all 3 columns */
+    font-size: 0.95em;
+    text-align: center;
+    padding: 0px 40px;
+    margin-top: 10px;
+    color: #4b5172;
+}
         /* For larger screens (optional) */
         @media (min-width: 768px) {
          .grid-container {
@@ -137,7 +145,7 @@
             </div></a>
             <a href="#"><div class="grid-item">
                 <img src="images/img09.png" alt="">
-                <div class="link-label">Have a coffee?</div>
+                <div class="link-label">Have </br> a coffee?</div>
             </div></a>
             <a href="#"><div class="grid-item">
                 <img src="images/img10.png" alt="">
@@ -151,9 +159,11 @@
                 <img src="images/img11.png" alt="">
                 <div class="link-label">What else?</div>
             </div></a>
+            <div class="grid-item span-all">
+                <div>Just click around, it's all work in progress and experimenting... Hope you will like it. If yes, contact me. Just click around, it's all work in progress and experimenting... Hope you will like it. If yes, contact me.</div>
+            </div>
         </section>
     </main>
-    
 
     <div id="footer"></div>
 
