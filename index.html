@@ -26,6 +26,7 @@
          display: flex;
          flex-direction: column;
          justify-content: center;
+         align-items: center;
          height: 100%; /* Ensure the body takes up the full height of the screen */
          font-family: 'Roboto', sans-serif;
          font-size: 16px;
@@ -35,20 +36,45 @@
         }
 /* CSS */
 header {
-    display: flex;
-    flex-direction: column;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 100vw;
+  max-width: 800px;
+  padding-right: 10px;
+
 }
-header img {
-    height: 60px;
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  background-color: #f82c2c;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}header img {
+    height: 59px;
 }
 
 .endless {
+    display: flex;
   justify-content: center;
   height: 37px; /* Half of 74px if you want total header height to be 74px */
 }
 .playground {
+    width: 100%;
+    display: flex;
   justify-content: flex-end;
 }
 
@@ -136,16 +162,7 @@ header img {
          }
         }
 
-        footer {
-         text-align: center;
-         font-size: 0.9em;
-         width: 100%; /* Ensure footer spans full width */
-         background-color: #f82c2c;
-         color: rgb(255, 255, 255);
-         position: fixed;
-         bottom: 0;
-         padding: 4px;
-        }
+ 
         
         </style>
         </head>
