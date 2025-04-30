@@ -19,12 +19,13 @@
          margin: 0;
         }
         body {
-            background-image: url('images/balk.svg');
+            background-image: url('images/balk.png');
     background-repeat: repeat-x;
-    background-size: auto 70px;
+    background-size: 80px 80px;
     background-position: top;
          display: flex;
          flex-direction: column;
+         justify-content: center;
          height: 100%; /* Ensure the body takes up the full height of the screen */
          font-family: 'Roboto', sans-serif;
          font-size: 16px;
@@ -32,28 +33,34 @@
          background-color: #fdfdfd;
          color: #333;
         }
-        .bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 72px;
-    background-color: rgb(98, 0, 112);
-    z-index: -2; /* Send it behind everything */
+/* CSS */
+header {
+    display: flex;
+    flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
 }
-        main {
+header img {
+    height: 60px;
+}
+
+.endless {
+  justify-content: center;
+  height: 37px; /* Half of 74px if you want total header height to be 74px */
+}
+.playground {
+  justify-content: flex-end;
+}
+
+
+
+
+       main {
          flex: 1; /* Take up the available space */
          display: flex;
          flex-direction: column;
         }
-       header {
-            display: flex;
-            justify-content: right;
-            height: 107px;
-       }
-       header img {
-        height: 120px;
-       }
+
         h1 {
             margin-top: -5px;
         }
@@ -114,6 +121,9 @@
 }
         /* For larger screens (optional) */
         @media (min-width: 768px) {
+            body {
+                justify-content: center;
+            }
          .grid-container {
           max-width: 600px;
          }
@@ -122,6 +132,7 @@
          }
          header {
             justify-content: center;
+            align-items: center;
          }
         }
 
