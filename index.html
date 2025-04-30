@@ -21,7 +21,7 @@
         body {
             background-image: url('images/balk.png');
     background-repeat: repeat-x;
-    background-size: 80px 80px;
+    background-size: 80px;
     background-position: top;
          display: flex;
          flex-direction: column;
@@ -38,12 +38,10 @@
 header {
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   width: 100vw;
   max-width: 800px;
-  padding-right: 10px;
 
 }
 footer {
@@ -64,21 +62,15 @@ footer {
   left: 0;
   right: 0;
 }header img {
-    height: 59px;
+    height: 100px;
+    width: 420px;
 }
 
 .endless {
     display: flex;
-  justify-content: center;
-  height: 37px; /* Half of 74px if you want total header height to be 74px */
-}
-.playground {
-    width: 100%;
-    display: flex;
   justify-content: flex-end;
+  height: 80px; /* Half of 74px if you want total header height to be 74px */
 }
-
-
 
 
        main {
