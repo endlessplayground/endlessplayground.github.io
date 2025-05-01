@@ -4,156 +4,133 @@
     <meta charset="UTF-8">
     
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Oleo+Script:wght@400;700&family=Roboto+Condensed:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Endless Playground</title>
     <style>
-        /* Grid Layout */
         .save {
             border-radius: 10px;
+            opacity: 0.5;
+            background-color: rgba(0, 0, 0, 0.3); /* RGB + Alpha (0–1) */
         }
         * {
-         text-decoration: none;
-         margin: 0;
+            text-decoration: none;
+            margin: 0;
+            box-sizing: border-box;
         }
         body {
+            flex-direction: column;
             background-image: url('images/balk.png');
-    background-repeat: repeat-x;
-    background-size: 64px;
-    background-position: top;
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         height: 100%; /* Ensure the body takes up the full height of the screen */
-         font-family: 'Roboto', sans-serif;
-         font-size: 16px;
-         line-height: 1.5;
-         background-color: #fdfdfd;
-         color: #333;
+            background-repeat: repeat-x;
+            background-size: 70px;
+            background-position: top;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ensure the body takes up the full height of the screen */
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #fdfdfd;
+            color: #333;
         }
 /* CSS */
-header {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100vw;
-  max-width: 800px;
-
-}
-footer {
-  text-align: center;
-  font-size: 0.9em;
-  background-color: #f82c2c;
-  color: white;
-  position: fixed;
-  bottom: 0;
-  padding: 4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-}
-header img {
-    height: 79px;
-    width: 360px;
-    margin-right: -10px;
-}
-
-.endless {
-    display: flex;
-  justify-content: flex-end;
-  height: 80px; /* Half of 74px if you want total header height to be 74px */
-}
 
 
-       main {
-         flex: 1; /* Take up the available space */
-         display: flex;
-         flex-direction: column;
+        main {
+            flex: 1; /* Take up the available space */
+            display: flex;
+            flex-direction: column;
         }
 
         h1 {
-            margin-top: -5px;
+               margin-top: -5px;
         }
         .grid-container {
-         display: grid;
-         grid-template-columns: repeat(3, 1fr); /* 3 columns */
-         gap: 2px;
-         max-width: 600px;
-         margin: -5px auto; /* Center the grid horizontally */
-         padding: 0;
-         height: calc(90vh - 100px); /* Adjust as per header/footer height */
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 2px;
+            max-width: 600px;
+            margin: -5px auto; /* Center the grid horizontally */
+            padding: 0;
+            height: calc(90vh - 100px); /* Adjust as per header/footer height */
         }
         
         .grid-item {
-         display: flex;
-         flex-direction: column;
-         justify-content:flex-end; /* Center the content vertically */
-         align-items: center; /* Center the content horizontally */
-         padding: 0px 20px;
-         transition: transform 0.3s ease-in-out; /* Simple hover effect */
-         height: 130px; /* Allow the grid item to stretch and center vertically */
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-end; /* Center the content vertically */
+            align-items: center; /* Center the content horizontally */
+            padding: 0px 20px;
+            transition: transform 0.3s ease-in-out; /* Simple hover effect */
+            height: 130px; /* Allow the grid item to stretch and center vertically */
         }
         
         .grid-item:hover {
-         transform: scale(1.05); /* Slightly enlarge on hover */
+            transform: scale(1.05); /* Slightly enlarge on hover */
         }
         
         .grid-item img {
-         width: 70px;
-         height: 70px;
-         object-fit: contain;
-         margin-bottom: 0px;
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 0px;
         }
         .grid-item .big {
-         width: 100px;
-         height: 100px;
-         object-fit: contain;
-         margin-bottom: 0px;
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 0px;
         }
         
         .link-label {
-         display: block;
-         height: 28px;
-         margin-top: 4px;
-         font-size: 0.9em;
-         color: #4b5172;
-         text-decoration: none;
-         text-align: center;
-         line-height: 1.2;
+            display: block;
+            height: 28px;
+            margin-top: 4px;
+            font-size: 0.9em;
+            color: #4b5172;
+            text-decoration: none;
+            text-align: center;
+            line-height: 1.2;
         }
         .span-all {
-    grid-column: span 3; /* This makes the div span across all 3 columns */
-    font-size: 0.95em;
-    text-align: center;
-    padding: 0px 40px;
-    margin-top: 10px;
-    color: #4b5172;
-}
+            grid-column: span 3; /* This makes the div span across all 3 columns */
+            font-size: 0.95em;
+            text-align: center;
+            padding: 0px 40px;
+            margin-top: 10px;
+            color: #4b5172;
+        }
+        .arrow-up {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            right: -20px;
+            padding-right: 12px;
+            bottom: 40px;
+            width: 60px;
+            height: 60px;
+            border-radius: 100%;
+            background-color: rgba(50, 79, 107, 0.5); /* RGB + Alpha (0–1) */
+            font-weight: 900;
+            font-size: 14px;
+            color: #202752;
+        }
         /* For larger screens (optional) */
         @media (min-width: 768px) {
             body {
                 justify-content: center;
             }
-         .grid-container {
-          max-width: 600px;
-         }
-         .link-label {
-          font-size: 1em;
-         }
-         header {
-            justify-content: center;
-            align-items: center;
-         }
+            .grid-container {
+             max-width: 600px;
+            }
+            .link-label {
+             font-size: 1em;
+            }
         }
 
  
@@ -167,48 +144,50 @@ header img {
     <main>
         <section class="grid-container">
             <a href="#"><div class="grid-item">
-                <img src="images/portrait.png" alt="" class="big">
+                <img src="images/portrait.svg" alt="" class="big">
                 <div class="link-label">About me</div>
             </div></a>
             <a href="#"><div class="grid-item">
-                <img src="images/project.png" alt="">
+                <img src="images/balloon.svg" alt="">
                 <div class="link-label">This project</div>
             </div></a>
             <a href="#"><div class="grid-item">
-                <img src="images/coffee.png" alt="">
+                <img src="images/coffee.svg" alt="">
                 <div class="link-label">Coffee?</div>
             </div></a>
             <a href="#"><div class="grid-item">
-                <img src="images/img08.png" alt="">
-                <div class="link-label">What about...?</div>
+                <img src="images/think.svg" alt="">
+                <div class="link-label">Science</div>
             </div></a>
             <a href="#"><div class="grid-item">
-                <img src="images/img10.png" alt="">
+                <img src="images/write.svg" alt="">
                 <div class="link-label">Writings</div>
             </div></a>
             <a href="#"><div class="grid-item">
-                <img src="images/talk.png" alt="">
+                <img src="images/talk.svg" alt="">
                 <div class="link-label">Interviews</div>
             </div></a>
             <a href="#"><div class="grid-item">
-                <img src="images/img05.png" alt="">
+                <img src="images/lamp.svg" alt="">
                 <div class="link-label">Ideas</div>
             </div></a>
             <a href="#"><div class="grid-item">
-                <img src="images/schep.png" alt="" class="big">
+                <img src="images/schep.svg" alt="">
                 <div class="link-label">Experiments</div>
             </div></a>
             <a href="#"><div class="grid-item">
-                <img src="images/img11.png" alt="">
+                <img src="images/contact.svg" alt="">
                 <div class="link-label">Contact</div>
             </div></a>
             <div class="span-all">
-                <div>Just click around, it's all work in progress and experimenting... Hope you will like it. If yes, contact me. Just click around, it's all work in progress and experimenting... Hope you will like it. If yes, contact me.</div>
+                <div>Just click around, it's all work in progress and experimenting... Hope you will like it. If yes, contact me. Just click around, it's all work in progress and experimenting... Hope you will like it. If yes, contact me.Just click around, it's all work in progress and experimenting... Hope you will like it. If yes, contact me. Just click around, it's all work in progress and experimenting... Hope you will like it. If yes, contact me.Just click around, it's all work in progress and experimenting... Hope you will like it. If yes, contact me. Just click around, it's all work in progress and experimenting... Hope you will like it. If yes, contact me.</div>
             </div>
         </section>
     </main>
 
     <div id="footer"></div>
+
+    <div class="arrow-up"><img src="images/arrow.png" style="height: 26px; width: 26px;"><div>up</div></div>
 
     <script src="assets/main.js"></script>
 </body>
