@@ -1,9 +1,48 @@
+<style> /* */
+    header {
+        width: 100vw;
+        max-width: 550px;  
+        height: 60px;
+        display: flex;  
+        flex-direction: column;    
+        padding-right: 20px;
+    }
+    .header-part1 {
+        height: 30px;
+        margin-left: 30px;
+    }
+    .header-part2 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        top: 3px;
+    }
+    .playground {
+        display: flex;
+        width: 282px;
+        height: 10px;
+    }
+    .playground img {
+        height: 56px;
+        width: 282px;
+    }
+    .arrow {
+        top: 40px;
+        left: 4px;
+        height: 0px;
+    }
+    .arrow img {
+        transform: rotate(140deg);
+        margin: 44px 4px;
+    }
+</style>
 <header>
-    <div class="endless">
-      <img src="images/endlessplayground.svg">
-    </div>
-    <!--<div class="playground">
-      <img src="images/playground.png">
-    </div>-->
-  </header>
-  
+    <div class="arrow"><img src="images/arrow.png" style="height: 44px; width: 44px;"></div>
+    <div class="header-part1"><div class="endless"> <img src="images/endless.png" style="height: 50px;">
+    </div></div>
+
+    <div class="header-part2"><div class="playground">
+        <img src="images/playground.svg" style="width: 382px; height: 56px;">
+    </div></div>
+</header>
