@@ -44,6 +44,6 @@
     color: #4b5172;
 }
 .arrow img {
-    transform: rotate(140deg);
-    margin: 44px 4px;
+    transform: rotate(180deg);
+    margin: 46px 128px;
 }
