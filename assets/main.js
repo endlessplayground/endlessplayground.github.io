@@ -1,15 +1,21 @@
 // Detect local vs GitHub Pages
 const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
-// Determine the base path based on current directory
-const basePath = location.pathname.includes('/project/') ? '../' : '';
+// Detect if current file is in a subfolder (not the root)
+const pathParts = location.pathname.split('/');
+const isInSubfolder = pathParts.length > 2 && pathParts[1] !== "";
 
-// Function to fix image paths dynamically
+const basePath = isInSubfolder ? '../' : '';
+
+// Function to fix image and href paths dynamically
 function fixImagePaths(htmlContent) {
     return htmlContent.replace(/(src|href)="(?!https?)([^"]+)"/g, (match, attr, path) => {
-        // If path starts with 'images/', adjust to use relative path depending on directory
         if (path.startsWith('images/')) {
-            path = `${basePath}images/${path.slice(7)}`;  // Remove 'images/' from the start and prepend the base path
+            path = `${basePath}images/${path.slice(7)}`;
+        } else if (path.startsWith('assets/')) {
+            path = `${basePath}assets/${path.slice(7)}`;
+        } else if (path.startsWith('includes/')) {
+            path = `${basePath}includes/${path.slice(9)}`;
         }
         return `${attr}="${path}"`;
     });
@@ -19,25 +25,22 @@ function fixImagePaths(htmlContent) {
 fetch(`${basePath}includes/header.html`)
     .then(response => response.text())
     .then(data => {
-        // Adjust image paths in the header
-        const fixedHeaderContent = fixImagePaths(data);
-        document.getElementById('header').innerHTML = fixedHeaderContent;
+        const fixed = fixImagePaths(data);
+        document.getElementById('header').innerHTML = fixed;
     });
 
 // Load the footer
 fetch(`${basePath}includes/footer.html`)
     .then(response => response.text())
     .then(data => {
-        // Adjust image paths in the footer
-        const fixedFooterContent = fixImagePaths(data);
-        document.getElementById('footer').innerHTML = fixedFooterContent;
+        const fixed = fixImagePaths(data);
+        document.getElementById('footer').innerHTML = fixed;
     });
 
 // Load the arrow-up
 fetch(`${basePath}includes/arrowup.html`)
     .then(response => response.text())
     .then(data => {
-        // Adjust image paths in the arrow-up (if any)
-        const fixedArrowUpContent = fixImagePaths(data);
-        document.getElementById('arrow-up').innerHTML = fixedArrowUpContent;
+        const fixed = fixImagePaths(data);
+        document.getElementById('arrow-up').innerHTML = fixed;
     });
