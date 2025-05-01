@@ -1,0 +1,49 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 2px;
+    max-width: 600px;
+    margin: 15px auto; /* Center the grid horizontally */
+    padding: 0;
+    height: calc(90vh - 100px); /* Adjust as per header/footer height */
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    padding: 0px 20px;
+    transition: transform 0.3s ease-in-out; /* Simple hover effect */
+    height: 130px; /* Allow the grid item to stretch and center vertically */
+}
+.grid-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+.grid-item img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 0px;
+}
+.link-label {
+    display: block;
+    height: 28px;
+    margin-top: 4px;
+    font-size: 0.9em;
+    color: #4b5172;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.2;
+}
+.span-all {
+    grid-column: span 3; /* This makes the div span across all 3 columns */
+    font-size: 0.95em;
+    text-align: center;
+    padding: 0px 40px;
+    margin-top: 10px;
+    color: #4b5172;
+}
+.arrow img {
+    transform: rotate(140deg);
+    margin: 44px 4px;
+}

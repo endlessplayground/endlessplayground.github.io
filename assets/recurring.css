@@ -32,8 +32,8 @@
         height: 0px;
     }
     .arrow img {
-        transform: rotate(140deg);
-        margin: 44px 4px;
+        transform: rotate(-90deg);
+        margin: 24px 1px;
     }
     #arrow-up {
         position: fixed;
