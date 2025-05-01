@@ -2,181 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="assets/main.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Endless Playground</title>
-    <style>
-        .save {
-            border-radius: 10px;
-            opacity: 0.5;
-            background-color: rgba(0, 0, 0, 0.3); /* RGB + Alpha (0–1) */
-        }
-        * {
-            text-decoration: none;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        body {
-            flex-direction: column;
-            background-image: url('images/balk.png');
-            background-repeat: repeat-x;
-            background-size: 70px;
-            background-position: top;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            width: 100vw;
-            font-family: 'Roboto', sans-serif;
-            font-size: 16px;
-            line-height: 1.5;
-            background-color: #fdfdfd;
-            color: #333;
-        }
-        header {
-        width: 100vw;
-        max-width: 550px;  
-        height: 60px;
-        display: flex;  
-        flex-direction: column;    
-        padding-right: 0px;
-        }
-        .header-part1 {
-            height: 30px;
-            margin-left: 30px;
-        }
-        .header-part2 {
-            width: 100%;
-            display: flex;
-            justify-content: flex-end;
-            align-items: flex-end;
-            padding-right: 0;
-        }
-        .playground {
-            width: 100%;
-            max-width: 282px;
-        }
-        .playground img {
-            height: 56px;
-            width: 100%;
-            max-width: 282px;
-        }
-        .arrow {
-            top: 40px;
-            left: 4px;
-            height: 0px;
-        }
-        .arrow img {
-            transform: rotate(140deg);
-            margin: 44px 4px;
-        }
-        main {
-            flex: 1; /* Take up the available space */
-            display: flex;
-            flex-direction: column;
-        }
-        h1 {
-               margin-top: -5px;
-        }
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* 3 columns */
-            gap: 2px;
-            max-width: 600px;
-            margin: 15px auto; /* Center the grid horizontally */
-            padding: 0;
-            height: calc(90vh - 100px); /* Adjust as per header/footer height */
-        }
-        .grid-item {
-            display: flex;
-            flex-direction: column;
-            justify-content:flex-end; /* Center the content vertically */
-            align-items: center; /* Center the content horizontally */
-            padding: 0px 20px;
-            transition: transform 0.3s ease-in-out; /* Simple hover effect */
-            height: 130px; /* Allow the grid item to stretch and center vertically */
-        }
-        .grid-item:hover {
-            transform: scale(1.05); /* Slightly enlarge on hover */
-        }
-        .grid-item img {
-            width: 90px;
-            height: 90px;
-            object-fit: contain;
-            margin-bottom: 0px;
-        }
-        .grid-item .big {
-            width: 100px;
-            height: 100px;
-            object-fit: contain;
-            margin-bottom: 0px;
-        }
-        .link-label {
-            display: block;
-            height: 28px;
-            margin-top: 4px;
-            font-size: 0.9em;
-            color: #4b5172;
-            text-decoration: none;
-            text-align: center;
-            line-height: 1.2;
-        }
-        .span-all {
-            grid-column: span 3; /* This makes the div span across all 3 columns */
-            font-size: 0.95em;
-            text-align: center;
-            padding: 0px 40px;
-            margin-top: 10px;
-            color: #4b5172;
-        }
-        #arrow-up {
-            position: fixed;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            right: -20px;
-            padding-right: 12px;
-            bottom: 40px;
-            width: 60px;
-            height: 60px;
-            border-radius: 100%;
-            background-color: rgba(109, 179, 245, 0.5); /* RGB + Alpha (0–1) */
-            font-weight: 900;
-            font-size: 14px;
-            color: #202752;
-        }
-        /* For larger screens (optional) */
-        @media (min-width: 768px) {
-            body {
-                justify-content: center;
-            }
-            .grid-container {
-             max-width: 600px;
-            }
-            .link-label {
-             font-size: 1em;
-            }
-    }
-        footer {
-            text-align: center;
-            font-size: 0.9em;
-            background-color: #f82c2c;
-            color: white;
-            position: fixed;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            padding: 4px;
-            width: 100%;
-            margin: 0 auto;
-        }
-        </style>
-        </head>
+    <title id="title">Endless Playgroundddd</title>
+</head>
 <body>
  <!--   <div class="bar"></div>-->
     <div id="header"></div>
@@ -184,7 +15,7 @@
     <main>
         <section class="grid-container">
             <a href="#"><div class="grid-item">
-                <img src="images/portrait.svg" alt="" class="big">
+                <img src="images/portrait.svg" alt="">
                 <div class="link-label">About me</div>
             </div></a>
             <a href="#"><div class="grid-item">
@@ -227,7 +58,7 @@
 
     <div id="footer"></div>
 
-    <div id="arrow-up"><img src="images/arrow.png" style="height: 26px; width: 26px;"><div>up</div></div>
+    <div id="arrow-up"></div>
 
     <script src="assets/main.js"></script>
 </body>
