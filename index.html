@@ -29,22 +29,54 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Ensure the body takes up the full height of the screen */
+            height: 100vh;
+            width: 100vw;
             font-family: 'Roboto', sans-serif;
             font-size: 16px;
             line-height: 1.5;
             background-color: #fdfdfd;
             color: #333;
         }
-/* CSS */
-
-
+        header {
+        width: 100vw;
+        max-width: 550px;  
+        height: 60px;
+        display: flex;  
+        flex-direction: column;    
+        padding-right: 4px;
+        }
+        .header-part1 {
+            height: 30px;
+            margin-left: 30px;
+        }
+        .header-part2 {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+        .playground {
+            display: flex;
+            width: 282px;
+        }
+        .playground img {
+            height: 56px;
+            width: 282px;
+        }
+        .arrow {
+            top: 40px;
+            left: 4px;
+            height: 0px;
+        }
+        .arrow img {
+            transform: rotate(140deg);
+            margin: 44px 4px;
+        }
         main {
             flex: 1; /* Take up the available space */
             display: flex;
             flex-direction: column;
         }
-
         h1 {
                margin-top: -5px;
         }
@@ -53,11 +85,10 @@
             grid-template-columns: repeat(3, 1fr); /* 3 columns */
             gap: 2px;
             max-width: 600px;
-            margin: 22px auto; /* Center the grid horizontally */
+            margin: 15px auto; /* Center the grid horizontally */
             padding: 0;
             height: calc(90vh - 100px); /* Adjust as per header/footer height */
         }
-        
         .grid-item {
             display: flex;
             flex-direction: column;
@@ -67,11 +98,9 @@
             transition: transform 0.3s ease-in-out; /* Simple hover effect */
             height: 130px; /* Allow the grid item to stretch and center vertically */
         }
-        
         .grid-item:hover {
             transform: scale(1.05); /* Slightly enlarge on hover */
         }
-        
         .grid-item img {
             width: 90px;
             height: 90px;
@@ -84,7 +113,6 @@
             object-fit: contain;
             margin-bottom: 0px;
         }
-        
         .link-label {
             display: block;
             height: 28px;
@@ -131,7 +159,7 @@
             .link-label {
              font-size: 1em;
             }
-        }
+    }
         footer {
             text-align: center;
             font-size: 0.9em;
@@ -191,6 +219,7 @@
             </div></a>
             <div class="span-all">
                 <div>Just click around, it's all work in progress. A huge experiment. It's not finished. Not at all! So stay tuned. If you like it, and you want to get in contact, send me an email. &#128578;</div>
+            </div>
         </section>
     </main>
 
