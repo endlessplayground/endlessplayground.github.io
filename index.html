@@ -18,6 +18,7 @@
             text-decoration: none;
             margin: 0;
             box-sizing: border-box;
+            outline: 1px solid red;
         }
         body {
             flex-direction: column;
@@ -49,21 +50,20 @@
             height: 30px;
             margin-left: 30px;
         }
-        .header-part2 {
+.header-part2 {
             width: 100%;
             display: flex;
-            justify-content: flex-end;
-            align-items: flex-end;
-            padding-right: 0; /* Add this if needed */
-        }
+            justify-content: center; /* or flex-start if you want it left-aligned */
+            padding: 0;
+}
         .playground {
-            display: flex;
-            width: 282px;
-        }
+            width: 100%;
+            max-width: 282px;
+}
         .playground img {
             height: 56px;
             width: 100%;
-            max-width: 282px;        }        }
+            max-width: 282px;        }
         .arrow {
             top: 40px;
             left: 4px;
@@ -132,7 +132,7 @@
             margin-top: 10px;
             color: #4b5172;
         }
-        .arrow-up {
+        #arrow-up {
             position: fixed;
             display: flex;
             flex-direction: column;
@@ -226,7 +226,7 @@
 
     <div id="footer"></div>
 
-    <div class="arrow-up"><img src="images/arrow.png" style="height: 26px; width: 26px;"><div>up</div></div>
+    <div id="arrow-up"><img src="images/arrow.png" style="height: 26px; width: 26px;"><div>up</div></div>
 
     <script src="assets/main.js"></script>
 </body>
