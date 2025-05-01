@@ -18,7 +18,6 @@
             text-decoration: none;
             margin: 0;
             box-sizing: border-box;
-            outline: 1px solid red;
         }
         body {
             flex-direction: column;
@@ -44,18 +43,24 @@
         height: 60px;
         display: flex;  
         flex-direction: column;    
-        padding-right: 4px;
+        padding-right: 0px;
+        outline: 1px solid red;
+        background-color: crimson;
+        opacity: 0.6;
         }
         .header-part1 {
             height: 30px;
             margin-left: 30px;
         }
-.header-part2 {
+        .header-part2 {
             width: 100%;
             display: flex;
-            justify-content: center; /* or flex-start if you want it left-aligned */
-            padding: 0;
-}
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding-right: 0;
+            background-color: aqua;
+            opacity: 0.4;
+        }
         .playground {
             width: 100%;
             max-width: 282px;
