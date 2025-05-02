@@ -36,9 +36,9 @@ fetch(`${basePath}includes/footer.html`)
     });
 
 // Optionally: Load the arrow-up
-/* fetch(`${basePath}includes/arrowup.html`)
+ fetch(`${basePath}includes/arrowup.html`)
     .then(response => response.text())
     .then(data => {
         const fixed = fixImagePaths(data);
         document.getElementById('arrow-up').innerHTML = fixed;
-    }); */
+    }); /**/
