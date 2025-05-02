@@ -1,8 +1,8 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 2px;
-    max-width: 600px;
+    gap: 0px;
+    max-width: 580px;
     margin: 15px auto; /* Center the grid horizontally */
     padding: 0;
     height: calc(90vh - 100px); /* Adjust as per header/footer height */
@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content:flex-end; /* Center the content vertically */
     align-items: center; /* Center the content horizontally */
-    padding: 0px 20px;
+    padding: 0px 0px;
     transition: transform 0.3s ease-in-out; /* Simple hover effect */
     height: 130px; /* Allow the grid item to stretch and center vertically */
 }
@@ -20,8 +20,8 @@
     transform: scale(1.05); /* Slightly enlarge on hover */
 }
 .grid-item img {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     object-fit: contain;
     margin-bottom: 0px;
 }
