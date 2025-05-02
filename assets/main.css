@@ -35,6 +35,9 @@ p {
     margin: 12px 0px 0px 0px;
     color: rgb(25, 77, 145);
 }
+.intro {
+    font-weight: 500;
+}
 h1 {
     margin-top: 0px;
 }
@@ -50,8 +53,8 @@ h4 {
 }
 .picto {
     position: absolute;
-    right: 0px;
-    top: 60px;
+    right: 6px;
+    top: 50px;
     width: 100px;
     height: 100px;
 }
@@ -63,7 +66,6 @@ main {
 .container {
     display: flex;
     max-width: 600px;
-    margin: 35px;
-    padding: 10;
+    margin: 40px 30px 150px 35px;
     height: calc(90vh - 100px); /* Adjust as per header/footer height */
 }
