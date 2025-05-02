@@ -43,7 +43,9 @@
     margin-top: 10px;
     color: #4b5172;
 }
+
 .arrow img {
-    transform: rotate(180deg);
-    margin: 36px 15px;
+    transform: rotate(0deg);
+    margin: 20px 0px;
+
 }
