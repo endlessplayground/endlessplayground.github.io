@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
-@import url('recurring.css');
-@import url('content.css');
-@import url('colors.css');
+@import url('/assets/indexroot.css');
+@import url('/assets/recurring.css');
 
 .save {
     border-radius: 10px;

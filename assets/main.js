@@ -1,11 +1,9 @@
 // Detect local vs GitHub Pages
 const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
-// Detect if current file is in a subfolder (not the root)
-const pathParts = location.pathname.split('/');
-const isInSubfolder = pathParts.length > 2 && pathParts[1] !== "";
-
-const basePath = isInSubfolder ? '../' : '';
+// Calculate how deep the current file is (excluding the file name itself)
+const pathDepth = location.pathname.split('/').filter(p => p).length - 1;
+const basePath = '../'.repeat(pathDepth);
 
 // Function to fix image and href paths dynamically
 function fixImagePaths(htmlContent) {
@@ -37,8 +35,8 @@ fetch(`${basePath}includes/footer.html`)
         document.getElementById('footer').innerHTML = fixed;
     });
 
-// Load the arrow-up
-/*fetch(`${basePath}includes/arrowup.html`)
+// Optionally: Load the arrow-up
+/* fetch(`${basePath}includes/arrowup.html`)
     .then(response => response.text())
     .then(data => {
         const fixed = fixImagePaths(data);
