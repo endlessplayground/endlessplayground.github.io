@@ -1,8 +1,12 @@
 // Detect local vs GitHub Pages
 const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
-// Calculate how deep the current file is (excluding the file name itself)
-const pathDepth = location.pathname.split('/').filter(p => p).length - 1;
+// Get the parts of the current path
+const pathParts = location.pathname.split('/').filter(Boolean);
+const currentFile = pathParts[pathParts.length - 1] || "index.html";
+
+// Calculate how deep the current file is (excluding the file name)
+const pathDepth = (currentFile === "index.html" && pathParts.length === 1) ? 0 : pathParts.length - 1;
 const basePath = '../'.repeat(pathDepth);
 
 // Function to fix image and href paths dynamically
@@ -36,9 +40,9 @@ fetch(`${basePath}includes/footer.html`)
     });
 
 // Optionally: Load the arrow-up
- fetch(`${basePath}includes/arrowup.html`)
+fetch(`${basePath}includes/arrowup.html`)
     .then(response => response.text())
     .then(data => {
         const fixed = fixImagePaths(data);
         document.getElementById('arrow-up').innerHTML = fixed;
-    }); /**/
+    });
