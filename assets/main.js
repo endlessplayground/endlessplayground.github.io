@@ -1,48 +1,28 @@
-// Detect local vs GitHub Pages
-const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
+// Detect how deep we are by counting slashes (excluding domain and last file)
+const pathDepth = location.pathname
+    .split("/")
+    .filter(part => part && !part.includes(".")) // Ignore empty and the file.html
+    .length;
 
-// Get the parts of the current path
-const pathParts = location.pathname.split('/').filter(Boolean);
-const currentFile = pathParts[pathParts.length - 1] || "index.html";
+const basePath = "../".repeat(pathDepth);
 
-// Calculate how deep the current file is (excluding the file name)
-const pathDepth = (currentFile === "index.html" && pathParts.length === 1) ? 0 : pathParts.length - 1;
-const basePath = '../'.repeat(pathDepth);
-
-// Function to fix image and href paths dynamically
+// Fix relative paths in fetched includes
 function fixImagePaths(htmlContent) {
-    return htmlContent.replace(/(src|href)="(?!https?)([^"]+)"/g, (match, attr, path) => {
-        if (path.startsWith('images/')) {
-            path = `${basePath}images/${path.slice(7)}`;
-        } else if (path.startsWith('assets/')) {
-            path = `${basePath}assets/${path.slice(7)}`;
-        } else if (path.startsWith('includes/')) {
-            path = `${basePath}includes/${path.slice(9)}`;
-        }
-        return `${attr}="${path}"`;
+    return htmlContent.replace(/(src|href)="(?!https?:\/\/|\/)([^"]+)"/g, (match, attr, path) => {
+        return `${attr}="${basePath}${path}"`;
     });
 }
 
 // Load the header
 fetch(`${basePath}includes/header.html`)
-    .then(response => response.text())
+    .then(res => res.text())
     .then(data => {
-        const fixed = fixImagePaths(data);
-        document.getElementById('header').innerHTML = fixed;
+        document.getElementById("header").innerHTML = fixImagePaths(data);
     });
 
 // Load the footer
 fetch(`${basePath}includes/footer.html`)
-    .then(response => response.text())
+    .then(res => res.text())
     .then(data => {
-        const fixed = fixImagePaths(data);
-        document.getElementById('footer').innerHTML = fixed;
-    });
-
-// Optionally: Load the arrow-up
-fetch(`${basePath}includes/arrowup.html`)
-    .then(response => response.text())
-    .then(data => {
-        const fixed = fixImagePaths(data);
-        document.getElementById('arrow-up').innerHTML = fixed;
+        document.getElementById("footer").innerHTML = fixImagePaths(data);
     });
