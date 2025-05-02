@@ -25,15 +25,16 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.93539561"
-     inkscape:cx="41.159056"
-     inkscape:cy="22.450394"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:zoom="1.8707912"
+     inkscape:cx="33.675591"
+     inkscape:cy="78.041846"
+     inkscape:window-width="722"
+     inkscape:window-height="689"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:lockguides="true" />
   <defs
      id="defs2784">
     <linearGradient
@@ -610,18 +611,18 @@
     </g>
     <g
        id="g62734"
-       transform="matrix(0.7536567,0,0,0.77803576,27.280159,9.7776886)"
-       style="stroke-width:1.30591">
+       transform="matrix(0.72221567,0,0,0.77803576,26.728147,9.7776886)"
+       style="stroke-width:1.33403">
       <g
          id="g57676"
          transform="translate(-34.649999,-10.182857)"
-         style="stroke-width:1.30591">
+         style="stroke-width:1.33403">
         <g
            id="g90331"
-           style="stroke-width:1.30591">
+           style="stroke-width:1.33403">
           <path
              id="path4915"
-             style="fill:#a6dcdc;fill-opacity:1;fill-rule:evenodd;stroke-width:0.370064"
+             style="fill:#a6dcdc;fill-opacity:1;fill-rule:evenodd;stroke-width:0.378033"
              d="m 24.994174,11.315617 c 0,5.272737 -2.500406,8.237514 -12.412617,7.956881 C 2.6693456,18.991865 0.26248458,16.588354 0.26248458,11.315617 c 0,-5.2727385 2.16159332,-8.6116935 12.45938842,-8.6116935 10.297795,0 12.272301,3.338955 12.272301,8.6116935 z"
              sodipodi:nodetypes="szszs" />
           <path
@@ -634,13 +635,13 @@
       <g
          id="g56946"
          transform="translate(-34.616544,-10.182857)"
-         style="mix-blend-mode:multiply;stroke-width:1.30591">
+         style="mix-blend-mode:multiply;stroke-width:1.33403">
         <g
            id="g90327"
-           style="stroke-width:1.30591">
+           style="stroke-width:1.33403">
           <path
              id="path4915-7"
-             style="mix-blend-mode:multiply;fill:#a9eaad;fill-opacity:1;fill-rule:evenodd;stroke-width:0.370062"
+             style="mix-blend-mode:multiply;fill:#a9eaad;fill-opacity:1;fill-rule:evenodd;stroke-width:0.378031"
              d="m 9.3086373,21.539929 c 0,5.101353 2.3447267,7.953082 11.2700997,8.112338 8.925373,0.159256 11.137808,-3.010985 11.137808,-8.112338 0,-5.101353 -2.631392,-7.831871 -11.468537,-7.649316 -8.837145,0.182555 -10.9393707,2.547963 -10.9393707,7.649316 z"
              sodipodi:nodetypes="szszs" />
           <path
