@@ -16,15 +16,16 @@
         justify-content: flex-end;
         align-items: flex-end;
         padding-right: 0;
+        margin-top: -10px;
     }
     .playground {
         width: 100%;
-        max-width: 282px;
+        max-width: 300px;
     }
     .playground img {
-        height: 56px;
+        height: 70px;
         width: 100%;
-        max-width: 282px;
+        max-width: 300px;
     }
     .arrow {
         top: 40px;
@@ -49,7 +50,7 @@
         border-radius: 100%;
         background-color: rgba(109, 179, 245, 0.5); /* RGB + Alpha (0–1) */
         font-size: 32px;
-        color: #fa217b;
+        color: #ff00c8;
     }
     #arrow-up:visited {
         color: blue;
