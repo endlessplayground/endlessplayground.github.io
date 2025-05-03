@@ -26,3 +26,10 @@ fetch(`${basePath}includes/footer.html`)
     .then(data => {
         document.getElementById("footer").innerHTML = fixImagePaths(data);
     });
+
+// Load the arrow-up WITHOUT path fixing
+fetch(`${basePath}includes/arrowup.html`)
+    .then(res => res.text())
+    .then(data => {
+        document.getElementById("arrow-up").innerHTML = data; // No fixImagePaths here!
+    });

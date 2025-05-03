@@ -6,6 +6,10 @@
 .save {
     border-radius: 10px;
     opacity: 0.5;
+    background-image: url('/images/balk.png');
+    background-repeat: repeat-x;
+    background-size: 70px;
+    background-position: top;
 }
 * {
     text-decoration: none;
@@ -14,12 +18,7 @@
 }
 body {
     flex-direction: column;
-    background-image: url('../images/balk.png');
-    background-repeat: repeat-x;
-    background-size: 70px;
-    background-position: top;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100dvh;
@@ -28,11 +27,23 @@ body {
     font-size: 16px;
     line-height: 1.5;
     background-color: #fdfdfd;
-    color: #282d3d;
+    color: #303030;
+}
+#balk {
+    position: fixed;
+    height: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #282d3d;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 p {
     margin: 12px 0px 0px 0px;
-    color: rgb(25, 77, 145);
 }
 .intro {
     font-weight: 500;
@@ -43,28 +54,20 @@ h1 {
 h2 {
  margin: 12px 0px 0px 0px;
  font-size: 20px;
- color: rgb(25, 77, 145);
 }
 h4 {
- margin: 20px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
  font-size: 17px;
  color: rgb(226, 3, 40);
-}
-.picto {
-    position: absolute;
-    right: 6px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
 }
 main {
     flex: 1; /* Take up the available space */
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 .container {
     display: flex;
-    max-width: 600px;
-    margin: 40px 30px 150px 35px;
-    height: calc(90vh - 100px); /* Adjust as per header/footer height */
+    max-width: 500px;
+    margin: 0px 30px 80px 35px;
 }

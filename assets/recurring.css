@@ -1,17 +1,23 @@
     header {
-    width: 100vw;
-    max-width: 550px;  
-    height: 60px;
+    position: fixed;
+    height: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 500px;
     display: flex;  
     flex-direction: column;    
     padding-right: 0px;
-    }
+    z-index: 2;
+    }   
+    img {
+        pointer-events: auto !important;
+      }
     .header-part1 {
         height: 30px;
         margin-left: 30px;
     }
     .header-part2 {
-        width: 100%;
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
@@ -19,37 +25,56 @@
         margin-top: -8px;
     }
     .playground {
-        width: 100%;
         max-width: 300px;
     }
     .playground img {
         height: 70px;
-        width: 100%;
         max-width: 300px;
     }
     .arrow {
-        top: 40px;
+        position: fixed;
+        top: 0px;
         left: 4px;
-        height: 0px;
+    
+        z-index: 10;
     }
     .arrow img {
         transform: rotate(-90deg);
         margin: 24px 1px;
     }
+    .picto {
+        position: fixed;
+        left: 50%;
+top: 50px;
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 500px;
+        display: flex;  
+        justify-content: flex-end;
+        z-index: 2;
+        background-color: aqua;
+        height: 0px;
+        overflow: visible;
+    }
+    .picto img {
+        width: 100px;
+        height: 100px;
+    }
+    
     #arrow-up {
         position: fixed;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        right: -25px;
-        padding: 0px 12px 4px 0px;
-        bottom: 40px;
-        width: 48px;
-        height: 48px;
+        right: 2px;
+        padding: 0px 0px 4px 0px;
+        bottom: 20px;
+        width: 36px;
+        height: 36px;
         border-radius: 100%;
-        background-color: rgba(109, 179, 245, 0.5); /* RGB + Alpha (0–1) */
-        font-size: 32px;
+        background-color: rgb(109, 179, 245); /* RGB + Alpha (0–1) */
+        font-size: 20px;
         color: #ff00c8;
     }
     #arrow-up:visited {
@@ -72,3 +97,4 @@
         width: 100%;
         margin: 0 auto;
     }
+    
