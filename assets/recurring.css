@@ -33,14 +33,12 @@
     }
     .arrow {
         position: fixed;
-        top: 0px;
-        left: 4px;
-    
+        top: -6px;
+        left: 0px;
         z-index: 10;
     }
     .arrow img {
         transform: rotate(-90deg);
-        margin: 24px 1px;
     }
     .picto {
         position: fixed;
@@ -73,12 +71,9 @@
         width: 36px;
         height: 36px;
         border-radius: 100%;
-        background-color: rgb(109, 179, 245); /* RGB + Alpha (0–1) */
+        background-color: rgb(252, 227, 0); /* RGB + Alpha (0–1) */
         font-size: 20px;
-        color: #ff00c8;
-    }
-    #arrow-up:visited {
-        color: blue;
+        color: #ff0080;
     }
     #arrow-up img {
         height: 24px;
