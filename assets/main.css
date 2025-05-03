@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Roboto+Condensed:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 @import url('/assets/indexroot.css');
 @import url('/assets/recurring.css');
 
@@ -30,16 +35,12 @@ body {
     color: #303030;
 }
 #balk {
-    background-image: url('/images/balk.svg');
-    background-repeat: repeat-x;
-    background-size: 70px;
-    background-position: top;
     position: fixed;
     height: 70px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    background-color: #282d3d;
+    background-color:  black;
     width: 100vw;
     height: 70px;
     position: fixed;
@@ -48,20 +49,25 @@ body {
 }
 p {
     margin: 12px 0px 0px 0px;
+    font-size: 1.1em;
 }
 .intro {
-    font-weight: 500;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 1.6em;
+  font-weight: 400;
+  font-style: normal;
+  margin: 1.4em 0px;
 }
 h1 {
     margin-top: 0px;
 }
 h2 {
- margin: 12px 0px 0px 0px;
- font-size: 20px;
+ margin: 18px 0px 0px 0px;
+ font-size: 1.4px;
 }
 h4 {
- margin: 0px 0px 0px 0px;
- font-size: 17px;
+ margin: 1.2em 0 0.8em 0;
+ font-size: 1.4em;
  color: rgb(226, 3, 40);
 }
 a,
