@@ -30,6 +30,10 @@ body {
     color: #303030;
 }
 #balk {
+    background-image: url('/images/balk.svg');
+    background-repeat: repeat-x;
+    background-size: 70px;
+    background-position: top;
     position: fixed;
     height: 70px;
     left: 50%;
@@ -60,6 +64,20 @@ h4 {
  font-size: 17px;
  color: rgb(226, 3, 40);
 }
+a,
+a:visited,
+a:active,
+a:focus {
+  color: inherit;         /* or set to your desired color */
+  text-decoration: none;  /* optional: removes underline */
+}
+a img {
+    -webkit-tap-highlight-color: transparent; /* disables the blue highlight on iOS Safari */
+    outline: none;                            /* removes focus outline */
+  }
+  a:focus {
+    outline: none;                            /* also removes outline for keyboard navigation (use with caution!) */
+  }
 main {
     flex: 1; /* Take up the available space */
     display: flex;

@@ -45,7 +45,7 @@
     .picto {
         position: fixed;
         left: 50%;
-top: 50px;
+        top: 50px;
         transform: translateX(-50%);
         width: 100%;
         max-width: 500px;

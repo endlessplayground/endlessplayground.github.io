@@ -38,9 +38,12 @@
     grid-column: span 3; /* This makes the div span across all 3 columns */
     font-size: 0.95em;
     text-align: center;
-    padding: 0px 40px;
+    padding: 10px 40px;
     margin-top: 10px;
-    color: #4b5172;
+}
+.smalltext {
+    display: flex;
+    margin: 0px;
 }
 
 .arrow img {
