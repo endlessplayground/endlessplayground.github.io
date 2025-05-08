@@ -72,7 +72,7 @@ h2, .intro {
   font-family: "Pathway Gothic One", sans-serif;
   font-size: 2em;
   font-weight: 400;
-  margin: 3.3rem 0 2.5rem;
+  margin: 2rem 0 2.5rem;
 }
 
 .intro {
@@ -112,8 +112,8 @@ main {
   margin-top: 80px;
   /* justify-content: center; center vertically */
   align-items: center;     /* center horizontally (optional) */
-  min-height: 80vh;              /* Full height of the viewport */
-  display: flex;
+  min-height: 40vh;              /* Full height of the viewport */
+  max-height: 90vh;              /* Full height of the viewport */
   flex-direction: column;
   justify-content: space-between; /* ← key: distributes space between sections */
   padding-bottom: 70px;
@@ -123,14 +123,17 @@ main {
 section {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* center vertically */
+  /* justify-content: center; center vertically
   align-items: center;    
+  background-color: rgb(204, 204, 152);
+  border: 1px solid black; */
 }
 
 .container {
   display: flex;
   flex-direction: column;
   max-width: 500px;
+  padding: 0 40px;
 /*   margin: 0 30px 80px 35px; */
 
 }
@@ -329,4 +332,3 @@ footer {
   background-size: 70px;
   background-position: top;
 }
-
