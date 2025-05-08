@@ -78,6 +78,7 @@ h2, .intro {
 .intro {
   font-size: 1.6em;
   text-align: center;
+  margin-top: 1rem;
 }
 
 /* === LINKS === */
