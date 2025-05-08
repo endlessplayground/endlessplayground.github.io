@@ -14,5 +14,3 @@ function injectWithLevel(targetId, file) {
 injectWithLevel("header", "header.html");
 injectWithLevel("footer", "footer.html");
 injectWithLevel("arrow-up", "arrowup.html"); // only if the element exsists
-
-injectWithLevel_sub1("main", "main.html");
