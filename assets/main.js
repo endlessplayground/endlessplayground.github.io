@@ -1,35 +1,18 @@
-// Detect how deep we are by counting slashes (excluding domain and last file)
-const pathDepth = location.pathname
-    .split("/")
-    .filter(part => part && !part.includes(".")) // Ignore empty and the file.html
-    .length;
+// main.js
 
-const basePath = "../".repeat(pathDepth);
-
-// Fix relative paths in fetched includes
-function fixImagePaths(htmlContent) {
-    return htmlContent.replace(/(src|href)="(?!https?:\/\/|\/)([^"]+)"/g, (match, attr, path) => {
-        return `${attr}="${basePath}${path}"`;
-    });
+// Function to exchange {level} in includes
+function injectWithLevel(targetId, file) {
+    fetch(`${level}includes/${file}`)
+        .then(res => res.text())
+        .then(data => {
+            const el = document.getElementById(targetId);
+            if (el) el.innerHTML = data.replace(/{level}/g, level);
+        });
 }
 
-// Load the header
-fetch(`${basePath}includes/header.html`)
-    .then(res => res.text())
-    .then(data => {
-        document.getElementById("header").innerHTML = fixImagePaths(data);
-    });
+// Execute the includes
+injectWithLevel("header", "header.html");
+injectWithLevel("footer", "footer.html");
+injectWithLevel("arrow-up", "arrowup.html"); // only if the element exsists
 
-// Load the footer
-fetch(`${basePath}includes/footer.html`)
-    .then(res => res.text())
-    .then(data => {
-        document.getElementById("footer").innerHTML = fixImagePaths(data);
-    });
-
-// Load the arrow-up WITHOUT path fixing
-fetch(`${basePath}includes/arrowup.html`)
-    .then(res => res.text())
-    .then(data => {
-        document.getElementById("arrow-up").innerHTML = data; // No fixImagePaths here!
-    });
+injectWithLevel_sub1("main", "main.html");

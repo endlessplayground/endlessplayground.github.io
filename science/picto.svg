@@ -25,15 +25,16 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.3228492"
-     inkscape:cx="-5.6695804"
-     inkscape:cy="43.844755"
+     inkscape:cx="107.72203"
+     inkscape:cy="43.844756"
      inkscape:window-width="1117"
      inkscape:window-height="689"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
-     showguides="true" />
+     showguides="true"
+     inkscape:lockguides="false" />
   <defs
      id="defs2784" />
   <g
@@ -108,7 +109,7 @@
     </g>
     <g
        id="g10674"
-       transform="matrix(0.84510438,0.21358692,-0.21358692,0.84510438,6.833445,-1.5188662)">
+       transform="matrix(0.84510438,0.21358692,-0.21358692,0.84510438,5.7751116,-2.0480329)">
       <path
          style="fill:#faa38c;fill-opacity:0.941176;stroke:#dd5757;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
          d="m 13.364996,5.352144 c 0,0 -0.492052,-1.635628 -2.682112,-1.869306 -2.1900609,-0.233681 -2.9396689,1.643084 -2.9396689,1.643084 0,0 -1.927118,-0.390167 -3.0407149,1.03286 -1.113597,1.423027 0.07071,3.117834 0.07071,3.117834 0,0 -1.6741261,0.584608 -1.8385721,2.131721 -0.164447,1.547114 1.3082141,2.770251 1.3082141,2.770251 0,0 -1.3082161,1.260463 -0.813218,2.896359 0.494998,1.635895 2.4042859,1.879506 2.4042859,1.879506 0,0 -0.447358,1.906102 0.56571,2.809085 1.013067,0.902983 2.545715,0.407314 2.545715,0.407314 0,0 0.321767,1.953069 2.0896239,2.183872 1.767858,0.230799 2.330022,-1.253293 2.330022,-1.253293"

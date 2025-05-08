@@ -5,60 +5,66 @@
     <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="assets/indexroot.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="title">Endless Playground</title>
+    <title>Endless Playground</title>
 </head>
 <body>
- <!--   <div class="bar"></div>-->
     <div id="header"></div>
 
-    <main>
-        <section class="grid-container">
-            <a href="me/index.html"><div class="grid-item">
-                <img src="images/portrait.svg" alt="">
-                <div class="link-label">About me</div>
-            </div></a>
-            <a href="project/index.html"><div class="grid-item">
-                <img src="images/balloon.svg" alt="">
-                <div class="link-label">This project</div>
-            </div></a>
-            <a href="coffee/index.html"><div class="grid-item">
-                <img src="images/coffee.svg" alt="">
-                <div class="link-label">Coffee?</div>
-            </div></a>
-            <a href="science/index.html"><div class="grid-item">
-                <img src="images/science.svg" alt="">
-                <div class="link-label">Science</div>
-            </div></a>
-            <a href="writings/index.html"><div class="grid-item">
-                <img src="images/write.svg" alt="">
-                <div class="link-label">Writings</div>
-            </div></a>
-            <a href="interviews/index.html"><div class="grid-item">
-                <img src="images/talk.svg" alt="">
-                <div class="link-label">Interviews</div>
-            </div></a>
-            <a href="ideas/index.html"><div class="grid-item">
-                <img src="images/lamp.svg" alt="">
-                <div class="link-label">Ideas</div>
-            </div></a>
-            <a href="experiments/index.html"><div class="grid-item">
-                <img src="images/schep.svg" alt="">
-                <div class="link-label">Experiments</div>
-            </div></a>
-            <a href="contact/index.html"><div class="grid-item">
-                <img src="images/contact.svg" alt="">
-                <div class="link-label">Contact</div>
-            </div></a>
-            <div class="span-all">
-                <div class="intro" style="margin-top:10px;">This is my special experiment. If you like it, and we happen to share some interestst, maybe you want to get in contact? If so: send me an email. &#128578;</div>
-            </div>
-        </section>
-    </main>
+        <main>
+            <!-- Grid navigation section -->
+            <section class="grid-container" aria-labelledby="nav-heading">
+                <h2 id="nav-heading" class="visually-hidden">Site Sections</h2>
+                <a href="me/index.html"><div class="grid-item">
+                    <img src="images/portrait.svg" alt="">
+                    <div class="link-label">Over mij</div>
+                </div></a>
+                <a href="project/index.html"><div class="grid-item">
+                    <img src="images/balloon.svg" alt="">
+                    <div class="link-label">Dit project</div>
+                </div></a>
+                <a href="coffee/index.html"><div class="grid-item">
+                    <img src="images/coffee.svg" alt="">
+                    <div class="link-label">Koffie?</div>
+                </div></a>
+                <a href="science/index.html"><div class="grid-item">
+                    <img src="images/science.svg" alt="">
+                    <div class="link-label">Gedachten</div>
+                </div></a>
+                <a href="writings/index.html"><div class="grid-item">
+                    <img src="images/write.svg" alt="">
+                    <div class="link-label">Artikelen</div>
+                </div></a>
+                <a href="interviews/index.html"><div class="grid-item">
+                    <img src="images/talk.svg" alt="">
+                    <div class="link-label">Interviews</div>
+                </div></a>
+                <a href="ideas/index.html"><div class="grid-item">
+                    <img src="images/lamp.svg" alt="">
+                    <div class="link-label">Ideëen</div>
+                </div></a>
+                <a href="experiments/index.html"><div class="grid-item">
+                    <img src="images/schep.svg" alt="">
+                    <div class="link-label">Uitprobeersels</div>
+                </div></a>
+                <a href="contact/index.html"><div class="grid-item">
+                    <img src="images/contact.svg" alt="">
+                    <div class="link-label">Contact</div>
+                </div></a>
+            </section>
 
-    <div id="footer"></div>
+            <!-- Introductory text content -->
+            <section class="container" aria-labelledby="intro-heading" >
+                <h2 id="intro-heading" class="visually-hidden">Introduction</h2>
+                <p class="intro" style="margin-top:60px;">
+                    At the outset, a central question is how to conceive of consciousness relative to other things we know. 😊
+                </p>
+                
+            </section>
+        </main>
 
-    <!--<div id="arrow-up"></div>-->
+        <div id="footer"></div>
 
+    <script src="assets/level.js"></script>
     <script src="assets/main.js"></script>
 </body>
 </html>
