@@ -8,7 +8,12 @@
     <title>Endless Playground</title>
     <style>
         main {
-            background-color: white;
+            background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255) 0%, /* solid blue at the top */
+    rgb(255, 255, 255) 60%, /* still solid blue at 70% */
+    transparent 100%   /* fully transparent at the bottom */
+  );            
         }
     </style>
 </head>
