@@ -73,20 +73,60 @@ h3 {
   color: rgb(226, 3, 40);
 }
 
-h2, .intro {
+h2 {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;  font-size: 2em;
-  font-weight: 400;
-  margin: 2rem 0 2.5rem;
+  margin: 2rem 0 1rem;
+  padding: 0 35px 0 30px;
+
 }
 
 .intro {
-  font-size: 1.6em;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;  font-size: 2em;
+  font-size: 1.3em;
   text-align: center;
   margin-top: 2.2rem;
+  padding: 0 35px 0 30px;
 
+}
+
+#title {
+  background-color: rgb(255, 255, 255);
+}
+#txt {
+  padding: 0 35px 0 30px;
+}
+
+#submenu {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #a097c7;
+  padding-bottom: 5px;
+  overflow: visible;
+  background-color: rgb(255, 255, 255);
+}
+#submenu img {
+  margin-top: 0px;
+  margin-right: 30px;
+  width: 30px; /* or any size */
+  height: 30px; /* or any size */
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+}
+#submenu img:hover {
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.3));
+}
+.submenu-txt {
+  font-family: sans-serif;
+  font-size: 0.9em;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  color: rgb(78, 99, 131);
 }
 
 /* === LINKS === */
@@ -118,14 +158,14 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
+  margin-top: 70px;
   /* justify-content: center; center vertically */
   align-items: center;     /* center horizontally (optional) */
-  min-height: 40vh;     /* ? */
-  max-height: 90vh;     /* ? */
+  height: 100vh;     /* ? */
   flex-direction: column;
   justify-content: space-between; /* ← key: distributes space between sections */
   padding-bottom: 70px;
+  background-color: rgb(234, 240, 252);
 
 }
 
@@ -142,7 +182,6 @@ section {
   display: flex;
   flex-direction: column;
   max-width: 500px;
-  padding: 0 30px 0 35px;
 /*   margin: 0 30px 80px 35px; */
 
 }
@@ -251,16 +290,6 @@ img {
 }
 
 /* === CATEGORY + PICTO === */
-#category-contain {
-  position: fixed;
-  top: 70px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 500px;
-  display: flex;
-  z-index: 20;
-}
 
 .picto {
   position: fixed;
@@ -318,9 +347,10 @@ img {
 
 /* === FOOTER === */
 footer {
-  font-family: "Pathway Gothic One", sans-serif;
+  font-family: sans-serif;
+  font-weight: 400;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 0.9em;
   background-color: rgb(15, 141, 224);
   color: white;
   position: fixed;
