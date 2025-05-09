@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6, .intro {
 }
 
 h2 {
-  padding-right: 80px;
+  margin-right: 100px;
 }
 
 h1 {
@@ -96,6 +96,7 @@ h2 {
 
 #title {
   background-color: rgb(255, 255, 255);
+  padding-right: 70px;
 }
 #txt {
   padding: 0 35px 0 30px;
