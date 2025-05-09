@@ -32,7 +32,7 @@ function waitForElement(id, callback) {
       } else {
         submenu.style.height = submenu.scrollHeight + 'px';
         arrow.style.transform = 'rotate(180deg)';
-        txt.textContent = 'sluit menu...';
+        txt.textContent = 'Verberg menu...';
         txtDiv.style.display = 'none'; // Hide the txt div when opening
       }
     });
