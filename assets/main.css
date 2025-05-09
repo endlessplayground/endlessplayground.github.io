@@ -1,6 +1,6 @@
 /* === FONT IMPORTS === */
 
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Roboto:ital,wdth,wght@0,75,800;1,75,800&display=swap');
 
 /* === EXTERNAL STYLESHEETS === */
 @import url("/assets/indexroot.css");
@@ -118,12 +118,10 @@ h2 {
   margin-right: 30px;
   width: 20px; /* or any size */
   height: 20px; /* or any size */
-
 }
 #collapsmenu img:hover {
   margin-top: 3px;
   transition:  0.1s ease-in-out ;
-
 }
 #collapsmenu-txt {
   font-family: sans-serif;
@@ -181,7 +179,12 @@ main {
   flex-direction: column;
   justify-content: space-between; /* ← key: distributes space between sections */
   padding-bottom: 70px;
-  background-color: rgb(234, 240, 252);
+  background: linear-gradient(
+    to bottom,
+    rgb(221, 236, 240) 0%,           /* solid blue at the top */
+    rgb(255, 255, 255) 60%,          /* still solid blue at 70% */
+    transparent 100%   /* fully transparent at the bottom */
+  );
 
 }
 
@@ -387,4 +390,5 @@ footer {
   background-size: 70px;
   background-position: top;
   filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+  /* ‘gewone mensen’ */
 }
