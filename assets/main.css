@@ -103,11 +103,12 @@ h2 {
 
 #submenu {
   width: 100%;
-  height: 24px;
+  height: 40px;
   display: flex;
   justify-content: flex-end;
   border-bottom: 1px solid #a097c7;
   padding-bottom: 5px;
+  padding-top: 8px;
   overflow: visible;
   background-color: rgb(255, 255, 255);
 }
