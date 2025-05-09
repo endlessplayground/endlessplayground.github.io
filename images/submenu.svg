@@ -9,6 +9,9 @@
    id="svg2787"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="submenu.svg"
+   inkscape:export-filename="submenu.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -65,8 +68,13 @@
        transform="matrix(0.81767872,0,0,-0.81767872,13.195185,-10.520263)" />
     <path
        style="fill:#7d9eac;fill-opacity:0.00186564;stroke:#7d9eac;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
-       d="M 1.7834276,3.329309 3.9252001,5.2294048 6.0669727,3.329309"
+       d="M 1.43341,4.1586476 3.9216772,5.7585701 6.4099445,4.1586476"
        id="path20070"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#7d9eac;fill-opacity:0.00186564;stroke:#7d9eac;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+       d="M 1.4840053,2.1312431 3.9722726,3.7311656 6.4605397,2.1312431"
+       id="path20070-2"
        sodipodi:nodetypes="ccc" />
   </g>
 </svg>
