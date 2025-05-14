@@ -25,7 +25,6 @@
       font-family: 'Roboto', sans-serif;
       background-color: #f9feff;
   outline: 3px dotted rgb(98, 0, 255);
-  background-color: burlywood;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -67,18 +66,14 @@
     }
 
     main {
-      position: relative;
-      height: calc(100vh - var(--header-height) - var(--footer-height));
-      margin-top: var(--header-height);
-      margin-bottom: var(--footer-height);
-      padding: 0px 10px;
-
-
-      flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin-top: var(--header-height);
   margin-bottom: var(--footer-height);
+  padding: 20px 10px;
   box-sizing: border-box;
   overflow-y: auto;
-    }
+  
+      }
 
     .grid {
       display: grid;
@@ -86,8 +81,9 @@
       gap: 20px;
       max-width: var(--max-width);
       margin: 0 auto;
-      height: 100%;
+      height: calc(100vh - var(--header-height) - var(--footer-height) - 50px);
       padding: 20px 20px 0px 20px;
+      
     }
 
     .grid-item {
@@ -121,18 +117,17 @@
       align-items: center;
       justify-content: center;
       grid-column: span 3;
-      margin: 0 -30px 0 -30px;
+      margin: 10px 0px 0 -30px;
 
       padding: 10px 15px 10px 5px;
       color: #98afb3;
-      background-color: aquamarine;
     }
 
     #quote p {
       font-family: "Oswald", sans-serif;
       font-weight: 400;
       font-size: 1.5em;
-      line-height: 1;
+      line-height: 1.2;
       text-align: center;        
     }
 
