@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+</style>
+
   <title>Endless Playground</title>
   <style>
     :root {
@@ -20,7 +25,7 @@
 
     body {
       font-family: sans-serif;
-      background-color:#e0e0e0; 
+      background-color:#fafafa;
     }
 
 header {
@@ -70,7 +75,7 @@ footer {
       max-width: var(--max-width);
       margin: 70px auto;
       padding: 20px 10px;
-      border: 2px dashed blue;
+      border: 2px dashed rgb(235, 235, 252);
   min-height: calc(100vh - 200px); /* 40px header + 40px footer */
   padding: 20px 10px;
   box-sizing: border-box;    }
@@ -123,11 +128,13 @@ max-height: 70vh;
     align-items: center;
     justify-content: center;
       grid-column: span 3;
+        font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
       text-align: center;
-      font-weight: bold;
-      font-size: large;
+      font-size: 2.3em;
+      line-height: 1.2;
       padding: 10px;
-      background-color: #f0f0f0;
       color: #333;
       border-radius: 4px;
     }
@@ -151,7 +158,11 @@ max-height: 70vh;
   max-width: calc(var(--max-width) + 100px);
     }
 
-
+   .grid-item img {
+      width: 80px;
+      margin-bottom: 2px;
+      margin-top: -15px;
+    }
     }
   </style>
 </head>
