@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="86.267027"
-     inkscape:cy="65.053824"
+     inkscape:zoom="2"
+     inkscape:cx="23.75"
+     inkscape:cy="24"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -103,13 +103,21 @@
        inkscape:collect="always"
        id="linearGradient47266">
       <stop
-         style="stop-color:#d40000;stop-opacity:1;"
+         style="stop-color:#e2001c;stop-opacity:1;"
          offset="0"
          id="stop47262" />
       <stop
-         style="stop-color:#ff9e9e;stop-opacity:1;"
-         offset="1"
+         style="stop-color:#f25b52;stop-opacity:1;"
+         offset="0.39542481"
+         id="stop51989" />
+      <stop
+         style="stop-color:#ff5f18;stop-opacity:1;"
+         offset="0.69607842"
          id="stop47264" />
+      <stop
+         style="stop-color:#ffffae;stop-opacity:1;"
+         offset="0.97058821"
+         id="stop53601" />
     </linearGradient>
     <radialGradient
        inkscape:collect="always"
@@ -257,11 +265,20 @@
            d="m 5.0002391,-22.806416 c -0.4568329,-1e-6 -0.9134785,0.135291 -1.2635274,0.406128 l -10.3391353,7.999639 H 16.6029 L 6.2637665,-22.400288 c -0.3500489,-0.270837 -0.8066946,-0.406129 -1.2635274,-0.406128 z" />
       </g>
     </g>
+    <rect
+       style="fill:#bae8f7;fill-opacity:1;fill-rule:evenodd;stroke-width:0.228581"
+       id="rect26083"
+       width="22.858149"
+       height="22.858149"
+       x="1.8000923"
+       y="1.8000923"
+       rx="0.86397392"
+       ry="0.86397392" />
     <g
        id="g5002"
-       transform="matrix(1.1318489,0,0,1.1318489,-1.942561,-2.0492697)">
+       transform="matrix(1.1063211,-0.23903023,0.23903023,1.1063211,-4.8995268,-0.04615412)">
       <rect
-         style="fill:#43ef97;fill-opacity:1;fill-rule:evenodd;stroke-width:0.26208"
+         style="fill:#8bd848;fill-opacity:1;fill-rule:evenodd;stroke-width:0.26208"
          id="rect34643"
          width="14.898311"
          height="19.550716"
@@ -271,7 +288,7 @@
          ry="1.0000508" />
       <path
          id="rect35731"
-         style="mix-blend-mode:multiply;fill:#44baa4;fill-opacity:0.662005;fill-rule:evenodd;stroke-width:0.346201"
+         style="mix-blend-mode:multiply;fill:#5c9b39;fill-opacity:0.662005;fill-rule:evenodd;stroke-width:0.346201"
          d="m 6.1308031,5.215237 c -0.2142982,0 -0.3868422,0.1875203 -0.3868422,0.4204205 V 24.345251 c 0,0.2329 0.172544,0.420421 0.3868422,0.420421 H 8.4940264 V 5.215237 Z" />
       <g
          id="g45070"

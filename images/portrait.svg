@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.6456984"
-     inkscape:cx="34.773427"
-     inkscape:cy="72.948603"
+     inkscape:cx="-3.7797203"
+     inkscape:cy="73.326574"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -68,6 +68,15 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#73bfd7;fill-opacity:1;fill-rule:evenodd;stroke-width:0.228581"
+       id="rect26083"
+       width="22.858149"
+       height="22.858149"
+       x="1.8000923"
+       y="1.8000923"
+       rx="0.86397392"
+       ry="0.86397392" />
     <path
        id="path13238-1-2-5-8"
        style="fill:#ffba8a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -79,7 +88,7 @@
        id="path12892-7-4-9-0"
        sodipodi:nodetypes="cssssssssssccc" />
     <path
-       style="fill:#6e008a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0"
+       style="fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0"
        d="m 0.47400839,26.307741 c -0.714706,0.02747 -0.376717,-0.388177 -0.06525,-1.029121 0.418444,-0.861093 0.66648301,-2.166298 0.85544401,-2.718239 0.285098,-0.832745 1.018442,-3.606333 1.60368,-4.233124 1.069121,-1.145028 2.566528,-1.549624 4.8466779,-2.012464 2.030065,-0.41208 2.2690545,-0.867452 2.2690545,-0.867452 0,0 0.5752382,1.839203 0.7340162,2.762036 0.636763,1.697001 3.742122,6.330937 5.045033,6.693108 0.82428,0.195071 0.949573,-0.786675 1.674534,-2.076842 1.31396,-2.33837 1.02837,-2.534057 1.966417,-3.977915 0.498915,-0.832745 1.015109,-1.864886 1.015109,-1.864886 l 1.622048,0.650462 c 0,0 0.584197,0.06253 1.67495,0.693953 1.318582,0.76335 1.674959,1.769586 1.817507,3.851454 0.05659,0.827055 0.18638,1.643152 0.322212,2.326483 0.206082,1.036743 0.912168,1.834334 -0.197478,1.811221 -0.900165,-0.01875 -2.827992,-0.04101 -2.827992,-0.04101 l -19.8233456,0.02421 c -0.844434,0.0057 -1.68838,-0.0098 -2.53261201,0.0082 z"
        id="path3866-5-8-8"
        sodipodi:nodetypes="csssscccscccsssscccc" />
