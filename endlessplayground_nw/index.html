@@ -20,7 +20,7 @@
 
     body {
       font-family: sans-serif;
-      background-color: #fff;
+      background-color:#e0e0e0; 
     }
 
 header {
@@ -32,6 +32,15 @@ header {
   width: 100%;
   background: black;
   z-index: 10;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: var(--footer-height);
+  background-color: rgb(15, 141, 224);
+  z-index: 1000;
 }
 
 .header-inner {
@@ -71,9 +80,9 @@ header {
       grid-template-columns: repeat(3, 1fr);
       gap: 10px;
 height: calc(100vh - var(--header-height) - var(--footer-height) - 60px); /* subtracts header, footer, and padding/quote */
+max-height: 70vh;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 16px;
         gap: 20px;
 
     }
@@ -84,11 +93,13 @@ height: calc(100vh - var(--header-height) - var(--footer-height) - 60px); /* sub
       align-items: center;
       justify-content: center;
       height: 100%;
+      max-height: 140px;
       align-items: center;
-      background-color: #e4dfcb;
+      background-color: #ffffff;
       padding: 5px 0 8px 0;
       border-radius: 6px;
       text-align: center;
+        filter: drop-shadow(1px 3px 4px rgba(0, 0, 0, 0.2));
       transition: background-color 0.3s;
     }
 
