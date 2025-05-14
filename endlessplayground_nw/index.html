@@ -48,6 +48,15 @@ footer {
   z-index: 1000;
 }
 
+.bottom {
+  position: fixed;
+  height: 140px;
+  width: 100vw;
+  bottom: var(--footer-height);
+  background-color: rgb(168, 182, 190);
+  z-index: -1;
+}
+
 .header-inner {
   position: relative; /* Needed for absolute positioning of children */
   display: flex;
@@ -85,7 +94,7 @@ footer {
       grid-template-columns: repeat(3, 1fr);
       gap: 10px;
 height: calc(100vh - var(--header-height) - var(--footer-height) - 60px); /* subtracts header, footer, and padding/quote */
-max-height:  calc(80vh - var(--header-height) - var(--footer-height) - 60px);
+max-height:  calc(100vh - var(--header-height) - var(--footer-height) - 60px);
   max-width: var(--max-width);
   margin: 0 auto;
         gap: 20px;
@@ -135,6 +144,7 @@ max-height:  calc(80vh - var(--header-height) - var(--footer-height) - 60px);
       padding: 10px 15px 10px 5px;
       color: #98afb3;
       border-radius: 4px;
+      background-color: ;
     }
 
     .nowrap {
@@ -215,9 +225,11 @@ max-height:  calc(80vh - var(--header-height) - var(--footer-height) - 60px);
         <img src="images/contact.svg" alt="">
         <div class="link-label">Contact</div>
       </div></a>
-      <!--<div id="quote"> <p><img src="/endlessplayground_nw/images/quote.svg" alt="" style="vertical-align:top; width: 50px; margin-top: -4px; margin-right: -18px;"> Als je niet uitkijkt,  blijf je je je leven lang voorbereiden... &nbsp;<span style="font-size: 0.7em;" class="nowrap">—Remco Campert—</span></p></div>-->
+      <!----><div id="quote"> <p><img src="/endlessplayground_nw/images/quote.svg" alt="" style="vertical-align:top; width: 50px; margin-top: -4px; margin-right: -18px;"> Als je niet uitkijkt,  blijf je je je leven lang voorbereiden... &nbsp;<span style="font-size: 0.7em;" class="nowrap">—Remco Campert—</span></p></div>
     </section>
   </main>
+
+  <div class="bottom">	</div>
 
   <footer></footer>
 
