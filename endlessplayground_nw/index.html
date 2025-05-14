@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap&family=Oswald:wght@200..700');
-</style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Endless Playground</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&family=Oswald:wght@400&display=swap" rel="stylesheet">
+
   <style>
     :root {
       --max-width: 500px;
@@ -24,81 +22,64 @@
     }
 
     body {
-      font-family: sans-serif;
-      background-color:#f9feff;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f9feff;
+      height: 100vh;
+      overflow: hidden;
     }
 
-header {
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  height: var(--header-height);
-  width: 100%;
-  background: black;
-  z-index: 10;
-}
+    header {
+      position: fixed;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      height: var(--header-height);
+      width: 100%;
+      background: black;
+      z-index: 10;
+    }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-  height: var(--footer-height);
-  background-color: rgb(15, 141, 224);
-  z-index: 1000;
-}
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      position: relative;
+      width: 100%;
+      max-width: calc(var(--max-width) + 100px);
+    }
 
-.bottom {
-  position: fixed;
-  height: 140px;
-  width: 100vw;
-  bottom: var(--footer-height);
-  background-color: rgb(168, 182, 190);
-  z-index: -1;
-}
+    #endless {
+      position: absolute;
+      width: 250px;
+      left: 10%;
+      top: -6px;
+    }
 
-.header-inner {
-  position: relative; /* Needed for absolute positioning of children */
-  display: flex;
-  justify-content: space-between; /* This will push items to left and right */
-  align-items: flex-start; /* Align items at the top */
-  width: 100%;
-  max-width: calc(var(--max-width) + 300px);
-}
+    #playground {
+      position: absolute;
+      width: 300px;
+      right: 2%;
+      top: 20px;
+      z-index: 1;
+    }
 
-#endless {
-  position: absolute;
-  width: 250px;
-  left: 10%;
-  top: -6px; /* Align to top */
-}
-
-#playground {
-  position: absolute;
-  width: 300px;
-  right: 2%;
-  top: 20px; /* Align to top */
-  z-index: 1; /* Ensure it appears above #endless */
-}
     main {
-      max-width: var(--max-width);
-      margin: 70px auto;
-      padding: 20px 10px;
-      border: 2px dashed rgb(245, 143, 26);
-  max-height: calc(100vh - var(--header-height)-var(--footer-height)); /* 40px header + 40px footer */
-  padding: 20px 10px;
-  box-sizing: border-box;    }
+      position: relative;
+      height: calc(100vh - var(--header-height) - var(--footer-height));
+      margin-top: var(--header-height);
+      margin-bottom: var(--footer-height);
+      padding: 0px 10px;
+      overflow: hidden;
+    }
 
     .grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-height: calc(100vh - var(--header-height) - var(--footer-height) - 60px); /* subtracts header, footer, and padding/quote */
-max-height:  calc(100vh - var(--header-height) - var(--footer-height) - 60px);
-  max-width: var(--max-width);
-  margin: 0 auto;
-        gap: 20px;
-
+      gap: 20px;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding-top: 15px;
+      height: 100%;
     }
 
     .grid-item {
@@ -106,10 +87,7 @@ max-height:  calc(100vh - var(--header-height) - var(--footer-height) - 60px);
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100%;
-      max-height: 140px;
-      align-items: center;
-      padding: 5px 0 8px 0;
+      padding: 5px 0 8px;
       border-radius: 6px;
       text-align: center;
       transition: background-color 0.3s;
@@ -120,61 +98,58 @@ max-height:  calc(100vh - var(--header-height) - var(--footer-height) - 60px);
     }
 
     .grid-item img {
-      width: 95px;
-      margin-bottom: 8px;
+      height: 100px;
+      margin-bottom: 2px;
       margin-top: -15px;
     }
 
     .link-label {
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       color: #333;
     }
 
     #quote {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       grid-column: span 3;
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-style: normal;  font-size: 2em;
-  font-size: 1.8em;
+      margin: 0 -30px 0 -30px;
+      font-family: "Oswald", sans-serif;
+      font-weight: 400;
+      font-size: 1.8em;
       text-align: center;
       line-height: 1.2;
       padding: 10px 15px 10px 5px;
       color: #98afb3;
-      border-radius: 4px;
-      background-color:aquamarine
+      background-color: aquamarine;
     }
 
     .nowrap {
-  white-space: nowrap;
-}
+      white-space: nowrap;
+    }
 
-    /* Wider screens */
+    .bottom {
+      position: fixed;
+      bottom: var(--footer-height);
+      height: 140px;
+      width: 100%;
+      background-color: rgb(168, 182, 190);
+      z-index: -1;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: var(--footer-height);
+      background-color: rgb(15, 141, 224);
+      z-index: 1000;
+    }
+
     @media (min-width: 600px) {
-      body {
-        background-color: #fafafa;
-      }
-
-    /*  .grid-item img {
-        width: 50px;
-        height: 50px;
-    }*/
-
       .link-label {
         font-size: 1rem;
-    } 
-
-    .header-inner {
-  max-width: calc(var(--max-width) + 100px);
-    }
-
-   .grid-item img {
-      width: 80px;
-      margin-bottom: 2px;
-      margin-top: -15px;
-    }
+      }
     }
   </style>
 </head>
@@ -182,8 +157,8 @@ max-height:  calc(100vh - var(--header-height) - var(--footer-height) - 60px);
 
   <header>
     <div class="header-inner">
-      <img src="images/endless.svg" alt="Endless logo" id="endless">
-      <img src="images/playground.svg" alt="Playground logo" id="playground">
+      <img src="images/endless.svg" alt="Endless logo" id="endless" />
+      <img src="images/playground.svg" alt="Playground logo" id="playground" />
     </div>
   </header>
 
@@ -193,43 +168,56 @@ max-height:  calc(100vh - var(--header-height) - var(--footer-height) - 60px);
         <img src="images/portrait.svg" alt="">
         <div class="link-label">Over mij</div>
       </div></a>
+
       <a href="project/index.html"><div class="grid-item">
         <img src="images/balloon.svg" alt="">
         <div class="link-label">Dit project</div>
       </div></a>
+
       <a href="coffee/index.html"><div class="grid-item">
         <img src="images/coffee.svg" alt="">
         <div class="link-label">Koffie?</div>
       </div></a>
+
       <a href="science/index.html"><div class="grid-item">
         <img src="images/science.svg" alt="">
         <div class="link-label">Hoe zit het?</div>
       </div></a>
+
       <a href="writings/index.html"><div class="grid-item">
         <img src="images/write.svg" alt="">
         <div class="link-label">Artikelen</div>
       </div></a>
+
       <a href="interviews/index.html"><div class="grid-item">
         <img src="images/talk.svg" alt="">
         <div class="link-label">Interviews</div>
       </div></a>
+
       <a href="ideas/index.html"><div class="grid-item">
         <img src="images/lamp.svg" alt="">
         <div class="link-label">Ideëen</div>
       </div></a>
+
       <a href="experiments/index.html"><div class="grid-item">
         <img src="images/schep.svg" alt="">
         <div class="link-label">Experimenten</div>
       </div></a>
+
       <a href="contact/index.html"><div class="grid-item">
         <img src="images/contact.svg" alt="">
         <div class="link-label">Contact</div>
       </div></a>
-      <!----><div id="quote"> <p><img src="/endlessplayground_nw/images/quote.svg" alt="" style="vertical-align:top; width: 50px; margin-top: -4px; margin-right: -18px;"> Als je niet uitkijkt,  blijf je je je leven lang voorbereiden... &nbsp;<span style="font-size: 0.7em;" class="nowrap">—Remco Campert—</span></p></div>
+
+      <div id="quote">
+        <p>
+          <img src="/endlessplayground_nw/images/quote.svg" alt="" style="vertical-align:top; width: 50px; margin-top: -4px; margin-right: -18px;">
+          Als je niet uitkijkt, blijf je je je leven lang voorbereiden...
+          <span style="font-size: 0.7em;" class="nowrap">—Remco Campert—</span>
+        </p>
+      </div>
     </section>
   </main>
-
-  <div class="bottom">	</div>
 
   <footer></footer>
 
