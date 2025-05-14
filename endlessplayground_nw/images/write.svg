@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="86.267027"
-     inkscape:cy="65.053824"
+     inkscape:zoom="4"
+     inkscape:cx="-4.125"
+     inkscape:cy="89"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -259,7 +259,7 @@
     </g>
     <g
        id="g5002"
-       transform="matrix(1.1318489,0,0,1.1318489,-1.942561,-2.0492697)">
+       transform="matrix(1.080312,0,0,1.080312,-0.64235713,-0.29647975)">
       <rect
          style="fill:#43ef97;fill-opacity:1;fill-rule:evenodd;stroke-width:0.26208"
          id="rect34643"
