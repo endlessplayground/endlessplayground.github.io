@@ -24,8 +24,11 @@
     body {
       font-family: 'Roboto', sans-serif;
       background-color: #f9feff;
-      height: 100vh;
-      overflow: hidden;
+  outline: 3px dotted rgb(98, 0, 255);
+  background-color: burlywood;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
     }
 
     header {
@@ -69,6 +72,12 @@
       margin-top: var(--header-height);
       margin-bottom: var(--footer-height);
       padding: 0px 10px;
+
+
+      flex: 1 0 auto;
+  margin-bottom: var(--footer-height);
+  box-sizing: border-box;
+  overflow-y: auto;
     }
 
     .grid {
