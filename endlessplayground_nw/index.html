@@ -25,7 +25,7 @@
 
     body {
       font-family: sans-serif;
-      background-color:#ddffd3;
+      background-color:#f9feff;
     }
 
 header {
@@ -85,7 +85,7 @@ footer {
       grid-template-columns: repeat(3, 1fr);
       gap: 10px;
 height: calc(100vh - var(--header-height) - var(--footer-height) - 60px); /* subtracts header, footer, and padding/quote */
-max-height: 70vh;
+max-height: 80vh;
   max-width: var(--max-width);
   margin: 0 auto;
         gap: 20px;
@@ -138,6 +138,10 @@ max-height: 70vh;
       color: #98afb3;
       border-radius: 4px;
     }
+
+    .nowrap {
+  white-space: nowrap;
+}
 
     /* Wider screens */
     @media (min-width: 600px) {
@@ -213,7 +217,7 @@ max-height: 70vh;
         <img src="images/contact.svg" alt="">
         <div class="link-label">Contact</div>
       </div></a>
-      <div id="quote"> <p><img src="/endlessplayground_nw/images/quote.svg" alt="" style="vertical-align:top; width: 50px; margin-top: -4px; margin-right: -18px;"> Als je niet uitkijkt,  blijf je je je leven lang voorbereiden... &nbsp;<span style="font-size: 0.7em;">—Remco Campert—</span></p></div>
+      <div id="quote"> <p><img src="/endlessplayground_nw/images/quote.svg" alt="" style="vertical-align:top; width: 50px; margin-top: -4px; margin-right: -18px;"> Als je niet uitkijkt,  blijf je je je leven lang voorbereiden... &nbsp;<span style="font-size: 0.7em;" class="nowrap">—Remco Campert—</span></p></div>
     </section>
   </main>
 
