@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Endless Playground</title>
+  <style>
+    :root {
+      --max-width: 500px;
+      --header-height: 70px;
+      --footer-height: 40px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+    }
+
+    body {
+      font-family: sans-serif;
+      background-color: #fff;
+    }
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  height: var(--header-height);
+  width: 100%;
+  background: black;
+  z-index: 10;
+}
+
+.header-inner {
+  position: relative; /* Needed for absolute positioning of children */
+  display: flex;
+  justify-content: space-between; /* This will push items to left and right */
+  align-items: flex-start; /* Align items at the top */
+  width: 100%;
+  max-width: calc(var(--max-width) + 300px);
+}
+
+#endless {
+  position: absolute;
+  width: 250px;
+  left: 10%;
+  top: -6px; /* Align to top */
+}
+
+#playground {
+  position: absolute;
+  width: 300px;
+  right: 2%;
+  top: 20px; /* Align to top */
+  z-index: 1; /* Ensure it appears above #endless */
+}
+    main {
+      max-width: var(--max-width);
+      margin: 70px auto;
+      padding: 20px 10px;
+      border: 2px dashed blue;
+  min-height: calc(100vh - 200px); /* 40px header + 40px footer */
+  padding: 20px 10px;
+  box-sizing: border-box;    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+height: calc(100vh - var(--header-height) - var(--footer-height) - 60px); /* subtracts header, footer, and padding/quote */
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 16px;
+        gap: 20px;
+
+    }
+
+    .grid-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      align-items: center;
+      background-color: #e4dfcb;
+      padding: 5px 0 8px 0;
+      border-radius: 6px;
+      text-align: center;
+      transition: background-color 0.3s;
+    }
+
+    .grid-item:hover {
+      background-color: #e0e0e0;
+    }
+
+    .grid-item img {
+      width: 95px;
+      margin-bottom: 8px;
+      margin-top: -15px;
+    }
+
+    .link-label {
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    #quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      grid-column: span 3;
+      text-align: center;
+      font-weight: bold;
+      font-size: large;
+      padding: 10px;
+      background-color: #f0f0f0;
+      color: #333;
+      border-radius: 4px;
+    }
+
+    /* Wider screens */
+    @media (min-width: 600px) {
+      body {
+        background-color: #fafafa;
+      }
+
+    /*  .grid-item img {
+        width: 50px;
+        height: 50px;
+    }*/
+
+      .link-label {
+        font-size: 1rem;
+    } 
+
+    .header-inner {
+  max-width: calc(var(--max-width) + 100px);
+    }
+
+
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <img src="images/endless.svg" alt="Endless logo" id="endless">
+      <img src="images/playground.svg" alt="Playground logo" id="playground">
+    </div>
+  </header>
+
+  <main>
+    <section class="grid">
+      <a href="me/index.html"><div class="grid-item">
+        <img src="images/portrait.svg" alt="">
+        <div class="link-label">Over mij</div>
+      </div></a>
+      <a href="project/index.html"><div class="grid-item">
+        <img src="images/balloon.svg" alt="">
+        <div class="link-label">Dit project</div>
+      </div></a>
+      <a href="coffee/index.html"><div class="grid-item">
+        <img src="images/coffee.svg" alt="">
+        <div class="link-label">Koffie?</div>
+      </div></a>
+      <a href="science/index.html"><div class="grid-item">
+        <img src="images/science.svg" alt="">
+        <div class="link-label">Hoe zit het?</div>
+      </div></a>
+      <a href="writings/index.html"><div class="grid-item">
+        <img src="images/write.svg" alt="">
+        <div class="link-label">Artikelen</div>
+      </div></a>
+      <a href="interviews/index.html"><div class="grid-item">
+        <img src="images/talk.svg" alt="">
+        <div class="link-label">Interviews</div>
+      </div></a>
+      <a href="ideas/index.html"><div class="grid-item">
+        <img src="images/lamp.svg" alt="">
+        <div class="link-label">Ideëen</div>
+      </div></a>
+      <a href="experiments/index.html"><div class="grid-item">
+        <img src="images/schep.svg" alt="">
+        <div class="link-label">Experimenten</div>
+      </div></a>
+      <a href="contact/index.html"><div class="grid-item">
+        <img src="images/contact.svg" alt="">
+        <div class="link-label">Contact</div>
+      </div></a>
+      <div id="quote">Als je niet uitkijkt, blijf je je je leven lang voorbereiden</div>
+    </section>
+  </main>
+
+  <footer></footer>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+my-website/
+├── assets/
+├── images/
+├── includes/
+├── index.nl
+├── me/
+│   ├── assets/
+│   ├── images/
+│   ├── includes/
+│   └── index.html
+├── project/
+├── coffee/
+├── how/
+├── articles/
+├── interviews/
+├── ideas/
+├── experiments/
+├── contact/
