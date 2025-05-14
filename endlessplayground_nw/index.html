@@ -8,162 +8,146 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&family=Oswald:wght@400&display=swap" rel="stylesheet">
 
   <style>
-    :root {
-      --max-width: 500px;
-      --header-height: 70px;
-      --footer-height: 40px;
-    }
+:root {
+  --max-width: 500px;
+  --header-height: 70px;
+  --footer-height: 40px;
+}
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      text-decoration: none;
-    }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
 
-    body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #f9feff;
-  outline: 3px dotted rgb(98, 0, 255);
-  min-height: 100vh;
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9feff;
   display: flex;
   flex-direction: column;
-    }
-
-    header {
-      position: fixed;
-      top: 0;
-      display: flex;
-      justify-content: center;
-      height: var(--header-height);
-      width: 100%;
-      background: black;
-      z-index: 10;
-    }
-
-    .header-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      position: relative;
-      width: 100%;
-      max-width: calc(var(--max-width) + 100px);
-    }
-
-    #endless {
-      position: absolute;
-      width: 250px;
-      left: 10%;
-      top: -6px;
-    }
-
-    #playground {
-      position: absolute;
-      width: 300px;
-      right: 2%;
-      top: 20px;
-      z-index: 1;
-    }
-
-    main {
-  flex: 1;
-  margin-top: var(--header-height);
-  margin-bottom: var(--footer-height);
-  padding: 20px 10px;
-  box-sizing: border-box;
-  
-      }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      max-width: var(--max-width);
-      margin: 0 auto;
-      height: calc(100vh - var(--header-height) - var(--footer-height) - 50px);
-      padding: 20px 20px 0px 20px;
-        min-height: 0; /* Prevents grid from expanding beyond bounds */
-  height: auto; /* Let content determine height */
+  min-height: 100vh;
+  padding-top: var(--header-height);
+  padding-bottom: var(--footer-height);
 }
-      
-    
 
-    .grid-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 5px 0 8px;
-      border-radius: 6px;
-      text-align: center;
-      transition: background-color 0.3s;
-    }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height);
+  background: black;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
 
-    .grid-item:hover {
-      background-color: #eff8fc;
-    }
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: calc(var(--max-width) + 100px);
+  position: relative;
+}
 
-    .grid-item img {
-      height: 80px;
-      margin-bottom: 2px;
-      margin-top: -15px;
-    }
+#endless {
+  position: absolute;
+  width: 250px;
+  left: 10%;
+  top: -6px;
+}
 
-    .link-label {
-      font-size: 0.95rem;
-      color: #333;
-    }
+#playground {
+  position: absolute;
+  width: 300px;
+  right: 2%;
+  top: 20px;
+  z-index: 1;
+}
 
-    #quote {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      grid-column: span 3;
-      margin: 10px 0px 0 -30px;
+main {
+  flex: 1;
+  width: 100%;
+  padding: 20px 10px;
+}
 
-      padding: 10px 15px 10px 5px;
-      color: #98afb3;
-    }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: var(--max-width);
+  margin: 0 auto 30px;
+  padding: 0 10px;
+}
 
-    #quote p {
-      font-family: "Oswald", sans-serif;
-      font-weight: 400;
-      font-size: 1.5em;
-      line-height: 1.2;
-      text-align: center;        
-    }
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0 8px;
+  border-radius: 6px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
 
-    .nowrap {
-      white-space: nowrap;
-    }
+.grid-item:hover {
+  background-color: #eff8fc;
+}
 
-    .bottom {
-      position: fixed;
-      bottom: var(--footer-height);
-      height: 140px;
-      width: 100%;
-      background-color: rgb(168, 182, 190);
-      z-index: -1;
-    }
+.grid-item img {
+  height: 80px;
+  margin-bottom: 2px;
+  margin-top: -15px;
+}
 
-    footer {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      height: var(--footer-height);
-      background-color: rgb(15, 141, 224);
-      z-index: 1000;
-    }
+.link-label {
+  font-size: 0.95rem;
+  color: #333;
+}
 
-    @media (min-width: 600px) {
-      .link-label {
-        font-size: 1rem;
-      }
-    }
-    @media (max-width: 600px) {
-  /* Slightly reduce quote font size on mobile */
-  #quote p {
-    font-size: 1.3em;
+#quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  color: #98afb3;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+#quote p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+#quote img {
+  margin-right: 10px;
+  margin-top: -20px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--footer-height);
+  background-color: rgb(15, 141, 224);
+  z-index: 1000;
+}
+
+@media (min-width: 600px) {
+  .link-label {
+    font-size: 1rem;
   }
 }
   </style>
@@ -224,14 +208,22 @@
         <div class="link-label">Contact</div>
       </div></a>
 
-      <div id="quote"><img src="/endlessplayground_nw/images/quote.svg" alt="" style="vertical-align:top; width: 50px; margin-top: -50px; margin-right: -48px; margin-left: 40px;">
+      <!--<div id="quote"><img src="/endlessplayground_nw/images/quote.svg" alt="" style="vertical-align:top; width: 50px; margin-top: -50px; margin-right: -48px; margin-left: 40px;">
         <p>
           
           Als je niet uitkijkt, blijf je je je leven lang voorbereiden...
           <span style="font-size: 0.7em;" class="nowrap">—Remco Campert—</span>
         </p>
-      </div>
+      </div>-->
     </section>
+
+      <div id="quote">
+    <img src="/endlessplayground_nw/images/quote.svg" alt="" style="vertical-align:top; width: 50px; margin-top: -50px; margin-right: -48px; margin-left: 40px;">
+    <p>
+      Als je niet uitkijkt, blijf je je je leven lang voorbereiden...
+      <span style="font-size: 0.7em;" class="nowrap">—Remco Campert—</span>
+    </p>
+  </div>
   </main>
 
   <footer></footer>
