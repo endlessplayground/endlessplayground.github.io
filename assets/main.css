@@ -8,7 +8,7 @@
 
 :root {
   --max-width: 500px;
-  --header-height: 44px;
+  --header-height: 36px;
   --footer-height: 40px;
   --font-family-serif: "Cherry Swash", serif;
   --font-family-sans: "Roboto Condensed", sans-serif;
@@ -186,22 +186,26 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  max-width: calc(var(--max-width) - 60px);
+  max-width: calc(var(--max-width) - 70px);
   position: relative;
 }
 
 #endless {
-  height: 51px;
+  height: calc(var(--header-height) + 6px);
   left: 15%;
   margin-top: -4px;
 }
 
-#playground {
-  position: absolute;
-  width: 250px;
-  right: 2%;
-  top: 0px;
-  z-index: 1;
+
+#arrow {
+  height: calc(var(--header-height) + 5px);
+  margin: 5px 12px;
+}
+
+#hamburger {
+  height: calc(var(--header-height) - 20px);
+  margin: 10px 12px;
+  z-index: 10;
 }
 
 /* === IMAGE POINTER FIX === */
