@@ -130,7 +130,7 @@ section {
   gap: 0;
   width: 100vw;
   max-width: var(--max-width);
-  padding: 8px 10px 20px 10px;
+  padding: 18px 10px 20px 10px;
 }
 
 .grid-item {
@@ -197,9 +197,9 @@ header {
 }
 
 
-#arrow {
-  height: calc(var(--header-height) + 5px);
-  margin: 5px 12px;
+#home {
+  height: calc(var(--header-height) + 20px);
+  margin: 1px 12px;
 }
 
 #hamburger {
