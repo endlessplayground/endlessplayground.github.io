@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article class="section-page">
+  <!-- Auto-injects section icon -->
+  <img src="{{ page.url | split: '/' | first | prepend: '/' | append: '/_icon.svg' | relative_url }}"
+       alt="Section Icon"
+       class="section-icon">
+  
+  {{ content }}
+</article>

@@ -1,0 +1,18 @@
+<header>
+  <div class="header-inner">
+    <img src="{{ '/assets/images/global/hamburger.svg' | relative_url }}" id="hamburger">
+    <img src="{{ '/assets/images/global/endless.svg' | relative_url }}" alt="Endless logo" id="endless">
+
+    <!-- HOME ICON FIX -->
+    {% if page.url == "/" %}
+      <img src="{{ '/assets/images/home_icon.svg' | relative_url }}"
+           alt="Home"
+           class="icon">
+    {% else %}
+      {% assign section = page.url | remove_first: '/' | split: '/' | first %}
+      <img src="{{ '/assets/images/' | append: section | append: '_icon.svg' | relative_url }}"
+           alt="{{ section | capitalize }}"
+           class="icon">
+    {% endif %}
+  </div>
+</header>
