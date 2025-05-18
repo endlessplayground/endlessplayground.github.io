@@ -1,0 +1,14 @@
+---
+layout: default
+title: Test
+---
+<h1>Projecten</h1>
+<p>De ochtend begon zonder iets opvallends. Je stond op, maakte koffie, keek even naar buiten. De wereld deed zijn eigen dingen, zonder zich met jou te bemoeien. Dat gaf ruimte, al voelde het ook een beetje los.</p>
+
+<p>Er ligt een stapel was die nog gevouwen moet worden. Je schuift het voor je uit, zoals je wel vaker doet. Niet uit luiheid, maar omdat er iets troostends zit in het uitstellen van kleine taken. Ze lopen niet weg.</p>
+
+<p>Je probeert je iets te herinneren wat je bent vergeten. Een naam, een beeld, een afspraak misschien. Het komt niet. En dat is goed. Sommige dingen keren vanzelf terug als je stopt met zoeken.</p>
+
+<p>Buiten trekt de wind zachtjes aan de takken. Geen storm, geen onrust. Alleen die trage beweging, alsof de dag iets fluistert wat je nauwelijks kunt verstaan. Het hoort erbij, zoals achtergrondruis bij een gesprek.</p>
+
+<p>Je denkt na over wat je straks gaat eten. Iets eenvoudigs waarschijnlijk. Niet omdat het moet, maar omdat het genoeg is. Eten als een ritme, niet als een gebeurtenis. En soms is dat precies wat nodig is.</p>
