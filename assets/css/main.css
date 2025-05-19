@@ -10,7 +10,7 @@
   --max-width: 500px;
   --header-height: 50px;
   --footer-height: 30px;
-  --menubottom-height: 50px;
+  --menubottom-height: 55px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
   --font-family-sans: "Encode Sans Condensed", sans-serif;
   --font-color: #303030;
@@ -232,34 +232,38 @@ footer {
   position: fixed;
   left: 0;
   right: 0;
+  bottom: var(--footer-height);
   z-index: 1000;
   width: 100vw;
-  bottom: var(--footer-height);
-  background-color: var(--bg-color);
   background: linear-gradient(
     to top,
     var(--bg-color) 0%, 
-    var(--bg-color) 50%,  
+    var(--bg-color) 80%,  
     transparent 100%
-    )
+  );
 }
 
+/* Inner flex container with equal spacing & bottom alignment */
 .menubottom_inner {
   display: flex;
-  justify-content:space-around;
-  align-items: flex-end !important;
+  justify-content: space-around;
+  align-items: flex-end;
   height: var(--menubottom-height);
   width: 100%;
   max-width: var(--max-width);
-  margin: 0 20px -6px 0 !important;
+  margin: 0 20px;
 }
 
+/* Ensure each div and link aligns properly */
 .menubottom_inner > div {
   display: flex;
   align-items: flex-end;
+  height: 100%;
 }
 
+/* Keep image size fixed and bottom-aligned */
 .mini {
   height: 35px;
+  display: block;
 }
 
