@@ -64,7 +64,6 @@ h1, p {
 }
 
 /* === LINKS === */
-a,
 a:visited,
 a:active,
 a:focus {
@@ -80,6 +79,10 @@ a img {
 
 a:focus-visible {
   outline: var(--focus-outline);
+}
+
+p > a {
+  color: crimson !important;
 }
 
 /* === MAIN === */
@@ -191,7 +194,7 @@ header {
 
 .icon {
   height: calc(var(--header-height) + 35px);
-  margin: 2px 12px 0px -10px;
+  margin: 12px 12px 0px -10px;
 }
 
 /* === IMAGE POINTER FIX === */
