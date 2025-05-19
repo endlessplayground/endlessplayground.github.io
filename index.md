@@ -2,7 +2,11 @@
 layout: default
 title: Home
 ---
-
+<style>
+    #menubottom {
+  visibility: hidden;
+    }
+</style>
 <main>
             <!-- Grid navigation section -->
             <section class="grid-container">
@@ -30,9 +34,9 @@ title: Home
                     <img src="{{ '/assets/images/global/interviews.svg' | relative_url }}" alt="interviews">
                     <div class="link-label">Interviews</div>
                 </div></a>
-                <a href="ideeen/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/ideeen.svg' | relative_url }}" alt="ideeën">
-                    <div class="link-label">Ideëen</div>
+                <a href="random/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/random.svg' | relative_url }}" alt="ideeën">
+                    <div class="link-label">Random...</div>
                 </div></a>
                 <a href="experimenten/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/experimenten.svg' | relative_url }}" alt="experimenten">
