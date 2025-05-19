@@ -8,7 +8,7 @@
    version="1.1"
    id="svg2787"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="picto.svg"
+   sodipodi:docname="mij_icon.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.8707912"
-     inkscape:cx="0.5345332"
-     inkscape:cy="97.285042"
+     inkscape:cx="-84.456245"
+     inkscape:cy="97.819575"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -877,7 +877,7 @@
            transform="matrix(0.78456418,0.62004762,-0.62454848,0.78098604,0,0)" />
       </g>
       <path
-         style="fill:#6e008a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0"
+         style="fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0"
          d="m 0.64336557,31.622588 c -0.85736248,0.0337 -0.45191041,-0.47613 -0.0782751,-1.2623 0.50196633,-1.0562 0.79951373,-2.65714 1.02619183,-3.33414 0.3420046,-1.02143 1.2217243,-4.42346 1.9237767,-5.19227 1.2825184,-1.40447 3.0788102,-1.90074 5.8140808,-2.46845 2.4352682,-0.50545 3.2917992,-1.064 3.2917992,-1.064 0,0 0.414392,2.21974 0.94051,3.23453 0.684011,1.31935 1.248938,1.70941 1.852532,2.69544 2.004727,3.27491 2.580863,5.42827 3.569673,5.66753 0.988808,0.23927 1.13911,-0.964921 2.008774,-2.547415 1.576227,-2.868201 1.233633,-3.108226 2.358916,-4.879235 0.598499,-1.02143 1.217726,-2.287434 1.217726,-2.287434 l 1.94581,0.797844 c 0,0 0.700804,0.0767 2.009272,0.85119 1.581773,0.93631 2.009283,2.17054 2.180283,4.72412 0.06789,1.01445 0.223582,2.01546 0.386526,2.85362 0.247216,1.27165 1.094238,2.24996 -0.236894,2.22161 -1.079839,-0.023 -3.392463,-0.0503 -3.392463,-0.0503 l -23.7801087,0.0297 c -1.0129844,0.007 -2.0253829,-0.012 -3.03812476,0.01 z"
          id="path3866-5-8-8"
          sodipodi:nodetypes="csssscsszscccsssscccc" />
