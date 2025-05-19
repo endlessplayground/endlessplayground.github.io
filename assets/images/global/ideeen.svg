@@ -8,7 +8,7 @@
    version="1.1"
    id="svg2787"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="lamp.svg"
+   sodipodi:docname="ideeen.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.3228492"
-     inkscape:cx="17.386714"
-     inkscape:cy="114.9035"
+     inkscape:cx="-102.80839"
+     inkscape:cy="115.65944"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -178,49 +178,5 @@
          ry="2.6757441"
          transform="matrix(0.97709194,0.21281761,-0.43143572,0.90214368,0,0)" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-weight:bold;font-size:11.8633px;line-height:0.5;font-family:'Frank Ruhl Hofshi';-inkscape-font-specification:'Frank Ruhl Hofshi Bold Italic';text-align:center;text-anchor:middle;fill:#5a5015;fill-opacity:1;stroke:#b2ff16;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
-       x="-44.775124"
-       y="1.9826914"
-       id="text22131"
-       transform="scale(1.0172765,0.98301693)"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';fill:#80c02d;fill-opacity:1;stroke:#ff4816;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-         x="-44.775127"
-         y="1.9826914"
-         id="tspan23507">Ex</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';fill:#808000;fill-opacity:1;stroke:#ff4816;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-         x="-44.775124"
-         y="8.0851927"
-         id="tspan28637">peri</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';fill:#80c02d;fill-opacity:1;stroke:#ff4816;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-         x="-44.775124"
-         y="14.187694"
-         id="tspan28639">men</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';fill:#c0732d;fill-opacity:1;stroke:#ff4816;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-         x="-44.775124"
-         y="20.290194"
-         id="tspan28643">ten</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-weight:bold;font-size:14.6584px;line-height:0.5;font-family:'Frank Ruhl Hofshi';-inkscape-font-specification:'Frank Ruhl Hofshi Bold Italic';text-align:center;text-anchor:middle;fill:#5a5015;fill-opacity:1;stroke:#b2ff16;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
-       x="6.0053563"
-       y="37.590046"
-       id="text22131-4"
-       transform="scale(0.90139667,1.1093895)"><tspan
-         sodipodi:role="line"
-         id="tspan22129-9"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';fill:#5a5015;fill-opacity:1;stroke:#ff4816;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-         x="6.0053563"
-         y="37.590046">Idee</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';fill:#80c02d;fill-opacity:1;stroke:#ff4816;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-         x="6.0053563"
-         y="45.130352"
-         id="tspan23507-0">ën</tspan></text>
   </g>
 </svg>
