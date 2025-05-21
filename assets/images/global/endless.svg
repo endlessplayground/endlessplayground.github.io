@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="458.53"
+   width="434.53"
    height="72.103996"
-   viewBox="0 0 121.31916 19.077513"
+   viewBox="0 0 114.96924 19.077513"
    version="1.1"
    id="svg129077"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.93539557"
-     inkscape:cx="257.64501"
-     inkscape:cy="161.42903"
+     inkscape:zoom="1.3228491"
+     inkscape:cx="247.19373"
+     inkscape:cy="-18.898603"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -67,17 +67,17 @@
        fx="47.002312"
        fy="-45.90234"
        r="34.134022"
-       gradientTransform="matrix(3.2187506,0,0,0.53496984,-140.13727,43.864907)"
+       gradientTransform="matrix(3.1247386,0,0,0.53507587,-138.91865,43.869774)"
        gradientUnits="userSpaceOnUse" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><ellipse
-       style="fill:url(#radialGradient83059);fill-opacity:1;fill-rule:evenodd;stroke:#009800;stroke-width:0.491491;stroke-opacity:0"
+       style="fill:url(#radialGradient83059);fill-opacity:1;fill-rule:evenodd;stroke:#009800;stroke-width:0.484308;stroke-opacity:0"
        id="path83029"
-       cx="11.151452"
+       cx="7.9512892"
        cy="19.308537"
-       rx="109.44309"
-       ry="18.118845" /><g
+       rx="106.24652"
+       ry="18.122437" /><g
        id="g64518"
        transform="matrix(1.0143453,0,0,1.0295413,-1.0798659,-0.01918467)"
        style="stroke-width:0;stroke-dasharray:none"><path
