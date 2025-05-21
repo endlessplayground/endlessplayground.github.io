@@ -8,7 +8,7 @@
 
 :root {
   --max-width: 500px;
-  --header-height: 50px;
+  --header-height: 49px;
   --footer-height: 25px;
   --menubottom-height: 55px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
@@ -168,24 +168,31 @@ header {
 .header-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   max-width: var(--max-width);
-  padding-right: 50px;
+  height: calc (var(--header-height) + 2px);
+  padding-right: 40px;
 }
 
 #endless {
-  height: calc(var(--header-height) + 1px);
-  left: 15%;
+  height: calc(var(--header-height) + 2px);
   margin-top: -1px;
-  margin-right: -20px;
 }
+
+
 
 .icon {
   height: calc(var(--header-height) * 1.4);
-  margin-right: auto;
-  margin-top: 16px;
-  margin-right: 40px;
+  margin-top: 12px;         /* optional vertical fine-tune */
+  padding-right: 10px;      /* adjust this as needed */
 }
+
+
+
+
+
+
 
 #home {
   height: calc(var(--header-height) + 20px);
