@@ -195,7 +195,7 @@ header {
 
 .icon {
   height: calc(var(--header-height) + 35px);
-  margin: 12px 12px 0px -10px;
+  margin: 12px 12px 0px -300px;
 }
 
 /* === IMAGE POINTER FIX === */
@@ -206,34 +206,42 @@ footer {
   display: flex;
   justify-content: center;
   position: fixed;
-  height: var(--footer-height);
-  width: 100vw;
-/*    background: linear-gradient(
-    to bottom,
-    rgb(209, 255, 35) 0%,
-    rgb(179, 224, 15) 60%,
-    rgb(104, 184, 13) 100%
-  );*/
-  background-color: rgb(115, 218, 26);
+  bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  height: var(--footer-height);
+  width: 100vw;
+  background-color: rgb(126, 190, 23);
+  z-index: 1000;
 }
 
 .footer_inner {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
   height: var(--footer-height);
   width: 100%;
   max-width: var(--max-width);
-  margin-left: -50px;
-  padding-top: 40px;
-  justify-content: flex-end;
   background-image: url('/assets/images/global/playground.svg');
-  background-repeat:no-repeat;
-  background-size: 290px;
+  background-repeat: no-repeat;
+  background-size: 275px;
   background-position: top left;
+  padding-right: 10px;
   color: white;
-  padding: 7px 0px;
+}
+
+.footer_content {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  font-size: 16px;
+  padding: 12px 20px 0 0;
+}
+
+.footer_content img {
+  height: 20px;
+  display: inline-block;
+  margin-top: 3px;
 }
 
 #menubottom {
