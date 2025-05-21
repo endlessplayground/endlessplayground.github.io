@@ -8,8 +8,8 @@
 
 :root {
   --max-width: 500px;
-  --header-height: 45px;
-  --footer-height: 30px;
+  --header-height: 50px;
+  --footer-height: 25px;
   --menubottom-height: 55px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
   --font-family-sans: "Encode Sans Condensed", sans-serif;
@@ -161,6 +161,7 @@ header {
   width: 100%;
   height: var(--header-height);
   background: black;
+  border-bottom: 1px solid rgb(4, 185, 254);
   display: flex;
   justify-content: space-around;
   z-index: 1000;
@@ -176,7 +177,7 @@ header {
 }
 
 #endless {
-  height: calc(var(--header-height) + 7px);
+  height: calc(var(--header-height) + 1px);
   left: 15%;
   margin-top: -1px;
 }
@@ -207,7 +208,13 @@ footer {
   position: fixed;
   height: var(--footer-height);
   width: 100vw;
-  background-color: rgb(15, 141, 224);
+  background-color: rgb(143, 255, 14);
+    background: linear-gradient(
+    to top,
+    rgb(83, 145, 12) 0%,
+    rgb(138, 221, 44) 80%,
+    rgb(143, 255, 14) 100%
+  );
   left: 0;
   right: 0;
   bottom: 0;
@@ -219,13 +226,14 @@ footer {
   width: 100%;
   max-width: var(--max-width);
   margin-left: -50px;
+  padding-top: 40px;
   justify-content: flex-end;
   background-image: url('/assets/images/global/playground.svg');
   background-repeat:no-repeat;
-  background-size: 340px;
+  background-size: 290px;
   background-position: top left;
   color: white;
-  padding: 4px 0px;
+  padding: 7px 0px;
 }
 
 #menubottom {
