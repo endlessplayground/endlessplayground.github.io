@@ -167,13 +167,11 @@ header {
 
 .header-inner {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
   width: 100%;
   max-width: calc(var(--max-width) - 70px);
   position: relative;
   background-color: rgb(111, 197, 197);
-  padding-right: 20px;
 }
 
 #endless {
@@ -182,15 +180,14 @@ header {
   margin-top: -1px;
 }
 
+.icon {
+  height: calc(var(--header-height) + 35px);
+  background-color: bisque;
+}
+
 #home {
   height: calc(var(--header-height) + 20px);
   margin: 0px 12px 0px -10px;
-}
-
-.icon {
-  height: calc(var(--header-height) + 35px);
-  width: 100px;
-  background-color: bisque;
 }
 
 /* === IMAGE POINTER FIX === */
