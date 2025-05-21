@@ -9,7 +9,6 @@
 :root {
   --max-width: 500px;
   --header-height: 50px;
-  --header-padding: 10px;
   --footer-height: 25px;
   --menubottom-height: 55px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
@@ -169,28 +168,23 @@ header {
 .header-inner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
   max-width: var(--max-width);
-  padding: 0 var(--header-padding) 0 0;
-  background-color: rgba(111, 197, 197, 0.479);
+  padding-right: 50px;
 }
 
 #endless {
   height: calc(var(--header-height) + 1px);
   left: 15%;
   margin-top: -1px;
-}
-
-.logo {
-  height: var(--header-height);
-  margin: 0;
+  margin-right: -20px;
 }
 
 .icon {
-  height: calc(var(--header-height) * 1.3);
-  margin-left: auto;
-  background-color: bisque; /* Optional, for debugging */
+  height: calc(var(--header-height) * 1.4);
+  margin-right: auto;
+  margin-top: 16px;
+  margin-right: 40px;
 }
 
 #home {
