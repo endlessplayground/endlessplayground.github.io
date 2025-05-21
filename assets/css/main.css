@@ -40,8 +40,6 @@ body {
   font-family: var(--font-family-serif);
 }
 
-
-
 /* === TYPOGRAPHY === */
 h1, h2, h3, h4, h5, h6, .intro {
   font-family: var(--font-family-sans);
@@ -174,6 +172,8 @@ header {
   width: 100%;
   max-width: calc(var(--max-width) - 70px);
   position: relative;
+  background-color: rgb(111, 197, 197);
+  padding-right: 20px;
 }
 
 #endless {
@@ -187,15 +187,10 @@ header {
   margin: 0px 12px 0px -10px;
 }
 
-#hamburger {
-  height: calc(var(--header-height) - 4px);
-  margin: 10px 12px;
-  z-index: 10;
-}
-
 .icon {
   height: calc(var(--header-height) + 35px);
-  margin: 12px 12px 0px -300px;
+  width: 100px;
+  background-color: bisque;
 }
 
 /* === IMAGE POINTER FIX === */
@@ -226,7 +221,7 @@ footer {
   background-repeat: no-repeat;
   background-size: 275px;
   background-position: top left;
-  padding-right: 5px;
+  padding-right: 10px;
   color: white;
 }
 
@@ -243,6 +238,7 @@ footer {
   display: inline-block;
   margin-top: 3px;
 }
+
 #menubottom {
   display: flex;
   justify-content: center;
