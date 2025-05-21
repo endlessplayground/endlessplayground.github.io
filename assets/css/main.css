@@ -180,11 +180,9 @@ header {
   margin-top: -1px;
 }
 
-
-
 .icon {
   height: calc(var(--header-height) * 1.4);
-  margin-top: 12px;         /* optional vertical fine-tune */
+  margin-top: 30px;         /* optional vertical fine-tune */
   padding-right: 10px;      /* adjust this as needed */
 }
 
@@ -226,7 +224,7 @@ footer {
   max-width: var(--max-width);
   background-image: url('/assets/images/global/playground.svg');
   background-repeat: no-repeat;
-  background-size: 275px;
+  background-size: 260px;
   background-position: top left;
   padding-right: 10px;
   color: white;
