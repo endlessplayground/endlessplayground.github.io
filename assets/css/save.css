@@ -12,6 +12,18 @@
     rgb(255, 255, 255) 60%,
     transparent 100%
   );
-
   /* ‘gewone mensen’ */
+}
+/* Minimum width */
+@media (min-width: 35rem) {
+  div {
+    background: yellow;
+  }
+}
+
+/* Maximum width */
+@media (max-width: 50rem) {
+  div {
+    border: 2px solid blue;
+  }
 }

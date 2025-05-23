@@ -1,19 +1,12 @@
 ---
 layout: default
-title: "Interessant"                # Browser tab
-page_title: "Interessant"        # <h1> heading
-intro: |
-  
-
+title: Test
 ---
+<div class="top">
+  <h1>Interessant...</h1>
+  <div class="button"><img src="/assets/images/global/updown.svg" alt=""></div>
+</div>
 
-{% include page_top.html 
-   title=page.page_title 
-   intro=page.intro 
-%}
-
-<div class="custom-section">
-  
 <p>In de kast staat een rij <a href="artikelen_sub/">boeken</a> waar je al maanden niet naar hebt gekeken. Je weet precies wat er staat, maar ook weer niet. Misschien pak je er straks een, misschien ook niet. Sommige <a href="/assets/">dingen</a> hoeven niet meteen beslist te worden.</p>
 
 <p>De klok tikt door. Niet gehaast, niet traag. Gewoon zoals altijd. Tijd als iets dat je niet kunt vasthouden, maar dat wel overal doorheen sijpelt. Je merkt het aan het licht op de muur, aan de toon van geluiden buiten, aan de houding van je lichaam.</p>
@@ -23,6 +16,3 @@ intro: |
 <p>De middag komt vanzelf. Zonder dat je er iets voor hoeft te doen. Je zult iets eten, iets opruimen, misschien een mail beantwoorden. De dag verloopt zoals hij wil. En dat is niet erg. Niet elke dag hoeft een richting te hebben.</p>
 
 <p>In de avond worden dingen stiller. Beweging wordt langzamer, woorden worden minder. Wat overblijft zijn restjes van de dag: een geur, een kleur, een zin die bleef hangen. Meer is er vaak niet nodig om de uren mee af te sluiten.</p>
-  
-</div>
-

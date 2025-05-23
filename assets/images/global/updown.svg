@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="26"
-   height="20"
-   viewBox="0 0 6.8791552 5.2916678"
+   width="6mm"
+   height="6mm"
+   viewBox="0 0 5.99999 6.0000012"
    version="1.1"
    id="svg129077"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="5.2913964"
-     inkscape:cx="7.6539342"
-     inkscape:cy="11.622641"
+     inkscape:zoom="14.966329"
+     inkscape:cx="9.9222728"
+     inkscape:cy="14.465805"
      inkscape:window-width="1230"
      inkscape:window-height="728"
      inkscape:window-x="0"
@@ -58,9 +58,10 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Caladea;-inkscape-font-specification:Caladea;fill:#baff10;fill-opacity:0.988345;stroke-width:0.162242"
          x="-15.350165"
          y="4.1763515">»</tspan></text><path
-       style="font-size:16.4131px;line-height:1.25;font-family:Caladea;-inkscape-font-specification:Caladea;fill:#40535f;fill-opacity:0.988345;stroke-width:0.162405"
-       d="M 3.4395776,4.3857163 0.3831191,1.5879155 0.7690356,0.9059515 3.4395776,2.6370907 6.1255563,0.9059515 6.4960361,1.5879155 Z"
-       id="path131578" /><g
+       style="font-size:16.4131px;line-height:1.25;font-family:Caladea;-inkscape-font-specification:Caladea;fill:#668497;fill-opacity:0.988345;stroke-width:0.184586"
+       d="M 2.999995,4.910752 -5.7234465e-6,1.7576507 0.37878226,1.3630068 2.999995,3.5176601 5.6363592,1.3630068 5.9999956,1.7576507 Z"
+       id="path131578"
+       sodipodi:nodetypes="ccccccc" /><g
        aria-label="»"
        transform="matrix(0,0.83319227,-0.99776093,0,-10.169115,15.734809)"
        id="text114090-2-8-9"
