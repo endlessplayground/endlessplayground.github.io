@@ -14,6 +14,8 @@
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
   --font-family-sans: "Encode Sans Condensed", sans-serif;
   --font-color: #303030;
+  --border-color: #886363;
+  --border-width: 1.5px;
   --bg-color: #fdfdfd;
   --focus-outline: 2px solid #00f;
 }
@@ -35,7 +37,7 @@ body {
   overflow-x: hidden;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--bg-color);
+  background-color: bisque;
   color: var(--font-color);
   font-family: var(--font-family-serif);
 }
@@ -48,17 +50,43 @@ h1, h2, h3, h4, h5, h6, .intro {
 }
 
 h1 {
-  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+.top {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: flex-end;
+  padding: 14px 20px 24px 20px;
+  background-color: var(--bg-color);
+  width: 100%;
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+
+}
+
+.button {
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -12px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: var(--bg-color);
+    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+}
+
+.button img {
+  width: 20px;
 }
 
 p {
-  margin: 12px 0 0 0px;
+  margin: 1.2rem 14px 0px 24px;
   font-size: 1.1em;
-}
-
-h1, p {
-  margin-left: 15px;
-  margin-right: 8px;
 }
 
 /* === LINKS === */
@@ -85,28 +113,33 @@ p > a {
 
 /* === MAIN === */
 main {
+  position: relative;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items:flex-start;
   margin-top: calc(var(--header-height));
-  padding-bottom: calc((--footer-height) + (--menu_bottom-height) + 10px);
-  padding-left: 10px;
-  padding-right: 10px;
-  height: 100vh;
   width: 100%;
   max-width: var(--max-width);
 }
 
 .content {
-  background-color: inherit;
+  background-color: var(--bg-color);
+  border-right: var(--border-width) var(--border-color) solid;
+  border-left: var(--border-width) var(--border-color) solid;
+  min-height: 100vh;
+  padding-bottom: calc(var(--header-height) + var(--footer-height) + var(--menubottom-height))  !important;
 }
-/* === SECTION === */
 
+/* === OVERLAY === */
+
+/* === SECTION === */
 section {
   display: flex;
   flex-direction: column;
 }
+
+/* === OVERLAY === */
 
 /* === GRID === */
 .grid-container {
@@ -186,12 +219,6 @@ header {
   padding-right: 10px;      /* adjust this as needed */
 }
 
-
-
-
-
-
-
 #home {
   height: calc(var(--header-height) + 20px);
   margin: 0px 12px 0px -10px;
@@ -253,12 +280,6 @@ footer {
   bottom: var(--footer-height);
   z-index: 1000;
   width: 100vw;
-  background: linear-gradient(
-    to top,
-    var(--bg-color) 0%, 
-    var(--bg-color) 80%,  
-    transparent 100%
-  );
 }
 
 /* Inner flex container with equal spacing & bottom alignment */
@@ -268,8 +289,14 @@ footer {
   align-items: flex-end;
   height: var(--menubottom-height);
   width: 100%;
-  max-width: var(--max-width);
+  max-width: calc(var(--max-width) - 3px);
   margin: 0 20px;
+  background: linear-gradient(
+    to top,
+    var(--bg-color) 0%, 
+    var(--bg-color) 80%,  
+    transparent 100%
+);
 }
 
 /* Ensure each div and link aligns properly */

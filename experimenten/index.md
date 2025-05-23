@@ -2,7 +2,11 @@
 layout: default
 title: Test
 ---
-<h1>Experimenten</h1>
+<div class="top">
+  <h1>Experimenten</h1>
+  <div class="button"><img src="/assets/images/global/updown.svg" alt=""></div>
+</div>
+
 <p>Het licht is veranderd sinds vanochtend. Zachter nu, met langere schaduwen. De dag is voorbijgegaan zonder grote gebeurtenissen. Alleen de gewone dingen, zoals ze meestal gaan. Je hebt niet alles gedaan wat je van plan was, maar misschien hoeft dat ook niet.</p>
 
 <p>Er ligt nog iets op het aanrecht dat eigenlijk opgeruimd moet worden. Je weet het, maar je stelt het uit. Soms is het genoeg om gewoon te zien dat het er ligt. Niet alles hoeft meteen opgelost of afgehandeld te worden. Sommige dingen mogen even blijven wachten.</p>

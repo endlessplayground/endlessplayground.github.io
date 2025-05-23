@@ -8,9 +8,9 @@
   filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
     background: linear-gradient(
     to bottom,
-    rgb(221, 236, 240) 0%,           /* solid blue at the top */
-    rgb(255, 255, 255) 60%,          /* still solid blue at 70% */
-    transparent 100%   /* fully transparent at the bottom */
+    rgb(221, 236, 240) 0%,
+    rgb(255, 255, 255) 60%,
+    transparent 100%
   );
 
   /* ‘gewone mensen’ */
