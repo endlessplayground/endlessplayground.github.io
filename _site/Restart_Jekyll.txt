@@ -7,3 +7,8 @@ jekyll clean
 
 # Then start the server with:
 jekyll serve --force_polling --port 4000
+
+Restart Jekyll after adding files:
+
+bash
+jekyll clean && jekyll serve

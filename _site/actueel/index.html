@@ -5,11 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test</title>
 <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+<!-- Set theme color for Android browser UI (top & bottom bar) -->
+
+<!-- Let the browser know your site supports light/dark themes -->
+<meta name="color-scheme" content="light dark">
+
+<!-- For iOS (top status bar style only, no bottom bar control) -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="rgb(126, 190, 23)">
+<meta name="theme-color" content="#7ebe17">
+
 </head>
 <body>
   <header>
   <div class="header-inner">
-    <img src="/assets/images/global/hamburger.svg" id="hamburger">
     <img src="/assets/images/global/endless.svg" alt="Endless logo" id="endless">
 
     <!-- HOME ICON FIX -->
@@ -23,17 +36,59 @@
 </header>
 
   <main class="content">
-    <h1>Actueel</h1>
+    <div class="top">
+  <h1>Actueel</h1>
+  <div class="button"><img src="/assets/images/global/updown.svg" alt="" /></div>
+</div>
+
 <p>Het is nog vroeg in de ochtend. Buiten is het stil, op een paar vogels na. Binnen hangt een zachte stilte waarin alles lijkt te wachten. De dag moet nog beginnen, maar er ligt al iets in de lucht. Iets onbenoembaars dat hoort bij deze uren.</p>
 
 <p>De tafel is opgeruimd. Er ligt alleen een stapel papieren en een pen die niet meer schrijft. Het raam staat op een kier. Een dun streepje lucht beweegt net merkbaar langs de gordijnen. Er is niets bijzonders aan dit moment, maar toch blijft het hangen.</p>
 
 <p>Mensen lopen voorbij zonder op of om te kijken. Iedereen onderweg naar iets. Werk misschien, of gewoon de supermarkt. Je kent ze niet, maar hun beweging maakt onderdeel uit van de dag. Ze horen erbij, net als de stoep, de bomen, en het licht dat verandert.</p>
-  <!-- CONTENT MUST BE INSIDE <main> -->
+
   </main>
 
+  <div id="menubottom">
+  <div class="menubottom_inner">
+
+    <div><a href="/index.html">
+      <img src="/assets/images/menu_mini/home.svg" alt="home" class="mini" style="height: 40px;">
+    </a></div>
+
+    <div><a href="/mij/index.html">
+      <img src="/assets/images/menu_mini/mij.svg" alt="mij" class="mini" style="height: 40px;">
+    </a></div>
+
+    <div><a href="/projecten/index.html">
+      <img src="/assets/images/menu_mini/projecten.svg" alt="projecten" class="mini" style="height: 36px; margin-bottom: -2px;">
+    </a></div>
+
+    <div><a href="/actueel/index.html">
+      <img src="/assets/images/menu_mini/actueel.svg" alt="actueel" class="mini">
+    </a></div>
+
+    <div><a href="/artikelen/index.html">
+      <img src="/assets/images/menu_mini/artikelen.svg" alt="artikelen" class="mini">
+    </a></div>
+
+    <div><a href="/interviews/index.html">
+      <img src="/assets/images/menu_mini/interviews.svg" alt="interviews" class="mini">
+    </a></div>
+
+    <div><a href="/contact/index.html">
+      <img src="/assets/images/menu_mini/contact.svg" alt="contact" class="mini">
+    </a></div>
+
+  </div>
+</div>
+
   <footer>
-    <div>Yvon &copy; 2025</div>
+  <div class="footer_inner">
+    <div class="footer_content">
+      Yvon<img src="/assets/images/global/copyright.svg" alt="copyright" />2025
+    </div>
+  </div>
 </footer>
 </body>
 </html>

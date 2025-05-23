@@ -3,6 +3,12 @@
 <title>{{ page.title }}</title>
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
+{% if page.url == "/" %}
+  <style>
+    #menubottom { display: none; } /* More thorough than visibility: hidden */
+  </style>
+{% endif %}
+
 <!-- Set theme color for Android browser UI (top & bottom bar) -->
 
 <!-- Let the browser know your site supports light/dark themes -->

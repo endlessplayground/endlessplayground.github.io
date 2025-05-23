@@ -1,0 +1,49 @@
+/* === OVERLAY === */
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.overlay.active {
+  display: block;
+}
+.overlay.active { display: flex; }
+/* ... (rest of your overlay styles) ... */
+
+
+.overlay-content {
+  background: white;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.open-overlay {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100000000;
+}

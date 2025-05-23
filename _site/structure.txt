@@ -14,3 +14,15 @@ my-site/
 │   └── project1/
 │       └── index.md
 └── index.md
+
+
+your-site/
+├── artikelen/
+│   ├── article1.md            # Main content
+│   ├── article1-overlay.md    # Overlay content
+│   └── subfolder/
+│       ├── subarticle.md
+│       └── subarticle-overlay.md
+└── projecten/
+    ├── projectA.md
+    └── projectA-overlay.md

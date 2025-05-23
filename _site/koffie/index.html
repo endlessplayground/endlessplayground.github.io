@@ -5,11 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test</title>
 <link rel="stylesheet" href="/assets/css/main.css">
+
+
+
+<!-- Set theme color for Android browser UI (top & bottom bar) -->
+
+<!-- Let the browser know your site supports light/dark themes -->
+<meta name="color-scheme" content="light dark">
+
+<!-- For iOS (top status bar style only, no bottom bar control) -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="rgb(126, 190, 23)">
+<meta name="theme-color" content="#7ebe17">
+
 </head>
 <body>
   <header>
   <div class="header-inner">
-    <img src="/assets/images/global/hamburger.svg" id="hamburger">
     <img src="/assets/images/global/endless.svg" alt="Endless logo" id="endless">
 
     <!-- HOME ICON FIX -->
@@ -23,15 +36,56 @@
 </header>
 
   <main class="content">
-    <h1>Koffie</h1>
+    <div class="top">
+  <h1>Koffie?</h1>
+</div>
+
 <p>De middag gleed ongemerkt voorbij. Je deed een paar dingen, liet andere liggen. Niet uit onwil, maar omdat het zo ging. Sommige dagen houden zich op de achtergrond, zonder te dringen.</p>
 
 <p>Nu is het stil. Niet leeg, maar rustig. Alsof alles even ademhaalt. Je zit erbij, kijkt wat rond, denkt aan niets in het bijzonder. En dat is precies genoeg voor nu.</p>
-  <!-- CONTENT MUST BE INSIDE <main> -->
+
   </main>
 
+  <div id="menubottom">
+  <div class="menubottom_inner">
+
+    <div><a href="/index.html">
+      <img src="/assets/images/menu_mini/home.svg" alt="home" class="mini" style="height: 40px;">
+    </a></div>
+
+    <div><a href="/mij/index.html">
+      <img src="/assets/images/menu_mini/mij.svg" alt="mij" class="mini" style="height: 40px;">
+    </a></div>
+
+    <div><a href="/projecten/index.html">
+      <img src="/assets/images/menu_mini/projecten.svg" alt="projecten" class="mini" style="height: 36px; margin-bottom: -2px;">
+    </a></div>
+
+    <div><a href="/actueel/index.html">
+      <img src="/assets/images/menu_mini/actueel.svg" alt="actueel" class="mini">
+    </a></div>
+
+    <div><a href="/artikelen/index.html">
+      <img src="/assets/images/menu_mini/artikelen.svg" alt="artikelen" class="mini">
+    </a></div>
+
+    <div><a href="/interviews/index.html">
+      <img src="/assets/images/menu_mini/interviews.svg" alt="interviews" class="mini">
+    </a></div>
+
+    <div><a href="/contact/index.html">
+      <img src="/assets/images/menu_mini/contact.svg" alt="contact" class="mini">
+    </a></div>
+
+  </div>
+</div>
+
   <footer>
-    <div>Yvon &copy; 2025</div>
+  <div class="footer_inner">
+    <div class="footer_content">
+      Yvon<img src="/assets/images/global/copyright.svg" alt="copyright" />2025
+    </div>
+  </div>
 </footer>
 </body>
 </html>

@@ -8,11 +8,14 @@
 
 :root {
   --max-width: 500px;
-  --header-height: 38px;
-  --footer-height: 40px;
+  --header-height: 49px;
+  --footer-height: 25px;
+  --menubottom-height: 55px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
   --font-family-sans: "Encode Sans Condensed", sans-serif;
   --font-color: #303030;
+  --border-color: #886363;
+  --border-width: 1.5px;
   --bg-color: #fdfdfd;
   --focus-outline: 2px solid #00f;
 }
@@ -34,12 +37,10 @@ body {
   overflow-x: hidden;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--bg-color);
+  background-color: bisque;
   color: var(--font-color);
   font-family: var(--font-family-serif);
 }
-
-
 
 /* === TYPOGRAPHY === */
 h1, h2, h3, h4, h5, h6, .intro {
@@ -49,21 +50,46 @@ h1, h2, h3, h4, h5, h6, .intro {
 }
 
 h1 {
-  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+.top {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: flex-end;
+  padding: 14px 20px 24px 20px;
+  background-color: var(--bg-color);
+  width: 100%;
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+
+}
+
+.button {
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -12px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: var(--bg-color);
+    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+}
+
+.button img {
+  width: 20px;
 }
 
 p {
-  margin: 12px 0 0 0px;
+  margin: 1.2rem 14px 0px 24px;
   font-size: 1.1em;
 }
 
-h1, p {
-  margin-left: 15px;
-  margin-right: 8px;
-}
-
 /* === LINKS === */
-a,
 a:visited,
 a:active,
 a:focus {
@@ -81,30 +107,39 @@ a:focus-visible {
   outline: var(--focus-outline);
 }
 
+p > a {
+  color: crimson !important;
+}
+
 /* === MAIN === */
 main {
+  position: relative;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items:flex-start;
   margin-top: calc(var(--header-height));
-  padding-bottom: var(--footer-height);
-  padding-left: 10px;
-  padding-right: 10px;
-  height: 100vh;
   width: 100%;
   max-width: var(--max-width);
 }
 
 .content {
-  background-color: inherit;
+  background-color: var(--bg-color);
+  border-right: var(--border-width) var(--border-color) solid;
+  border-left: var(--border-width) var(--border-color) solid;
+  min-height: 100vh;
+  padding-bottom: calc(var(--header-height) + var(--footer-height) + var(--menubottom-height))  !important;
 }
-/* === SECTION === */
 
+/* === OVERLAY === */
+
+/* === SECTION === */
 section {
   display: flex;
   flex-direction: column;
 }
+
+/* === OVERLAY === */
 
 /* === GRID === */
 .grid-container {
@@ -143,12 +178,12 @@ section {
   line-height: 1.2;
 }
 
-/* === HEADER + FOOTER STRUCTURE (placeholders) === */
+/* === HEADER + FOOTER STRUCTURE (placeholders) === 
 #header,
 #footer {
   width: 100%;
   max-width: var(--max-width);
-}
+}*/
 
 header {
   position: fixed;
@@ -157,24 +192,31 @@ header {
   width: 100%;
   height: var(--header-height);
   background: black;
+  border-bottom: 1px solid rgb(4, 185, 254);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   z-index: 1000;
 }
 
 .header-inner {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
-  max-width: calc(var(--max-width) - 70px);
-  position: relative;
+  max-width: var(--max-width);
+  height: calc (var(--header-height) + 2px);
+  padding-right: 40px;
 }
 
 #endless {
   height: calc(var(--header-height) + 2px);
-  left: 15%;
   margin-top: -1px;
+}
+
+.icon {
+  height: calc(var(--header-height) * 1.4);
+  margin-top: 30px;         /* optional vertical fine-tune */
+  padding-right: 10px;      /* adjust this as needed */
 }
 
 #home {
@@ -182,16 +224,6 @@ header {
   margin: 0px 12px 0px -10px;
 }
 
-#hamburger {
-  height: calc(var(--header-height) - 4px);
-  margin: 10px 12px;
-  z-index: 10;
-}
-
-.icon {
- height: calc(var(--header-height) + 35px);
-  margin: 2px 12px 0px -10px;
-}
 
 /* === IMAGE POINTER FIX === */
 img {
@@ -199,17 +231,84 @@ img {
 }
 footer {
   display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--footer-height);
+  width: 100vw;
+  background-color: rgb(126, 190, 23);
+  z-index: 1000;
+}
+
+.footer_inner {
+  display: flex;
   justify-content: flex-end;
-  background-color: rgb(15, 141, 224);
+  align-items: center;
+  height: var(--footer-height);
+  width: 100%;
+  max-width: var(--max-width);
   background-image: url('/assets/images/global/playground.svg');
-  background-repeat:no-repeat;
-  background-size: 250px;
+  background-repeat: no-repeat;
+  background-size: 260px;
   background-position: top left;
+  padding-right: 10px;
   color: white;
+}
+
+.footer_content {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  font-size: 16px;
+  padding: 12px 10px 0 0;
+}
+
+.footer_content img {
+  height: 20px;
+  display: inline-block;
+  margin-top: 3px;
+}
+
+#menubottom {
+  display: flex;
+  justify-content: center;
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 0;
-  padding: 4px 20px;
+  bottom: var(--footer-height);
+  z-index: 1000;
+  width: 100vw;
+}
+
+/* Inner flex container with equal spacing & bottom alignment */
+.menubottom_inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: var(--menubottom-height);
+  width: 100%;
+  max-width: calc(var(--max-width) - 3px);
+  margin: 0 20px;
+  background: linear-gradient(
+    to top,
+    var(--bg-color) 0%, 
+    var(--bg-color) 80%,  
+    transparent 100%
+);
+}
+
+/* Ensure each div and link aligns properly */
+.menubottom_inner > div {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+/* Keep image size fixed and bottom-aligned */
+.mini {
+  height: 30px;
+  display: block;
 }
 

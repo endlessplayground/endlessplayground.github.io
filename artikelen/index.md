@@ -2,8 +2,12 @@
 layout: default
 title: Test
 ---
-<h1>Artikelen!</h1>
-<p>In de kast staat een rij <a href="artikelen_sub/">boeken</a> waar je al maanden niet naar hebt gekeken. Je weet precies wat er staat, maar ook weer niet. Misschien pak je er straks een, misschien ook niet. Sommige <a href="/test.html">dingen</a> hoeven niet meteen beslist te worden.</p>
+<div class="top">
+  <h1>Interessant...</h1>
+  <div class="button"><img src="/assets/images/global/updown.svg" alt=""></div>
+</div>
+
+<p>In de kast staat een rij <a href="artikelen_sub/">boeken</a> waar je al maanden niet naar hebt gekeken. Je weet precies wat er staat, maar ook weer niet. Misschien pak je er straks een, misschien ook niet. Sommige <a href="/assets/">dingen</a> hoeven niet meteen beslist te worden.</p>
 
 <p>De klok tikt door. Niet gehaast, niet traag. Gewoon zoals altijd. Tijd als iets dat je niet kunt vasthouden, maar dat wel overal doorheen sijpelt. Je merkt het aan het licht op de muur, aan de toon van geluiden buiten, aan de houding van je lichaam.</p>
 
