@@ -271,7 +271,6 @@ footer {
   right: 0;
   height: var(--footer-height);
   width: 100vw;
-  background-color: rgb(126, 190, 23);
   z-index: 1000;
 }
 
