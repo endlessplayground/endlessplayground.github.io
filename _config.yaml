@@ -3,5 +3,4 @@ exclude: ["node_modules", "Gemfile", "Gemfile.lock"]
 include:
   - artikelen/_icon.svg
   - assets/icons/*.svg
-  - "assets/icons/*.svg"  # Quotes ensure Windows compatibility
-  - "assets/images/**/*"  # Include all images recursively
+  - assets/images/**/*

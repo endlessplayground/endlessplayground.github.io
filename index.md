@@ -2,11 +2,7 @@
 layout: default
 title: Home
 ---
-<style>
-    #menubottom {
-  visibility: hidden;
-    }
-</style>
+
 <main>
             <!-- Grid navigation section -->
             <section class="grid-container">

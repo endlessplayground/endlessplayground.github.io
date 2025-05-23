@@ -2,7 +2,10 @@
 layout: default
 title: Test
 ---
-<h1>Random</h1>
+<div class="top">
+  <h1>Random...</h1>
+</div>
+
 <p>De regen tikt zacht tegen het raam. Niet hard genoeg om storend te zijn, maar net genoeg om op te merken. Het is een geluid dat erbij hoort, alsof het de ruimte vult zonder iets van je te vragen. Buiten zijn de kleuren doffer geworden, bijna grijs.</p>
 
 <p>Je loopt door het huis zonder doel. Van de ene kamer naar de andere, gewoon om te voelen hoe het is om ergens anders te staan. Soms helpt dat, al verandert er feitelijk niets. De muren blijven dezelfde, de stilte ook.</p>
