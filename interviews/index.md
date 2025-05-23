@@ -1,16 +1,30 @@
 ---
 layout: default
-title: Test
+title: "Interviews"                # Browser tab
+page_title: "Interviews"        # <h1> heading
+intro: |
+  
+  <p>De regen tikt zacht tegen het raam. Niet hard genoeg om storend te zijn, maar net genoeg om op te merken. Het is een geluid dat erbij hoort, alsof het de ruimte vult zonder iets van je te vragen. Buiten zijn de kleuren doffer geworden, bijna grijs.</p>
+  <p>Je loopt door het huis zonder doel. Van de ene kamer naar de andere, gewoon om te voelen hoe het is om ergens anders te staan. Soms helpt dat, al verandert er feitelijk niets. De muren blijven dezelfde, de stilte ook.</p>
+  <p>Op tafel ligt een notitieboekje met een paar losse woorden. Je weet niet meer precies waarom je ze opschreef. Misschien hoorde je ze ergens, misschien kwamen ze zomaar in je op. Ze zeggen niet veel, maar het voelt goed dat ze er staan.</p>
 ---
-<div class="top">
-  <h1>Interviews</h1>
-  <div class="button"><img src="/assets/images/global/updown.svg" alt=""></div>
-</div>
 
-<p>Er is niet veel veranderd sinds vanochtend. De stoelen staan nog op dezelfde plek, de plant in de hoek lijkt geen centimeter gegroeid. Toch voelt het anders. Soms zit het verschil in kleine dingen die je niet kunt aanwijzen.</p>
+{% include page_top.html 
+   title=page.page_title 
+   intro=page.intro 
+%}
 
-<p>Je hoort ergens in de verte een hond blaffen. Kort, daarna weer stil. Het is zo’n geluid dat niets betekent, maar toch iets markeert. Een overgang misschien, van het ene naar het andere moment, zonder dat je dat doorhad.</p>
+<div class="custom-section">
+  
+<ul class="Interview-list">
+  <li><a href="/Interviewen/Interview1/">Interview 1</a></li>
+  <li><a href="/Interviewen/Interview2/">Interview 2</a></li>
+  <li><a href="/Interviewen/Interview3/">Interview 3</a></li>
+  <li><a href="/Interviewen/Interview4/">Interview 4</a></li>
+  <li><a href="/Interviewen/Interview5/">Interview 5</a></li>
+  <li><a href="/Interviewen/Interview6/">Interview 6</a></li>
+  <li><a href="/Interviewen/Interview7/">Interview 7</a></li>
+  <li><a href="/Interviewen/Interview8/">Interview 8</a></li>
+  
+</ul></div>
 
-<p>In de keuken ligt een appel die je nog niet gegeten hebt. Je had er eerder vandaag aan gedacht, maar het kwam er niet van. Het ligt er gewoon, zonder haast. Sommige dingen hoeven niet meteen te gebeuren om toch aanwezig te zijn.</p>
-
-<p>Je merkt pas dat je moe bent als je even gaat zitten. Niet van iets specifieks, maar van alles bij elkaar. De dag heeft zijn eigen gewicht, ook als er niets bijzonders gebeurt. Het is een vermoeidheid die niet klaagt, alleen even wil bestaan.</p>
