@@ -1,6 +1,5 @@
 baseurl: ""
 exclude: ["node_modules", "Gemfile", "Gemfile.lock"]
 include:
-  - artikelen/_icon.svg
   - assets/icons/*.svg
   - assets/images/**/*
