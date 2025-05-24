@@ -9,7 +9,7 @@
 :root {
   --max-width: 500px;
   --header-height: 49px;
-  --footer-height: 10px;
+  --footer-height: 4px;
   --menubottom-height: 80px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
   --font-family-sans: "Encode Sans Condensed", sans-serif;
@@ -112,7 +112,6 @@ p {
     padding: 4px 20px 0px 20px;
     margin-top: 75px;
     width: 100%;
-    background-color: rgb(235, 250, 182);
 }
 
 /* === ARTICLE LIST === */
@@ -127,7 +126,7 @@ p {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1rem 0;
   border-bottom: 1px solid #ddd;
   transition: background 0.3s;
   cursor: pointer;
@@ -157,7 +156,8 @@ p {
 
 .article-list h3 {
   margin: 0 0 0.1rem 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   color: #333;
 }
 
@@ -423,6 +423,6 @@ footer {
 
 @media (max-width: 40rem) {
   body {
-    background-color: rgb(176, 218, 109);
+    background-color: rgb(235, 250, 182);
   }
 }
