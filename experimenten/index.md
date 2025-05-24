@@ -20,7 +20,7 @@ intro: |
   <li>
     <img src="/assets/images/global/icon1.svg" alt="Icon">
     <div class="text">
-      <h3>Experimentele webpagina’s</h3>
+      <h3>Webpagina’s</h3>
       <p>This is a short intro to the article. It will only take up a few lines and look tidy and balanced.</p>
     </div>
   </li>  <li>
