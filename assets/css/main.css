@@ -354,7 +354,7 @@ footer {
   right: 0;
   height: var(--footer-height);
   width: 100vw;
-  background-color: rgb(126, 190, 23);
+  background-color: rgb(204, 235, 131);
   z-index: 1000;
 }
 
@@ -441,6 +441,6 @@ footer {
 
 @media (max-width: 40rem) {
   body {
-    background-color: var(footer-color);
+    background-color: rgb(204, 235, 131);
   }
 }
