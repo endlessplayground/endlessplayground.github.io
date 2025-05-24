@@ -385,64 +385,43 @@ footer {
 }
 
 #menubottom {
+  display: flex;
+  justify-content: center;
   position: fixed;
   left: 0;
   right: 0;
   bottom: var(--footer-height);
   z-index: 1000;
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  z-index: 99999999999999;
 }
 
-/* Outer styled container: stays centered and pretty */
+/* Inner flex container with equal spacing & bottom alignment */
 .menubottom_inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: var(--menubottom-height);
+  width: 100%;
+  max-width: calc(var(--max-width) - 3px);
+  margin: 0 20px;
   background: linear-gradient(
     to top,
-    var(--bg-color) 0%,
-    var(--bg-color) 60%,
+    var(--bg-color) 0%, 
+    var(--bg-color) 60%,  
     transparent 100%
-  );
-  height: var(--menubottom-height);
-  max-width: var(--max-width);
-  width: 100%;
-  margin: 0 20px;
-
-  /* Make sure inner scroll doesn't break layout */
-  overflow: hidden;
-  display: flex;
-  align-items: flex-end;
+);
 }
 
-/* Inner scrolling row */
-.menubottom_inner_scroll {
-  display: flex;
-  align-items: flex-end;
-  overflow-x: auto;
-  overflow-y: hidden;
-  width: 100%;
-
-  /* Allow content to grow past width if needed */
-  min-width: max-content;
-
-  /* Smooth scroll, optional */
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
-.menubottom_inner_scroll::-webkit-scrollbar {
-  display: none;
-}
-
-.menubottom_inner_scroll > div {
+/* Ensure each div and link aligns properly */
+.menubottom_inner > div {
   display: flex;
   align-items: flex-end;
   height: 100%;
-  margin: 0 8px;
 }
 
+/* Keep image size fixed and bottom-aligned */
 .mini {
-  width: 30px;
+  height: 30px;
   display: block;
 }
 
