@@ -43,5 +43,6 @@ title: Home
                     <div class="link-label">Contact</div>
                 </div></a>
             </section>
+            <div class="quote"><img src="/assets/images/global/quote.svg" alt="">Als je niet uitkijkt, blijf je je je leven lang voorbereiden <span class="small">—Remco Campert—</span></div>
         </main>
 
