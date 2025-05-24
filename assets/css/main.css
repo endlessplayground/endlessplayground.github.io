@@ -8,7 +8,7 @@
 
 :root {
   --max-width: 500px;
-  --header-height: 55px;
+  --header-height: 49px;
   --footer-height: 14px;
   --menubottom-height: 52px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
@@ -314,7 +314,7 @@ img {
 }
 
 .quote {
-  margin: 2vh 20px 0px 20px;
+  margin: 4vh 20px 0px 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
