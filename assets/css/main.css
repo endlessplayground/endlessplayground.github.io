@@ -10,7 +10,7 @@
   --max-width: 500px;
   --header-height: 49px;
   --footer-height: 14px;
-  --menubottom-height: 52px;
+  --menubottom-height: 80px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
   --font-family-sans: "Encode Sans Condensed", sans-serif;
   --font-color: #303030;
@@ -402,7 +402,7 @@ footer {
   background: linear-gradient(
     to top,
     var(--bg-color) 0%, 
-    var(--bg-color) 80%,  
+    var(--bg-color) 60%,  
     transparent 100%
 );
 }
@@ -422,6 +422,6 @@ footer {
 
 @media (max-width: 40rem) {
   body {
-    background-color: var(--footer-color);
+    background-color: rgb(176, 218, 109);
   }
 }
