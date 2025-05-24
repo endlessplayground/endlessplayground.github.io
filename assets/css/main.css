@@ -389,15 +389,15 @@ footer {
   left: 0;
   right: 0;
   bottom: var(--footer-height);
-  z-index: 1000;
+  z-index: 99999999999999;
   width: 100vw;
   display: flex;
   justify-content: center;
-  z-index: 99999999999999;
 }
 
-/* Outer styled container: stays centered and pretty */
+/* Outer container */
 .menubottom_inner {
+  /* Keep this as block to allow scrolling */
   background: linear-gradient(
     to top,
     var(--bg-color) 0%,
@@ -408,21 +408,17 @@ footer {
   max-width: var(--max-width);
   width: 100%;
   margin: 0 20px;
-
-  /* Make sure inner scroll doesn't break layout */
-  overflow: hidden;
-  display: flex;
-  align-items: flex-end;
 }
 
-/* Inner scrolling row */
+/* This now handles flex alignment of icons */
 .menubottom_inner_scroll {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-end;  /* ← THIS is the fix */
   overflow-x: auto;
   overflow-y: hidden;
-  width: 100%;
-  min-width: max-content;
+  white-space: nowrap;
+  max-width: 100%;
+  height: 100%; /* makes flex-end work fully */
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
 }
@@ -432,7 +428,7 @@ footer {
 }
 
 .menubottom_inner_scroll > div {
-  display: flex;
+  display: inline-flex;
   align-items: flex-end;
   height: 100%;
   margin: 0 8px;
