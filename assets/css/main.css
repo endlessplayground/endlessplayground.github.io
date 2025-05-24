@@ -8,7 +8,7 @@
 
 :root {
   --max-width: 500px;
-  --header-height: 49px;
+  --header-height: 55px;
   --footer-height: 14px;
   --menubottom-height: 52px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
@@ -228,6 +228,7 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
+  margin-top: -20px;
   width: 100%;
 }
 
@@ -311,6 +312,34 @@ header {
 img {
   pointer-events: auto !important;
 }
+
+.quote {
+  margin: 2vh 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #69a4b3 !important;
+}
+
+.quote .small {
+  margin-top: 6px;
+  white-space: nowrap;
+  font-size: 0.8rem;
+  line-height: 20px;
+  color: #666 !important;
+}
+
+.quote img {
+  width: 40px;
+  margin-bottom: -15px;
+  margin-left: -7px;
+}
+
 footer {
   display: flex;
   justify-content: center;
