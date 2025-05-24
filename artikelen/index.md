@@ -21,14 +21,14 @@ intro: |
     <img src="/assets/images/global/icon1.svg" alt="Icon">
     <div class="text">
       <h3>Science solve the mystery of ginger cats</h3>
-      <p>After decades of mystery, new research has shed light on a question that has long stumped scientists and cat lovers alike – what exactly makes orange cats, well … orange?
+      <p>After decades of mystery, new research has shed light on the question: what exactly makes orange cats, well... orange?
 </p>
     </div>
   </li>  <li>
     <img src="/assets/images/global/icon1.svg" alt="Icon">
     <div class="text">
       <h3>Is the universe like a computer simulation</h3>
-      <p>We have long taken it for granted that gravity is one of the basic forces of nature – one of the invisible threads that keeps the universe stitched together. But suppose that this is not true.</p>
+      <p>We have long taken it for granted that gravity is one of the basic forces of nature... but suppose that this is not true.</p>
     </div>
   </li>  <li>
     <img src="/assets/images/global/icon1.svg" alt="Icon">
@@ -40,12 +40,12 @@ intro: |
     <img src="/assets/images/global/icon1.svg" alt="Icon">
     <div class="text">
       <h3>Can the future affect the past?</h3>
-      <p>Most of us assume that events flow in one direction and that our choices become final only after we make them. This idea feels natural, but some researchers believe we might be missing something.</p>
+      <p>Most of us assume that events flow in one direction and that our choices become final only after we make them, but...</p>
     </div>
   </li>  <li>
     <img src="/assets/images/global/icon1.svg" alt="Icon">
     <div class="text">
-      <h3>Consciousness Begins in the Body, Not the Mind...</h3>
+      <h3>Consciousness begins in the body, not the mind...</h3>
       <p>“I think, therefore I am,” René Descartes, the 17th-century French philosopher and mathematician, famously wrote in 1637. But...</p>
     </div>
   </li>  <li>
