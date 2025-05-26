@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="90"
+   width="81"
    height="90"
-   viewBox="0 0 23.812499 23.812499"
+   viewBox="0 0 21.431252 23.812499"
    version="1.1"
    id="svg2787"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
@@ -26,7 +26,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4"
-     inkscape:cx="65.5"
+     inkscape:cx="19.125"
      inkscape:cy="41.5"
      inkscape:window-width="1366"
      inkscape:window-height="705"
@@ -481,7 +481,7 @@
        id="path33325" />
     <g
        id="g40648"
-       transform="matrix(0.95869075,0,0,0.95869075,-0.77643002,-0.15322198)">
+       transform="matrix(0.62037219,0,0,0.62037219,2.5086177,8.3027833)">
       <g
          id="g46807"
          style="fill:#808080"
