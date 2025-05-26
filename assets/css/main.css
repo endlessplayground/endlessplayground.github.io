@@ -9,7 +9,7 @@
 :root {
   --max-width: 500px;
   --header-height: 49px;
-  --footer-height: 4px;
+  --footer-height: 6px;
   --menubottom-height: 80px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
   --font-family-sans: "Encode Sans Condensed", sans-serif;
@@ -354,7 +354,7 @@ footer {
   right: 0;
   height: var(--footer-height);
   width: 100vw;
-  background-color: rgb(126, 190, 23);
+  background-color: rgb(155, 230, 35);
   z-index: 1000;
 }
 
@@ -441,6 +441,9 @@ footer {
 
 @media (max-width: 40rem) {
   body {
-    background-color: rgb(235, 250, 182);
+    background-color: rgb(223, 250, 127);
+  }
+  footer {
+    background-color: rgb(223, 250, 127);
   }
 }
