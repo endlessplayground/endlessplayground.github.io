@@ -20,6 +20,6 @@ intro: |
 
 <div class="custom-section">
   
-<p>Een goed gesprek begint vaak...</p>
+<p>Een goed gesprek gaat vaak samen met koffie, koffie kán samen gaan met een goed gesprek...</p>
   
 </div>

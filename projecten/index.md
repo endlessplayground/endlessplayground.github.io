@@ -12,6 +12,12 @@ intro: |
    intro=page.intro 
 %}
 
+<style>
+#button {
+  visibility: hidden;
+   }
+</style>
+
 <div class="custom-section">
   
 <p>Deze site is allereerst een hobby project. Het scripten en programmeren dat erbij komt kijken is een uitdagende vorm van brein training! Gelukkig heb ik hulp van enkele bekende AI-assistants. &#128522; Verder vind ik het maken van al die plaatjes enorm leuk. Ik gebruik daarvoor Inkscape, wat gratis te downloaden is.</p>
