@@ -45,7 +45,7 @@ intro: |
   </li>  <li>
     <img src="/assets/images/global/icon2.svg" alt="Icon">
     <div class="text">
-      <h3>Welke keuzes maakte <span class="name">Johan</span></h3>
+      <h3>Welke keuzes maakte <span class="name">Johan?</span></h3>
       <p>“I think, therefore I am,” René Descartes, the 17th-century French philosopher and mathematician, famously wrote in 1637. But...</p>
     </div>
   </li>  <li>

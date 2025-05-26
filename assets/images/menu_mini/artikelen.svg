@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="36.150835"
-     inkscape:cy="56.74532"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="36.062446"
+     inkscape:cy="47.729708"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -157,7 +157,7 @@
      id="layer1">
     <g
        id="g95015"
-       transform="matrix(1.0795495,0,0,1.0795495,-1.5345935,-1.8942728)">
+       transform="matrix(0.79796952,0,0,0.79796952,3.1032978,4.8108513)">
       <rect
          style="fill:#8bd848;fill-opacity:1;fill-rule:evenodd;stroke-width:0.283502"
          id="rect34643"
@@ -383,9 +383,9 @@
     </g>
     <g
        id="g94729"
-       inkscape:transform-center-x="-6.6659392"
-       inkscape:transform-center-y="-0.063658716"
-       transform="matrix(1.0603868,0.648678,-0.54294083,1.0868546,5.2697866,-6.2091983)">
+       inkscape:transform-center-x="-4.7150154"
+       inkscape:transform-center-y="-0.045027773"
+       transform="matrix(0.75004284,0.45882906,-0.38403805,0.7687643,8.0131868,2.5772685)">
       <g
          id="g47601"
          transform="matrix(0.47719184,-0.28269514,0.24389471,0.50238025,1.3735547,2.3195458)"
