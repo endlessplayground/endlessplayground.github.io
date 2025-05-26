@@ -15,7 +15,7 @@
   --font-family-sans: "Encode Sans Condensed", sans-serif;
   --font-color: #303030;
   --border-color: #f1cdcd;
-  --footer-color: rgb(204, 235, 131);
+  --footer-color: rgb(126, 190, 23);
   --border-width: 1.5px;
   --bg-color: #fdfdfd;
   --focus-outline: 2px solid #00f;
@@ -42,7 +42,7 @@ body {
   line-height: 1.5;
   color: var(--font-color);
   font-family: var(--font-family-serif);
-  background-color: var(footer-color);
+  background-color: bisque;
 }
 
 /* === TYPOGRAPHY === */
@@ -354,7 +354,7 @@ footer {
   right: 0;
   height: var(--footer-height);
   width: 100vw;
-  background-color: rgb(204, 235, 131);
+  background-color: rgb(126, 190, 23);
   z-index: 1000;
 }
 
@@ -435,12 +435,12 @@ footer {
 }
 
 .mini {
-  width: 30px;
+  width: 34px;
   display: block;
 }
 
 @media (max-width: 40rem) {
   body {
-    background-color: rgb(204, 235, 131);
+    background-color: rgb(235, 250, 182);
   }
 }
