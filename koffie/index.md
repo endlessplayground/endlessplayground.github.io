@@ -12,11 +12,7 @@ intro: |
    intro=page.intro 
 %}
 
-<style>
-#button {
-  visibility: hidden;
-   }
-</style>
+
 
 <div class="custom-section">
   

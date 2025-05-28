@@ -12,12 +12,6 @@ intro: |
    intro=page.intro 
 %}
 
-<style>
-#button {
-  visibility: hidden;
-   }
-</style>
-
 <div class="custom-section">
   
 <p>Hi, welkom hier. Ik blijf hier nog een beetje achter de schermen, omdat dit project zich nog in de experimentele fase bevindt, en ik nog niet weet hoe ik ermee naar buiten zal treden.</p>

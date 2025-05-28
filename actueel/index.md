@@ -12,12 +12,6 @@ intro: |
    intro=page.intro 
 %}
 
-<style>
-#button {
-  visibility: hidden;
-   }
-</style>
-
 <div class="custom-section">
   
 <p>Het is nog vroeg in de ochtend. Buiten is het stil, op een paar vogels na. Binnen hangt een zachte stilte waarin alles lijkt te wachten. De dag moet nog beginnen, maar er ligt al iets in de lucht. Iets onbenoembaars dat hoort bij deze uren.</p>
