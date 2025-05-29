@@ -444,12 +444,14 @@ footer {
 .menubottom_inner_scroll {
   display: flex;
   justify-content: center;
-  align-items: flex-end;  /* ← THIS is the fix */
+  align-items: flex-end;
   overflow-x: auto;
   white-space: nowrap;
-  height: 100%; /* makes flex-end work fully */
+  height: 100%;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  scroll-snap-type: x mandatory; /* new */
+  scroll-padding: 20px; /* optional, improves scroll feel */
 }
 
 .menubottom_inner_scroll::-webkit-scrollbar {
@@ -461,6 +463,7 @@ footer {
   align-items: flex-end;
   height: 100%;
   margin: 0 4px;
+  scroll-snap-align: center; /* new */
 }
 
 .mini {
