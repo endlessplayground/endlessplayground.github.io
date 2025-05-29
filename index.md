@@ -2,6 +2,11 @@
 layout: default
 title: Home
 ---
+<style>
+.menubottom_under, .footer_inner {
+  display: none;
+}
+</style>   
 
 <main>
             <!-- Grid navigation section -->
