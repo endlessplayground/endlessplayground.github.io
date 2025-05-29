@@ -85,27 +85,17 @@ h1 {
   background: linear-gradient(
     to right,
     transparent 50%,   /* Start transparent till 60% */
-    rgb(181, 191, 209) 70%,           /* Grey fades in at 70% */
-    transparent 95%     /* Fades out again at 90% */
+    rgb(181, 191, 209) 80%,           /* Grey fades in at 70% */
+    transparent 98%     /* Fades out again at 90% */
   );
 }
 
-
-#button {
-  position:fixed;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  right: 20px;
-  top: 62px;
-  width: 300px;
-  height: 0px;
-  overflow: hidden;
+.intro_open {
+  align-self: flex-end;
+  margin: 80px 60px 0 0;
+  z-index: 99999999;
 }
 
-#button img {
-visibility: inherit;
-}
 
 #up-again {
   position:absolute;
@@ -132,12 +122,17 @@ p {
 
 .intro {
   width: 100%;
-  height:0;
-  padding: 20px;
-  display: none;
+  height: calc(100vh - 180px);
+  height: 0;
   overflow: hidden;
-  background-color:rgba(186, 245, 225, 0.13);
+  padding: 0 20px;
+  background-color:rgba(186, 245, 225, 0.404);
 }
+
+.intro_open {
+  position: fixed;
+}
+
 .custom-section {
     padding: 16px 20px 0px 20px;
     margin-top: 75px;
@@ -436,7 +431,7 @@ footer {
   right: 0;
   margin-left: 16px;
   bottom: var(--footer-height); /* or use: var(--footer-height) */
-  height: 60px;
+  height: 70px;
   z-index: 99;
 }
 
@@ -498,10 +493,13 @@ footer {
 }
 
 
-#scroll_left {
-  filter: drop-shadow(1px 3px 4px rgba(49, 48, 56, 0.829));
-  width: 20px;
+.intro_open img, .footer_inner img {
+   filter: drop-shadow(1px 3px 4px rgba(84, 81, 99, 0.5));
+  width: 24px;
 }
+
+
+
 
 
 /* Optional: Improve touch feedback */
