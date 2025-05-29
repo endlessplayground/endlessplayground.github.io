@@ -443,6 +443,7 @@ footer {
 /* This now handles flex alignment of icons */
 .menubottom_inner_scroll {
   display: flex;
+  justify-content: center;
   align-items: flex-end;  /* ← THIS is the fix */
   overflow-x: auto;
   overflow-y: hidden;
