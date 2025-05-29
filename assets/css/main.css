@@ -234,6 +234,7 @@ main {
   flex-direction: column;
   align-items:flex-start;
   margin-top: calc(var(--header-height));
+  margin-left: -14px;
   width: 100%;
   max-width: var(--max-width);
   /* max-height removed */
@@ -423,13 +424,31 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 10px 0 0 0; /* Added padding for better touch area */
+  z-index: 100;
+}
+
+.menubottom_under {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: var(--footer-height); /* or use: var(--footer-height) */
+  height: 60px;
+  z-index: 99;
+    width: 100%;
+}
+
+.menubottom_under-inner {
+  display: flex;
   background: linear-gradient(
     to top,
     var(--bg-color) 0%,
     var(--bg-color) 60%,
-    transparent 100%
-  );
-  padding: 10px 0 0 0; /* Added padding for better touch area */
+    transparent 100%);
+  width: 100%;
+  max-width: var(--max-width);
 }
 
 .menubottom_inner {
@@ -468,6 +487,19 @@ footer {
   display: block;
   transition: transform 0.2s; /* Optional: for hover/active effects */
 }
+
+#scroll_left {
+  position: absolute;
+  bottom: 2px;
+  left: -2px;
+  z-index: 9999999;
+}
+
+#scroll_left img {
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.6));
+  width: 25px;
+}
+
 
 /* Optional: Improve touch feedback */
 .menubottom_inner_scroll > div:active .mini {
