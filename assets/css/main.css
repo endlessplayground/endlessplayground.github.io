@@ -409,9 +409,10 @@ footer {
 }
 
 .footer_content img {
-  height: 16px;
+  height: 25px;
   display: inline-block;
-  margin-top: 3px;
+  margin-top: -45px;
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2));
 }
 
 #menubottom {
@@ -464,7 +465,7 @@ footer {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
-  padding: 0 20px; /* Important: gives breathing room on sides */
+  padding: 0 10px; /* Important: gives breathing room on sides */
   scroll-padding: 0 20px; /* Makes items align nicely when scrolling */
 }
 
@@ -487,14 +488,17 @@ footer {
   transition: transform 0.2s; /* Optional: for hover/active effects */
 }
 
-#scroll_left {
-  position: absolute;
-  bottom: 4px;
-  left: -2px;
-  z-index: 9999999;
+.scroll_left {
+  position: fixed;
+  left: 0;
+  right: 70px;
+  height: 50px;
+  background-color: aquamarine;
+  z-index: 9999999999999999999;
 }
 
-#scroll_left img {
+
+#scroll_left {
   filter: drop-shadow(1px 3px 4px rgba(49, 48, 56, 0.829));
   width: 20px;
 }
