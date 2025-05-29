@@ -419,58 +419,60 @@ footer {
   left: 0;
   right: 0;
   bottom: var(--footer-height);
-  z-index: 99999999999999;
-  width: 100vw;
+  z-index: 9999; /* Reduced from excessive value */
+  width: 100%;
   display: flex;
   justify-content: center;
-}
-
-/* Outer container */
-.menubottom_inner {
-  /* Keep this as block to allow scrolling */
   background: linear-gradient(
     to top,
     var(--bg-color) 0%,
     var(--bg-color) 60%,
     transparent 100%
   );
-  height: var(--menubottom-height);
-  max-width: var(--max-width);
-  width: 100%;
-  margin: 0 20px;
+  padding: 10px 0 0 0; /* Added padding for better touch area */
 }
 
-/* This now handles flex alignment of icons */
+.menubottom_inner {
+  width: 100%;
+  max-width: var(--max-width);
+  height: var(--menubottom-height);
+  overflow: hidden; /* Contains the scrolling element */
+}
+
 .menubottom_inner_scroll {
   display: flex;
-  justify-content: center;
   align-items: flex-end;
-  overflow-x: auto;
-  white-space: nowrap;
   height: 100%;
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
-  scroll-snap-type: x mandatory; /* new */
-  scroll-padding: 20px; /* optional, improves scroll feel */
+  padding: 0 20px; /* Important: gives breathing room on sides */
+  scroll-padding: 0 20px; /* Makes items align nicely when scrolling */
 }
 
+/* Hide scrollbar */
 .menubottom_inner_scroll::-webkit-scrollbar {
   display: none;
 }
 
 .menubottom_inner_scroll > div {
-  display: inline-flex;
+  flex: 0 0 auto; /* Prevents items from shrinking/growing */
+  display: flex;
   align-items: flex-end;
   height: 100%;
-  margin: 0 4px;
-  scroll-snap-align: center; /* new */
+  padding: 0 8px; /* Space between items */
 }
 
 .mini {
   width: 42px;
   display: block;
+  transition: transform 0.2s; /* Optional: for hover/active effects */
 }
 
+/* Optional: Improve touch feedback */
+.menubottom_inner_scroll > div:active .mini {
+  transform: scale(0.95);
+}
 @media (max-width: 40rem) {
   body {
     background-color: rgb(223, 250, 127);
