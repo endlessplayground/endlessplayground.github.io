@@ -234,7 +234,6 @@ main {
   flex-direction: column;
   align-items:flex-start;
   margin-top: calc(var(--header-height));
-  margin-left: -14px;
   width: 100%;
   max-width: var(--max-width);
   /* max-height removed */
@@ -308,6 +307,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  margin-left: 10px;
   width: 100%;
   height: var(--header-height);
   background: black;
@@ -434,10 +434,10 @@ footer {
   position: fixed;
   left: 0;
   right: 0;
+  margin-left: 16px;
   bottom: var(--footer-height); /* or use: var(--footer-height) */
   height: 60px;
   z-index: 99;
-    width: 100%;
 }
 
 .menubottom_under-inner {
@@ -447,7 +447,7 @@ footer {
     var(--bg-color) 0%,
     var(--bg-color) 60%,
     transparent 100%);
-  width: 100%;
+  width: calc(100% - 4px);
   max-width: var(--max-width);
 }
 
