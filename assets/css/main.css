@@ -447,7 +447,7 @@ footer {
     var(--bg-color) 60%,
     transparent 100%);
   width: 98%;
-  max-width: var(--max-width);
+  max-width: calc(var(--max-width) - 20px);
 }
 
 .menubottom_inner {
