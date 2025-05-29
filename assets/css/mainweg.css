@@ -419,91 +419,57 @@ footer {
   left: 0;
   right: 0;
   bottom: var(--footer-height);
-  z-index: 9999; /* Reduced from excessive value */
-  width: 100%;
+  z-index: 99999999999999;
+  width: 100vw;
   display: flex;
   justify-content: center;
-  padding: 10px 0 0 0; /* Added padding for better touch area */
-  z-index: 100;
 }
 
-.menubottom_under {
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  left: 0;
-  right: 0;
-  margin-left: 16px;
-  bottom: var(--footer-height); /* or use: var(--footer-height) */
-  height: 60px;
-  z-index: 99;
-}
-
-.menubottom_under-inner {
-  display: flex;
+/* Outer container */
+.menubottom_inner {
+  /* Keep this as block to allow scrolling */
   background: linear-gradient(
     to top,
     var(--bg-color) 0%,
     var(--bg-color) 60%,
-    transparent 100%);
-  width: 98%;
-  max-width: var(--max-width);
-}
-
-.menubottom_inner {
-  width: 100%;
-  max-width: var(--max-width);
+    transparent 100%
+  );
   height: var(--menubottom-height);
-  overflow: hidden; /* Contains the scrolling element */
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 20px;
 }
 
+/* This now handles flex alignment of icons */
 .menubottom_inner_scroll {
   display: flex;
-  align-items: flex-end;
-  height: 100%;
+  justify-content: flex-start; /* important */
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  padding: 0 20px; /* Important: gives breathing room on sides */
-  scroll-padding: 0 20px; /* Makes items align nicely when scrolling */
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  padding-inline: 50vw; /* add fake spacing to "center" content */
+  box-sizing: content-box;
 }
 
-/* Hide scrollbar */
+
 .menubottom_inner_scroll::-webkit-scrollbar {
   display: none;
 }
 
 .menubottom_inner_scroll > div {
-  flex: 0 0 auto; /* Prevents items from shrinking/growing */
-  display: flex;
+  display: inline-flex;
   align-items: flex-end;
   height: 100%;
-  padding: 0 8px; /* Space between items */
+  margin: 0 4px;
+  scroll-snap-align: center;
 }
+
 
 .mini {
   width: 42px;
   display: block;
-  transition: transform 0.2s; /* Optional: for hover/active effects */
 }
 
-#scroll_left {
-  position: absolute;
-  bottom: 4px;
-  left: -2px;
-  z-index: 9999999;
-}
-
-#scroll_left img {
-  filter: drop-shadow(1px 3px 4px rgba(49, 48, 56, 0.829));
-  width: 20px;
-}
-
-
-/* Optional: Improve touch feedback */
-.menubottom_inner_scroll > div:active .mini {
-  transform: scale(0.95);
-}
 @media (max-width: 40rem) {
   body {
     background-color: rgb(223, 250, 127);
