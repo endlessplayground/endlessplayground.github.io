@@ -1,0 +1,33 @@
+[my_site]
+├── _includes
+│   ├── footer.html
+│   ├── head.html
+│   ├── header.html
+│   ├── menu_bottom.html
+│   └── overlay.html
+├── _layouts
+│   └── default.html
+├── _site
+│   ├── actueel
+│   │   └── index.html
+│   ├── artikelen
+│   │   ├── artikelen_sub
+│   │   │   ├── index.html
+│   │   │   └── test.html
+│   │   └── index.html
+│   ├── assets [...]
+│   ├── contact
+│   │   └── index.html
+│   ├── experimenten
+│   │   └── index.html
+│   ├── interviews
+│   │   └── index.html
+│   ├── koffie
+│   │   └── index.html
+│   ├── mij
+│   │   └── index.html
+│   ├── projecten
+│   │   └── index.html
+│   ├── random
+│   │   └── index.html
+│   └── index.html

@@ -17,8 +17,23 @@
   --border-color: #f1cdcd;
   --footer-color: rgb(126, 190, 23);
   --border-width: 1.5px;
-  --bg-color: #fdfdfd;
+  --bg-color: hsl(0, 0%, 99%);
   --focus-outline: 2px solid #00f;
+}
+
+#month {
+  position: absolute;
+  margin-top: 2px;
+  color: white;
+  font-size: 0.6;
+  font-weight: 500;
+}
+
+#date {
+  position: absolute;
+  margin-top: 0.8em;
+  font-size: 1.7em;
+  font-weight: 700;
 }
 
 /* === RESETS === */
@@ -54,46 +69,70 @@ h1, h2, h3, h4, h5, h6, .intro {
 
 h1 {
   width: 100%;
-  text-align: center;
-  margin-right: 16px;
   font-size: 1.9em;
   font-weight: 500;
   color: var(--font-color);
+  margin: 16px 20px 26px 0;
 }
+
+.arrow {
+  width: 19px;
+}
+
 .top {
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content:flex-end;
-  align-items: flex-end;
-  padding: 22px 20px 8px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
   height: fit-content;
   background-color: var(--bg-color);
   width: 100%;
-  width: 100%;
-  max-width: calc(var(--max-width) - 3px);
+  max-width: calc(var(--max-width) - 2px);
+  margin: 0 auto;
 }
 
-#button {
+.top::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1.5px; /* Thickness of border */
+  width: 100%;
+  pointer-events: none;
+  background: linear-gradient(
+    to right,
+    transparent 50%,   /* Start transparent till 60% */
+    rgb(181, 191, 209) 80%,           /* Grey fades in at 70% */
+    transparent 98%     /* Fades out again at 90% */
+  );
+}
+
+.intro_open {
+  align-self: flex-end;
+  margin: 80px 60px 0 0;
+  z-index: 99999999;
+}
+
+
+#up-again {
   position:absolute;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-start;
   right: 20px;
-  top: 84px;
-  width: 230px;
-  height: 30px;
-
+  width: 300px;
+  height: 100px;
+  overflow: hidden;
 }
 
-#button img {
+#up-again img {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
+  width: 300px;
   margin-top: 1px;
-    filter: drop-shadow(1px 2px 5px rgba(51, 51, 51, 0.1));
-
+  filter: drop-shadow(0px 1px 3px rgba(51, 51, 51, 0.1));
 }
 
 p {
@@ -102,11 +141,18 @@ p {
 }
 
 .intro {
-  margin-bottom: 16px;
   width: 100%;
-  height: 0px;
+  height: calc(100vh - 180px);
+  height: 0;
   overflow: hidden;
+  padding: 0 20px;
+  background-color:rgba(186, 245, 225, 0.404);
 }
+
+.intro_open {
+  position: fixed;
+}
+
 .custom-section {
     padding: 16px 20px 0px 20px;
     margin-top: 75px;
@@ -140,7 +186,7 @@ p {
   background: #f1f7fc;
 }
 
-.article-list img {
+.link-icon {
   width: 48px;
   height: 48px;
   object-fit: cover;
@@ -300,11 +346,29 @@ header {
   margin-top: -1px;
 }
 
+.icon-container {
+  margin-top: 50px;         /* optional vertical fine-tune */
+  padding-right: 10px;      /* adjust this as needed */  
+}
+
+
 .icon {
   height: calc(var(--header-height) * 1.4);
-  margin-top: 30px;         /* optional vertical fine-tune */
-  padding-right: 10px;      /* adjust this as needed */
 }
+
+.date-overlay {
+  position: absolute;
+  margin-left: 23px;
+  margin-top: -72px;
+  pointer-events: none; /* Allows clicking the icon underneath */
+  z-index: 99999999999999999;
+  background-color: aquamarine;
+}
+
+.date-overlay { 
+  text-shadow: 0 0 5px white; /* Soft glow for readability */ 
+  transition: transform 0.3s; 
+} 
 
 #home {
   height: calc(var(--header-height) + 20px);
@@ -318,7 +382,7 @@ img {
 }
 
 .quote {
-  margin: 4vh 20px 0px 20px;
+  margin: 4vh 40px 0px 40px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -326,7 +390,7 @@ img {
   font-style: oblique;
   font-size: 1.5em;
   font-weight: 600;
-  line-height: 1.1;
+  line-height: 1.4;
   color: #69a4b3 !important;
 }
 
@@ -334,7 +398,7 @@ img {
   margin-top: 6px;
   white-space: nowrap;
   font-size: 0.8rem;
-  line-height: 20px;
+  line-height: 28px;
   color: #666 !important;
 }
 
@@ -378,9 +442,10 @@ footer {
 }
 
 .footer_content img {
-  height: 16px;
+  height: 25px;
   display: inline-block;
-  margin-top: 3px;
+  margin-top: -45px;
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2));
 }
 
 #menubottom {
@@ -388,56 +453,97 @@ footer {
   left: 0;
   right: 0;
   bottom: var(--footer-height);
-  z-index: 99999999999999;
-  width: 100vw;
+  z-index: 9999; /* Reduced from excessive value */
+  width: 100%;
   display: flex;
   justify-content: center;
+  padding: 10px 0 0 0; /* Added padding for better touch area */
+  z-index: 100;
 }
 
-/* Outer container */
-.menubottom_inner {
-  /* Keep this as block to allow scrolling */
+.menubottom_under {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: 16px;
+  bottom: var(--footer-height); /* or use: var(--footer-height) */
+  height: 70px;
+  z-index: 99;
+}
+
+.menubottom_under-inner {
+  display: flex;
   background: linear-gradient(
     to top,
     var(--bg-color) 0%,
     var(--bg-color) 60%,
-    transparent 100%
-  );
-  height: var(--menubottom-height);
-  max-width: var(--max-width);
-  width: 100%;
-  margin: 0 20px;
+    transparent 100%);
+  width: 98%;
+  max-width: calc(var(--max-width) - 20px);
 }
 
-/* This now handles flex alignment of icons */
+.menubottom_inner {
+  width: 100%;
+  max-width: var(--max-width);
+  height: var(--menubottom-height);
+  overflow: hidden; /* Contains the scrolling element */
+}
+
 .menubottom_inner_scroll {
   display: flex;
-  align-items: flex-end;  /* ← THIS is the fix */
+  align-items: flex-end;
+  height: 100%;
   overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-  max-width: 100%;
-  height: 100%; /* makes flex-end work fully */
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  padding: 0 10px; /* Important: gives breathing room on sides */
+  scroll-padding: 0 20px; /* Makes items align nicely when scrolling */
 }
 
+/* Hide scrollbar */
 .menubottom_inner_scroll::-webkit-scrollbar {
   display: none;
 }
 
 .menubottom_inner_scroll > div {
-  display: inline-flex;
+  flex: 0 0 auto; /* Prevents items from shrinking/growing */
+  display: flex;
   align-items: flex-end;
   height: 100%;
-  margin: 0 4px;
+  padding: 0 8px; /* Space between items */
 }
 
 .mini {
   width: 42px;
   display: block;
+  transition: transform 0.2s; /* Optional: for hover/active effects */
 }
 
+.scroll_left {
+  position: fixed;
+  left: 0;
+  right: 70px;
+  height: 50px;
+  background-color: aquamarine;
+  z-index: 9999999999999999999;
+}
+
+
+.intro_open img, .footer_inner img {
+   filter: drop-shadow(1px 3px 4px rgba(84, 81, 99, 0.5));
+  width: 24px;
+}
+
+
+
+
+
+/* Optional: Improve touch feedback */
+.menubottom_inner_scroll > div:active .mini {
+  transform: scale(0.95);
+}
 @media (max-width: 40rem) {
   body {
     background-color: rgb(223, 250, 127);

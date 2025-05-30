@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="90"
-   height="90"
-   viewBox="0 0 23.812499 23.812499"
+   width="50"
+   height="50"
+   viewBox="0 0 13.229166 13.229166"
    version="1.1"
    id="svg2787"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="koffie.svg"
+   sodipodi:docname="intro_open.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -239,7 +239,7 @@
        cy="13.908532"
        fx="17.264063"
        fy="13.908532"
-       r="2.7032582"
+       r="2.7032583"
        gradientTransform="matrix(-0.21275151,2.4466399,-2.2317649,-0.1940669,51.474498,-26.071386)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
@@ -257,7 +257,7 @@
        inkscape:collect="always"
        xlink:href="#linearGradient11322"
        id="linearGradient11324"
-       x1="2.4623651"
+       x1="2.4623652"
        y1="22.038151"
        x2="21.958176"
        y2="22.038151"
@@ -267,10 +267,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient11408"
        id="linearGradient11410"
-       x1="2.6325229"
-       y1="20.428582"
+       x1="2.6325228"
+       y1="20.428581"
        x2="21.600927"
-       y2="20.428582"
+       y2="20.428581"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.83377732,0,0,0.83377732,34.102697,6.9515964)" />
     <linearGradient
@@ -941,7 +941,7 @@
        transform="matrix(0.99940448,-0.03450631,0.0062429,0.99998051,0,0)" />
     <g
        id="g60517"
-       transform="translate(0,0.23151)">
+       transform="translate(-29.092288,17.163035)">
       <path
          id="path2401"
          style="fill:url(#linearGradient23180);fill-rule:evenodd;stroke-width:0.0422772"
@@ -1070,6 +1070,26 @@
          d="m 11.99471,21.005403 c 2.03739,0.07486 5.313527,0.08315 8.22707,-0.572442"
          id="path58475"
          sodipodi:nodetypes="cc" />
+    </g>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.328225"
+       id="path61086"
+       cx="6.6145835"
+       cy="6.6145835"
+       r="6.6145835" />
+    <g
+       id="g61635"
+       transform="matrix(0,-0.92535891,-0.84812406,0,12.326862,11.829949)">
+      <path
+         style="font-size:16.4131px;line-height:1.25;font-family:Caladea;-inkscape-font-specification:Caladea;fill:#678497;fill-opacity:1;stroke-width:0.286888"
+         d="M 5.2203973,6.6490308 8.3301854,10.859586 8.7177079,10.326083 6.5913635,6.6457598 8.705858,2.9340502 8.3166629,2.4237102 Z"
+         id="path131578-4"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         style="font-size:16.4131px;line-height:1.25;font-family:Caladea;-inkscape-font-specification:Caladea;fill:#678497;fill-opacity:1;stroke-width:0.286888"
+         d="M 2.5543841,6.8361192 5.6641722,11.046674 6.0516947,10.513171 3.9253503,6.8328482 6.0398448,3.1211386 5.6506497,2.6107986 Z"
+         id="path131578-4-8"
+         sodipodi:nodetypes="ccccccc" />
     </g>
   </g>
 </svg>

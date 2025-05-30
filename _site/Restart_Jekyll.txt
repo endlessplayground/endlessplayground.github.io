@@ -12,3 +12,6 @@ Restart Jekyll after adding files:
 
 bash
 jekyll clean && jekyll serve
+
+
+YAML Exception reading C:/xampp/htdocs/endlessplayground_nw/koffie/index.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1
