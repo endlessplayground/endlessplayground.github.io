@@ -14,9 +14,9 @@ intro: |
 
 <div class="custom-section">
   
-<p>Hi! Ik ben Yvon, net 60 geworden, en ben op zoek naar waar ik naar op zoek ben. Kan nog best lastig zijn! &#128527; Deze site gebruik ik daarvoor als speelruimte.</p>
+<p>Hi! Ik ben Yvon, net 60 geworden, en op zoek naar waar ik naar op zoek ben. Kan nog best lastig zijn! &#128527; Deze site gebruik ik daarvoor als speelruimte.</p>
 
-<p>Verder ben ik graag praktisch bezig en houd ik wel van hard werken. En buiten zijn, wandelen, koffie drinken, praten met mensen, leuke stadjes en tweedehands winkels bezoeken...</p>
+<p>Verder ben ik graag praktisch bezig en houd ik van hard werken. En buiten zijn, wandelen, koffie drinken, praten met mensen, leuke stadjes en tweedehands winkels bezoeken...</p>
   
 </div>
 
