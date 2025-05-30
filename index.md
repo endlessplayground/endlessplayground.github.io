@@ -25,6 +25,8 @@ title: Home
                 </div></a>
                 <a href="actueel/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/actueel.svg' | relative_url }}" alt="actueel">
+                    <div id="month"></div>
+                    <div id="date"></div>
                     <div class="link-label">Actueel</div>
                 </div></a>
                 <a href="artikelen/index.html"><div class="grid-item">
