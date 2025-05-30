@@ -21,6 +21,21 @@
   --focus-outline: 2px solid #00f;
 }
 
+#month {
+  position: absolute;
+  margin-top: 2px;
+  color: white;
+  font-size: 0.6;
+  font-weight: 500;
+}
+
+#date {
+  position: absolute;
+  margin-top: 0.8em;
+  font-size: 1.7em;
+  font-weight: 700;
+}
+
 /* === RESETS === */
 * {
   box-sizing: border-box !important;
@@ -59,6 +74,11 @@ h1 {
   color: var(--font-color);
   margin: 16px 20px 26px 0;
 }
+
+.arrow {
+  width: 19px;
+}
+
 .top {
   position: fixed;
   display: flex;
@@ -166,7 +186,7 @@ p {
   background: #f1f7fc;
 }
 
-.article-list img {
+.link-icon {
   width: 48px;
   height: 48px;
   object-fit: cover;
@@ -326,11 +346,29 @@ header {
   margin-top: -1px;
 }
 
+.icon-container {
+  margin-top: 50px;         /* optional vertical fine-tune */
+  padding-right: 10px;      /* adjust this as needed */  
+}
+
+
 .icon {
   height: calc(var(--header-height) * 1.4);
-  margin-top: 30px;         /* optional vertical fine-tune */
-  padding-right: 10px;      /* adjust this as needed */
 }
+
+.date-overlay {
+  position: absolute;
+  margin-left: 23px;
+  margin-top: -72px;
+  pointer-events: none; /* Allows clicking the icon underneath */
+  z-index: 99999999999999999;
+  background-color: aquamarine;
+}
+
+.date-overlay { 
+  text-shadow: 0 0 5px white; /* Soft glow for readability */ 
+  transition: transform 0.3s; 
+} 
 
 #home {
   height: calc(var(--header-height) + 20px);

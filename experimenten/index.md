@@ -18,25 +18,25 @@ intro: |
   
 <ul class="article-list">
   <li>
-    <img src="/assets/images/global/icon1.svg" alt="Icon">
+    <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
     <div class="text">
       <h3>Webpagina’s</h3>
       <p>This is a short intro to the article. It will only take up a few lines and look tidy and balanced.</p>
     </div>
   </li>  <li>
-    <img src="/assets/images/global/icon1.svg" alt="Icon">
+    <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
     <div class="text">
       <h3>Illustraties</h3>
       <p>This is a short intro to the article. It will only take up a few lines and look tidy and balanced.</p>
     </div>
   </li>  <li>
-    <img src="/assets/images/global/icon1.svg" alt="Icon">
+    <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
     <div class="text">
       <h3>Essays</h3>
       <p>This is a short intro to the article. It will only take up a few lines and look tidy and balanced.</p>
     </div>
   </li>  <li>
-    <img src="/assets/images/global/icon1.svg" alt="Icon">
+    <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
     <div class="text">
       <h3>Blogs</h3>
       <p>This is a short intro to the article. It will only take up a few lines and look tidy and balanced.</p>
