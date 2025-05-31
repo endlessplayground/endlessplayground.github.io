@@ -418,7 +418,7 @@ footer {
   height: 6px;
   width: 100vw;
   background-color: rgb(155, 230, 35);
-  z-index: 1000;
+  z-index: 10;
 }
 
 .footer_inner {
@@ -452,8 +452,7 @@ footer {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: var(--footer-height);
-  z-index: 9999; /* Reduced from excessive value */
+  bottom: calc(var(--footer-height) - 4px)  ;
   width: 100%;
   display: flex;
   justify-content: center;
