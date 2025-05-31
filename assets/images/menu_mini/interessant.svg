@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2"
-     inkscape:cx="2"
-     inkscape:cy="110.5"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="38.625708"
+     inkscape:cy="61.871843"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -231,6 +231,20 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <ellipse
+       style="fill:#b7df06;fill-opacity:1;fill-rule:evenodd;stroke-width:0.379748"
+       id="path59064"
+       cx="4.794147"
+       cy="22.935955"
+       rx="4.0925646"
+       ry="0.92331737" />
+    <ellipse
+       style="fill:#b7df06;fill-opacity:1;fill-rule:evenodd;stroke-width:0.368738"
+       id="path59064-5"
+       cx="18.849184"
+       cy="22.864931"
+       rx="3.8587039"
+       ry="0.92331737" />
     <g
        id="g95015"
        transform="matrix(0.79796952,0,0,0.79796952,29.561632,4.8108513)">
@@ -505,7 +519,7 @@
     </g>
     <g
        id="g67270"
-       transform="matrix(1.1838379,-0.24741946,0.24741946,1.1838379,30.363444,3.4049368)">
+       transform="matrix(1.1838379,-0.24741946,0.24741946,1.1838379,30.363444,2.8757701)">
       <g
          id="g54149-3"
          transform="translate(-55.94171,-12.565923)">
@@ -596,5 +610,10 @@
            sodipodi:nodetypes="cc" />
       </g>
     </g>
+    <path
+       style="color:#000000;fill:#b7df06;stroke-linejoin:round;stroke-miterlimit:8;-inkscape-stroke:none;paint-order:fill markers stroke"
+       d="m 4.5979557,25.647646 -0.4209495,1.83789 H 17.805912 l -0.444336,-1.83789 z"
+       id="path57543"
+       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>

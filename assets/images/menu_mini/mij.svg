@@ -26,14 +26,15 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.8284271"
-     inkscape:cx="-9.8994949"
+     inkscape:cx="17.500893"
      inkscape:cy="57.629203"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:lockguides="true" />
   <defs
      id="defs2784">
     <linearGradient
@@ -232,6 +233,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       style="fill:#dffa7f;fill-opacity:1;stroke:#b7df06;stroke-width:2.49667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+       d="M 26.136345,26.300456 H 2.8120096"
+       id="path44300" />
     <g
        id="g120516"
        transform="matrix(1,0,0,0.99765624,79.839121,27.441192)"
@@ -368,7 +373,7 @@
     </g>
     <g
        id="g47072"
-       transform="matrix(0.81067081,0,0,0.81977059,3.7635566,3.3631546)"
+       transform="matrix(0.81067081,0,0,0.81977059,3.7635566,1.7756545)"
        inkscape:transform-center-x="10.724499"
        inkscape:transform-center-y="-10.411086">
       <path
