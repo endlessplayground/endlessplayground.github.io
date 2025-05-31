@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="11.313708"
-     inkscape:cx="61.385708"
-     inkscape:cy="79.019184"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="39.509592"
+     inkscape:cy="74.246213"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -321,13 +321,13 @@
          id="path57541" />
       <path
          style="color:#000000;fill:#b7df06;stroke-linejoin:round;stroke-miterlimit:8;-inkscape-stroke:none;paint-order:fill markers stroke"
-         d="m 4.1826683,22.027344 -0.4209495,1.83789 H 17.390625 l -0.444336,-1.83789 z"
+         d="m 4.1826683,22.027344 -2.5376161,1.83789 H 19.507291 l -2.561002,-1.83789 z"
          id="path57543"
          sodipodi:nodetypes="ccccc" />
     </g>
     <g
        id="g55457"
-       transform="translate(0,0.66948315)">
+       transform="translate(0,0.48239448)">
       <rect
          style="fill:#b3b3b3;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.120934;stroke-linecap:square;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
          id="rect10449"

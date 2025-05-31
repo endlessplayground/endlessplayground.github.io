@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="17.500893"
-     inkscape:cy="57.629203"
+     inkscape:zoom="4"
+     inkscape:cx="43.875"
+     inkscape:cy="69.000001"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -235,7 +235,7 @@
      id="layer1">
     <path
        style="fill:#dffa7f;fill-opacity:1;stroke:#b7df06;stroke-width:2.49667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
-       d="M 26.136345,26.300456 H 2.8120096"
+       d="M 26.775338,26.003666 H 1.7761412"
        id="path44300" />
     <g
        id="g120516"
@@ -373,7 +373,7 @@
     </g>
     <g
        id="g47072"
-       transform="matrix(0.81067081,0,0,0.81977059,3.7635566,1.7756545)"
+       transform="matrix(0.81067081,0,0,0.81977059,3.9232467,1.0046022)"
        inkscape:transform-center-x="10.724499"
        inkscape:transform-center-y="-10.411086">
       <path
