@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4"
-     inkscape:cx="24.125"
-     inkscape:cy="72.25"
+     inkscape:cx="-15.75"
+     inkscape:cy="72.5"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -363,7 +363,7 @@
     </g>
     <path
        id="path59064-5"
-       style="fill:#d0f806;fill-opacity:1;fill-rule:evenodd;stroke-width:0.36874"
+       style="fill:#c0e406;fill-opacity:1;fill-rule:evenodd;stroke-width:0.36874"
        d="M 3.0055013 21.740792 A 8.7534962 1.7868082 0 0 0 2.8881958 22.025529 A 8.7534962 1.7868082 0 0 0 11.641667 23.8125 A 8.7534962 1.7868082 0 0 0 20.395138 22.025529 A 8.7534962 1.7868082 0 0 0 20.278349 21.740792 L 3.0055013 21.740792 z " />
   </g>
 </svg>

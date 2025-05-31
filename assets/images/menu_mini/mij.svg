@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4"
-     inkscape:cx="43.875"
-     inkscape:cy="69.000001"
+     inkscape:cx="69.125"
+     inkscape:cy="69.25"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -233,10 +233,20 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <path
-       style="fill:#dffa7f;fill-opacity:1;stroke:#b5d806;stroke-width:2.49667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
-       d="M 26.775338,26.003666 H 1.7761412"
-       id="path44300" />
+    <g
+       id="path44300-3"
+       style="fill:#c0e406;fill-opacity:1;stroke-width:0.616075"
+       transform="matrix(2.3600368,0,0,1.1163827,-8.3993551,-2.3258231)">
+      <path
+         style="color:#000000;fill:#c0e406;fill-opacity:1;stroke-width:1.53814;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;-inkscape-stroke:none;paint-order:fill markers stroke"
+         d="M 14.067978,25.21 H 5.2466066"
+         id="path72463" />
+      <path
+         style="color:#000000;fill:#c0e406;fill-opacity:1;stroke-width:0.616075;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;-inkscape-stroke:none;paint-order:fill markers stroke"
+         d="m 5.2460937,23.960937 c -0.6899745,1.59e-4 -1.2081583,0.69386 -1.4955468,1.320714 -0.4944604,1.078521 0.5588354,1.212531 1.2480468,1.21269 l 9.0697653,-0.03536 c 0.689211,-1.59e-4 1.742508,-0.240621 1.248047,-1.248047 -0.304007,-0.619391 -0.558072,-1.249841 -1.248047,-1.25 z"
+         id="path72465"
+         sodipodi:nodetypes="csccscc" />
+    </g>
     <g
        id="g120516"
        transform="matrix(1,0,0,0.99765624,79.839121,27.441192)"
@@ -373,7 +383,7 @@
     </g>
     <g
        id="g47072"
-       transform="matrix(0.81067081,0,0,0.81977059,3.9232467,1.0046022)"
+       transform="matrix(0.81067081,0,0,0.81977059,3.790955,0.85121473)"
        inkscape:transform-center-x="10.724499"
        inkscape:transform-center-y="-10.411086">
       <path
