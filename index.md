@@ -29,9 +29,9 @@ title: Home
                     <div id="date"></div>
                     <div class="link-label">Actueel</div>
                 </div></a>
-                <a href="artikelen/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/artikelen.svg' | relative_url }}" alt="artikelen">
-                    <div class="link-label">Artikelen</div>
+                <a href="interessant/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/interessant.svg' | relative_url }}" alt="interessant">
+                    <div class="link-label">Interessant!</div>
                 </div></a>
                 <a href="/interviews/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/interviews.svg' | relative_url }}" alt="interviews">
