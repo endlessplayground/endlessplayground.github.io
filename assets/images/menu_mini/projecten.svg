@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4"
-     inkscape:cx="27.875"
-     inkscape:cy="40.75"
+     inkscape:cx="50.875"
+     inkscape:cy="54.5"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -435,17 +435,10 @@
        rx="6.9122396"
        ry="1.0583333" />
     <ellipse
-       style="fill:#b7df06;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
+       style="fill:#d0f806;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
        id="ellipse67946"
        cx="12.46849"
        cy="22.688021"
-       rx="6.9122396"
-       ry="1.0583333" />
-    <ellipse
-       style="fill:#b7df06;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
-       id="path67940"
-       cx="12.997656"
-       cy="22.555729"
        rx="6.9122396"
        ry="1.0583333" />
     <g
