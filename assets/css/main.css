@@ -27,6 +27,7 @@
   color: white;
   font-size: 0.6;
   font-weight: 500;
+  text-align: center;
 }
 
 #date {
@@ -34,6 +35,7 @@
   margin-top: 0.8em;
   font-size: 1.7em;
   font-weight: 700;
+  text-align: center;
 }
 
 /* === RESETS === */
@@ -357,8 +359,11 @@ header {
 }
 
 .date-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
-  margin-left: 23px;
+  margin-left: 36px;
   margin-top: -72px;
   pointer-events: none; /* Allows clicking the icon underneath */
   z-index: 99999999999999999;
@@ -417,7 +422,7 @@ footer {
   right: 0;
   height: 6px;
   width: 100vw;
-  background-color: rgb(155, 230, 35);
+  background-color: rgb(223, 250, 127);
   z-index: 10;
 }
 
@@ -511,7 +516,7 @@ footer {
   display: flex;
   align-items: flex-end;
   height: 100%;
-  padding: 0 8px; /* Space between items */
+  padding: 0 6px; /* Space between items */
 }
 
 .mini {
@@ -529,6 +534,33 @@ footer {
   z-index: 9999999999999999999;
 }
 
+#menu_mini_scroll {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: var(--footer-height);
+  width: 100%;
+  height: 0px;
+  overflow: visible !important;
+  display: flex;
+  justify-content: center;
+  z-index: 9999999999999999999;
+}
+#scroll {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+  width: 100%;
+  height: 0px;
+  max-width: var(--max-width);
+}
+
+#scroll img {
+  width: 20px;
+  margin-bottom: -2px;
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+}
 
 .intro_open img, .footer_inner img {
    filter: drop-shadow(1px 3px 4px rgba(84, 81, 99, 0.5));
