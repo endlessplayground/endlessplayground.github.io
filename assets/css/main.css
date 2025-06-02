@@ -516,7 +516,7 @@ footer {
   display: flex;
   align-items: flex-end;
   height: 100%;
-  padding: 0 6px; /* Space between items */
+  padding: 0 5px; /* Space between items */
 }
 
 .mini {
@@ -558,7 +558,7 @@ footer {
 
 #scroll img {
   width: 20px;
-  margin-bottom: -2px;
+  margin-bottom: 2px;
   filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
 }
 
