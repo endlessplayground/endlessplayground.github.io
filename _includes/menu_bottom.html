@@ -21,9 +21,13 @@
       <img src="{{ '/assets/images/menu_mini/projecten.svg' | relative_url }}" alt="projecten" class="mini" style="width: 44px">
     </a></div>
 
-    <div><a href="{{ '/actueel/index.html' | relative_url }}">
-      <img src="{{ '/assets/images/menu_mini/actueel.svg' | relative_url }}" alt="actueel" class="mini" style="width: 46px">
-    </a></div>
+<div style="position: relative; display: flex;">
+  <a href="{{ '/actueel/index.html' | relative_url }}">
+    <img src="{{ '/assets/images/menu_mini/actueel.svg' | relative_url }}" alt="actueel" class="mini" style="width: 46px">
+    <div id="date_s"></div>
+</a>
+</div>     
+
 
     <div><a href="{{ '/interessant/index.html' | relative_url }}">
       <img src="{{ '/assets/images/menu_mini/interessant.svg' | relative_url }}" alt="interessant" class="mini">
