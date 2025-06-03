@@ -14,3 +14,4 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('month').textContent = month;
   document.getElementById('date').textContent = date;
 });
+

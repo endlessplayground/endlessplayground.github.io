@@ -38,6 +38,16 @@
   text-align: center;
 }
 
+#date_s {
+  position: absolute;
+  width: 24px;
+  font-size: 0.9em;
+  font-weight: 700;
+  top: 54px;
+  left: 16px;
+  text-align: center;
+}
+
 /* === RESETS === */
 * {
   box-sizing: border-box !important;
@@ -516,22 +526,13 @@ footer {
   display: flex;
   align-items: flex-end;
   height: 100%;
-  padding: 0 5px; /* Space between items */
+  padding: 0 6px; /* Space between items */
 }
 
 .mini {
   width: 42px;
   display: block;
   transition: transform 0.2s; /* Optional: for hover/active effects */
-}
-
-.scroll_left {
-  position: fixed;
-  left: 0;
-  right: 70px;
-  height: 50px;
-  background-color: aquamarine;
-  z-index: 9999999999999999999;
 }
 
 #menu_mini_scroll {
@@ -558,7 +559,7 @@ footer {
 
 #scroll img {
   width: 20px;
-  margin-bottom: 2px;
+  margin: 0 8px 12px 0;
   filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
 }
 
