@@ -1,0 +1,31 @@
+.save {
+  border-radius: 10px;
+  opacity: 0.5;
+  background-image: url('/images/balk.png');
+  background-repeat: repeat-x;
+  background-size: 70px;
+  background-position: top;
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+    background: linear-gradient(
+    to bottom,
+    rgb(221, 236, 240) 0%,
+    rgb(255, 255, 255) 60%,
+    transparent 100%
+  );
+  /* ‘gewone mensen’ Lang streepje: – of — */
+  white-space: nowrap;
+
+}
+/* Minimum width */
+@media (min-width: 35rem) {
+  div {
+    background: yellow;
+  }
+}
+
+/* Maximum width */
+@media (max-width: 50rem) {
+  div {
+    border: 2px solid blue;
+  }
+}
