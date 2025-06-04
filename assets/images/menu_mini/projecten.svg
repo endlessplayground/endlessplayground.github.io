@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4"
-     inkscape:cx="8.5"
-     inkscape:cy="54.5"
+     inkscape:cx="35.75"
+     inkscape:cy="64"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -432,11 +432,11 @@
        ry="1.0583333" />
     <path
        id="ellipse67946"
-       style="fill:#c0e406;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264584"
-       d="M 6.1887695 21.64209 A 7.4414062 1.4552083 0 0 0 5.2255208 22.357292 A 7.4414062 1.4552083 0 0 0 12.666927 23.8125 A 7.4414062 1.4552083 0 0 0 20.108333 22.357292 A 7.4414062 1.4552083 0 0 0 19.146635 21.64209 L 6.1887695 21.64209 z " />
+       style="fill:#c0e406;fill-opacity:1;fill-rule:evenodd;stroke-width:0.258035"
+       d="M 6.1416773,21.64209 A 7.0776041,1.4552083 0 0 0 5.2255208,22.357292 7.0776041,1.4552083 0 0 0 12.303125,23.8125 7.0776041,1.4552083 0 0 0 19.380729,22.357292 7.0776041,1.4552083 0 0 0 18.466047,21.64209 Z" />
     <g
        id="g67990"
-       transform="translate(-0.13229167,-0.95814101)">
+       transform="matrix(1.1342302,0,0,1.1342302,-2.5493127,-4.132019)">
       <path
          style="fill:url(#linearGradient67992);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
          d="M 13.65529,15.713795 C 13.828384,13.514181 13.948576,11.469919 11.132853,9.9209735 8.3171291,8.372027 5.2523457,8.230441 5.2523457,8.230441 c 0,0 2.1170611,4.413123 8.4029443,7.483354 z"
@@ -478,8 +478,8 @@
          height="2.1166666"
          x="8.4722137"
          y="16.468838"
-         rx="0.31472498"
-         ry="0.28165168" />
+         rx="0.27747893"
+         ry="0.2483197" />
       <path
          style="fill:url(#linearGradient68006);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
          d="m 12.893105,15.512415 c -1.760089,-0.786572 -5.2154852,-0.563948 -6.6003325,1.769784 -0.4461011,0.751766 -0.6846117,2.280508 -0.6846117,2.280508 0,0 3.5506148,-0.986638 4.6506702,-1.576566 1.100055,-0.589928 2.634274,-2.473726 2.634274,-2.473726 z"
