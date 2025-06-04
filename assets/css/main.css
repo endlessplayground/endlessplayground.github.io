@@ -553,7 +553,7 @@ footer {
   justify-content: flex-end;
   align-items:flex-end;
   width: 100%;
-  height: 0px;
+  height: 1px;
   max-width: var(--max-width);
 }
 
