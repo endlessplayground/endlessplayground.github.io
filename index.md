@@ -29,9 +29,9 @@ title: Home
                     <div id="date"></div>
                     <div class="link-label">Actueel</div>
                 </div></a>
-                <a href="interessant/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/interessant.svg' | relative_url }}" alt="interessant">
-                    <div class="link-label">Interessant!</div>
+                <a href="experimenten/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/experimenten.svg' | relative_url }}" alt="experimenten">
+                    <div class="link-label">Teksten</div>
                 </div></a>
                 <a href="/interviews/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/interviews.svg' | relative_url }}" alt="interviews">
@@ -41,9 +41,9 @@ title: Home
                     <img src="{{ '/assets/images/global/random.svg' | relative_url }}" alt="ideeën">
                     <div class="link-label">Random...</div>
                 </div></a>
-                <a href="experimenten/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/experimenten.svg' | relative_url }}" alt="experimenten">
-                    <div class="link-label">Experimenten</div>
+                <a href="interessant/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/interessant.svg' | relative_url }}" alt="interessant">
+                    <div class="link-label">Interessant!</div>
                 </div></a>
                 <a href="contact/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/contact.svg' | relative_url }}" alt="contact">
