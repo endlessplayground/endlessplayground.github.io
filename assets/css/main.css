@@ -470,6 +470,7 @@ footer {
   bottom: calc(var(--footer-height) - 4px)  ;
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
   padding: 10px 0 0 0; /* Added padding for better touch area */
   z-index: 100;
@@ -500,7 +501,6 @@ footer {
 
 .menubottom_inner {
   width: 100%;
-  max-width: var(--max-width);
   height: var(--menubottom-height);
   overflow: hidden; /* Contains the scrolling element */
 }
@@ -583,4 +583,18 @@ footer {
   footer {
     background-color: rgb(223, 250, 127);
   }
+  #menubottom {
+  width: 100vw !important;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 0 0; /* Added padding for better touch area */
+  z-index: 100;
+}
+  .menubottom_inner {
+  justify-content: center;
+  align-items: center;
+  width: 100vw !important;
+  height: var(--menubottom-height);
+  overflow: hidden; /* Contains the scrolling element */
+}
 }
