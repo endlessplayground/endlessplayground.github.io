@@ -4,9 +4,7 @@ title: "Interessant"                # Browser tab
 page_title: "Interessant!"        # <h1> heading
 intro: |
   
-  <p>De regen tikt zacht tegen het raam. Niet hard genoeg om storend te zijn, maar net genoeg om op te merken. Het is een geluid dat erbij hoort, alsof het de ruimte vult zonder iets van je te vragen. Buiten zijn de kleuren doffer geworden, bijna grijs.</p>
-  <p>Je loopt door het huis zonder doel. Van de ene kamer naar de andere, gewoon om te voelen hoe het is om ergens anders te staan. Soms helpt dat, al verandert er feitelijk niets. De muren blijven dezelfde, de stilte ook.</p>
-  <p>Op tafel ligt een notitieboekje met een paar losse woorden. Je weet niet meer precies waarom je ze opschreef. Misschien hoorde je ze ergens, misschien kwamen ze zomaar in je op. Ze zeggen niet veel, maar het voelt goed dat ze er staan.</p>
+  <p>Hier een verzameling van artikelen en video’s die ik onlangs heb gelezen of gezien, en waarvan de ideeën me bezighouden. Ik plaats een link, en vertel wat ik ervan vind. Zowel inhoudelijk als qua vorm...</p>
 
 ---
 
@@ -22,7 +20,7 @@ intro: |
     <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
     <div class="text">
       <h3>Mystery of ginger cats solved</h3>
-      <p>After decades of mystery, new research has shed light on the question: what exactly makes orange cats, well... orange? <a href="/artikelen/artikelen_sub/artikel1/"><img src="/assets/images/global/arrow.svg" alt="" class="arrow"></a>
+      <p>After decades of mystery, new research has shed light on the question: what exactly makes orange cats, well... orange? <a href="/interessant/pages_sub/artikel1/"><img src="/assets/images/global/arrow.svg" alt="" class="arrow"></a>
 
 </p>
     </div>

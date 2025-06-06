@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "Interviews"                # Browser tab
-page_title: "Interviews"        # <h1> heading
+title: "Gesprekken"                # Browser tab
+page_title: "Gesprekken"        # <h1> heading
 intro: |
   
-  <p>De regen tikt zacht tegen het raam. Niet hard genoeg om storend te zijn, maar net genoeg om op te merken. Het is een geluid dat erbij hoort, alsof het de ruimte vult zonder iets van je te vragen. Buiten zijn de kleuren doffer geworden, bijna grijs.</p>
-  <p>Je loopt door het huis zonder doel. Van de ene kamer naar de andere, gewoon om te voelen hoe het is om ergens anders te staan. Soms helpt dat, al verandert er feitelijk niets. De muren blijven dezelfde, de stilte ook.</p>
+  <p>Gesprekken met ‘gewone mensen’, bekend of onbekend. Het lijkt me leuk om dat als onderdeel van deze site op te nemen.</p>
 ---
 
 {% include page_top.html 

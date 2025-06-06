@@ -4,8 +4,8 @@ title: "Teksten"                # Browser tab
 page_title: "Mijn artikelen"        # <h1> heading
 intro: |
   
-  <p>De regen tikt zacht tegen het raam. Niet hard genoeg om storend te zijn, maar net genoeg om op te merken. Het is een geluid dat erbij hoort, alsof het de ruimte vult zonder iets van je te vragen. Buiten zijn de kleuren doffer geworden, bijna grijs.</p>
-  <p>Je loopt door het huis zonder doel. Van de ene kamer naar de andere, gewoon om te voelen hoe het is om ergens anders te staan. </p>
+  <p>Hier zal ik regelmatig nieuwe artikelen of berichten plaatsen.  Ideeën, meningen, ervaringen of wat er verder nog in mij op zal komen.</p>
+  <p>Ik ben daarnaast van plan om artikelen te schrijven op het platform Medium. Ik zal als ik zover ben een link plaatsen.</p>
 ---
 
 {% include page_top.html 
