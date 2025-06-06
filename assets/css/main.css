@@ -155,13 +155,13 @@ p {
   top: 116px;
   width: 92%;
   margin: 0 5%; /* Better than 10px margins */
-  background-color: rgb(189, 226, 245);
-  border-radius: 4px;
+  background-color: rgb(233, 250, 211);
+  border-radius: 2px;
   text-align: left;
   /* Add these: */
   padding: 8px 8px 8px 10px;
   z-index: 100; /* Ensures it stays above other content */
-  filter: drop-shadow(2px 5px 5px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(2px 4px 3px rgba(143, 170, 140, 0.4));
 }
 
 #intro_close {
@@ -175,7 +175,7 @@ p {
   height: 23px;
   border-radius: 100%;
   background-color: #ffffff;
-  border: 1px solid rgb(172, 203, 221);
+  border: 1px solid rgb(172, 221, 194);
   cursor: pointer; /* Add pointer for better UX */
 }
 
