@@ -18,7 +18,7 @@ intro: |
 
 <p>Ik lees graag, vooral (semi-)wetenschappelijke artikelen en non-fictie. Daar wil ik op deze site iets mee doen. De vorm daarvan moet ik nog een beetje uitvinden.</p>
 
-<p>Verder houd ik van praktisch en fysiek bezig zijn, wandelen, koffie drinken, praten met mensen, leuke stadjes en tweedehands winkels...</p>
+<p>Verder houd ik van praktisch en fysiek bezig zijn, wandelen, koffie drinken, praten met mensen, leuke stadjes en tweedehands winkels bezoeken...</p>
   
 </div>
 
