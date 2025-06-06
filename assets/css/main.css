@@ -156,7 +156,7 @@ p {
   width: 88%;
   margin: 0 4% 0 5%; /* Better than 10px margins */
   background-color: rgb(215, 241, 181);
-  border-radius: 22px;
+  border-radius: 28px;
   text-align: left;
   /* Add these: */
   padding: 6px 8px 5px 10px;
@@ -169,8 +169,8 @@ p {
   justify-content: center;
   align-items: center;
   position: absolute; /* Changed from fixed */
-  top: 11px; /* Now relative to .intro */
-  right: 11px; /* Now relative to .intro */
+  top: 10px; /* Now relative to .intro */
+  right: 10px; /* Now relative to .intro */
   width: 23px;
   height: 23px;
   border-radius: 100%;
