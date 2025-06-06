@@ -180,8 +180,8 @@ em {
 .intro {
   position: fixed;
   top: 116px;
-  width: 76%;
-  margin: 0 4% 0 5%; /* Better than 10px margins */
+  width: 78%;
+  margin: 0 0% 0 9%; /* Better than 10px margins */
   background-color: rgb(215, 241, 181);
   border-radius: 28px;
   text-align: left;
