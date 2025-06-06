@@ -29,12 +29,12 @@ title: Home
                     <div id="date"></div>
                     <div class="link-label">Actueel</div>
                 </div></a>
-                <a href="experimenten/index.html"><div class="grid-item">
+                <a href="blogs/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/experimenten.svg' | relative_url }}" alt="experimenten">
                     <div class="link-label">Blogs</div>
                 </div></a>
-                <a href="/interviews/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/interviews.svg' | relative_url }}" alt="interviews">
+                <a href="/gesprekken/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
                     <div class="link-label">Gesprekken</div>
                 </div></a>
                 <a href="random/index.html"><div class="grid-item">
