@@ -10,7 +10,7 @@
   --max-width: 500px;
   --header-height: 49px;
   --footer-height: 6px;
-  --menubottom-height: 80px;
+  --menubottom-height: 45px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
   --font-family-sans: "Encode Sans Condensed", sans-serif;
   --font-color: #303030;
@@ -43,7 +43,7 @@
   width: 24px;
   font-size: 0.9em;
   font-weight: 700;
-  top: 54px;
+  top: 20px;
   left: 16px;
   text-align: center;
 }
@@ -472,37 +472,16 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 0 0 0; /* Added padding for better touch area */
+  padding: 0px 0 0 0; /* Added padding for better touch area */
   z-index: 100;
-}
-
-.menubottom_under {
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  left: 0;
-  right: 0;
-  margin-left: 16px;
-  bottom: var(--footer-height); /* or use: var(--footer-height) */
-  height: 70px;
-  z-index: 99;
-}
-
-.menubottom_under-inner {
-  display: flex;
-  background: linear-gradient(
-    to top,
-    var(--bg-color) 0%,
-    var(--bg-color) 60%,
-    transparent 100%);
-  width: 98%;
-  max-width: calc(var(--max-width) - 20px);
+  /*border: 1px solid red;*/
 }
 
 .menubottom_inner {
   width: 100%;
   height: var(--menubottom-height);
   overflow: hidden; /* Contains the scrolling element */
+  /*border: 2px solid green;*/
 }
 
 .menubottom_inner_scroll {
@@ -514,6 +493,7 @@ footer {
   scrollbar-width: none;
   padding: 0 10px; /* Important: gives breathing room on sides */
   scroll-padding: 0 20px; /* Makes items align nicely when scrolling */
+  /*background-color: #69a4b370;*/
 }
 
 /* Hide scrollbar */
@@ -567,6 +547,29 @@ footer {
    filter: drop-shadow(1px 3px 4px rgba(84, 81, 99, 0.5));
   width: 24px;
 }
+.menubottom_under {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: 16px;
+  bottom: var(--footer-height); /* or use: var(--footer-height) */
+  height: 70px;
+  z-index: 99;
+}
+
+.menubottom_under-inner {
+  display: flex;
+  background: linear-gradient(
+    to top,
+    var(--bg-color) 0%,
+    var(--bg-color) 60%,
+    transparent 100%);
+  width: 98%;
+  max-width: calc(var(--max-width) - 20px);
+}
+
 
 
 
@@ -577,24 +580,14 @@ footer {
   transform: scale(0.95);
 }
 @media (max-width: 40rem) {
-  body {
-    background-color: rgb(223, 250, 127);
+  .menubottom_inner_scroll {
+    justify-content: center;
   }
-  footer {
-    background-color: rgb(223, 250, 127);
-  }
-  #menubottom {
-  width: 100vw !important;
-  display: flex;
-  justify-content: center;
-  padding: 10px 0 0 0; /* Added padding for better touch area */
-  z-index: 100;
+
+
+
+
+  
 }
-  .menubottom_inner {
-  justify-content: center;
-  align-items: center;
-  width: 100vw !important;
-  height: var(--menubottom-height);
-  overflow: hidden; /* Contains the scrolling element */
-}
-}
+
+

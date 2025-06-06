@@ -1,10 +1,19 @@
+
+
+
 <div class="top">
-  <h1>{{ include.title }}</h1>
 
-<div class="intro">
-  <div id="intro_close"><img src="/assets/images/global/intro_close.svg" alt=""></div>
+<h1>{{ include.title }}</h1>
+
+{% if include.intro and include.intro != "" %}
+  <div class="intro">
+      <div id="intro_close"><img src="/assets/images/global/intro_close.svg" alt=""></div>
     {{ include.intro | markdownify }}
+  </div>
+{% endif %}
+
 </div>
 
 
-</div>
+
+
