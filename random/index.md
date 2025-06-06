@@ -15,7 +15,7 @@ intro: |
 <div class="custom-section">
   
 <div style="text-align:center; margin: 0px 8px 0px 12px">
-  <p>Gooi met de dobbelsteen voor een random idee.</p>
+  <p>Gooi met de <em>dobbelsteen</em> voor een <em>random</em> idee.</p>
   </div>
   
 </div>

@@ -15,7 +15,7 @@ intro: |
 <div class="custom-section">
   
 <div style="text-align:center; margin: 0px 8px 0px 12px">
-  <p>Wil je reageren, of misschien zelfs geïnterviewd te worden? Stuur me een mail.</p>
+  <p>Wil je <em>reageren</em>, of misschien een keer <em>koffie drinken</em>? &#9749; Stuur me een mail.</p>
   <p><a href="mailto:unfinishedthoughtz1965@gmail.com">unfinishedthoughtz1965<span style="color: rgb(0, 174, 255);">@</span>gmail.com</a></p>
   </div>
   

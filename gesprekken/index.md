@@ -4,7 +4,7 @@ title: "Gesprekken"                # Browser tab
 page_title: "Gesprekken"        # <h1> heading
 intro: |
   
-  <p>Gesprekken met ‘gewone mensen’, bekend of onbekend. Het lijkt me leuk om dat als onderdeel van deze site op te nemen.</p>
+  <p>Gesprekken met <em>‘gewone mensen’</em>, bekend of onbekend. Het lijkt me leuk om dat als onderdeel van deze site op te nemen.</p>
 ---
 
 {% include page_top.html 

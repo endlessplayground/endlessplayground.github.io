@@ -14,7 +14,7 @@ intro: |
 
 <div class="custom-section">
   
-<p>Hier zal ik berichten over activiteiten die ik ga verzinnen. Stay tuned! &#129488;</p>
+<p>Hier zal ik berichten over<em> activiteiten </em>die ik ga verzinnen. Stay tuned! &#129488;</p>
   
 </div>
 
