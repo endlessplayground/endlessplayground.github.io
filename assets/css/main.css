@@ -150,6 +150,15 @@ p {
   line-height: 1.5;
 }
 
+em {
+  font-style: normal;
+  font-size: 1.2em;
+  line-height: 1;
+  color: rgb(255, 153, 0);
+  font-weight: 600;
+  font-family: var(--font-family-sans);
+}
+
 .intro {
   position: fixed;
   top: 116px;
