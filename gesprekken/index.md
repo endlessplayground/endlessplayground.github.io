@@ -18,39 +18,44 @@ intro: |
   <li>
     <img src="/gesprekken/images/jeroen.JPG" alt="Icon" class="link-icon-gespr">
     <a href="/gesprekken/pages_sub/jeroen"><div class="text">
-      <h3><em>Jeroen</em> op weg naar Amersfoort</h3>
+      <h3><em>Jeroen</em> (57) onderweg naar Amersfoort</h3>
       <p>In de trein naar Amersfoort sprak ik Jeroen, die op latere leeftijd een verrassende wending aan zijn leven gaf.</p>
     </div></a>
-  </li>  <li>
-    <img src="/assets/images/global/icon2.svg" alt="Icon" class="link-icon-gespr">
-    <div class="text">
-      <h3>Wat doet <span class="name">Peter</span> voor werk?</h3>
-      <p>We have long taken it for granted that gravity is one of the basic forces of nature... but suppose that this is not true.</p>
-    </div>
-  </li>  <li>
-    <img src="/assets/images/global/icon2.svg" alt="Icon" class="link-icon-gespr">
-    <div class="text">
-      <h3>Waarom is <span class="name">Valery</span> hier?</h3>
-      <p>Are you a member of a book club but struggling to keep up with the pile of books you still need to read? What if there was a simpler, more engaging alternative?</p>
-    </div>
-  </li>  <li>
-    <img src="/assets/images/global/icon2.svg" alt="Icon" class="link-icon-gespr">
-    <div class="text">
-      <h3>Waar gaat <span class="name">Mustafa</span> naartoe?</h3>
-      <p>Most of us assume that events flow in one direction and that our choices become final only after we make them, but...</p>
-    </div>
-  </li>  <li>
-    <img src="/assets/images/global/icon2.svg" alt="Icon" class="link-icon-gespr">
-    <div class="text">
-      <h3>Welke keuzes maakte <span class="name">Johan?</span></h3>
-      <p>“I think, therefore I am,” René Descartes, the 17th-century French philosopher and mathematician, famously wrote in 1637. But...</p>
-    </div>
-  </li>  <li>
-    <img src="/assets/images/global/icon2.svg" alt="Icon" class="link-icon-gespr">
-    <div class="text">
-      <h3><span class="name">Charlotte </span>in de trein...</h3>
-      <p>Neuroscientist Anil Seth lays out three reasons why people tend to overestimate the odds of AI becoming conscious. </p>
-    </div>
   </li>
+  <li>
+    <img src="/gesprekken/images/els.JPG" alt="Icon" class="link-icon-gespr">
+    <a href="/gesprekken/pages_sub/els"><div class="text">
+      <h3>Een ontmoeting op de markt met <em>Els</em> (70)</h3>
+      <p>Over eigenwijsheid, tweede kansen en gesprekken met haar filosofische kleinzoon.</p>
+    </div></a>
+  </li>
+<li>
+  <img src="/gesprekken/images/lucas.JPG" alt="Icon" class="link-icon-gespr">
+  <a href="/gesprekken/pages_sub/lucas"><div class="text">
+    <h3><em>Lucas</em> (25) op weg naar de TU Delft</h3>
+    <p>Een rustig gesprek met TU-student Lucas over puzzels, structuur in de chaos, en de wens om niet alleen te zijn.</p>
+  </div></a>
+</li>
+<li>
+  <img src="/gesprekken/images/jerry.JPG" alt="Icon" class="link-icon-gespr">
+  <a href="/gesprekken/pages_sub/jerry"><div class="text">
+    <h3>Ergens in de stad ontmoet ik <em>Jerry</em> (27)</h3>
+    <p>Jerry kwam drie jaar geleden uit Eritrea. Hij droomt van een toekomst waarin hij zijn studie weer kan oppakken.</p>
+  </div></a>
+</li>
+<li>
+  <img src="/gesprekken/images/mart.JPG" alt="Icon" class="link-icon-gespr">
+  <a href="/gesprekken/pages_sub/mart"><div class="text">
+    <h3><em>Mart</em> (67), tussen de platen</h3>
+    <p>In zijn platenwinkel vol herinneringen vertelt Mart over handel, vrijheid en het belang van gewoon blijven zitten.</p>
+  </div></a>
+</li>
+<li>
+  <img src="/gesprekken/images/sophie.JPG" alt="Icon" class="link-icon-gespr">
+  <a href="/gesprekken/pages_sub/sophie"><div class="text">
+    <h3>In de bus naar Rotterdam sprak ik <em>Sophie</em> (45)</h3>
+    <p>Sophie werkt met probleemjongeren die leven aan de rauwe randen van de stad.</p>
+  </div></a>
+</li>
 </ul></div>
 

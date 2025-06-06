@@ -56,7 +56,8 @@ intro: |
 
 <p><em>Jeroen</em>&nbsp; Dat weet ik zeker. En dank je wel voor dit gesprek. Ik voelde me opeens helemaal aanwezig.</p>
 
-<p><i>*Heb jij ook wel eens een onverwacht mooi gesprek gehad met een onbekende? Laat het me weten via de reacties.*</i></p>
+{% include interview_footer.html %}
+
 
   
 </div>
