@@ -154,9 +154,9 @@ p {
   position: fixed;
   top: 116px;
   width: 92%;
-  margin: 0 5%; /* Better than 10px margins */
-  background-color: rgb(233, 250, 211);
-  border-radius: 2px;
+  margin: 0 5% 0 6%; /* Better than 10px margins */
+  background-color: rgb(215, 241, 181);
+  border-radius: 22px;
   text-align: left;
   /* Add these: */
   padding: 8px 8px 8px 10px;
@@ -169,8 +169,8 @@ p {
   justify-content: center;
   align-items: center;
   position: absolute; /* Changed from fixed */
-  top: 6px; /* Now relative to .intro */
-  right: 6px; /* Now relative to .intro */
+  top: 9px; /* Now relative to .intro */
+  right: 9px; /* Now relative to .intro */
   width: 23px;
   height: 23px;
   border-radius: 100%;
@@ -181,6 +181,15 @@ p {
 
 #intro_close img {
   width: 70%;
+}
+
+.praat {
+    position: absolute; /* Changed from fixed */
+  top: 20px; /* Now relative to .intro */
+  left: -22px; /* Now relative to .intro */
+  width: 50px;
+  height: 23px;
+
 }
 
 .custom-section {
@@ -612,14 +621,7 @@ footer {
   visibility: hidden;
 }
 .intro {
-  position: fixed;
-  top: 116px;
-  width: 100%;
   max-width: 455px;
-  margin: 0px 10px;
-  background-color:rgb(189, 226, 245);
-  border-radius: 4px;
-  text-align: left;
 }
 
 
