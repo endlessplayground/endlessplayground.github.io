@@ -150,9 +150,9 @@ p {
   position: fixed;
   top: 116px;
   width: 100%;
-  max-width: 400px;
+  max-width: 360px;
   margin: 0px 10px;
-  background-color:rgb(186, 243, 245);
+  background-color:rgb(189, 226, 245);
   border-radius: 4px;
   text-align: left;
   filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.4));
@@ -160,7 +160,6 @@ p {
   border-left: 1px solid #f1f7fc;
   border-right: 1px solid #d8e6f3;
   border-bottom: 1px solid #d8e6f3;
-
 }
 
 .intro p {
@@ -614,7 +613,21 @@ footer {
 #scroll img {
   visibility: hidden;
 }
-
+.intro {
+  position: fixed;
+  top: 116px;
+  width: 100%;
+  max-width: 455px;
+  margin: 0px 10px;
+  background-color:rgb(189, 226, 245);
+  border-radius: 4px;
+  text-align: left;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.4));
+  border-top: 1px solid #f1f7fc;
+  border-left: 1px solid #f1f7fc;
+  border-right: 1px solid #d8e6f3;
+  border-bottom: 1px solid #d8e6f3;
+}
 
 
 }
