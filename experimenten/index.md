@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Experimenten"                # Browser tab
-page_title: "Experimenten..."        # <h1> heading
+title: "Teksten"                # Browser tab
+page_title: "Mijn artikelen"        # <h1> heading
 intro: |
   
   <p>De regen tikt zacht tegen het raam. Niet hard genoeg om storend te zijn, maar net genoeg om op te merken. Het is een geluid dat erbij hoort, alsof het de ruimte vult zonder iets van je te vragen. Buiten zijn de kleuren doffer geworden, bijna grijs.</p>
