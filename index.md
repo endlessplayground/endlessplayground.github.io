@@ -31,11 +31,11 @@ title: Home
                 </div></a>
                 <a href="experimenten/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/experimenten.svg' | relative_url }}" alt="experimenten">
-                    <div class="link-label">Teksten</div>
+                    <div class="link-label">Blogs</div>
                 </div></a>
                 <a href="/interviews/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/interviews.svg' | relative_url }}" alt="interviews">
-                    <div class="link-label">Interviews</div>
+                    <div class="link-label">Gesprekken</div>
                 </div></a>
                 <a href="random/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/random.svg' | relative_url }}" alt="ideeën">
