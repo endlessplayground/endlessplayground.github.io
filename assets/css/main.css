@@ -87,6 +87,14 @@ h1 {
   margin: 16px 20px 26px 0;
 }
 
+h4 {
+  font-size: 1.4em;
+  font-weight: 500;
+  color: var(--font-color);
+  margin: 4px 20px 26px 0;
+  text-align: center;
+}
+
 .arrow {
   width: 19px;
 }
@@ -237,6 +245,15 @@ em {
 .link-icon {
   width: 48px;
   height: 48px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 0.3rem;
+}
+
+.link-icon-gespr {
+  width: 48px;
+  height: 54px;
   object-fit: cover;
   border-radius: 4px;
   flex-shrink: 0;
