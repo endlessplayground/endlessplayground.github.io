@@ -3,8 +3,8 @@
 
 <svg
    width="40"
-   height="34"
-   viewBox="0 0 10.583338 8.9958338"
+   height="38"
+   viewBox="0 0 10.583338 10.054167"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="10.582793"
-     inkscape:cx="20.646723"
-     inkscape:cy="19.654546"
+     inkscape:zoom="7.483165"
+     inkscape:cx="4.8776153"
+     inkscape:cy="19.510461"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -63,11 +63,11 @@
          x="4.4549999"
          y="5.0914283"></tspan></text>
     <path
-       style="fill:#d7f6af;fill-opacity:1;stroke:#99bfd5;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
-       d="m 9.0288317,0.04911049 c 0,0 -7.5760378,3.05941001 -8.62893244,3.55298731 -0.3295067,0.1544667 -0.44628796,0.5796211 -0.0249388,0.7603869 0.37369357,0.1603207 8.65387134,4.632879 8.65387134,4.632879"
+       style="fill:#d7f1b5;fill-opacity:1;stroke:#99bfd5;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+       d="m 7.1330161,0.29225647 c 0,0 -4.7538231,-0.008269 -6.56470765,0.00224 C 0.20439882,0.29660824 -0.02033406,0.7452398 0.30998264,1.0099204 4.2578388,4.1733115 7.0981488,6.2924663 7.0981488,6.2924663"
        id="path34838"
        sodipodi:nodetypes="cssc"
-       inkscape:transform-center-x="0.38251924"
-       inkscape:transform-center-y="0.21882984" />
+       inkscape:transform-center-x="-0.38136148"
+       inkscape:transform-center-y="1.6451416" />
   </g>
 </svg>
