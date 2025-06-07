@@ -14,6 +14,7 @@
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
   --font-family-sans: "Encode Sans Condensed", sans-serif;
   --font-color: #303030;
+  --font-color-light: #4d4c4c;
   --border-color: #f1cdcd;
   --footer-color: rgb(126, 190, 23);
   --border-width: 1.5px;
@@ -79,6 +80,17 @@ h1, h2, h3, h4, h5, h6, .intro {
   line-height: 1.3;
 }
 
+h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  margin: -0.7rem 2.5rem 1.7rem 2.3rem;
+  padding-top: 0rem;
+  font-size: 1.3em;
+  color: var(--font-color-light);
+}
+
 h1 {
   width: 100%;
   font-size: 1.9em;
@@ -95,14 +107,18 @@ h4 {
   text-align: center;
 }
 
-.interview-footer {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+.pages_sub-footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   font-weight: 300;
   margin: 2.5rem 0 2rem 0;
   padding-top: 0rem;
   border-top: 1px solid rgb(255, 153, 0);
   font-size: 1em;
+}
+
+.pages_sub-footer p {
+    color: var(--font-color-light);
 }
 
 .arrow {
@@ -175,6 +191,21 @@ em {
   color: rgb(255, 153, 0);
   font-weight: 600;
   font-family: var(--font-family-sans);
+}
+
+.smallcaps {
+  text-transform: uppercase;
+  font-size: 0.89em;
+  font-weight: 600;
+  letter-spacing: 0.05em; /* optional: gives better readability */
+  color: inherit;
+}
+
+i {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.1em;
+  line-height: 1;
+  color: var(--font-color-light);
 }
 
 .intro {
@@ -463,7 +494,7 @@ img {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
   font-size: 1.5em;
   font-weight: 600;
