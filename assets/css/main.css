@@ -15,6 +15,8 @@
   --font-family-sans: "Encode Sans Condensed", sans-serif;
   --font-color: #303030;
   --font-color-light: #4d4c4c;
+  --em-color: rgb(255, 153, 0);
+  --a-color: rgb(0, 162, 255);
   --border-color: #f1cdcd;
   --footer-color: rgb(126, 190, 23);
   --border-width: 1.5px;
@@ -179,6 +181,7 @@ p {
   margin: 1.2rem 0px 0px 0px;
   font-size: 1.1em;
 }
+
 .intro p {
   margin: 15px 15px 20px 15px;
   line-height: 1.5;
@@ -186,10 +189,11 @@ p {
 
 em {
   font-style: normal;
-  font-size: 1.2em;
+  font-size: 1.25em;
   line-height: 1;
-  color: rgb(255, 153, 0);
-  font-weight: 600;
+  color: var(--em-color);
+
+  font-weight: 400 !important;
   font-family: var(--font-family-sans);
 }
 
@@ -343,7 +347,10 @@ a:focus-visible {
 }
 
 p > a {
-  color: crimson !important;
+  color: var(--a-color) !important;
+  display: inline-block;
+  height: 1.5em;
+  border-bottom: 1px solid var(--a-color);
 }
 
 /* === MAIN === */
