@@ -40,11 +40,11 @@ intro: |
 </li>
 
 <li>
-    <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
-    <div class="text">
-      <h3>Blogs</h3>
-      <p>This is a short intro to the article. It will only take up a few lines and look tidy and balanced.</p>
-    </div>
-  </li>  
+  <img src="/blogs/images/waard.JPG" alt="Icon" class="link-icon">
+  <a href="/blogs/pages_sub/waard"><div class="text">
+    <h3>Zoals de <em>waard</em> is vertrouwt hij zijn gasten</h3>
+    <p>We projecteren niet alleen negatief — ook onze positieve eigenschappen leggen we op anderen. Maar wat gebeurt er als je het goede ziet in iemand die dat zelf niet in huis heeft?</p>
+  </div></a>
+</li>
 </ul></div>
 
