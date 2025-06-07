@@ -4,7 +4,7 @@ title: "Gesprekken"                # Browser tab
 page_title: "Gesprekken"        # <h1> heading
 intro: |
   
-  <p>Gesprekken met <em>‘gewone mensen’</em>, bekend of onbekend. Lees ze hier. En wil je ook in gesprek, laat het me weten.</p>
+  <p>Gesprekken met <em>‘gewone mensen’</em>, die ik spontaan of meer doelbewust tegenkom. Lees ze hier. En wil je ook in gesprek, laat het me weten. </p>
 ---
 
 {% include page_top.html 
@@ -54,7 +54,7 @@ intro: |
   <img src="/gesprekken/images/sophie.JPG" alt="Icon" class="link-icon-gespr">
   <a href="/gesprekken/pages_sub/sophie"><div class="text">
     <h3>In de bus naar Rotterdam sprak ik <em>Sophie</em> (45)</h3>
-    <p>Sophie werkt met probleemjongeren die leven aan de rauwe randen van de stad.</p>
+    <p>Sophie werkt met probleemjongeren die leven aan de rauwe randen van de samenleving.</p>
   </div></a>
 </li>
 </ul></div>

@@ -4,8 +4,7 @@ title: "Blogs"                # Browser tab
 page_title: "Mijn blogs"        # <h1> heading
 intro: |
   
-  <p>Hier zal ik regelmatig <em>nieuwe artikelen</em> of berichten plaatsen.  Ideeën, meningen, ervaringen of wat er verder nog in mij op zal komen.</p>
-  <p>Ik ben daarnaast van plan om artikelen te schrijven op het platform <em>Medium</em>. Ik zal als ik zover ben een link plaatsen.</p>
+  <p>Hier <em>schrijf ik</em>. Over mijn ideeën, meningen, ervaringen of wat er verder nog in mij op zal komen.</p>
 ---
 
 {% include page_top.html 
