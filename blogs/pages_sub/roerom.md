@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Blogs"                # Browser tab
-page_title: "Blogs"        # <h1> heading
+page_title: "Mijn blogs"        # <h1> heading
 intro: |
   
 
