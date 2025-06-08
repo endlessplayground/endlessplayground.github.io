@@ -226,7 +226,20 @@ i {
   filter: drop-shadow(2px 4px 3px rgba(143, 170, 140, 0.4));
 }
 
+
+/* NIEUW!!!!!! Hide by default - let JS control visibility */
+.intro {
+  display: none;
+  /* Your existing styles... */
+}
+
+
+/* end NIEUW*/
 #intro_close {
+  display: flex;
+}
+
+.intro_close {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,10 +251,6 @@ i {
   border-radius: 100%;
   background-color: #ffffff77;
   cursor: pointer; /* Add pointer for better UX */
-}
-
-#intro_close img {
-  width: 70%;
 }
 
 .praat {
@@ -287,8 +296,8 @@ i {
 }
 
 .link-icon {
-  width: 70px;
-  height: 70px;
+  width: 64px;
+  height: 64px;
   object-fit: cover;
   border-radius: 4px;
   flex-shrink: 0;
@@ -296,8 +305,8 @@ i {
 }
 
 .link-icon-gespr {
-  width: 70px;
-  height: 70px;
+  width: 64px;
+  height: 64px;
   object-fit: cover;
   border-radius: 4px;
   flex-shrink: 0;
