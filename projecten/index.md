@@ -3,10 +3,8 @@ layout: default
 title: "Projecten"                # Browser tab
 page_title: "Dit project..."        # <h1> heading
 intro: |
-  <p>Deze <em>site</em> is allereerst een <em>hobby-project</em>. Ik heb ’m helemaal zelf gemaakt, zowel het scripten en programmeren* als het maken van de plaatjes. </p>
+  <p>Deze <em>site</em> is allereerst een <em>hobby-project</em>. Ik heb ’m helemaal zelf gemaakt, zowel het scripten en programmeren (oké, ik heb wat AI assistentie... &#129323;) als het maken van de plaatjes. </p>
   <p>Tegelijkertijd is het mijn middel om te schrijven en <em>andere projecten</em> op te zetten. Ik hoop dat ik uiteindelijk niet de enige zal zijn die het leuk vindt. &#128522;</p>
-  <p style="font-size: 0.95em;">* Met wat hulp van enkele bekende AI-assistants.</p>
-
 ---
 
 {% include page_top.html 
