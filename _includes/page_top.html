@@ -1,20 +1,35 @@
-
-
-
 <div class="top">
+  <h1>{{ include.title }}</h1>
+  {% if include.intro and include.intro != "" %}
+    {% assign intro_id = include.intro | strip_html | truncate: 20, "" | slugify %}
+    <div class="intro" id="intro-{{ intro_id }}">
+      <div class="intro_close" aria-label="Close">
+        <img src="/assets/images/global/intro_close.svg" alt=""  width="16" height="16">
+      </div>
+      <div class="praat"><img src="/assets/images/global/praat.svg" alt=""></div>
+      {{ include.intro | markdownify }}
+    </div>
+    
+    <script>
+      (function() {
+        const introKey = 'introClosed-{{ intro_id }}';
+        const introEl = document.getElementById('intro-{{ intro_id }}');
+        
+        if (introEl && !sessionStorage.getItem(introKey)) {
+          introEl.style.display = 'block';
+          introEl.querySelector('.intro_close').addEventListener('click', () => {
+            introEl.style.display = 'none';
+            sessionStorage.setItem(introKey, 'true');
+          });
+        }
+      })();
+    </script>
 
-<h1>{{ include.title }}</h1>
+<script>
+  console.log('Intro element exists?', !!document.getElementById('intro-{{ intro_id }}'));
+</script>
 
-{% if include.intro and include.intro != "" %}
-  <div class="intro">
-    <div id="intro_close"><img src="/assets/images/global/intro_close.svg" alt=""></div>
-    <div class="praat"><img src="/assets/images/global/praat.svg" alt=""></div>
-    {{ include.intro | markdownify }}
-  </div>
-{% endif %}
 
+
+  {% endif %}
 </div>
-
-
-
-
