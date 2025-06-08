@@ -1,14 +1,10 @@
 ---
 layout: default
-title: "Random"                # Browser tab
-page_title: "Random"        # <h1> heading
 intro: |
-  
-
 ---
 
 {% include page_top.html 
-   title=page.page_title 
+   title=site.data.random.page_title 
    intro=page.intro 
 %}
 

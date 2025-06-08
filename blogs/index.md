@@ -1,14 +1,11 @@
 ---
 layout: default
-title: "Blogs"                # Browser tab
-page_title: "Mijn blogs"        # <h1> heading
 intro: |
-  
-  <p>Hier <em>schrijf ik</em>. Over mijn ideeën, meningen, ervaringen of wat er verder nog in mij op zal komen.</p>
+  <p>Hier <em>schrijf ik</em>. Over mijn ideeën, ervaringen of wat er verder nog in mij op zal komen.</p>
 ---
 
 {% include page_top.html 
-   title=page.page_title 
+   title=site.data.blogs.page_title 
    intro=page.intro 
 %}
 

@@ -1,14 +1,10 @@
 ---
 layout: default
-title: "Gesprekken"                # Browser tab
-page_title: "Gesprekken"        # <h1> heading
 intro: |
-  
-
 ---
 
 {% include page_top.html 
-   title=page.page_title 
+   title=site.data.gesprekken.page_title 
    intro=page.intro 
 %}
 

@@ -1,14 +1,10 @@
 ---
 layout: default
-title: "Contact"                # Browser tab
-page_title: "Contact"        # <h1> heading
 intro: |
-  
-
 ---
 
 {% include page_top.html 
-   title=page.page_title 
+   title=site.data.contact.page_title 
    intro=page.intro 
 %}
 

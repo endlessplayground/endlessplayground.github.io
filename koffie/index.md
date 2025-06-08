@@ -1,17 +1,12 @@
 ---
 layout: default
-title: "Koffie"                # Browser tab (QUOTE FIXED)
-page_title: "Koffie"        # <h1> heading
 intro: |
-  
-
 ---
 
 {% include page_top.html 
-   title=page.page_title 
+   title=site.data.koffie.page_title 
    intro=page.intro 
 %}
-
 
 
 <div class="custom-section">

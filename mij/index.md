@@ -1,16 +1,13 @@
 ---
 layout: default
-title: "Over mij"                # Browser tab
-page_title: "Over mij"        # <h1> heading
 intro: |
-  
-
 ---
 
 {% include page_top.html 
-   title=page.page_title 
+   title=site.data.mij.page_title 
    intro=page.intro 
 %}
+
 
 <div class="custom-section">
   

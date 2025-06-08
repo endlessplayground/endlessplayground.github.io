@@ -1,14 +1,10 @@
 ---
 layout: default
-title: "Agenda"                # Browser tab
-page_title: "Op de agenda"        # <h1> heading
 intro: |
-  
-
 ---
 
 {% include page_top.html 
-   title=page.page_title 
+   title=site.data.actueel.page_title 
    intro=page.intro 
 %}
 

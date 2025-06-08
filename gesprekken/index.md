@@ -1,14 +1,11 @@
 ---
 layout: default
-title: "Gesprekken"                # Browser tab
-page_title: "Gesprekken"        # <h1> heading
 intro: |
-  
   <p>Gesprekken met <em>‘gewone mensen’</em>, die ik spontaan of meer doelbewust tegenkom. Lees ze hier. En wil je ook in gesprek, laat het me weten. </p>
 ---
 
 {% include page_top.html 
-   title=page.page_title 
+   title=site.data.gesprekken.page_title 
    intro=page.intro 
 %}
 
