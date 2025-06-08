@@ -1,6 +1,31 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ page.title }} | Endless Playground</title>
+
+<head>
+  <title>Project Y — 
+    {% if page.url contains '/mij/' %}
+      {{ site.data.mij.page_title }}
+    {% elsif page.url contains '/projecten/' %}
+      {{ site.data.projecten.page_title }}
+    {% elsif page.url contains '/koffie/' %}
+      {{ site.data.koffie.page_title }}
+    {% elsif page.url contains '/actueel/' %}
+      {{ site.data.actueel.page_title }}
+    {% elsif page.url contains '/blogs/' %}
+      {{ site.data.blogs.page_title }}
+    {% elsif page.url contains '/gesprekken/' %}
+      {{ site.data.gesprekken.page_title }}
+    {% elsif page.url contains '/random/' %}
+      {{ site.data.random.page_title }}
+    {% elsif page.url contains '/interessant/' %}
+      {{ site.data.interessant.page_title }}
+    {% elsif page.url contains '/contact/' %}
+      {{ site.data.contact.page_title }}
+    {% else %}
+      {{ page.title | default: site.title }} 
+    {% endif %}
+  </title>
+</head>
 
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
