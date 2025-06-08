@@ -43,7 +43,7 @@ title: Home
                 </div></a>
                 <a href="interessant/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/interessant.svg' | relative_url }}" alt="interessant">
-                    <div class="link-label">Interessant!</div>
+                    <div class="link-label">Uitgelicht</div>
                 </div></a>
                 <a href="contact/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/contact.svg' | relative_url }}" alt="contact">

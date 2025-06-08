@@ -39,8 +39,8 @@ intro: |
 <li>
   <img src="/blogs/images/waard.JPG" alt="Icon" class="link-icon">
   <a href="/blogs/pages_sub/waard"><div class="text">
-    <h3>Zoals de <em>waard</em> is vertrouwt hij zijn gasten</h3>
-    <p>We projecteren niet alleen negatief — ook onze positieve eigenschappen leggen we op anderen. Maar wat gebeurt er als je het goede ziet in iemand die dat zelf niet in huis heeft?</p>
+    <h3>Zoals de <em>waard</em> is...</h3>
+    <p>We projecteren niet alleen negatief — ook onze positieve eigenschappen zien we in anderen. Soms is dat niet zo handig...</p>
   </div></a>
 </li>
 </ul></div>

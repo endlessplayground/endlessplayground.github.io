@@ -11,7 +11,7 @@ intro: |
 
 <div class="custom-section">
   
-<p>Hi! Ik ben <em>Yvon</em>, net 60 geworden, en ben op zoek naar waar ik naar op zoek ben. Kan nog best lastig zijn! &#128556; Deze site gebruik ik daarvoor als speelruimte.</p>
+<p>Hi! Ik ben <em>Yvon</em>, net 60 geworden, en ik ben op zoek naar waar ik naar op zoek ben. Kan nog best lastig zijn! &#128556; Deze site gebruik ik daarvoor als speelruimte.</p>
 
 <p>Ik lees graag, vooral (semi-)wetenschappelijke <em>artikelen</em> en non-fictie. Daar wil ik op deze site iets mee doen. De vorm daarvan moet ik nog een beetje uitvinden.</p>
 

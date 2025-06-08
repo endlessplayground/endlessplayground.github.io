@@ -2,7 +2,7 @@
 layout: default
 intro: |
  <p>Deze <em>site</em> is allereerst een <em>hobby-project</em>. Ik heb ’m helemaal zelf gemaakt, zowel het scripten en programmeren (oké, ik heb wat AI assistentie... &#129323;) als het maken van de plaatjes. </p>
-  <p>Tegelijkertijd is het mijn middel om te schrijven en <em>andere projecten</em> op te zetten. Ik hoop dat ik uiteindelijk niet de enige zal zijn die het leuk vindt. &#128522;</p>
+  <p>Tegelijkertijd is het mijn middel om te schrijven en <em>andere projecten</em> op te zetten.
 
 ---
 
@@ -41,7 +41,7 @@ intro: |
 <li>
   <img src="/blogs/images/waard.JPG" alt="Icon" class="link-icon">
   <a href="/blogs/pages_sub/waard"><div class="text">
-    <h3>Zoals de <em>waard</em> is vertrouwt hij zijn gasten</h3>
+    <h3>Zoals de <em>waard</em> is...</h3>
     <p>We projecteren niet alleen negatief — ook onze positieve eigenschappen leggen we op anderen. Maar wat gebeurt er als je het goede ziet in iemand die dat zelf niet in huis heeft?</p>
   </div></a>
 </li>
