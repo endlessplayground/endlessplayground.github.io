@@ -182,11 +182,6 @@ p {
   font-size: 1.1em;
 }
 
-.intro p {
-  margin: 15px 15px 20px 15px;
-  line-height: 1.5;
-}
-
 em {
   font-style: normal;
   font-size: 1.25em;
@@ -221,7 +216,7 @@ i {
   border-radius: 28px;
   text-align: left;
   /* Add these: */
-  padding: 6px 8px 5px 10px;
+  padding: 6px 16px 24px 24px;
   z-index: 100; /* Ensures it stays above other content */
   filter: drop-shadow(2px 4px 3px rgba(143, 170, 140, 0.4));
 }
@@ -232,9 +227,13 @@ i {
   display: none;
   /* Your existing styles... */
 }
-
-
 /* end NIEUW*/
+
+.intro p {
+  margin-top: 0.8em !important;
+  line-height: 1.4;
+}
+
 #intro_close {
   display: flex;
 }
