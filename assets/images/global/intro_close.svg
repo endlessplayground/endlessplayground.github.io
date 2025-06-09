@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="3.7415825"
-     inkscape:cx="-10.95793"
-     inkscape:cy="32.873791"
+     inkscape:cx="-56.393251"
+     inkscape:cy="33.141057"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -42,13 +42,14 @@
      id="layer1">
     <g
        id="g54459"
-       style="stroke-width:1.9;stroke-dasharray:none;stroke:#d7f1b5;stroke-opacity:1;fill:#ececec">
+       style="fill:#ececec;stroke:#d8f5f8;stroke-width:1.9;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.83478715,0,0,0.83478715,0.87425131,0.87425132)">
       <path
-         style="fill:#ececec;stroke:#d7f1b5;stroke-width:1.9;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         style="fill:#ececec;stroke:#d8f5f8;stroke-width:1.9;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
          d="M 1.2552059,1.2552059 9.3281274,9.3281275"
          id="path28074" />
       <path
-         style="fill:#ececec;stroke:#d7f1b5;stroke-width:1.9;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         style="fill:#ececec;stroke:#d8f5f8;stroke-width:1.9;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
          d="M 9.3281274,1.2552061 1.2552059,9.3281271"
          id="path28074-9" />
     </g>
@@ -64,5 +65,16 @@
          d="M 9.3281274,1.2552061 1.2552059,9.3281271"
          id="path28074-9-8" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;line-height:1.3;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';text-align:center;text-anchor:middle;opacity:0.465729;fill:#fc2c8a;fill-opacity:1;stroke:#aa9974;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
+       x="-22.758715"
+       y="-0.64403653"
+       id="text3248"><tspan
+         sodipodi:role="line"
+         style="font-size:2.11667px;fill:#fc2c8a;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+         x="-22.758715"
+         y="-0.64403653"
+         id="tspan3322">187, 70%, 91%</tspan></text>
   </g>
 </svg>
