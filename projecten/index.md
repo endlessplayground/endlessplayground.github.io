@@ -18,7 +18,7 @@ intro: |
     <img src="/projecten/images/cat.JPG" alt="Icon" class="link-icon">
     <a href="/projecten/pages_sub/project01"><div class="text">
       <h3>Ikzoek<em>niet</em>mijnkat</h3>
-      <p>Een ongebruikelijke zoektocht naar gelijkgestemden</p>
+      <p>Een ongebruikelijke zoektocht naar gelijkgestemden.</p>
     </div></a>
 </li>
 
