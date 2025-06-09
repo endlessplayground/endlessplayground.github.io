@@ -15,7 +15,7 @@ intro: |
 <li>
     <img src="/interessant/images/01.JPG" alt="Icon" class="link-icon">
     <a href="/interessant/pages_sub/artikel01"><div class="text">
-      <h3>It’s Not Just Jobs That AI Is Taking — It’s <em>Our Purpose</em></h3>
+      <h3>It’s not just jobs that AI is taking — It’s <em>our purpose</em></h3>
     </div></a>
 </li>
 
@@ -29,7 +29,7 @@ intro: |
 <li>
   <img src="/interessant/images/03.JPG" alt="Icon" class="link-icon">
   <a href="/interessant/pages_sub/artikel03"><div class="text">
-    <h3>Tell Me <em>My Story</em> — From Myers-Briggs to BuzzFeed</h3>
+    <h3>Tell me <em>my story</em> — from Myers-Briggs to BuzzFeed</h3>
   </div></a>
 </li>
 
