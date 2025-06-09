@@ -349,7 +349,14 @@ i {
   list-style: none;           /* hide default bullets */
 }
 
-.bullets li {
+.note {
+  margin-top: 14px;
+  padding-left: 0;            /* changed from 16px */
+  margin-right: 20px;
+  list-style: none;           /* hide default bullets */
+}
+
+.bullets li, .note li {
   margin-top: 10px;
   line-height: 1.4;
   font-size: var(--font-size);
@@ -357,13 +364,23 @@ i {
   padding-left: 1.6em;        /* reserve space for bullet */
 }
 
-.bullets li::before {
+.note li {
+  padding-left: 1.2em;        /* reserve space for bullet */
+}
+
+.bullets li::before, .note li::before {
   content: "\2B24";           /* custom bullet */
   color: #b6ebf1;
   font-size: 1em;
   position: absolute;         /* position over text */
   left: 0;                    /* aligns left of li */
   top: 0.1em;                 /* vertical fine-tune */
+}
+
+.note li::before {
+  content: "\2731";
+  font-style: normal;
+  color: var(--em-color);
 }
 
 .link-icon {
