@@ -253,9 +253,9 @@ i {
   position: fixed;
   top: 116px;
   width: 78%;
-  margin: 0 4%; /* Better than 10px margins */
-  background-color: #d7f4f8;
-  border-radius: 10px;
+  margin: 0 0 0 9%; /* Better than 10px margins */
+  background-color: hsl(187, 70%, 91%);
+  border-radius: 16px;
   text-align: left;
   /* Add these: */
   padding: 6px 16px 24px 24px;
@@ -285,22 +285,21 @@ i {
   justify-content: center;
   align-items: center;
   position: absolute; /* Changed from fixed */
-  top: 4px; /* Now relative to .intro */
-  right: 4px; /* Now relative to .intro */
+  top: 8px; /* Now relative to .intro */
+  right: 7px; /* Now relative to .intro */
   width: 18px;
   height: 18px;
   border-radius: 100%;
-  background-color: #46383852;
+  background-color: #4638383a;
   cursor: pointer; /* Add pointer for better UX */
 }
 
 .praat {
     position: absolute; /* Changed from fixed */
   top: 10px; /* Now relative to .intro */
-  left: -25px; /* Now relative to .intro */
+  left: -35px; /* Now relative to .intro */
   width: 50px;
   height: 23px;
-  visibility: hidden;
 
 }
 
@@ -345,14 +344,25 @@ i {
 
 .bullets {
   margin-top: 14px;
-  padding-left: 16px;
+  padding-left: 0;            /* changed from 16px */
+  list-style: none;           /* hide default bullets */
 }
 
 .bullets li {
   margin-top: 10px;
   line-height: 1.4;
   font-size: var(--font-size);
-  margin-left: 0;
+  position: relative;         /* new */
+  padding-left: 1.6em;        /* reserve space for bullet */
+}
+
+.bullets li::before {
+  content: "\2B24";           /* custom bullet */
+  color: #b6ebf1;
+  font-size: 1em;
+  position: absolute;         /* position over text */
+  left: 0;                    /* aligns left of li */
+  top: 0.1em;                 /* vertical fine-tune */
 }
 
 .link-icon {
