@@ -16,7 +16,6 @@ intro: |
     <img src="/interessant/images/01.JPG" alt="Icon" class="link-icon">
     <a href="/interessant/pages_sub/artikel01"><div class="text">
       <h3>It’s Not Just Jobs That AI Is Taking—It’s <em>Our Purpose</em></h3>
-      <p>Dit artikel in <em>Psychology Today</em> stelt dat het verdwijnen van werk door AI niet alleen invloed heeft op onze portemonnee, maar vooral op onze levenszin.</p>
     </div></a>
 </li>
 
