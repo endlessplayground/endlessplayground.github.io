@@ -8,49 +8,36 @@ intro: |
    intro=page.intro 
 %}
 
-<div class="custom-section">
+<div class="custom-section interessant">
 
-<h4>Els</h4>
+  <h4>Psychology Today</h4>
 
-<p><em>Ik</em>&nbsp; Hallo, mag ik iets vragen? Voor een rubriek op mijn website spreek ik zo nu en dan iemand aan voor een spontaan interview. Het gaat gewoon over het leven. Heeft u daar zin in?</p>
+<h5>
+  Tell Me My Story — From Myers-Briggs to BuzzFeed
+  <a href="https://www.psychologytoday.com/us/blog/positively-media/202506/tell-me-my-story-from-myers-briggs-to-buzzfeed" class="lees" target="_blank" rel="noopener">
+    Lees het artikel <img src="/assets/images/global/arrow.svg" alt="" class="arrow">
+  </a>
+</h5>
 
-<p><em>Els</em>&nbsp; (kijkt op) Hm. Dat hangt ervan af. Wordt het zo’n zweverig “wat is uw levensmotto”-gedoe?</p>
+<h6>Samenvatting</h6>
 
-<p><em>Ik</em>&nbsp; Haha, nee hoor. Gewoon een normaal gesprek. Zoals dit.</p>
+<p>Het artikel “Tell Me My Story: From Myers‑Briggs to BuzzFeed” bespreekt waarom persoonlijkheidstests, van traditionele instrumenten zoals Myers‑Briggs en Enneagram tot luchtige BuzzFeed-quizjes, zo populair zijn. De auteur legt uit dat ze ons:</p>
 
-<p><em>Els</em>&nbsp; Nou vooruit dan. Vraag maar raak.</p>
+<ul class="bullets">
 
-<p><em>Ik</em>&nbsp; Dank u wel! Mag ik vragen hoe u heet en waar u vandaag naar op zoek bent?</p>
+<li>Even stil laten staan bij wie we zijn</li>
 
-<p><em>Els</em>&nbsp; Ik heet Els. En ik ben op zoek naar een jas die niet van polyester is, niet zwart is, en niet 200 euro kost. Tot nu toe geen succes.</p>
+<li>Een gevoel geven van herkenning (“dit ben ik”)</li>
 
-<p><em>Ik</em>&nbsp; U stelt duidelijke eisen. Vindt u dat het leven makkelijker wordt naarmate je ouder wordt?</p>
+<li>Een verhaal bieden dat ons helpt verbinding te maken met wie we zijn en waar we naartoe willen</li>
+</ul>
 
-<p><em>Els</em>&nbsp; Makkelijker niet per se. Maar ik trek me minder aan van wat anderen vinden. Dat scheelt een hoop gedoe. En ik hoef mezelf niet meer te bewijzen. Heerlijk is dat.</p>
+<p>Tests voelen prettig omdat ze pakkende omschrijvingen bieden, helpen ordenen in een drukke wereld, en fungeren als sociaal laadpaaltje—een snel en gedeeld “etiket” dat weinig risico kost, veel inzicht kan bieden, en ons geruststelt .</p>
 
-<p><em>Ik</em>&nbsp; Wat deed u vroeger voor werk?</p>
+<h6>Mijn ‘take-away’</h6>
+<p>Al die persoonlijkheidstests, van MBTI tot BuzzFeed, helpen mensen echt even stil te staan bij wie ze zijn. Ze geven je een soort ‘klik-gevoel’: je herkent jezelf, voelt je gezien. En juist dat eenvoudige verhaaltje –‘dit ben ik, dit zijn mijn hedendaagse eigenschappen’– kan best krachtig zijn. Het is een klein handvat in een wirwar van keuzes en gevoelens, en ideaal om iets te delen over jezelf, zonder diep door het stof van je ziel te hoeven gaan.</p>
 
-<p><em>Els</em>&nbsp; Allerlei dingen. Ik heb in een bibliotheek gewerkt, in een café, in een buurthuis. En ik heb 25 jaar een boekwinkel gehad, samen met mijn toenmalige man. Nu ben ik met pensioen, officieel dan. Maar ik doe nog van alles. Beetje oppassen, beetje vertalen, beetje vrijwilligerswerk. Ik hou niet van stilstand.</p>
-
-<p><em>Ik</em>&nbsp; Heeft u spijt van dingen?</p>
-
-<p><em>Els</em>&nbsp; Natuurlijk. Iedereen heeft spijt van dingen. Maar ik probeer mezelf niet meer op mijn kop te zitten. Het meeste deed ik met de beste bedoelingen. En achteraf is het altijd makkelijk praten.</p>
-
-<p><em>Ik</em>&nbsp; Is er iets waar u op dit moment blij van wordt?</p>
-
-<p><em>Els</em>&nbsp; Ja, mijn kleinzoon van zeven. Die kan uren praten over dingen als “wat als er geen tijd bestond” of “hoe weet je dat je echt bestaat”. En dan zit ik daar, met m’n koffie, en denk: wat een goeie vraag eigenlijk.</p>
-
-<p><em>Ik</em>&nbsp; Heerlijk. En is er iets wat u mensen van onze leeftijd zou willen meegeven?</p>
-
-<p><em>Els</em>&nbsp; Trek gewoon je eigen plan. Je hoeft niks te bewijzen. Ga lekker iets doen wat je leuk vindt, al snapt niemand er wat van. Als het mislukt, nou en? Dan heb je het in elk geval geprobeerd.</p>
-
-<p><em>Ik</em>&nbsp; Dank u wel, Els. Mag ik dat op mijn site zetten?</p>
-
-<p><em>Els</em>&nbsp; Tuurlijk. Zolang u die rare foto van mij in die oranje jas maar niet gebruikt, haha.</p>
-
-<p><em>Ik</em>&nbsp; Afgesproken. Dank u wel voor dit gesprek.</p>
-
-{% include interview_footer.html %}
+{% include interessant_footer.html %}
   
 </div>
 

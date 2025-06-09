@@ -8,49 +8,33 @@ intro: |
    intro=page.intro 
 %}
 
-<div class="custom-section">
+<div class="custom-section interessant">
 
-<h4>Els</h4>
+  <h4>Frontiers in Psychiatry</h4>
 
-<p><em>Ik</em>&nbsp; Hallo, mag ik iets vragen? Voor een rubriek op mijn website spreek ik zo nu en dan iemand aan voor een spontaan interview. Het gaat gewoon over het leven. Heeft u daar zin in?</p>
+<h5>
+  The evolution of personality disorders — A review of proposals
+  <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9922784/" class="lees" target="_blank" rel="noopener">
+    Lees het artikel <img src="/assets/images/global/arrow.svg" alt="" class="arrow">
+  </a>
+</h5>
 
-<p><em>Els</em>&nbsp; (kijkt op) Hm. Dat hangt ervan af. Wordt het zo’n zweverig “wat is uw levensmotto”-gedoe?</p>
+<h6>Samenvatting</h6>
 
-<p><em>Ik</em>&nbsp; Haha, nee hoor. Gewoon een normaal gesprek. Zoals dit.</p>
+<p>Persoonlijkheidsstoornissen worden meestal gezien als “tekortkomingen”. Maar dit artikel laat zien dat persoonlijkheidsverschillen al eeuwenoud zijn, zelfs biologisch waardevol — niet alleen bij mensen, maar van insecten tot apen.</p>
 
-<p><em>Els</em>&nbsp; Nou vooruit dan. Vraag maar raak.</p>
+<p>Gedrag dat op het eerste gezicht schadelijk lijkt (denk aan neuroticisme, narcisme of psychopathie), kan in bepaalde situaties juist overlevings­- of voortplantings­voordelen bieden.</p>
 
-<p><em>Ik</em>&nbsp; Dank u wel! Mag ik vragen hoe u heet en waar u vandaag naar op zoek bent?</p>
+<p>Sommige eigenschappen beïnvloeden bijvoorbeeld overleving negatief, maar verhogen wel je kans om nakomelingen te krijgen — of andersom. Ook kunnen ze gunstig zijn in bepaalde omgevingen, of eenmaal nuttig zijn geweest maar nu minder relevant (verouderd biologisch overblijfsel).</p>
 
-<p><em>Els</em>&nbsp; Ik heet Els. En ik ben op zoek naar een jas die niet van polyester is, niet zwart is, en niet 200 euro kost. Tot nu toe geen succes.</p>
+<p>Een ander idee is dat zulke eigenschappen onderdeel zijn van verschillende “life history-strategieën”: combinaties van gedrag, lichaam en gesteldheid die in wisselende omstandigheden net gunstig blijken.</p>
 
-<p><em>Ik</em>&nbsp; U stelt duidelijke eisen. Vindt u dat het leven makkelijker wordt naarmate je ouder wordt?</p>
+<p>Ook bestaat de gedachte dat variatie op zich al nuttig is — omdat het competitie om beperkte middelen tegengaat.</p>
 
-<p><em>Els</em>&nbsp; Makkelijker niet per se. Maar ik trek me minder aan van wat anderen vinden. Dat scheelt een hoop gedoe. En ik hoef mezelf niet meer te bewijzen. Heerlijk is dat.</p>
+<h6>Mijn ‘take-away’</h6>
+<p>Persoonlijkheidsstoornissen zijn niet zomaar foutjes in ons brein. Het zijn vaak extreme vormen van eigenschappen die vroeger best waardevol waren — misschien kon je er beter mee overleven, je plek veroveren of aantrekkelijker vinden bij een partner. Ook nu nog kunnen ze soms handig zijn, bijvoorbeeld in stressvolle of chaotische situaties. En in een groep is variatie in persoonlijkheid nuttig: het zorgt voor balans, samenwerking of juist juist concurrentie.</p>
 
-<p><em>Ik</em>&nbsp; Wat deed u vroeger voor werk?</p>
-
-<p><em>Els</em>&nbsp; Allerlei dingen. Ik heb in een bibliotheek gewerkt, in een café, in een buurthuis. En ik heb 25 jaar een boekwinkel gehad, samen met mijn toenmalige man. Nu ben ik met pensioen, officieel dan. Maar ik doe nog van alles. Beetje oppassen, beetje vertalen, beetje vrijwilligerswerk. Ik hou niet van stilstand.</p>
-
-<p><em>Ik</em>&nbsp; Heeft u spijt van dingen?</p>
-
-<p><em>Els</em>&nbsp; Natuurlijk. Iedereen heeft spijt van dingen. Maar ik probeer mezelf niet meer op mijn kop te zitten. Het meeste deed ik met de beste bedoelingen. En achteraf is het altijd makkelijk praten.</p>
-
-<p><em>Ik</em>&nbsp; Is er iets waar u op dit moment blij van wordt?</p>
-
-<p><em>Els</em>&nbsp; Ja, mijn kleinzoon van zeven. Die kan uren praten over dingen als “wat als er geen tijd bestond” of “hoe weet je dat je echt bestaat”. En dan zit ik daar, met m’n koffie, en denk: wat een goeie vraag eigenlijk.</p>
-
-<p><em>Ik</em>&nbsp; Heerlijk. En is er iets wat u mensen van onze leeftijd zou willen meegeven?</p>
-
-<p><em>Els</em>&nbsp; Trek gewoon je eigen plan. Je hoeft niks te bewijzen. Ga lekker iets doen wat je leuk vindt, al snapt niemand er wat van. Als het mislukt, nou en? Dan heb je het in elk geval geprobeerd.</p>
-
-<p><em>Ik</em>&nbsp; Dank u wel, Els. Mag ik dat op mijn site zetten?</p>
-
-<p><em>Els</em>&nbsp; Tuurlijk. Zolang u die rare foto van mij in die oranje jas maar niet gebruikt, haha.</p>
-
-<p><em>Ik</em>&nbsp; Afgesproken. Dank u wel voor dit gesprek.</p>
-
-{% include interview_footer.html %}
+{% include interessant_footer.html %}
   
 </div>
 

@@ -11,8 +11,10 @@ intro: |
 <div class="custom-section">
   
 <div style="text-align:center; margin: 0px 8px 0px 12px">
-  <p>Wil je <em>reageren</em>, of kandidaat zijn voor mijn rubriek  <em>gesprekken</em>? &#128172; Of heb je een zodanig leuk gespreksonderwerp dat het een <em>koffie</em>-afspraak waard is? &#128522;&#9749; Stuur me een mail.</p>
-  <p><a href="mailto:unfinishedthoughtz1965@gmail.com" ><span style="font-size: 1.2em; color: var(--font-color);">unfinishedthoughtz1965<em>@</em>gmail.com</span></a></p>
+  <p>Wil je <em>reageren</em>, of kandidaat zijn voor mijn rubriek  <em>gesprekken</em>? &#128172;</p>
+  <p>Of heb je een zodanig leuk gespreksonderwerp dat het een <em>koffie</em>-afspraak waard is? &#128522;&#9749;</p>
+  <p>Stuur me een mail.</p>
+  <p><a href="mailto:unfinishedthoughtz1965@gmail.com" ><span style="font-size: 1.2em; color: var(--font-color);">unfinishedthoughtz1965<em><span style="background-color: white; color: rgb(0, 162, 255); font-weight:600;">@</span></em>gmail.com</span></a></p>
   </div>
   
 </div>

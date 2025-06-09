@@ -30,7 +30,7 @@ intro: |
  
  <p><em>Ik</em>&nbsp; Ook schrijven over mijn persoonlijke leven is een mogelijkheid. Maar ik wil niet ál te persoonlijk worden hier. Het blijft tenslotte wel internet! Misschien zou ik creatief kunnen zijn hierin, door net te doen alsof ik iemand interview erover. Ik zou er zelfs een ‘kwinkslag’ in kunnen verwerken door dit erbij te vermelden: “namen en omstandigheden zijn gefingeerd om privacy redenen”. &nbsp;<i>Maar ik dwaal af. You get the point!</i></p>
  
- <p><em>Chat<span class="smallcaps">gpt</span></em>&nbsp; Zeker. Ik vind trouwens dat interview idee tussen jou en mij óók interessant. Dat ik jou vragen stel of dingen terugkaats, zodat jij tot je verhaal komt. 
+ <p><em>Chat<span class="smallcaps">gpt</span></em>&nbsp; Zeker. Ik vind trouwens dat interview idee tussen jou en mij óók interessant. Dat ik jou vragen stel of dingen terugkaats, zodat jij tot je verhaal komt.</p>
  
  <p><em>Ik</em>&nbsp; Precies. Dan ben jij voor mij soort rijbaan met vangrails, zodat ik niet uit de bocht vlieg, maar rijden en sturen doe ik zelf. Het moet natuurlijk ook niet te makkelijk worden – dat is tenslotte precies waar de meeste kritiek op AI momenteel over gaat: dat het het eigen denken en creativiteit wegneemt.</p>
 
@@ -39,7 +39,7 @@ intro: |
  <p><em>Ik</em>&nbsp; Ja, laten we dat doen. Ik ga er even over nadenken en kom erop terug.</p>
 
 
-{% include interview_footer.html %}
+{% include blogs_footer.html %}
   
 </div>
 

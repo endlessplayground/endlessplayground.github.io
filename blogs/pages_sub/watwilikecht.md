@@ -25,7 +25,7 @@ intro: |
 
 <p>Dus voor nu stel ik mezelf de vraag gewoon opnieuw. Niet om per se het antwoord vandaag te vinden (gaat sowieso niet lukken), maar om iet te hebben om op te broeden. En hopelijk toch een kléin beetje <em>inzicht</em> te vergaren...</p>
 
-{% include interview_footer.html %}
+{% include blogs_footer.html %}
   
 </div>
 

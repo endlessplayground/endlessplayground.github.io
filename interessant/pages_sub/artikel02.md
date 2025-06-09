@@ -8,49 +8,28 @@ intro: |
    intro=page.intro 
 %}
 
-<div class="custom-section">
+<div class="custom-section interessant">
 
-<h4>Els</h4>
+<h4>YouTube</h4>
 
-<p><em>Ik</em>&nbsp; Hallo, mag ik iets vragen? Voor een rubriek op mijn website spreek ik zo nu en dan iemand aan voor een spontaan interview. Het gaat gewoon over het leven. Heeft u daar zin in?</p>
+<h5>
+  A 90 second explanation of panpsychism — by Rupert Sheldrake
+  <a href="https://youtube.com/shorts/bKA4ezv7pM4?si=EQ054IjazBsBD4Ki" class="lees" target="_blank" rel="noopener">
+    Bekijk de video <img src="/assets/images/global/arrow.svg" alt="" class="arrow">
+  </a>
+</h5>
 
-<p><em>Els</em>&nbsp; (kijkt op) Hm. Dat hangt ervan af. Wordt het zo’n zweverig “wat is uw levensmotto”-gedoe?</p>
+<h6>Samenvatting</h6>
 
-<p><em>Ik</em>&nbsp; Haha, nee hoor. Gewoon een normaal gesprek. Zoals dit.</p>
+<p>Bewustzijn voorbij de hersenen – De grenzen van de geest heroverwogen</p>
+<p>De meeste wetenschappers denken dat <em>bewustzijn</em> door de hersenen wordt gecreëerd. De meesten gaan er immers van uit dat bewustzijn verdwijnt als de hersenen vernietigd worden. Maar wat als deze consensusopvatting radicaal onjuist is? Sluit je aan bij de vooraanstaande Cambridge-wetenschapper Rupert Sheldrake, die betoogt dat de geest verder reikt dan de hersenen en de radicale implicaties van deze theorie onderzoekt.
+</p>
 
-<p><em>Els</em>&nbsp; Nou vooruit dan. Vraag maar raak.</p>
+<h6>Mijn ‘take-away’</h6>
+<p>Wat mij raakt in dit artikel is de gedachte dat het verlies van werk door AI niet alleen economische gevolgen heeft, maar ons op een <em>dieper niveau</em> raakt – onze betekenis, ons doel. Werk geeft ons structuur, erkenning en het gevoel dat we bijdragen aan iets groters. Als dat wegvalt, blijft er een leegte achter die geld of vrije tijd niet zomaar opvult.</p>
+<p>De schrijver benoemt iets wat velen voelen maar moeilijk onder woorden kunnen brengen: dat onze <em>identiteit</em> vaak samenvalt met wat we doen. Het idee van een ‘Universeel Basisdoel’ vind ik intrigerend – een manier om opnieuw verbinding te maken met zingeving in een wereld waar technologie steeds meer menselijke taken overneemt.</p>
 
-<p><em>Ik</em>&nbsp; Dank u wel! Mag ik vragen hoe u heet en waar u vandaag naar op zoek bent?</p>
-
-<p><em>Els</em>&nbsp; Ik heet Els. En ik ben op zoek naar een jas die niet van polyester is, niet zwart is, en niet 200 euro kost. Tot nu toe geen succes.</p>
-
-<p><em>Ik</em>&nbsp; U stelt duidelijke eisen. Vindt u dat het leven makkelijker wordt naarmate je ouder wordt?</p>
-
-<p><em>Els</em>&nbsp; Makkelijker niet per se. Maar ik trek me minder aan van wat anderen vinden. Dat scheelt een hoop gedoe. En ik hoef mezelf niet meer te bewijzen. Heerlijk is dat.</p>
-
-<p><em>Ik</em>&nbsp; Wat deed u vroeger voor werk?</p>
-
-<p><em>Els</em>&nbsp; Allerlei dingen. Ik heb in een bibliotheek gewerkt, in een café, in een buurthuis. En ik heb 25 jaar een boekwinkel gehad, samen met mijn toenmalige man. Nu ben ik met pensioen, officieel dan. Maar ik doe nog van alles. Beetje oppassen, beetje vertalen, beetje vrijwilligerswerk. Ik hou niet van stilstand.</p>
-
-<p><em>Ik</em>&nbsp; Heeft u spijt van dingen?</p>
-
-<p><em>Els</em>&nbsp; Natuurlijk. Iedereen heeft spijt van dingen. Maar ik probeer mezelf niet meer op mijn kop te zitten. Het meeste deed ik met de beste bedoelingen. En achteraf is het altijd makkelijk praten.</p>
-
-<p><em>Ik</em>&nbsp; Is er iets waar u op dit moment blij van wordt?</p>
-
-<p><em>Els</em>&nbsp; Ja, mijn kleinzoon van zeven. Die kan uren praten over dingen als “wat als er geen tijd bestond” of “hoe weet je dat je echt bestaat”. En dan zit ik daar, met m’n koffie, en denk: wat een goeie vraag eigenlijk.</p>
-
-<p><em>Ik</em>&nbsp; Heerlijk. En is er iets wat u mensen van onze leeftijd zou willen meegeven?</p>
-
-<p><em>Els</em>&nbsp; Trek gewoon je eigen plan. Je hoeft niks te bewijzen. Ga lekker iets doen wat je leuk vindt, al snapt niemand er wat van. Als het mislukt, nou en? Dan heb je het in elk geval geprobeerd.</p>
-
-<p><em>Ik</em>&nbsp; Dank u wel, Els. Mag ik dat op mijn site zetten?</p>
-
-<p><em>Els</em>&nbsp; Tuurlijk. Zolang u die rare foto van mij in die oranje jas maar niet gebruikt, haha.</p>
-
-<p><em>Ik</em>&nbsp; Afgesproken. Dank u wel voor dit gesprek.</p>
-
-{% include interview_footer.html %}
+{% include interessant_footer.html %}
   
 </div>
 

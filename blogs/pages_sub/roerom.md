@@ -26,7 +26,7 @@ intro: |
 <p>Dus ja, een late wending is realistisch — als je het slim aanpakt, je eigen tempo volgt, en niet meteen denkt dat het ‘alles of niets’ moet zijn. Nieuw begin? Dat hoeft echt niet voorbehouden te zijn aan twintigers.</p>
 
 
-{% include interview_footer.html %}
+{% include blogs_footer.html %}
   
 </div>
 

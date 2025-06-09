@@ -33,7 +33,7 @@ intro: |
 <p>Dus ja, projectie is een verdedigingsmechanisme. Maar soms is het ook een <em>roze bril</em>, die onze mooiste eigenschappen op anderen plakt. Totdat we ontdekken dat we eigenlijk vooral naar onszelf zaten te kijken.</p>
 
 
-{% include interview_footer.html %}
+{% include blogs_footer.html %}
   
 </div>
 
