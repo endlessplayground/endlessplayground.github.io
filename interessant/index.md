@@ -12,44 +12,37 @@ intro: |
 <div class="custom-section">
   
 <ul class="article-list">
-  <li>
-    <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
-    <div class="text">
-      <h3>Mystery of ginger cats solved</h3>
-      <p>After decades of mystery, new research has shed light on the question: what exactly makes orange cats, well... orange? <a href="/interessant/pages_sub/artikel1/"><img src="/assets/images/global/arrow.svg" alt="" class="arrow"></a>
+<li>
+    <img src="/interessant/images/01.JPG" alt="Icon" class="link-icon">
+    <a href="/interessant/pages_sub/artikel01"><div class="text">
+      <h3>It’s Not Just Jobs That AI Is Taking—It’s <em>Our Purpose</em></h3>
+      <p>Dit artikel in <em>Psychology Today</em> stelt dat het verdwijnen van werk door AI niet alleen invloed heeft op onze portemonnee, maar vooral op onze levenszin.</p>
+    </div></a>
+</li>
 
-</p>
-    </div>
-  </li>  <li>
-    <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
-    <div class="text">
-      <h3>Is the universe like a computer simulation</h3>
-      <p>We have long taken it for granted that gravity is one of the basic forces of nature... but suppose that this is not true.<img src="/assets/images/global/arrow.svg" alt="" class="arrow"></p>
-    </div>
-  </li>  <li>
-    <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
-    <div class="text">
-      <h3>How to host an Article Club</h3>
-      <p>Are you a member of a book club but struggling to keep up with the pile of books you still need to read? What if there was a simpler, more engaging alternative?<img src="/assets/images/global/arrow.svg" alt="" class="arrow"></p>
-    </div>
-  </li>  <li>
-    <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
-    <div class="text">
-      <h3>Can the future affect the past?</h3>
-      <p>Most of us assume that events flow in one direction and that our choices become final only after we make them, but...<img src="/assets/images/global/arrow.svg" alt="" class="arrow"></p>
-    </div>
-  </li>  <li>
-    <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
-    <div class="text">
-      <h3>Consciousness begins in the body, not the mind...</h3>
-      <p>“I think, therefore I am,” René Descartes, the 17th-century French philosopher and mathematician, famously wrote in 1637. But...<img src="/assets/images/global/arrow.svg" alt="" class="arrow"></p>
-    </div>
-  </li>  <li>
-    <img src="/assets/images/global/icon1.svg" alt="Icon" class="link-icon">
-    <div class="text">
-      <h3>The illusion of conscious AI</h3>
-      <p>Neuroscientist Anil Seth lays out three reasons why people tend to overestimate the odds of AI becoming conscious. <img src="/assets/images/global/arrow.svg" alt="" class="arrow"></p>
-    </div>
-  </li>
-</ul></div>
+<li>
+    <img src="/interessant/images/02.JPG" alt="Icon" class="link-icon">
+    <a href="/interessant/pages_sub/artikel02"><div class="text">
+      <h3>De <em>late</em> wending</h3>
+      <p>Hoe realistisch is het om op latere leeftijd nog een andere richting in te slaan? Over twijfels, verlangens en de kunst van klein beginnen.</p>
+    </div></a>
+</li>
+
+<li>
+  <img src="/interessant/images/03.JPG" alt="Icon" class="link-icon">
+  <a href="/interessant/pages_sub/artikel03"><div class="text">
+    <h3>Wat wil ik nou <em>echt?</em></h3>
+    <p>Als íemand zou moeten weten wat je echt wilt, ben jij het zelf. Toch? Maar waarom kan het dan zo lastig zijn om daar een helder antwoord op te vinden?</p>
+  </div></a>
+</li>
+
+<li>
+  <img src="/interessant/images/04.JPG" alt="Icon" class="link-icon">
+  <a href="/interessant/pages_sub/artikel04"><div class="text">
+    <h3>Zoals de <em>waard</em> is...</h3>
+    <p>We projecteren niet alleen negatief — ook onze positieve eigenschappen zien we in anderen. Soms is dat niet zo handig...</p>
+  </div></a>
+</li>
+</ul>
+</div>
 

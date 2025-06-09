@@ -1,7 +1,7 @@
 ---
 layout: default
 intro: |
- <p>Deze <em>site</em> is allereerst een <em>hobby-project</em>. Ik heb ’m helemaal zelf gemaakt, zowel het scripten en programmeren (oké, ik heb wat AI assistentie... &#129323;) als het maken van de plaatjes. </p>
+ <p>Deze <em>site</em> is allereerst een <em>hobby-project</em>. Ik heb ’m helemaal zelf gemaakt, zowel het scripten en programmeren als het maken van de plaatjes. </p>
   <p>Tegelijkertijd is het mijn middel om te schrijven en <em>andere projecten</em> op te zetten.
 
 ---
