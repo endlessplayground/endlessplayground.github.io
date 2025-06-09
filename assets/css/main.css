@@ -260,7 +260,7 @@ i {
   /* Add these: */
   padding: 6px 16px 24px 24px;
   z-index: 100; /* Ensures it stays above other content */
-  filter: drop-shadow(2px 4px 3px rgba(143, 170, 140, 0.4));
+  filter: drop-shadow(2px 4px 4px rgba(22, 23, 24, 0.4));
 }
 
 
