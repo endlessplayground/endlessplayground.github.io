@@ -15,7 +15,7 @@ intro: |
 <li>
     <img src="/interessant/images/01.JPG" alt="Icon" class="link-icon">
     <a href="/interessant/pages_sub/artikel01"><div class="text">
-      <h3>It’s not just jobs that AI is taking — It’s <em>our purpose</em></h3>
+      <h3>It’s not just jobs that AI is taking — it’s <em>our purpose</em></h3>
     </div></a>
 </li>
 
@@ -36,7 +36,7 @@ intro: |
 <li>
   <img src="/interessant/images/04.JPG" alt="Icon" class="link-icon">
   <a href="/interessant/pages_sub/artikel04"><div class="text">
-    <h3>The <em>evolution of personality disorders</em> — A review of proposals</h3>
+    <h3>The <em>evolution of personality disorders</em> — a review of proposals</h3>
   </div></a>
 </li>
 </ul>
