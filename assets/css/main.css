@@ -28,6 +28,16 @@
   --focus-outline: 2px solid #00f;
 }
 
+    #dice {
+      width: 100px;
+      animation: roll 1.5s infinite ease-in-out;
+      transform-style: preserve-3d;
+    }
+    @keyframes roll {
+      0%, 100% { transform: rotateY(15deg) rotateX(15deg); }
+      50% { transform: rotateY(180deg) rotateX(90deg) translateX(30px); }
+    }
+
 #month {
   position: absolute;
   margin-top: 2px;
@@ -243,9 +253,9 @@ i {
   position: fixed;
   top: 116px;
   width: 78%;
-  margin: 0 0% 0 9%; /* Better than 10px margins */
-  background-color: rgb(215, 241, 181);
-  border-radius: 28px;
+  margin: 0 4%; /* Better than 10px margins */
+  background-color: #d7f4f8;
+  border-radius: 10px;
   text-align: left;
   /* Add these: */
   padding: 6px 16px 24px 24px;
@@ -275,10 +285,10 @@ i {
   justify-content: center;
   align-items: center;
   position: absolute; /* Changed from fixed */
-  top: 10px; /* Now relative to .intro */
-  right: 10px; /* Now relative to .intro */
-  width: 23px;
-  height: 23px;
+  top: 4px; /* Now relative to .intro */
+  right: 4px; /* Now relative to .intro */
+  width: 18px;
+  height: 18px;
   border-radius: 100%;
   background-color: #46383852;
   cursor: pointer; /* Add pointer for better UX */
@@ -290,6 +300,7 @@ i {
   left: -25px; /* Now relative to .intro */
   width: 50px;
   height: 23px;
+  visibility: hidden;
 
 }
 
