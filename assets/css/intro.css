@@ -18,6 +18,8 @@ background: linear-gradient(to right,
   padding: 26px 30px 40px 40px;
   z-index: 100; /* Ensures it stays above other content */
   /*filter: drop-shadow(2px 4px 4px rgba(22, 23, 24, 0.116));*/
+    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+
 }
 
 /* NIEUW!!!!!! Hide by default - let JS control visibility */
@@ -33,7 +35,11 @@ background: linear-gradient(to right,
 }
 
 .lighter_lines {
-  background-color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to right,
+  hsla(0, 0%, 100%, 0.4) 0%,
+  hsla(0, 0%, 100%, 0.9) 70%,
+  rgb(255, 255, 255) 100%);
   padding: 1px 0 2px 0;
 }
 
