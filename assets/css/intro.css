@@ -1,18 +1,11 @@
 .intro {
   position: fixed;
-  top: 118px;
+  top: 148px;
   margin: 0 0 0 5%; /* Better than 10px margins */
   width: 80%;
-background: linear-gradient(to right,
-  hsla(180, 31%, 87%, 0.8) 0%,
-  hsla(180, 33%, 86%, 0.79) 40%,
-  rgb(224, 243, 243) 100%);
-background: linear-gradient(to right,
-  hsla(0, 0%, 100%, 0.8) 0%,
-  hsla(0, 0%, 100%, 0.9) 40%,
-  rgb(255, 255, 255) 100%);
-  background: #66dbf0;
-  border: 2px solid rgb(42, 240, 247);
+  background: #88e4f5;
+  border-top: 3px solid rgb(215, 246, 248);
+  border-left: 3px solid rgb(200, 236, 238);
   border-right: 2px solid rgb(84, 176, 192);
   border-bottom: 2px solid rgb(84, 176, 192);
   border-radius: 4px;
@@ -21,7 +14,7 @@ background: linear-gradient(to right,
   padding: 26px 30px 40px 40px;
   z-index: 100; /* Ensures it stays above other content */
   /*filter: drop-shadow(2px 4px 4px rgba(22, 23, 24, 0.116));*/
-    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(4px 3px 4px rgba(0, 0, 0, 0.3));
 
 }
 
