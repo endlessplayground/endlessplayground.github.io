@@ -11,7 +11,10 @@ background: linear-gradient(to right,
   hsla(0, 0%, 100%, 0.8) 0%,
   hsla(0, 0%, 100%, 0.9) 40%,
   rgb(255, 255, 255) 100%);
-  border: 1px solid rgb(162, 159, 197);
+  background: #66dbf0;
+  border: 2px solid rgb(42, 240, 247);
+  border-right: 2px solid rgb(84, 176, 192);
+  border-bottom: 2px solid rgb(84, 176, 192);
   border-radius: 4px;
   text-align: center;
   /* Add these: */
@@ -34,14 +37,18 @@ background: linear-gradient(to right,
   line-height: 1.4;
 }
 
-.lighter_lines {
+.intro p em {
+  color: #dcf5fd;
+}
+
+/*.lighter_lines {
   background: rgb(255, 255, 255);
   background: linear-gradient(to right,
   hsla(0, 0%, 100%, 0.4) 0%,
   hsla(0, 0%, 100%, 0.9) 70%,
   rgb(255, 255, 255) 100%);
   padding: 1px 0 2px 0;
-}
+}*/
 
 #intro_close {
   display: flex;
