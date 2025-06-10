@@ -1,0 +1,21 @@
+/* === VARIABLES === */
+:root {
+  --max-width: 500px;
+  --header-height: 49px;
+  --footer-height: 6px;
+  --menubottom-height: 45px;
+  --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
+  --font-family-sans: "Encode Sans Condensed", sans-serif;
+  --font-style-italic: "Crimson pro", sans-serif;
+  --font-size: 1.1em;
+  --font-size-italic: 1.35em;
+  --font-color: #303030;
+  --font-color-light: #4d4c4c;
+  --em-color: rgb(255, 153, 0);
+  --a-color: rgb(9, 146, 226);
+  --border-color: #f1cdcd;
+  --footer-color: rgb(126, 190, 23);
+  --border-width: 1.5px;
+  --bg-color: hsl(0, 0%, 99%);
+  --focus-outline: 2px solid #00f;
+}

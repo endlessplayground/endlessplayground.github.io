@@ -1,0 +1,53 @@
+.intro {
+  position: fixed;
+  top: 116px;
+  width: 78%;
+  margin: 0 0 0 9%; /* Better than 10px margins */
+  background-color: hsl(187, 70%, 91%);
+  border-radius: 16px;
+  text-align: left;
+  /* Add these: */
+  padding: 6px 16px 24px 24px;
+  z-index: 100; /* Ensures it stays above other content */
+  filter: drop-shadow(2px 4px 4px rgba(22, 23, 24, 0.4));
+}
+
+/* NIEUW!!!!!! Hide by default - let JS control visibility */
+.intro {
+  display: none;
+  /* Your existing styles... */
+}
+/* end NIEUW*/
+
+.intro p {
+  margin-top: 0.8em !important;
+  line-height: 1.4;
+}
+
+#intro_close {
+  display: flex;
+}
+
+.intro_close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* Changed from fixed */
+  top: 8px; /* Now relative to .intro */
+  right: 7px; /* Now relative to .intro */
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background-color: #4638383a;
+  cursor: pointer; /* Add pointer for better UX */
+}
+
+.praat {
+    position: absolute; /* Changed from fixed */
+  top: 10px; /* Now relative to .intro */
+  left: -35px; /* Now relative to .intro */
+  width: 50px;
+  height: 23px;
+
+}
+
