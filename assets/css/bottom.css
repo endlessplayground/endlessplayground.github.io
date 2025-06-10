@@ -48,6 +48,7 @@ footer {
   justify-content: center;
   padding: 0px 0 0 0; /* Added padding for better touch area */
   z-index: 100;
+  visibility: hidden;
 }
 
 .menubottom_under {
@@ -60,6 +61,7 @@ footer {
   bottom: var(--footer-height); /* or use: var(--footer-height) */
   height: 70px;
   z-index: 99;
+  visibility: hidden;
 }
 
 .menubottom_under-inner {
