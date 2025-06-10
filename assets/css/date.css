@@ -1,6 +1,6 @@
 #month {
   position: absolute;
-  margin-top: 1.0em;
+  margin-top: 0.9em;
   color: white;
   font-size: 0.6;
   font-weight: 500;
@@ -9,7 +9,7 @@
 
 #date {
   position: absolute;
-  margin-top: 1.35em;
+  margin-top: 1.3em;
   font-size: 1.7em;
   font-weight: 700;
   text-align: center;
@@ -20,8 +20,8 @@
   width: 24px;
   font-size: 0.9em;
   font-weight: 700;
-  top: 20px;
-  left: 16px;
+  top: 19px;
+  left: 15px;
   text-align: center;
 }
 

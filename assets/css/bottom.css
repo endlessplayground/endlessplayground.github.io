@@ -1,4 +1,4 @@
-footer {
+footer, .footer-under {
   display: flex;
   justify-content: center;
   position: fixed;
@@ -8,12 +8,13 @@ footer {
   height: var(--footer-height);
   width: 100vw;
   background-color: rgb(223, 250, 127);
-  z-index: 10;
+  z-index: 9999999999999999999;
 }
 
 .footer_inner {
   display: flex;
   justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   height: var(--footer-height);
   width: 100%;
@@ -42,7 +43,7 @@ footer {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: calc(var(--footer-height) - 7px)  ;
+  bottom: calc(var(--footer-height) + 2px)  ;
   width: 100%;
   display: flex;
   justify-content: center;
