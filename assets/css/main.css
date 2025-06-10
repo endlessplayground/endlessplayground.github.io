@@ -299,10 +299,6 @@ img {
 
 
 
-/* Optional: Improve touch feedback */
-.menubottom_inner_scroll > div:active .mini {
-  transform: scale(0.95);
-}
 @media (min-width: 36rem) {
   body {
     background-color: rgb(223, 250, 127);

@@ -2,7 +2,7 @@
 :root {
   --max-width: 500px;
   --header-height: 49px;
-  --footer-height: 6px;
+  --footer-height: 16px;
   --menubottom-height: 45px;
   --font-family-serif: "Encode Sans Semi Condensed", sans-serif;
   --font-family-sans: "Encode Sans Condensed", sans-serif;
