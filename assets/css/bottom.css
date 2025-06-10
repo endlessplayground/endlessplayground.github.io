@@ -105,9 +105,14 @@ footer {
 }
 
 .mini {
-  width: 42px;
+  width: 40px;
   display: block;
   transition: transform 0.2s; /* Optional: for hover/active effects */
+}
+
+/* Optional: Improve touch feedback */
+.menubottom_inner_scroll > div:active .mini {
+  transform: scale(0.95);
 }
 
 #menu_mini_scroll {
