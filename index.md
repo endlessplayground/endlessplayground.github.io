@@ -30,7 +30,7 @@ title: Home
                     <div class="link-label">Actueel</div>
                 </div></a>
                 <a href="blogs/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/experimenten.svg' | relative_url }}" alt="experimenten">
+                    <img src="{{ '/assets/images/global/blogs.svg' | relative_url }}" alt="blogs">
                     <div class="link-label">Blogs</div>
                 </div></a>
                 <a href="/gesprekken/index.html"><div class="grid-item">
