@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.8284271"
-     inkscape:cx="13.788582"
-     inkscape:cy="36.416"
+     inkscape:cx="-42.779961"
+     inkscape:cy="36.769553"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -182,12 +182,12 @@
       </g>
     </g>
     <path
-       style="fill:#dffa7f;fill-opacity:1;stroke:#b7df06;stroke-width:1.9287;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
-       d="M -14.669453,23.221693 H -28.588741"
-       id="path44300-2" />
+       style="fill:#e0fa7f;fill-opacity:1;fill-rule:evenodd;stroke-width:0.449041"
+       d="M 3.1666667e-7,21.97592 A 13.464264,5.496335 0 0 0 13.229167,26.458333 13.464264,5.496335 0 0 0 26.458333,21.97592 Z"
+       id="path79810" />
     <g
        id="g73378"
-       transform="matrix(1.1797948,0,0,1.1797948,1.3419821,-2.1535138)">
+       transform="matrix(1.3953007,0,0,1.3953007,-2.0176791,-6.8444013)">
       <g
          id="g12354"
          transform="translate(2.4732713,-2.2527202)">
