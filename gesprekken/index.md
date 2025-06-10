@@ -1,7 +1,7 @@
 ---
 layout: default
 intro: |
-  <p>Gesprekken met <em>‘gewone mensen’</em>, die ik spontaan of meer doelbewust tegenkom. Lees ze hier. En wil je ook in gesprek, laat het me weten via de <a href="mailto:unfinishedthoughtz1965@gmail.com" ><em>mail</em></a>. </p>
+  <p><span class="lighter_lines">Gesprekken met <em>‘gewone mensen’</em>, die ik spontaan of meer doelbewust tegenkom. Lees ze hier. En wil je ook in gesprek, laat het me weten via de <a href="mailto:unfinishedthoughtz1965@gmail.com" ><em>mail</em></a>.</span></p>
 ---
 
 {% include page_top.html 

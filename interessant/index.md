@@ -1,7 +1,7 @@
 ---
 layout: default
 intro: |
-  <p>Hier een verzameling van <em>artikelen en video’s</em> die ik onlangs heb gelezen of gezien, en waarvan de ideeën me bezighouden. Ik plaats een link, en vertel wat ik ervan vind. Zowel inhoudelijk als qua vorm...</p>
+  <p><span class="lighter_lines">Hier een verzameling van <em>artikelen en video’s</em> die ik onlangs heb gelezen of gezien, en waarvan de ideeën me bezighouden. Ik plaats een link, en vertel wat ik ervan vind. Zowel inhoudelijk als qua vorm...</span></p>
 ---
 
 {% include page_top.html 

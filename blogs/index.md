@@ -1,7 +1,7 @@
 ---
 layout: default
 intro: |
-  <p>Hier <em>schrijf ik</em>. Over mijn ideeën, ervaringen of wat er verder nog in mij op zal komen.</p>
+  <p><span class="lighter_lines">Hier <em>schrijf ik</em>. Over mijn ideeën, ervaringen of wat er verder nog in mij op zal komen.</span></p>
 ---
 
 {% include page_top.html 
@@ -43,5 +43,6 @@ intro: |
     <p>We projecteren niet alleen negatief — ook onze positieve eigenschappen zien we in anderen. Soms is dat niet zo handig...</p>
   </div></a>
 </li>
-</ul></div>
+</ul>
+</div>
 

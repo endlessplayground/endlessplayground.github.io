@@ -15,7 +15,7 @@ intro: |
 <h5>
   It’s Not Just Jobs That AI Is Taking—It’s Our Purpose
   <a href="https://www.psychologytoday.com/us/blog/tech-happy-life/202506/its-not-just-jobs-that-ai-is-taking-its-our-purpose" class="lees" target="_blank" rel="noopener">
-    Lees het artikel <img src="/assets/images/global/arrow.svg" alt="" class="arrow">
+    Lees <img src="/assets/images/global/arrow.svg" alt="" class="arrow">
   </a>
 </h5>
 

@@ -15,7 +15,7 @@ intro: |
 <h5>
   Tell Me My Story — From Myers-Briggs to BuzzFeed
   <a href="https://www.psychologytoday.com/us/blog/positively-media/202506/tell-me-my-story-from-myers-briggs-to-buzzfeed" class="lees" target="_blank" rel="noopener">
-    Lees het artikel <img src="/assets/images/global/arrow.svg" alt="" class="arrow">
+    Lees <img src="/assets/images/global/arrow.svg" alt="" class="arrow">
   </a>
 </h5>
 

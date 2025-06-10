@@ -15,7 +15,7 @@ intro: |
 <h5>
   The evolution of personality disorders — A review of proposals
   <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9922784/" class="lees" target="_blank" rel="noopener">
-    Lees het artikel <img src="/assets/images/global/arrow.svg" alt="" class="arrow">
+    Lees <img src="/assets/images/global/arrow.svg" alt="" class="arrow">
   </a>
 </h5>
 
