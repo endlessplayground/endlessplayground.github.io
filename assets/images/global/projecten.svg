@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="3.7415824"
-     inkscape:cx="58.665018"
-     inkscape:cy="45.969855"
+     inkscape:cx="16.303262"
+     inkscape:cy="46.237121"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -176,7 +176,7 @@
        fx="-12.18971"
        fy="20.60494"
        r="6.3662009"
-       gradientTransform="matrix(1.7522316,0.07535338,-0.03940462,0.37954578,29.831278,16.244832)"
+       gradientTransform="matrix(1.6174177,0.06955582,-0.03637288,0.35034412,28.367418,18.535768)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -332,11 +332,11 @@
        style="fill:#c4e4ee;fill-opacity:1;fill-rule:evenodd;stroke-width:0.223867"
        id="path29876"
        cx="13.229167"
-       cy="13.229167"
+       cy="14.816666"
        r="11" />
     <g
        id="g4859"
-       transform="matrix(0.66827865,0,0,0.72181917,-98.204914,83.692851)"
+       transform="matrix(0.66827865,0,0,0.72181917,-98.204914,85.280352)"
        style="fill:#a6dcdc;fill-opacity:1;stroke-width:1.43982">
       <path
          style="fill:#a6dcdc;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -358,7 +358,7 @@
     </g>
     <g
        id="g62734"
-       transform="matrix(1,0,0,1.0323477,-53.175834,-135.44062)"
+       transform="matrix(1,0,0,1.0323477,-53.175834,-133.85311)"
        style="stroke-width:0.984208">
       <g
          id="g57676"
@@ -401,7 +401,7 @@
     </g>
     <g
        id="g29719"
-       transform="translate(-176.31982,90.739971)">
+       transform="translate(-176.31982,92.327472)">
       <rect
          style="fill:url(#radialGradient51707);fill-opacity:1;fill-rule:evenodd;stroke-width:0.320325"
          id="rect51147"
@@ -463,7 +463,7 @@
     </g>
     <g
        id="g5357"
-       transform="translate(-34.704495,-10.600541)">
+       transform="translate(-34.704495,-9.0130406)">
       <path
          style="fill:#ff0a2e;fill-opacity:1;stroke:#595147;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;paint-order:fill markers stroke"
          d="m 11.223732,17.077312 c -1.001546,0.235083 -1.8165595,1.003786 -1.5646501,1.14314 0.251908,0.139358 0.8646941,-0.23905 0.7850241,0.07555 -0.07966,0.314619 0.164739,0.66504 0.510616,0.569421 0.345877,-0.09562 0.603884,0.836234 0.942965,0.449893 0.219724,-0.250347 0.251839,-1.283077 -0.0059,-1.870374 -0.140056,-0.319017 -0.45226,-0.500848 -0.667956,-0.367653 z"
@@ -494,17 +494,18 @@
       </g>
     </g>
     <ellipse
-       style="fill:url(#radialGradient21518);fill-opacity:1;fill-rule:evenodd;stroke-width:0.239907"
+       style="fill:url(#radialGradient21518);fill-opacity:1;fill-rule:evenodd;stroke-width:0.221449"
        id="path21510"
-       cx="16.318609"
-       cy="23.707127"
-       rx="7.2215543"
-       ry="1.5502678"
+       cx="15.894396"
+       cy="25.423927"
+       rx="6.6659393"
+       ry="1.4309927"
        transform="matrix(0.99956046,-0.02964591,0.03448896,0.99940508,0,0)"
-       inkscape:transform-center-x="-5.8417237"
-       inkscape:transform-center-y="-0.85312765" />
+       inkscape:transform-center-x="-5.392272"
+       inkscape:transform-center-y="-0.78749017" />
     <g
-       id="g47287">
+       id="g47287"
+       transform="matrix(0.92306163,0,0,0.92306163,0.95306485,3.5140376)">
       <g
          id="g21506"
          transform="matrix(0.73787976,0,0,0.74607325,18.367633,6.8294993)"
@@ -669,7 +670,7 @@
     </g>
     <g
        id="g4517"
-       transform="matrix(0.84371221,0,0,0.84372423,-87.462943,11.192451)"
+       transform="matrix(0.84371221,0,0,0.84372423,-87.462943,12.779952)"
        style="stroke-width:1.18523">
       <path
          style="fill:#493117;fill-opacity:1;stroke:#848382;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"

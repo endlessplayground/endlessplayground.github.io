@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="4"
-     inkscape:cx="66.875"
-     inkscape:cy="72.25"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="35.885669"
+     inkscape:cy="72.831998"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -442,11 +442,11 @@
        style="fill:#b4ddea;fill-opacity:1;fill-rule:evenodd;stroke-width:0.223867"
        id="path29876"
        cx="13.229167"
-       cy="13.229167"
+       cy="14.816666"
        r="11" />
     <g
        id="g29456"
-       transform="matrix(1.1624612,0,0,1.0585054,-45.522625,0.2817109)">
+       transform="matrix(1.1624612,0,0,1.0585054,-45.522625,1.8692109)">
       <path
          id="path59980-7-4-4-38-6-6"
          style="fill:#9eb8b2;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient65275-5);stroke-width:0"
@@ -551,7 +551,7 @@
     </g>
     <g
        id="g29456-6"
-       transform="matrix(0.9925448,0,0,0.93449036,2.2554368,0.60873164)">
+       transform="matrix(0.9949067,0,0,0.93671414,1.0602838,1.8324687)">
       <path
          id="path59980-7-4-4-38-6-6-1"
          style="fill:#509e8f;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient2896);stroke-width:0"
@@ -581,7 +581,7 @@
          ry="1.8872032" />
       <path
          id="path88587-9-5-5"
-         style="mix-blend-mode:darken;fill:#272626;fill-opacity:0.26119402;fill-rule:evenodd;stroke-width:0.264582"
+         style="mix-blend-mode:darken;fill:#272626;fill-opacity:0.261194;fill-rule:evenodd;stroke-width:0.264582"
          inkscape:transform-center-x="-10.68953"
          inkscape:transform-center-y="-5.6490508"
          d="m 13.946603,15.465672 a 3.4822542,8.6788673 65.368221 0 0 -3.253781,4.985193 3.4822542,8.6788673 65.368221 0 0 9.370835,-0.484014 3.4822542,8.6788673 65.368221 0 0 1.909905,-1.001331 9.279551,4.717922 0 0 0 -8.026959,-3.499848 z" />

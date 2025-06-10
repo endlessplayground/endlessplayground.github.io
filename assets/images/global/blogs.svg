@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.6456984"
-     inkscape:cx="70.491784"
-     inkscape:cy="82.019931"
+     inkscape:zoom="5.2913969"
+     inkscape:cx="69.074388"
+     inkscape:cy="59.530594"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -282,6 +282,16 @@
          offset="1"
          id="stop90925" />
     </linearGradient>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask17837">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.223867"
+         id="circle17839"
+         cx="13.229167"
+         cy="14.816666"
+         r="11" />
+    </mask>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -291,11 +301,20 @@
        style="fill:#89dede;fill-opacity:1;fill-rule:evenodd;stroke-width:0.223867"
        id="path29876"
        cx="13.229167"
-       cy="13.229167"
+       cy="14.816666"
        r="11" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.80597;fill-rule:evenodd;stroke-width:0.216931"
+       id="rect51341"
+       width="26.45833"
+       height="5.6187935"
+       x="1.4305115e-06"
+       y="20.58847"
+       mask="url(#mask17837)"
+       transform="matrix(1.0091437,0,0,1.0091437,-0.12096385,-0.18825404)" />
     <g
        id="g39395"
-       transform="matrix(0.87975189,0,0,0.92950973,1.0690393,1.9630317)">
+       transform="matrix(0.68526048,0,0,0.72401809,2.7294188,3.1799677)">
       <path
          style="fill:url(#radialGradient60842);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
          d="m 16.599384,15.32131 c -1.918692,-1.342894 0.735106,-2.168471 -0.772438,-3.595299 -1.185184,-1.121727 -2.957006,-1.266148 -5.8338654,-0.63427 -0.78248,0.171865 -1.6546328,0.375618 -2.6031198,0.68384 -7.73353998,2.513105 -5.8167405,7.060806 -5.6685807,10.36611 0.088178,1.96716 1.8300372,2.696323 2.6977174,2.675289 0.7873197,-0.01909 2.719151,0.102217 4.4706728,0.06807 3.0987737,-0.06041 7.7096137,-9.56374 7.7096137,-9.56374 z"
