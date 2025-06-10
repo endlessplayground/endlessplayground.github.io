@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4"
-     inkscape:cx="17.125"
-     inkscape:cy="48.25"
+     inkscape:cx="38.125"
+     inkscape:cy="50"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -402,7 +402,7 @@
     </g>
     <g
        id="g67990"
-       transform="matrix(1.1342302,0,0,1.1342302,-1.8878543,-3.4705607)">
+       transform="matrix(1.2901222,0,0,1.3728546,-2.8426665,-8.6498212)">
       <path
          style="fill:url(#linearGradient67992);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
          d="M 13.65529,15.713795 C 13.828384,13.514181 13.948576,11.469919 11.132853,9.9209735 8.3171291,8.372027 5.2523457,8.230441 5.2523457,8.230441 c 0,0 2.1170611,4.413123 8.4029443,7.483354 z"
