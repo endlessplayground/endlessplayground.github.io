@@ -1,14 +1,17 @@
 .intro {
   position: fixed;
-  top: 108px;
-  width: 100%;
+  top: 118px;
   height: 55vh;
-  margin: 0 5%; /* Better than 10px margins */
-  width: 75%;
+  margin: 0 0 0 5%; /* Better than 10px margins */
+  width: 80%;
 background: linear-gradient(to right,
   hsla(180, 31%, 87%, 0.8) 0%,
   hsla(180, 33%, 86%, 0.79) 40%,
   rgb(224, 243, 243) 100%);
+background: linear-gradient(to right,
+  hsla(0, 0%, 100%, 0.8) 0%,
+  hsla(0, 0%, 100%, 0.79) 40%,
+  rgb(255, 255, 255) 100%);
   border: 1px solid rgb(162, 159, 197);
   border-radius: 4px;
   text-align: center;
@@ -30,8 +33,8 @@ background: linear-gradient(to right,
   line-height: 1.4;
 }
 
-.test {
-  background-color: rgb(224, 243, 243);
+.lighter_lines {
+  background-color: rgb(255, 255, 255);
   padding: 1px 0 2px 0;
 }
 
