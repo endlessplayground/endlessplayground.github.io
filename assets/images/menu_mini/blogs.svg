@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="3.7415826"
-     inkscape:cx="50.914284"
-     inkscape:cy="36.615522"
+     inkscape:cx="8.5525307"
+     inkscape:cy="36.882789"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -336,10 +336,6 @@
        y="31.239014"
        mask="url(#mask54252)"
        transform="translate(-3.3001683,-8.8482542)" />
-    <path
-       style="fill:#e0fa7f;fill-opacity:1;fill-rule:evenodd;stroke-width:0.449041"
-       d="M 3.1666667e-7,21.97592 A 13.464264,5.496335 0 0 0 13.229167,26.458333 13.464264,5.496335 0 0 0 26.458333,21.97592 Z"
-       id="path79810" />
     <g
        id="g39395"
        transform="matrix(0.84394455,0,0,0.89167716,0.2325947,1.4198633)">

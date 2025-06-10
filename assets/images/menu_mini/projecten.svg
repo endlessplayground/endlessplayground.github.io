@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.8284271"
-     inkscape:cx="46.315495"
-     inkscape:cy="41.7193"
+     inkscape:cx="18.73833"
+     inkscape:cy="47.376155"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -41,13 +41,9 @@
        inkscape:collect="always"
        id="linearGradient17439">
       <stop
-         style="stop-color:#c5f6f9;stop-opacity:1;"
+         style="stop-color:#e0fafc;stop-opacity:1;"
          offset="0"
          id="stop17435" />
-      <stop
-         style="stop-color:#e6fbfc;stop-opacity:1;"
-         offset="0.28915662"
-         id="stop17443" />
       <stop
          style="stop-color:#57e8ef;stop-opacity:1;"
          offset="1"
@@ -349,13 +345,13 @@
        inkscape:collect="always"
        xlink:href="#linearGradient17439"
        id="radialGradient17441"
-       cx="11.87498"
-       cy="19.626942"
-       fx="11.87498"
-       fy="19.626942"
+       cx="17.109085"
+       cy="12.835505"
+       fx="17.109085"
+       fy="12.835505"
        r="12.36927"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.7841831,-0.73033139,0.72337111,1.7671796,-28.04883,-2.586159)" />
+       gradientTransform="matrix(-1.5732302,1.114289,-0.78915673,-1.1141861,51.303905,3.7886267)" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -428,10 +424,6 @@
            d="m 5.0002391,-22.806416 c -0.4568329,-1e-6 -0.9134785,0.135291 -1.2635274,0.406128 l -10.3391353,7.999639 H 16.6029 L 6.2637665,-22.400288 c -0.3500489,-0.270837 -0.8066946,-0.406129 -1.2635274,-0.406128 z" />
       </g>
     </g>
-    <path
-       style="fill:#e0fa7f;fill-opacity:1;fill-rule:evenodd;stroke-width:0.449041"
-       d="M 3.1666667e-7,21.97592 A 13.464264,5.496335 0 0 0 13.229167,26.458333 13.464264,5.496335 0 0 0 26.458333,21.97592 Z"
-       id="path79810" />
     <g
        id="g67990"
        transform="matrix(1.2901222,0,0,1.3728546,-2.8426665,-8.6498212)">
