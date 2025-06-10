@@ -8,7 +8,7 @@
    version="1.1"
    id="svg2787"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="coffee.svg"
+   sodipodi:docname="koffie.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4"
-     inkscape:cx="60.25"
-     inkscape:cy="52.75"
+     inkscape:cx="66.875"
+     inkscape:cy="72.25"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -438,15 +438,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#b4ddea;fill-opacity:1;fill-rule:evenodd;stroke-width:0.228581"
-       id="rect26083"
-       width="22.858149"
-       height="22.858149"
-       x="1.8000923"
-       y="1.8000923"
-       rx="0.86397392"
-       ry="0.86397392" />
+    <circle
+       style="fill:#b4ddea;fill-opacity:1;fill-rule:evenodd;stroke-width:0.223867"
+       id="path29876"
+       cx="13.229167"
+       cy="13.229167"
+       r="11" />
     <g
        id="g29456"
        transform="matrix(1.1624612,0,0,1.0585054,-45.522625,0.2817109)">
@@ -554,7 +551,7 @@
     </g>
     <g
        id="g29456-6"
-       transform="matrix(1.2029697,0,0,1.1326074,-0.50216378,-3.5589449)">
+       transform="matrix(0.9925448,0,0,0.93449036,2.2554368,0.60873164)">
       <path
          id="path59980-7-4-4-38-6-6-1"
          style="fill:#509e8f;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient2896);stroke-width:0"
@@ -584,7 +581,7 @@
          ry="1.8872032" />
       <path
          id="path88587-9-5-5"
-         style="mix-blend-mode:darken;fill:#272626;fill-opacity:0.428904;fill-rule:evenodd;stroke-width:0.264582"
+         style="mix-blend-mode:darken;fill:#272626;fill-opacity:0.26119402;fill-rule:evenodd;stroke-width:0.264582"
          inkscape:transform-center-x="-10.68953"
          inkscape:transform-center-y="-5.6490508"
          d="m 13.946603,15.465672 a 3.4822542,8.6788673 65.368221 0 0 -3.253781,4.985193 3.4822542,8.6788673 65.368221 0 0 9.370835,-0.484014 3.4822542,8.6788673 65.368221 0 0 1.909905,-1.001331 9.279551,4.717922 0 0 0 -8.026959,-3.499848 z" />
