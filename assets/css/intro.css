@@ -1,7 +1,6 @@
 .intro {
   position: fixed;
   top: 118px;
-  height: 55vh;
   margin: 0 0 0 5%; /* Better than 10px margins */
   width: 80%;
 background: linear-gradient(to right,
@@ -10,7 +9,7 @@ background: linear-gradient(to right,
   rgb(224, 243, 243) 100%);
 background: linear-gradient(to right,
   hsla(0, 0%, 100%, 0.8) 0%,
-  hsla(0, 0%, 100%, 0.79) 40%,
+  hsla(0, 0%, 100%, 0.9) 40%,
   rgb(255, 255, 255) 100%);
   border: 1px solid rgb(162, 159, 197);
   border-radius: 4px;
