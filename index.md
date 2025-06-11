@@ -23,27 +23,27 @@ title: Home
                     <img src="{{ '/assets/images/global/koffie.svg' | relative_url }}" alt="koffie">
                     <div class="link-label">Koffie?</div>
                 </div></a>
-                <a href="blogs/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/blogs.svg' | relative_url }}" alt="blogs">
-                    <div class="link-label">Blogs</div>
-                </div></a>
-                <a href="random/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/random.svg' | relative_url }}" alt="ideeën">
-                    <div class="link-label" style="transform: skewX(-8deg);">Weird Science</div>
-                </div></a>
                 <a href="interessant/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/interessant.svg' | relative_url }}" alt="interessant">
                     <div class="link-label">Uitgelicht</div>
+                </div></a>
+                <a href="blogs/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/blogs.svg' | relative_url }}" alt="blogs">
+                    <div class="link-label" style="transform: skewX(-8deg);">Weird Science</div>
+                </div></a>
+                <a href="/gesprekken/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
+                    <div class="link-label">Gesprekken</div>
+                </div></a>
+                <a href="random/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/random.svg' | relative_url }}" alt="random">
+                    <div>Random</div>
                 </div></a>
                 <a href="actueel/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/actueel.svg' | relative_url }}" alt="actueel">
                     <div id="month"></div>
                     <div id="date"></div>
                     <div class="link-label">Actueel</div>
-                </div></a>
-                <a href="/gesprekken/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
-                    <div class="link-label">Gesprekken</div>
                 </div></a>
                 <a href="contact/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/contact.svg' | relative_url }}" alt="contact">

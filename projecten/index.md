@@ -2,7 +2,7 @@
 layout: default
 intro: |
  <p><span class="lighter_lines">Deze <em>site</em> is allereerst een <em>hobby-project</em>. Ik heb ’m helemaal zelf gemaakt, zowel het scripten en programmeren als het maken van de plaatjes. </span></p>
-  <p><span class="lighter_lines">Tegelijkertijd is het mijn middel om te schrijven en <em>andere projecten</em> op te zetten.</span></p>
+  <p><span class="lighter_lines">Tegelijkertijd is het mijn middel om te schrijven en andere <em>leuke dingen</em> op te zetten.</span></p>
 
 ---
 
