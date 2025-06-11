@@ -77,13 +77,12 @@ em {
   color: inherit;
 }
 
-i {
-  font-family: var(--font-style-italic);
-  font-style: italic;
-  font-weight: 200;
-  line-height: 1;
-  font-size: 1.35em;
-}
+  i {
+    transform: skewX(-8deg);
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;
+  }
 
 .not-italic {
   font-style: normal;

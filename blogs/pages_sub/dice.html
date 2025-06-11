@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .dice-roller {
+      width: 100px;
+      height: 100px;
+      position: relative;
+    }
+    .dice-roller img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+    .dice-roller img.active {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="dice-roller">
+    <img src="/random/images/dice1.svg" class="active" alt="Dice 1">
+    <img src="/random/images/dice2.svg" alt="Dice 2">
+    <img src="/random/images/dice3.svg" alt="Dice 3">
+  </div> 
+
+  <script>
+    const dice = document.querySelectorAll('.dice-roller img');
+    let current = 0;
+
+    function rollOnce() {
+      // Fast roll: dice1 → dice2 → dice3
+      dice[0].classList.remove('active');
+      dice[1].classList.add('active');
+      
+      setTimeout(() => {
+        dice[1].classList.remove('active');
+        dice[2].classList.add('active');
+        
+        // After 2 seconds, reset to dice1
+        setTimeout(() => {
+          dice[2].classList.remove('active');
+          dice[0].classList.add('active');
+        }, 2000);
+      }, 300); // 300ms between dice changes
+    }
+
+    // Start rolling when page loads
+    rollOnce();
+  </script>
+</body>
+</html>
+
+<!-- 
+  <div class="dice-roller">
+    <img src="/random/images/dice1.svg" class="active" alt="Dice 1">
+    <img src="/random/images/dice2.svg" alt="Dice 2">
+    <img src="/random/images/dice3.svg" alt="Dice 3">
+  </div> 
+-->
