@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.8707913"
-     inkscape:cx="-72.696511"
-     inkscape:cy="80.714508"
+     inkscape:cx="53.98785"
+     inkscape:cy="53.98785"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -314,7 +314,7 @@
        transform="translate(-3.3001683,-8.8482542)" />
     <g
        id="g39395"
-       transform="matrix(0.68526048,0,0,0.72401809,4.2827522,5.6867535)">
+       transform="matrix(0.81852778,0,0,0.86482285,2.5397479,2.1033004)">
       <path
          style="fill:url(#radialGradient60842);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
          d="m 16.599384,15.32131 c -1.918692,-1.342894 0.735106,-2.168471 -0.772438,-3.595299 -1.185184,-1.121727 -2.957006,-1.266148 -5.8338654,-0.63427 -0.78248,0.171865 -1.6546328,0.375618 -2.6031198,0.68384 -7.73353998,2.513105 -5.8167405,7.060806 -5.6685807,10.36611 0.088178,1.96716 1.8300372,2.696323 2.6977174,2.675289 0.7873197,-0.01909 2.719151,0.102217 4.4706728,0.06807 3.0987737,-0.06041 7.7096137,-9.56374 7.7096137,-9.56374 z"

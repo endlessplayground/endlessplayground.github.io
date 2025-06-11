@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.8707913"
-     inkscape:cx="-3.207199"
-     inkscape:cy="-32.07199"
+     inkscape:cx="-3.7417322"
+     inkscape:cy="18.708661"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -433,14 +433,15 @@
          style="stroke-width:0"
          x="13.981668"
          y="31.939863">Home</tspan></text>
+    <circle
+       style="fill:#82d5ef;fill-opacity:1;fill-rule:evenodd;stroke-width:0.223867"
+       id="path29876-9"
+       cx="13.229167"
+       cy="14.816666"
+       r="11" />
     <g
-       id="g22833">
-      <circle
-         style="fill:#82d5ef;fill-opacity:1;fill-rule:evenodd;stroke-width:0.223867"
-         id="path29876-9"
-         cx="13.229167"
-         cy="14.816666"
-         r="11" />
+       id="g50050"
+       transform="matrix(0.93841478,0,0,1,1.6330769,0)">
       <path
          style="opacity:0.465729;mix-blend-mode:multiply;fill:url(#radialGradient18687);fill-opacity:1;stroke:#aa9974;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:8;paint-order:fill markers stroke;stop-color:#000000"
          d="m 7.1775002,21.815357 c -0.9054827,0.07823 -1.5662284,0.208907 -2.0214363,0.376529 0.824352,1.018173 3.7198752,3.537349 7.3686381,3.564536 4.378863,0.03263 5.249544,-0.783522 8.371369,-2.632851 2.3263,-1.378071 6.72228,-2.402658 5.367179,-2.919996 -2.533132,-0.967076 -8.231107,0.374282 -9.115036,0.975354 C 16.264286,21.78 8.5564286,22.381072 7.1775002,21.815357 Z"
