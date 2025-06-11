@@ -43,7 +43,7 @@ footer, .footer-under {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: calc(var(--footer-height) + 2px)  ;
+  bottom: calc(var(--footer-height) + 0px)  ;
   width: 100%;
   display: flex;
   justify-content: center;

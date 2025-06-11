@@ -85,4 +85,8 @@ i {
   font-size: 1.35em;
 }
 
+.not-italic {
+  font-style: normal;
+}
+
 

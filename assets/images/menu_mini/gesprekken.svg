@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4"
-     inkscape:cx="15.75"
-     inkscape:cy="60.5"
+     inkscape:cx="46.75"
+     inkscape:cy="64.25"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -207,5 +207,16 @@
          style="fill:#516678;fill-opacity:1;stroke-width:0"
          x="14.456841"
          y="11.966608">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.35px;line-height:1.3;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';text-align:center;text-anchor:middle;fill:#fe005b;fill-opacity:0.593284;stroke:#7c7777;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:8;paint-order:fill markers stroke;stop-color:#000000"
+       x="13.62389"
+       y="32.653175"
+       id="text97103"><tspan
+         sodipodi:role="line"
+         id="tspan97101"
+         style="stroke-width:0"
+         x="13.62389"
+         y="32.653175">Mini</tspan></text>
   </g>
 </svg>
