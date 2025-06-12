@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Contact  <!-- Add this line -->
 intro: |
 ---
 
