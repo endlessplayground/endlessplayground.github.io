@@ -11,7 +11,7 @@
   border-radius: 4px;
   text-align: center;
   /* Add these: */
-  padding: 26px 30px 40px 40px;
+  padding: 24px 30px 42px 40px;
   z-index: 100; /* Ensures it stays above other content */
   /*filter: drop-shadow(2px 4px 4px rgba(22, 23, 24, 0.116));*/
     filter: drop-shadow(4px 3px 6px rgba(0, 0, 0, 0.3));

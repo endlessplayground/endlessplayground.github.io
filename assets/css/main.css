@@ -11,6 +11,34 @@
 @import url("/assets/css/pages_sub.css");
 @import url("/assets/css/date.css");
 
+.breadcrumbs {
+}
+.breadcrumbs ol {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  left: 8px;
+  top: -1px;
+  list-style: none;
+  padding: 0;
+}
+/* Style all breadcrumb text */
+.breadcrumbs ol li {
+  font-size: 0.75em;
+  color: rgb(211, 211, 211) !important;
+}
+
+/* Specifically override link colors */
+.breadcrumbs ol li a {
+  color: inherit !important; /* Forces link to use parent color */
+  text-decoration: underline;
+
+}
+.breadcrumbs li:not(:last-child)::after {
+  content: ">";
+  margin-left: 0.3rem;
+}
 
 /* === RESETS === */
 * {

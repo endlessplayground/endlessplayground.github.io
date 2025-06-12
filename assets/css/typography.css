@@ -21,7 +21,7 @@ h1 {
   font-size: 1.9em;
   font-weight: 500;
   color: var(--font-color);
-  margin: 16px 20px 26px 0;
+  margin: 22px 20px 26px 0;
 }
 
 h1::after {
@@ -45,7 +45,7 @@ h4 {
   font-size: 1.4em;
   font-weight: 500;
   color: var(--font-color);
-  margin: 4px 20px 26px 0;
+  margin: 8px 20px 26px 0;
   text-align: center;
 }
 
