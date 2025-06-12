@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Agenda  <!-- Add this line -->
 intro: |
 ---
 
