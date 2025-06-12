@@ -1,9 +1,16 @@
 <div class="top">
+<!-- DEBUG: {{ page.url }}  Add this above breadcrumbs to verify segments -->
+
+{% include breadcrumbs_simple.html %}
+
 <h1>
   {% if include.title %}{{ include.title }}
   {% else %}{{ page.page_title | default: page.title }}
   {% endif %}
-</h1>  {% if include.intro and include.intro != "" %}
+</h1>
+
+
+{% if include.intro and include.intro != "" %}
     {% assign intro_id = include.intro | strip_html | truncate: 20, "" | slugify %}
     <div class="intro" id="intro-{{ intro_id }}">
       <div class="intro_close" aria-label="Close">
