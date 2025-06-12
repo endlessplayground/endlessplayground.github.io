@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.8284271"
-     inkscape:cx="-37.47666"
-     inkscape:cy="47.729708"
+     inkscape:cx="27.577165"
+     inkscape:cy="51.972349"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -41,11 +41,11 @@
        inkscape:collect="always"
        id="linearGradient17439">
       <stop
-         style="stop-color:#e0fafc;stop-opacity:1;"
+         style="stop-color:#98eef5;stop-opacity:1;"
          offset="0"
          id="stop17435" />
       <stop
-         style="stop-color:#57e8ef;stop-opacity:1;"
+         style="stop-color:#14c5ce;stop-opacity:1;"
          offset="1"
          id="stop17437" />
     </linearGradient>
@@ -341,24 +341,22 @@
        fx="15.860661"
        fy="-2.6314101"
        r="1.8648378" />
-    <radialGradient
+    <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient17439"
-       id="radialGradient17441"
-       cx="17.109085"
-       cy="12.835505"
-       fx="17.109085"
-       fy="12.835505"
-       r="12.36927"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-1.5732302,1.114289,-0.78915673,-1.1141861,51.303905,3.7886267)" />
+       id="linearGradient80932"
+       x1="8.5305319"
+       y1="-1.1766607"
+       x2="15.121471"
+       y2="28.709049"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:url(#radialGradient17441);fill-rule:evenodd;stroke-width:0.264583;fill-opacity:1"
+       style="fill:url(#linearGradient80932);fill-rule:evenodd;stroke-width:0.264583;fill-opacity:1"
        id="path19668"
        cx="13.229167"
        cy="13.229167"
