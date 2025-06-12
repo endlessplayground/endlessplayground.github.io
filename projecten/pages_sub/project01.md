@@ -11,7 +11,7 @@ intro: |
 <div class="custom-section">
 
 <h4>Ikzoek<em>niet</em>mijnkat</h4>
-<p>Uitleg volgt, wordt vast leuk! Zoiets dat ik ga doen omdat ik mij emotioneel en intellectueel verveel...</p>
+<p>Uitleg volgt, wordt vast leuk! Een experiment in de stad.</p>
 
   
 </div>

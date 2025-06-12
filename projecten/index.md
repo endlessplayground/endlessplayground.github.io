@@ -34,7 +34,7 @@ intro: |
     <img src="/projecten/images/article.JPG" alt="Icon" class="link-icon">
     <a href="/projecten/pages_sub/project03"><div class="text">
     <h3><em>Article</em> Club</h3>
-    <p>Een leesclub, niet voor boeken, maar voor atrikelen.</p>
+    <p>Een leesclub, niet voor boeken, maar voor artikelen.</p>
   </div></a>
 </li>
 
