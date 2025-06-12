@@ -39,18 +39,6 @@
      id="defs2784">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient17439">
-      <stop
-         style="stop-color:#98eef5;stop-opacity:1;"
-         offset="0"
-         id="stop17435" />
-      <stop
-         style="stop-color:#14c5ce;stop-opacity:1;"
-         offset="1"
-         id="stop17437" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
        id="linearGradient88274">
       <stop
          style="stop-color:#ffe509;stop-opacity:1;"
@@ -341,22 +329,13 @@
        fx="15.860661"
        fy="-2.6314101"
        r="1.8648378" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient17439"
-       id="linearGradient80932"
-       x1="8.5305319"
-       y1="-1.1766607"
-       x2="15.121471"
-       y2="28.709049"
-       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:url(#linearGradient80932);fill-rule:evenodd;stroke-width:0.264583;fill-opacity:1"
+       style="fill:#a5e5f9;fill-rule:evenodd;stroke-width:0.264583;fill-opacity:1"
        id="path19668"
        cx="13.229167"
        cy="13.229167"
