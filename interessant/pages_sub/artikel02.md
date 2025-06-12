@@ -15,7 +15,7 @@ intro: |
 <h5>
   A 90 second explanation of panpsychism — by Rupert Sheldrake
   <a href="https://youtube.com/shorts/bKA4ezv7pM4?si=EQ054IjazBsBD4Ki" class="lees" target="_blank" rel="noopener">
-    Bekijk <img src="/assets/images/global/arrow.svg" alt="" class="arrow">
+    Bekijk  <img src="/assets/images/global/arrow-red.svg" alt="-->" class="arrow-red">
   </a>
 </h5>
 

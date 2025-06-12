@@ -15,7 +15,7 @@ intro: |
 <h5>
   It’s not just jobs that AI is taking—it’s our purpose
   <a href="https://www.psychologytoday.com/us/blog/tech-happy-life/202506/its-not-just-jobs-that-ai-is-taking-its-our-purpose" class="lees" target="_blank" rel="noopener">
-    Lees <img src="/assets/images/global/arrow.svg" alt="" class="arrow">
+    Lees <img src="/assets/images/global/arrow-red.svg" alt="-->" class="arrow-red">
   </a>
 </h5>
 

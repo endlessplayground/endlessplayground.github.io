@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Digitale Illustraties  <!-- Add this line -->
 intro: |
 ---
 

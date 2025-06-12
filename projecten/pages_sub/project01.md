@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Ik zoek niet mijn kat  <!-- Add this line -->
 intro: |
 ---
 

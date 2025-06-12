@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Article Club  <!-- Add this line -->
 intro: |
 ---
 
