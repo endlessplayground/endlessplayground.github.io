@@ -31,7 +31,7 @@ intro: |
 
 <li>
     <img src="/projecten/images/wekker.svg" alt="Icon" class="link-icon">
-    <a href="/projecten/digitale-illustraties"><div class="text">
+    <a href="/projecten/illustraties"><div class="text">
       <h3>Digitale illustraties</h3>
       <p>Vector-illustraties die ik maak met Inkscape (en misschien wel op <em>unsplash</em> ga aanbieden).</p>
     </div></a>
