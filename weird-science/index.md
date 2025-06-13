@@ -37,6 +37,14 @@ intro: |
   </div></a>
 </li>
 
+<li>
+    <img src="/weird-science/images/waard.JPG" alt="poppetje" class="link-icon">
+    <a href="/weird-science/artikelen-en-videos"><div class="text">
+    <h3>Artikelen en video's</h3>
+    <p>Lezen en kijken... &#128522;&#128522;&#128522;</p>
+  </div></a>
+</li>
+
 
 </ul></div>
 
