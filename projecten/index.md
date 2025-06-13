@@ -14,17 +14,24 @@ intro: |
 <div class="custom-section">
   
 <ul class="article-list">
-<li>
+<!--<li>
     <img src="/projecten/images/cat.JPG" alt="Icon" class="link-icon">
-    <a href="/projecten/pages_sub/project01"><div class="text">
+    <a href="/projecten/pages_sub/ikzoeknietmijnkat"><div class="text">
       <h3>Ikzoek<em>niet</em>mijnkat</h3>
       <p>Een ongebruikelijke zoektocht naar gelijkgestemden.</p>
+    </div>-->
+
+<li>
+    <img src="/projecten/images/cat.JPG" alt="Icon" class="link-icon">
+    <a href="/projecten/ikzoeknietmijnkat"><div class="text">
+      <h3>Ikzoek<em>niet</em>mijnkat</h3>
+      <p>...Over een grappig experiment dat in mij opkwam...</p>
     </div></a>
-</li>
+</li>    
 
 <li>
     <img src="/projecten/images/wekker.svg" alt="Icon" class="link-icon">
-    <a href="/projecten/pages_sub/project02"><div class="text">
+    <a href="/projecten/digitale-illustraties"><div class="text">
       <h3>Digitale illustraties</h3>
       <p>Vector-illustraties die ik maak met Inkscape (en misschien wel op <em>unsplash</em> ga aanbieden).</p>
     </div></a>
@@ -32,7 +39,7 @@ intro: |
 
 <li>
     <img src="/projecten/images/article.JPG" alt="Icon" class="link-icon">
-    <a href="/projecten/pages_sub/project03"><div class="text">
+    <a href="/projecten/article-club"><div class="text">
     <h3><em>Article</em> Club</h3>
     <p>Een leesclub, niet voor boeken, maar voor artikelen.</p>
   </div></a>

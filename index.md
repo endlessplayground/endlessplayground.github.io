@@ -27,8 +27,8 @@ title: Home
                     <img src="{{ '/assets/images/global/interessant.svg' | relative_url }}" alt="interessant">
                     <div class="link-label">Uitgelicht</div>
                 </div></a>
-                <a href="blogs/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/blogs.svg' | relative_url }}" alt="blogs">
+                <a href="weird-science/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/weird-science.svg' | relative_url }}" alt="weird-science">
                     <div class="link-label" style="transform: skewX(-8deg);">Weird Science</div>
                 </div></a>
                 <a href="/gesprekken/index.html"><div class="grid-item">
