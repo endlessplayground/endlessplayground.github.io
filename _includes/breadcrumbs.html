@@ -1,38 +1,20 @@
 <nav class="breadcrumbs" aria-label="Breadcrumb">
   <ol>
-    {% assign url_parts = page.url | split: '/' %}
-    {% assign crumbs = "" | split: "" %}
-    
-    <!-- Build clean crumbs array -->
-    {% for part in url_parts %}
-      {% unless part == "" or part == "pages_sub" or part == "index.html" %}
-        {% assign crumbs = crumbs | push: part %}
+    <li><a href="{{ site.baseurl }}/">Home</a></li>
+    {% assign crumbs = page.url | remove:'/index.html' | remove:'/pages_sub' | split:'/' %}
+    {% for crumb in crumbs offset:1 %}
+      {% unless crumb == "" %}
+        <li>
+          {% unless forloop.last %}
+            {% assign crumb_path = crumbs | slice:1,forloop.index | join:'/' %}
+            <a href="{{ site.baseurl }}/{{ crumb_path }}/">
+          {% endunless %}
+          
+          {{ crumb | replace:'-',' ' | capitalize }}
+          
+          {% unless forloop.last %}</a>{% endunless %}
+        </li>
       {% endunless %}
-    {% endfor %}
-    
-    <li><a href="/">Home</a></li>
-    
-    {% for crumb in crumbs %}
-      <li>
-        {% if forloop.last %}
-          {{ page.title }}
-        {% else %}
-          {% assign crumb_path = crumbs | slice: 0, forloop.index | join: '/' %}
-          <a href="/{{ crumb_path }}/">
-            {% case crumb %}
-              {% when 'projecten' %}Projecten
-              {% when 'koffie' %}Koffie?
-              {% when 'interessant' %}Uitgelicht
-              {% when 'bogs' %}Weird Science
-              {% when 'gesprekken' %}Gesprekken
-              {% when 'random' %}Random
-              {% when 'actueel' %}Actueel
-              {% when 'contact' %}Contact
-              {% else %}{{ crumb | replace: '-', ' ' | capitalize }}
-            {% endcase %}
-          </a>
-        {% endif %}
-      </li>
     {% endfor %}
   </ol>
 </nav>
