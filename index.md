@@ -23,8 +23,8 @@ title: Home
                     <img src="{{ '/assets/images/global/koffie.svg' | relative_url }}" alt="koffie">
                     <div class="link-label">Koffie?</div>
                 </div></a>
-                <a href="interessant/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/interessant.svg' | relative_url }}" alt="interessant">
+                <a href="uitgelicht/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/uitgelicht.svg' | relative_url }}" alt="interessant">
                     <div class="link-label">Uitgelicht</div>
                 </div></a>
                 <a href="weird-science/index.html"><div class="grid-item">
