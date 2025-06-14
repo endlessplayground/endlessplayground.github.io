@@ -141,11 +141,6 @@ body {
   margin-top: 0.3rem;
 }
 
-.interessant h4,
-.interessant h6 {
-  color:var(--a-color);
-}
-
 /* === LINKS === */
 a:visited,
 a:active,

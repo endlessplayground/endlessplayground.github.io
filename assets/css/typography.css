@@ -45,17 +45,28 @@ h4 {
   font-size: 1.4em;
   font-weight: 500;
   color: var(--font-color);
-  margin: 8px 20px 26px 0;
+  margin: 9px 20px 26px 0;
   text-align: center;
 }
 
 h6 {
-  font-size: 1.4em;
-  margin: 16px 0px 0px 0px;
+  font-size: 1.15em;
+  font-weight: 600;
+  margin: 16px 0px -0.7em 0px;
+  color: rgb(127, 127, 127);
+}
+
+.h4-smaller {
+  font-size: 1.3em;
+  margin-top: 16px;
+}
+
+.center {
+  text-align: center;
 }
 
 p {
-  margin: 1.2rem 0px 0px 0px;
+  margin: 1.2em 0px 0px 0px;
   font-size: var(--font-size);
 }
 
