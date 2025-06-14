@@ -4,20 +4,20 @@ intro: |
 ---
 
 {% include page_top.html 
-   title=site.data.interessant.page_title 
+   title=site.data.uitgelicht.page_title 
    intro=page.intro 
 %}
 
-<div class="custom-section interessant">
+<div class="custom-section">
 
-  <h4>Psychology Today</h4>
+<!-- <h4>Psychology Today</h4> -->
 
-<h5>
+<h4 class="h4-smaller">
   It’s not just jobs that AI is taking—it’s our purpose
   <a href="https://www.psychologytoday.com/us/blog/tech-happy-life/202506/its-not-just-jobs-that-ai-is-taking-its-our-purpose" class="lees" target="_blank" rel="noopener">
     Lees <img src="/assets/images/global/arrow-red.svg" alt="-->" class="arrow-red">
   </a>
-</h5>
+</h4>
 
 <h6>Samenvatting</h6>
 

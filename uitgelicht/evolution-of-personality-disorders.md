@@ -4,20 +4,18 @@ intro: |
 ---
 
 {% include page_top.html 
-   title=site.data.interessant.page_title 
+   title=site.data.uitgelicht.page_title 
    intro=page.intro 
 %}
 
 <div class="custom-section interessant">
 
-  <h4>Frontiers in Psychiatry</h4>
-
-<h5>
+<h4 class="h4-smaller">
   The evolution of personality disorders — A review of proposals
   <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9922784/" class="lees" target="_blank" rel="noopener">
     Lees  <img src="/assets/images/global/arrow-red.svg" alt="-->" class="arrow-red">
   </a>
-</h5>
+</h4>
 
 <h6>Samenvatting</h6>
 

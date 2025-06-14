@@ -46,7 +46,7 @@ intro: |
 </li>
 
 <li>
-    <img src="/projecten/images/mij.svg" alt="Icon" class="link-icon">
+    <img src="/projecten/images/write.jpg" alt="Icon" class="link-icon">
     <a href="/projecten/mijn-blogs"><div class="text">
     <h3><em>Mijn</em> Blogs</h3>
     <p>Teksten die ik zelf heb geschreven. Of nog móet gaan schrijven, eigenlijk...</p>

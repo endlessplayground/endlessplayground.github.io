@@ -1,24 +1,21 @@
 ---
 layout: default
-title: Over persoonlijkheidtests  <!-- Add this line -->
 intro: |
 ---
 
 {% include page_top.html 
-   title=site.data.interessant.page_title 
+   title=site.data.uitgelicht.page_title 
    intro=page.intro 
 %}
 
-<div class="custom-section interessant">
+<div class="custom-section">
 
-  <h4>Psychology Today</h4>
-
-<h5>
+<h4 class="h4-smaller">
   Tell Me My Story — From Myers-Briggs to BuzzFeed
   <a href="https://www.psychologytoday.com/us/blog/positively-media/202506/tell-me-my-story-from-myers-briggs-to-buzzfeed" class="lees" target="_blank" rel="noopener">
     Lees  <img src="/assets/images/global/arrow-red.svg" alt="-->" class="arrow-red">
   </a>
-</h5>
+</h4>
 
 <h6>Samenvatting</h6>
 

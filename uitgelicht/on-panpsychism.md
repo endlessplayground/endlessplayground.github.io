@@ -4,20 +4,18 @@ intro: |
 ---
 
 {% include page_top.html 
-   title=site.data.interessant.page_title 
+   title=site.data.uitgelicht.page_title 
    intro=page.intro 
 %}
 
-<div class="custom-section interessant">
+<div class="custom-section">
 
-<h4>YouTube</h4>
-
-<h5>
+<h4 class="h4-smaller">
   A 90 second explanation of panpsychism — by Rupert Sheldrake
   <a href="https://youtube.com/shorts/bKA4ezv7pM4?si=EQ054IjazBsBD4Ki" class="lees" target="_blank" rel="noopener">
     Bekijk  <img src="/assets/images/global/arrow-red.svg" alt="-->" class="arrow-red">
   </a>
-</h5>
+</h4>
 
 <h6>Samenvatting</h6>
 
