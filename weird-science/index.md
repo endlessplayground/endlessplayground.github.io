@@ -14,34 +14,34 @@ intro: |
   
 <ul class="article-list">
 <li>
-    <img src="/weird-science/images/huh.png" alt="poppetje" class="link-icon">
+    <img src="/weird-science/images/vreemd.svg" alt="poppetje" class="link-icon">
     <a href="/weird-science/waar-gaat-het-over"><div class="text">
-      <h3>Waar hebben we het eigenlijk over?</h3>
+      <h3>Wat is er <em>vreemd</em>...?</h3>
       <p>Ja, dat ga ik hier vertellen zo'n beetje.</p>
     </div></a>
 </li>
 
 <li>
-    <img src="/weird-science/images/poppetje.svg" alt="poppetje" class="link-icon">
+    <img src="/weird-science/images/concepts.jpg" alt="poppetje" class="link-icon">
     <a href="/weird-science/belangrijke-namen"><div class="text">
-      <h3>Grote <em>namen</em></h3>
-      <p>Belangrijke poppetjes in dit veld.</p>
+      <h3><em>‘Bizarre’</em> Thema’s</h3>
+      <p>Space-time, bewustzijn, wat is leven, etc...</p>
     </div></a>
 </li>
 
 <li>
     <img src="/weird-science/images/mij.svg" alt="poppetje" class="link-icon">
     <a href="/weird-science/wat-denk-ik"><div class="text">
-    <h3>Wat denk <em>ik</em> ervan?</h3>
-    <p>Hear me out... &#128522;&#128522;&#128522;</p>
+    <h3>Wat denk <em>ik</em>, de <em>leek</em>?</h3>
+    <p>Met slechts mijn middelbare school kennis en na een héééleboel gelezen en beluisterd te hebben, probeer ik er wat van te maken...</p>
   </div></a>
 </li>
 
 <li>
-    <img src="/weird-science/images/waard.JPG" alt="poppetje" class="link-icon">
+    <img src="/weird-science/images/kijkenlezen.png" alt="poppetje" class="link-icon">
     <a href="/weird-science/artikelen-en-videos"><div class="text">
     <h3>Artikelen en video's</h3>
-    <p>Lezen en kijken... &#128522;&#128522;&#128522;</p>
+    <p>Lezen en kijken... &#128578;</p>
   </div></a>
 </li>
 
