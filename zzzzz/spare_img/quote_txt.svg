@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458332 26.458332"
+   version="1.1"
+   id="svg2787"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="quote_txt.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2789"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.8707913"
+     inkscape:cx="10.423397"
+     inkscape:cy="65.213046"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:lockguides="false" />
+  <defs
+     id="defs2784">
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask54252">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.225914"
+         id="circle54254"
+         cx="16.529335"
+         cy="23.564339"
+         r="11.100581" />
+    </mask>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5778px;line-height:1.3;font-family:Amiri;-inkscape-font-specification:'Amiri Bold Italic';text-align:center;text-anchor:middle;fill:#ff7f7f;fill-opacity:1;stroke:#16e2ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
+       x="13.229165"
+       y="25.748558"
+       id="text34373-2"><tspan
+         sodipodi:role="line"
+         id="tspan34371-1"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5778px;font-family:'Frank Ruhl Hofshi';-inkscape-font-specification:'Frank Ruhl Hofshi Bold Italic';stroke-width:0"
+         x="13.229165"
+         y="25.748558">“”</tspan></text>
+  </g>
+</svg>
