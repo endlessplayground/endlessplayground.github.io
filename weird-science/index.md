@@ -22,7 +22,7 @@ intro: |
 </li>
 
 <li>
-    <img src="/weird-science/images/concepts.jpg" alt="poppetje" class="link-icon">
+    <img src="/weird-science/images/blobs.jpg" alt="poppetje" class="link-icon">
     <a href="/weird-science/belangrijke-namen"><div class="text">
       <h3><em>‘Bizarre’</em> Thema’s</h3>
       <p>Space-time, bewustzijn, wat is leven, etc...</p>
