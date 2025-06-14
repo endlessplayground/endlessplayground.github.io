@@ -38,7 +38,7 @@ intro: |
 </li>-->
 
 <li>
-    <img src="/projecten/images/article.JPG" alt="Icon" class="link-icon">
+    <img src="/projecten/images/article.jpg" alt="Icon" class="link-icon">
     <a href="/projecten/article-club"><div class="text">
     <h3><em>Article</em> Club</h3>
     <p>Een leesclub, niet voor boeken, maar voor artikelen.</p>
