@@ -37,7 +37,7 @@ title: Home
                 </div></a>
                 <a href="random/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/random.svg' | relative_url }}" alt="random">
-                    <div><div style="transform: rotate(180deg); display:inline-block; margin-bottom:-5px;">Random</div></div>
+                    <div><div style="transform: rotate(180deg); display:inline-block; margin-top:5px; font-size:1.4em; font-weight:500;">Random</div></div>
                 </div></a>
                 <a href="actueel/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/actueel.svg' | relative_url }}" alt="actueel">
