@@ -24,12 +24,12 @@ title: Home
                     <div class="link-label">Koffie?</div>
                 </div></a>
                 <a href="uitgelicht/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/uitgelicht.svg' | relative_url }}" alt="interessant">
+                    <img src="{{ '/assets/images/global/uitgelicht.svg' | relative_url }}" alt="uitgelicht">
                     <div class="link-label">Uitgelicht</div>
                 </div></a>
                 <a href="weird-science/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/weird-science.svg' | relative_url }}" alt="weird-science">
-                    <div class="link-label" style="transform: skewX(-8deg);">Weird Science</div>
+                    <div class="link-label"><div style="transform: skewX(6deg); display:inline-block;">Weird</div> <div style="transform: skewX(-18deg); display:inline-block;">Science</div></div>
                 </div></a>
                 <a href="/gesprekken/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
