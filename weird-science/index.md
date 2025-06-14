@@ -16,7 +16,7 @@ intro: |
 <li>
     <img src="/weird-science/images/vreemd.svg" alt="poppetje" class="link-icon">
     <a href="/weird-science/waar-gaat-het-over"><div class="text">
-      <h3>Wat is er <em>vreemd</em>...?</h3>
+      <h3>Wat is er <em>‘weird’</em>...?</h3>
       <p>Ja, dat ga ik hier vertellen zo'n beetje.</p>
     </div></a>
 </li>
@@ -26,6 +26,14 @@ intro: |
     <a href="/weird-science/belangrijke-namen"><div class="text">
       <h3><em>‘Bizarre’</em> Thema’s</h3>
       <p>Space-time, bewustzijn, wat is leven, etc...</p>
+    </div></a>
+</li>
+
+<li>
+    <img src="/weird-science/images/statues.jpg" alt="poppetje" class="link-icon">
+    <a href="/weird-science/belangrijke-namen"><div class="text">
+      <h3>Vooraanstaande <em>‘weird science’</em> wetenschappers en filosofen</h3>
+      <p>Anil Seth, Philip Goff, David Chalmers, Annaka Harris, Donald Hoffman, etc...</p>
     </div></a>
 </li>
 
