@@ -29,7 +29,7 @@ title: Home
                 </div></a>
                 <a href="weird-science/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/weird-science.svg' | relative_url }}" alt="weird-science">
-                    <div class="link-label"><div style="transform: skewX(6deg); display:inline-block;">Weird</div> <div style="transform: skewX(-16deg); display:inline-block;">Science</div></div>
+                    <div class="link-label"><div style="transform: skewX(12deg); display:inline-block;">Weird</div> <div style="transform: skewX(-22deg); display:inline-block;">Science</div></div>
                 </div></a>
                 <a href="/gesprekken/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
