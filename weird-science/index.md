@@ -37,13 +37,13 @@ intro: |
     </div></a>
 </li>
 
-<li>
+<!--<li>
     <img src="/weird-science/images/mij.svg" alt="poppetje" class="link-icon">
     <a href="/weird-science/wat-denk-ik"><div class="text">
     <h3>Wat denk <em>ik</em>, de <em>leek</em>?</h3>
     <p>Met wat ik aan bescheiden kennis heb opgedaan, probeer ik er wat van te maken...</p>
   </div></a>
-</li>
+</li>-->
 
 <li>
     <img src="/weird-science/images/kijkenlezen.png" alt="poppetje" class="link-icon">
