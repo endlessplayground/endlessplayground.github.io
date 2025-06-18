@@ -38,7 +38,7 @@ intro: |
 </li>
 
 <li>
-    <img src="/weird-science/images/kijkenlezen.png" alt="poppetje" class="link-icon">
+    <img src="/weird-science/images/media.svg" alt="media" class="link-icon">
     <a href="/weird-science/artikelen-en-videos"><div class="text">
     <h3>Artikelen en video's</h3>
     <p>Lezen en kijken... &#128578;</p>
