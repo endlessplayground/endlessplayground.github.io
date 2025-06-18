@@ -71,6 +71,10 @@ p {
   font-size: var(--font-size);
 }
 
+.remark {
+  font-size:0.8em; transform: skewX(-8deg);
+}
+
 em {
   font-style: normal;
   font-size: 1.25em;
