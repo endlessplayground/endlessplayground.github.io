@@ -17,7 +17,7 @@ intro: |
 <li>
     <img src="/weird-science/images/vreemd.svg" alt="poppetje" class="link-icon">
     <a href="/weird-science/waar-gaat-het-over"><div class="text">
-      <h3><em>Waar</em><br>gaat het over...<em>?</em></h3>
+      <h3><em>Wat</em><br>is weird...<em>?</em></h3>
       <!--<p><em>Waar</em> wil ik het over hebben en <em>waarom?</em></p>-->
     </div></a>
 </li>
