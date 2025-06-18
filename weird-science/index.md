@@ -1,7 +1,7 @@
 ---
 layout: default
 intro: |
- <p>Momenteel houd ik mij bezig met het onderwerp <em>bewustzijn</em>. Er zijn een aantal <em>wetenschappers</em> en <em>filosofen</em> heel druk met dat idee. Ik ga er hier een aantal volgen en erover vertellen.</p>
+ <p>Wat gebeurt er <em>achter</em> dat wat wij <em>‘ervaren’</em>? Wat is tijd, ruimte, materie, <em>bewustzijn...</em>? Het is in ieder geval <em>niet</em> wat het lijkt! </p>
 
 ---
 
@@ -24,7 +24,7 @@ intro: |
 <li>
     <img src="/weird-science/images/blobs.jpg" alt="poppetje" class="link-icon">
     <a href="/weird-science/belangrijke-namen"><div class="text">
-      <h3><em>‘Bizarre’</em> Thema’s</h3>
+      <h3><em>‘Bizarre’</em> wetenschappelijke thema’s</h3>
       <p>Space-time, bewustzijn, wat is leven, etc...</p>
     </div></a>
 </li>
@@ -36,14 +36,6 @@ intro: |
       <p>Anil Seth, Philip Goff, David Chalmers, Annaka Harris, Donald Hoffman, etc...</p>
     </div></a>
 </li>
-
-<!--<li>
-    <img src="/weird-science/images/mij.svg" alt="poppetje" class="link-icon">
-    <a href="/weird-science/wat-denk-ik"><div class="text">
-    <h3>Wat denk <em>ik</em>, de <em>leek</em>?</h3>
-    <p>Met wat ik aan bescheiden kennis heb opgedaan, probeer ik er wat van te maken...</p>
-  </div></a>
-</li>-->
 
 <li>
     <img src="/weird-science/images/kijkenlezen.png" alt="poppetje" class="link-icon">
