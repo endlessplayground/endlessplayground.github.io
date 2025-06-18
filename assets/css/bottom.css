@@ -53,7 +53,7 @@ footer, .footer-under {
   right: 0;
   margin-left: 16px;
   bottom: var(--footer-height); /* or use: var(--footer-height) */
-  height: 140px;
+  height: 160px;
   z-index: 99;
     opacity: 0.95; /* 0 = fully transparent, 1 = fully opaque */
 
