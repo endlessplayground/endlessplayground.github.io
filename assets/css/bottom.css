@@ -55,6 +55,8 @@ footer, .footer-under {
   bottom: var(--footer-height); /* or use: var(--footer-height) */
   height: 70px;
   z-index: 99;
+    opacity: 0.9; /* 0 = fully transparent, 1 = fully opaque */
+
 }
 
 .menubottom_under-inner {
