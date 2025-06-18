@@ -39,7 +39,7 @@ intro: |
 <li>
     <img src="/weird-science/images/media.svg" alt="media" class="link-icon">
     <a href="/weird-science/artikelen-en-videos"><div class="text">
-    <h3><em>Artikelen</em><br>en <em>video’s</em> &#128578;</h3>
+    <h3><em>Artikelen</em> en <em>video’s</em> &#128578;</h3>
   </div></a>
 </li>
 
