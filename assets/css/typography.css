@@ -72,7 +72,8 @@ p {
 }
 
 .remark {
-  font-size:0.8em; transform: skewX(-8deg);
+  font-size:0.9em; 
+  transform: skewX(-8deg);
 }
 
 em {
@@ -96,12 +97,13 @@ em {
   i {
     transform: skewX(-8deg);
     font-style: normal;
-    line-height: 1;
     display: inline-block;
   }
 
 .not-italic {
-  font-style: normal;
-}
+  transform: skewX(8deg);
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;}
 
 
