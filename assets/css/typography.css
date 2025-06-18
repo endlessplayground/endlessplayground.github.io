@@ -76,9 +76,9 @@ em {
   font-size: 1.25em;
   line-height: 1;
   color: var(--em-color);
-
   font-weight: 400 !important;
   font-family: var(--font-family-sans);
+  margin: 0 1px 0 1px;
 }
 
 .smallcaps {

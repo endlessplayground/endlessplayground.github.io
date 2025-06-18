@@ -4,17 +4,19 @@
   margin: 0 0 0 7%; /* Better than 10px margins */
   width: 78%;
   background: #88e4f5;
+  background: rgba(255, 242, 245, 0.9);
   border-top: 1px solid rgb(215, 246, 248);
   border-left: 1px solid rgb(215, 246, 248);
   border-right: 1px solid rgb(84, 176, 192);
   border-bottom: 1px solid rgb(84, 176, 192);
-  border-radius: 4px;
+  border: solid 1px rgb(181, 181, 181);
+  border-radius: 2px;
   text-align: center;
   /* Add these: */
   padding: 24px 30px 42px 40px;
   z-index: 100; /* Ensures it stays above other content */
   /*filter: drop-shadow(2px 4px 4px rgba(22, 23, 24, 0.116));*/
-    filter: drop-shadow(4px 3px 6px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(4px 3px 7px rgba(0, 0, 0, 0.3));
 
 }
 
@@ -31,9 +33,10 @@
 }
 
 .intro p em {
-  color: #ffffff;
+  color: #ff927f;
   font-size: 1.34em;
   line-height: 0.5;
+  /*filter: drop-shadow(1px 1px 2px rgba(101, 56, 81, 0.4));*/
 }
 
 /*.lighter_lines {
