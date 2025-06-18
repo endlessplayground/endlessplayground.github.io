@@ -64,7 +64,7 @@ footer, .footer-under {
   background: linear-gradient(
     to top,
     var(--bg-color) 0%,
-    var(--bg-color) 60%,
+    var(--bg-color) 40%,
     transparent 100%);
   width: 98%;
   max-width: calc(var(--max-width) - 20px);
