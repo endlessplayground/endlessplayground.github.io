@@ -1,7 +1,8 @@
 ---
 layout: default
 intro: |
- <p>Wat gebeurt er <em>achter</em> dat wat wij <em>‘ervaren’</em> en wat we denken dat de <em>werkelijkheid</em> is? Wat is tijd, ruimte, materie, <em>bewustzijn...</em>? Het is in ieder geval <em>niet</em> wat het lijkt! </p>
+ <p>Wat gebeurt er <em>achter</em> dat wat wij <em>‘ervaren’</em> en wat we denken dat de <em>werkelijkheid</em> is? Wat is tijd, ruimte, materie, <em>bewustzijn...</em>?</p>
+ <p>Volgens een aantal hedendaagse wetenschappers en filosofen lijkt het in ieder geval <em>niet</em> te zijn wat het lijkt! </p>
 
 ---
 
