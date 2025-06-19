@@ -32,7 +32,7 @@ intro: |
     <img src="/weird-science/images/goff.svg" alt="goff" class="link-icon">
     <a href="/weird-science/belangrijke-namen/philip-goff"><div class="text">
     <h3>Philip <em>Goff</em></h3>
-    <p>Filosoof met een focus op panpsychisme, die stelt dat bewustzijn een <em>fundamentele</em> eigenschap van materie is.</p>
+    <p>Filosoof die stelt dat bewustzijn een <em>fundamentele</em> eigenschap van materie is.</p>
   </div></a>
 </li>
 
