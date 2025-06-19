@@ -1,6 +1,6 @@
 .intro {
   position: fixed;
-  top: 250px;
+  top: 190px;
   margin: 0 0 0 7%; /* Better than 10px margins */
   width: 78%;
   background: rgba(255, 245, 245, 0.9);
