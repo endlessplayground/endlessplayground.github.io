@@ -71,19 +71,33 @@ p {
   font-size: var(--font-size);
 }
 
-.remark {
-  font-size:0.9em; 
-  transform: skewX(-8deg);
-}
-
-em {
+p a, em {
   font-style: normal;
   font-size: 1.25em;
   line-height: 1;
-  color: var(--em-color);
+  margin: 0 1px 0 1px;
   font-weight: 400 !important;
   font-family: var(--font-family-sans);
-  margin: 0 1px 0 1px;
+}
+
+p a {
+  color: orange !important;
+  text-decoration: underline;
+}
+
+.maillink {
+  color: var(--em-color-blue) !important;
+  text-decoration: underline !important; /* If needed */
+}
+
+
+em {
+  color: var(--em-color-blue);
+}
+
+.remark {
+  font-size:0.9em; 
+  transform: skewX(-8deg);
 }
 
 .smallcaps {

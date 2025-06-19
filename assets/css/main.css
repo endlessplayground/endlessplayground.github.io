@@ -157,13 +157,6 @@ a:focus-visible {
   outline: var(--focus-outline);
 }
 
-p > a, .pages_sub-footer ul li a {
-  color: var(--a-color) !important;
-  display: inline-block;
-  height: 1.3em;
-  border-bottom: 1px solid var(--em-color);
-}
-
 /* === MAIN === */
 main {
   position: relative;

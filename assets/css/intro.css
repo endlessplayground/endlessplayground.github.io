@@ -3,14 +3,9 @@
   top: 120px;
   margin: 0 0 0 7%; /* Better than 10px margins */
   width: 78%;
-  background: #88e4f5;
-  background: rgba(255, 242, 245, 0.9);
-  border-top: 1px solid rgb(215, 246, 248);
-  border-left: 1px solid rgb(215, 246, 248);
-  border-right: 1px solid rgb(84, 176, 192);
-  border-bottom: 1px solid rgb(84, 176, 192);
+  background: rgba(255, 245, 245, 0.9);
   border: solid 1px rgb(181, 181, 181);
-  border-radius: 1px;
+  border-radius: 2px;
   text-align: center;
   /* Add these: */
   padding: 24px 30px 42px 40px;
@@ -33,7 +28,7 @@
 }
 
 .intro p em {
-  color: #ff927f;
+  color: var(--em-color-blue);
   font-size: 1.34em;
   line-height: 0.5;
   /*filter: drop-shadow(1px 1px 2px rgba(101, 56, 81, 0.4));*/
