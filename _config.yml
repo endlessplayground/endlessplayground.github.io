@@ -5,29 +5,24 @@ include:
   - assets/images/**/*
 
 # ========================
-# COLLECTIONS (for multi-item folders)
+# COLLECTIONS (disabled for now)
 # ========================
-collections:
-  projecten:
-    output: true
-    permalink: /projecten/projecten_sub/:name/
-  
-  artikelen:
-    output: true
-    permalink: /artikelen/artikelen_sub/:name/
-  
-  interviews:
-    output: true
-    permalink: /interviews/interviews_sub/:name/
-
-  experimenten:
-    output: true
-    permalink: /experimenten/experimenten_sub/:name/
-
-  # Add more collections ONLY if needed later (e.g., for multiple projects/experiments)
-  # projecten:
-  #   output: true
-  #   permalink: /projecten/:name/
+# collections:
+#   projecten:
+#     output: true
+#     permalink: /projecten/projecten_sub/:name/
+#   
+#   artikelen:
+#     output: true
+#     permalink: /artikelen/artikelen_sub/:name/
+#   
+#   interviews:
+#     output: true
+#     permalink: /interviews/interviews_sub/:name/
+# 
+#   experimenten:
+#     output: true
+#     permalink: /experimenten/experimenten_sub/:name/
 
 # ========================
 # DEFAULTS (for single-page folders)
@@ -42,6 +37,4 @@ defaults:
 # ========================
 # PERMALINKS (for prettier URLs)
 # ========================
-permalink: pretty       # Automatically strips .html from URLs
-
-
+permalink: pretty
