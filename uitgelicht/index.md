@@ -1,7 +1,7 @@
 ---
 layout: default
 intro: |
-  <p><span class="lighter_lines">Hier een verzameling van <em>artikelen en video’s</em> die ik onlangs heb gelezen of gezien, en waarvan de ideeën me bezighouden. Ik plaats een link, geef een samenvatting, en vertel wat ik ervan denk. &#128173;</span></p>
+  <p><span class="lighter_lines">Hier een verzameling van <em>artikelen</em> en <em>video’s</em> die ik onlangs heb gelezen of gezien, en waarvan de ideeën me bezighouden. Ik plaats een link, geef een samenvatting, en vertel wat ik ervan denk. &#128173;</span></p>
   <p class="remark"><em>*</em>Hier heb ik e.e.a. deels uitbesteed aan ChatGPT, maar dat komt uiteindelijk goed. <span class="not-italic" style="font-style:normal;">&#128519;</span></p>
 ---
 
