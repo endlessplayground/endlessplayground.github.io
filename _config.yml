@@ -1,28 +1,8 @@
 baseurl: ""
-exclude: ["node_modules", "Gemfile", "Gemfile.lock"]
+exclude: ["node_modules"]
 include:
   - assets/icons/*.svg
   - assets/images/**/*
-
-# ========================
-# COLLECTIONS (disabled for now)
-# ========================
-# collections:
-#   projecten:
-#     output: true
-#     permalink: /projecten/projecten_sub/:name/
-#   
-#   artikelen:
-#     output: true
-#     permalink: /artikelen/artikelen_sub/:name/
-#   
-#   interviews:
-#     output: true
-#     permalink: /interviews/interviews_sub/:name/
-# 
-#   experimenten:
-#     output: true
-#     permalink: /experimenten/experimenten_sub/:name/
 
 # ========================
 # DEFAULTS (for single-page folders)
