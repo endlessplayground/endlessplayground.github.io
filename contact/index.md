@@ -14,7 +14,7 @@ intro: |
   <p>Wil je <em>reageren</em>, of kandidaat zijn voor mijn rubriek  <em>gesprekken</em>? &#128172;</p>
   <p>Of heb je een zodanig leuk gespreksonderwerp dat het een <em>koffie</em>-afspraak waard is? &#128522;&#9749;</p>
   <p>Stuur me een mail.</p>
-  <p><a href="mailto:unfinishedthoughtz1965@gmail.com"><span class="maillink">unfinishedthoughtz1965</span><span style="color:orange; font-size:2em; font-weight:200; line-height:1;">@</span><span class="maillink">gmail.com</span></a></p>
+  <p><a href="mailto:unfinishedthoughtz1965@gmail.com"><span class="maillink">unfinishedthoughtz1965</span><img src="/assets/images/global/at.svg" alt="at" style="margin-bottom:-4px;"><span class="maillink">gmail.com</span></a></p>
   </div>
   
 </div>
