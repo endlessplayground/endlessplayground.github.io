@@ -17,7 +17,7 @@ title: Home
                 </div></a>
                 <a href="projecten/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/projecten.svg' | relative_url }}" alt="projecten">
-                    <div class="link-label">Bezigheden</div>
+                    <div class="link-label">Mijn projecten</div>
                 </div></a>
                 <a href="koffie/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/koffie.svg' | relative_url }}" alt="koffie">
@@ -29,7 +29,7 @@ title: Home
                 </div></a>
                 <a href="weird-science/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/weird-science.svg' | relative_url }}" alt="weird-science">
-                    <div class="link-label"><div style="transform: skewX(12deg); display:inline-block;">Weird</div> <div style="transform: skewX(-22deg); display:inline-block;">Science</div></div>
+                    <div class="link-label"><div style="transform: skewX(18deg); display:inline-block; font-style: italic">Weird</div> <div style="font-style:italic; display:inline-block; transform: skewX(-2deg)">Science</div></div>
                 </div></a>
                 <a href="/gesprekken/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
@@ -37,7 +37,7 @@ title: Home
                 </div></a>
                 <a href="random/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/random.svg' | relative_url }}" alt="random">
-                    <div><div style="transform: rotate(180deg); display:inline-block; margin-top:4px; font-size:1.05em; font-weight:500;">Random</div></div>
+                    <div class="link-label" style="transform: rotate(180deg); margin-top:-1px;">Random</div>
                 </div></a>
                 <a href="actueel/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/actueel.svg' | relative_url }}" alt="actueel">
