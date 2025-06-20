@@ -1,8 +1,8 @@
 .intro {
   position: fixed;
   top: 190px;
-  margin: 0 0 0 1%; /* Better than 10px margins */
-  width: 82%;
+  margin: 0 0 0 2%; /* Better than 10px margins */
+  width: 78%;
   background: rgba(255, 245, 245, 0.9);
   border: solid 1px rgb(181, 181, 181);
   border-radius: 0px;
