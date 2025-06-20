@@ -29,7 +29,9 @@
 
 </head>
 
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.version }}">
+
+
 
 {% if page.url == "/" %}
   <style>
@@ -47,3 +49,4 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="rgb(126, 190, 23)">
 <meta name="theme-color" content="#7ebe17">
+
