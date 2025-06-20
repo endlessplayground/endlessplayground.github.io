@@ -1,0 +1,312 @@
+/* === FONT IMPORTS === */
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* === EXTERNAL STYLESHEET === */
+@import url("/assets/css/vars.css");
+@import url("/assets/css/typography.css");
+@import url("/assets/css/intro.css");
+@import url("/assets/css/article-list.css");
+@import url("/assets/css/bottom.css");
+@import url("/assets/css/pages_sub.css");
+@import url("/assets/css/date.css");
+
+.breadcrumbs ol {
+  position: absolute;
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  left: 8px;
+  top: -1px;
+  list-style: none;
+  padding: 0;
+}
+/* Style all breadcrumb text */
+.breadcrumbs ol li {
+  font-size: 0.75em;
+  color: rgb(29, 154, 173) !important;
+}
+
+/* Specifically override link colors */
+.breadcrumbs ol li a {
+  color: inherit !important; /* Forces link to use parent color */
+  text-decoration: underline;
+
+}
+.breadcrumbs li:not(:last-child)::after {
+  content: ">";
+  margin-left: 0.3rem;
+}
+
+/* === RESETS === */
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+  text-decoration: none;
+  color: var(--font-color);
+  /* max-height removed */
+}
+
+/* === BODY === */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100dvh;
+  width: 100vw;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--font-color);
+  font-family: var(--font-family-serif);
+  background-color: rgb(223, 250, 127);
+}
+
+/* === TYPOGRAPHY === */
+
+.top {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  height: fit-content;
+  background-color: var(--bg-color);
+  width: 100%;
+  max-width: calc(var(--max-width) - 2px);
+  margin: 0 auto;
+  z-index: 9;
+}
+
+.bullets {
+  margin-top: 14px;
+  padding-left: 0;            /* changed from 16px */
+  margin-right: 20px;
+  list-style: none;           /* hide default bullets */
+}
+
+.note {
+  margin-top: 14px;
+  padding-left: 0;            /* changed from 16px */
+  margin-right: 20px;
+  list-style: none;           /* hide default bullets */
+}
+
+.bullets li, .note li {
+  margin-top: 10px;
+  line-height: 1.4;
+  font-size: var(--font-size);
+  position: relative;         /* new */
+  padding-left: 1.6em;        /* reserve space for bullet */
+}
+
+.note li {
+  padding-left: 1.2em;        /* reserve space for bullet */
+}
+
+.bullets li::before, .note li::before {
+  content: "\2B24";           /* custom bullet */
+  color: #b6ebf1;
+  font-size: 1em;
+  position: absolute;         /* position over text */
+  left: 0;                    /* aligns left of li */
+  top: 0.1em;                 /* vertical fine-tune */
+}
+
+.note li::before {
+  content: "\2731";
+  font-style: normal;
+  color: var(--em-color);
+}
+
+.link-icon {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 0.3rem;
+}
+
+.link-icon-gespr {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 0.3rem;
+}
+
+/* === LINKS === */
+a:visited,
+a:active,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a img {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible {
+  outline: var(--focus-outline);
+}
+
+/* === MAIN === */
+main {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin-top: calc(var(--header-height));
+  width: 100%;
+  max-width: var(--max-width);
+  /* max-height removed */
+  overflow-x: unset;
+}
+
+.content {
+  background-color: var(--bg-color);
+  border-right: var(--border-width) var(--border-color) solid;
+  border-left: var(--border-width) var(--border-color) solid;
+  padding-bottom: 70px;
+  /* max-height removed */
+}
+
+/* === OVERLAY === */
+
+/* === SECTION === */
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* === OVERLAY === */
+
+/* === GRID === */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin-top: -20px;
+  width: 100%;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 130px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+.grid-item img {
+  width: 88px;
+  height: 88px;
+  object-fit: contain;
+
+}
+
+.link-label {
+  margin-top: 4px;
+  height: 28px;
+  font-family: var(--font-family-sans);
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* === HEADER + FOOTER STRUCTURE (placeholders) === 
+#header,
+#footer {
+  width: 100%;
+  max-width: var(--max-width);
+}*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height);
+  background: black;
+  border-bottom: 1px solid rgb(4, 185, 254);
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: var(--max-width);
+  height: calc (var(--header-height) + 2px);
+  padding-right: 40px;
+}
+
+#endless {
+  height: calc(var(--header-height) + 2px);
+  margin-top: -1px;
+}
+
+.icon-container {
+  margin-top: 50px;         /* optional vertical fine-tune */
+  padding-right: 10px;      /* adjust this as needed */  
+}
+
+
+.icon {
+  height: calc(var(--header-height) * 1.4);
+}
+
+#home {
+  height: calc(var(--header-height) + 20px);
+  margin: 0px 12px 0px -10px;
+}
+
+
+/* === IMAGE POINTER FIX === */
+img {
+  pointer-events: auto !important;
+}
+
+
+
+
+@media (min-width: 36rem) {
+  body {
+    background-color: rgb(223, 250, 127);
+  }
+.menubottom_inner {
+  width: 100%;
+  max-width: 95vw;
+  height: var(--menubottom-height);
+  overflow: hidden; /* Contains the scrolling element */
+}
+  .menubottom_inner_scroll {
+    justify-content: center;
+  }
+
+#scroll img {
+  visibility: hidden;
+}
+.intro {
+  max-width: 455px;
+}
+
+
+}

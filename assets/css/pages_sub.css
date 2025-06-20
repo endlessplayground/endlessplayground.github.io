@@ -1,0 +1,47 @@
+.custom-section {
+    padding: 16px 20px 55px 20px;
+    margin-top: 75px;
+    width: 100%;
+}
+
+
+.pages_sub-footer {
+  font-family: var(--font-family-sans);
+  font-style: italic;
+  font-weight: 400;
+  margin: 2.5rem 0 2rem 0;
+  padding-top: 0rem;
+  border-top: 1px solid rgb(255, 153, 0);
+}
+
+.pages_sub-footer ul li {
+  color: var(--font-color-light);
+  line-height: 1.4;
+}
+
+.arrow {
+  display: inline-block;
+  width: 19px;
+}
+
+.lees {
+  display: inline-block;
+  background-color: #d7f4f8;
+  font-family: var(--font-family-sans);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7em;
+  margin-left: 4px;
+  padding: 0px 5px 4px 6px;
+  border-radius: 4px;
+}
+
+.lees:hover {
+  background-color: #b6ebf1;
+}
+
+.lees:hover .arrow {
+  margin-left: 2px;
+  margin-right: -2px;
+}
+
