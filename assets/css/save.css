@@ -1,0 +1,51 @@
+.save {
+  border-radius: 10px;
+  opacity: 0.5;
+  background-image: url('/images/balk.png');
+  background-repeat: repeat-x;
+  background-size: 70px;
+  background-position: top;
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.2));
+    background: linear-gradient(
+    to bottom,
+    rgb(221, 236, 240) 0%,
+    rgb(255, 255, 255) 60%,
+    transparent 100%
+  );
+
+  background: linear-gradient(to right,
+  hsla(180, 31%, 87%, 0.8) 0%,
+  hsla(180, 33%, 86%, 0.79) 40%,
+  rgb(224, 243, 243) 100%);
+background: linear-gradient(to right,
+  hsla(0, 0%, 100%, 0.8) 0%,
+  hsla(0, 0%, 100%, 0.9) 40%,
+  rgb(255, 255, 255) 100%);
+
+  /* ‘mensen’ Lang streepje: – of —  “...” ‘...’
+  &#128522; 😊
+  &#128527; 😏
+  
+  &nbsp;
+
+  
+
+  &#8226; (bullet)
+  
+  */
+  white-space: nowrap;
+
+}
+/* Minimum width */
+@media (min-width: 35rem) {
+  div {
+    background: yellow;
+  }
+}
+
+/* Maximum width */
+@media (max-width: 50rem) {
+  div {
+    border: 2px solid blue;
+  }
+}
