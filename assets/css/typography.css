@@ -53,7 +53,7 @@ h6 {
   font-size: 1.15em;
   font-weight: 500;
   margin: 16px 20px -0.7em 0px;
-  color: rgb(127, 127, 127);
+  color: orangered;
   text-align: center;
 }
 
@@ -71,28 +71,36 @@ p {
   font-size: var(--font-size);
 }
 
+em {
+  color: var(--em-color-blue);
+}
+
 p a, em {
   font-style: normal;
-  font-size: 1.25em;
   line-height: 1;
   margin: 0 1px 0 1px;
+  font-size: 1.18em !important;
   font-weight: 400 !important;
   font-family: var(--font-family-sans);
 }
 
+.intro p {
+  margin-top: 0.8em !important;
+  line-height: 1.4;
+}
+
+.intro p em {
+  color: var(--em-color-blue);
+}
+
 p a {
-  color: orange !important;
+  color: orangered !important;
   text-decoration: underline;
 }
 
 .maillink {
   color: var(--em-color-blue) !important;
   text-decoration: underline !important; /* If needed */
-}
-
-
-em {
-  color: var(--em-color-blue);
 }
 
 .remark {
@@ -106,6 +114,7 @@ em {
   font-weight: 600;
   letter-spacing: 0.05em; /* optional: gives better readability */
   color: inherit;
+  color: blueviolet !important;
 }
 
   i {
