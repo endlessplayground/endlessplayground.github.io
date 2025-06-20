@@ -1,0 +1,52 @@
+.intro {
+  position: fixed;
+  top: 190px;
+  margin: 0 0 0 2%; /* Better than 10px margins */
+  width: 78%;
+  background: rgba(255, 245, 245, 0.9);
+  border: solid 1px rgb(181, 181, 181);
+  border-radius: 0px;
+  text-align: center;
+  /* Add these: */
+  padding: 14px 26px 46px 26px;
+  z-index: 100; /* Ensures it stays above other content */
+  /*filter: drop-shadow(2px 4px 4px rgba(22, 23, 24, 0.116));*/
+    filter: drop-shadow(4px 3px 7px rgba(0, 0, 0, 0.3));
+}
+
+/* NIEUW!!!!!! Hide by default - let JS control visibility */
+.intro {
+  display: none;
+  /* Your existing styles... */
+}
+/* end NIEUW*/
+
+
+/*.lighter_lines {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to right,
+  hsla(0, 0%, 100%, 0.4) 0%,
+  hsla(0, 0%, 100%, 0.9) 70%,
+  rgb(255, 255, 255) 100%);
+  padding: 1px 0 2px 0;
+}*/
+
+#intro_close {
+  display: flex;
+}
+
+.intro_close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* Changed from fixed */
+  top: -12px; /* Now relative to .intro */
+  right: 12px; /* Now relative to .intro */
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: #4638383a;
+  background-color: #ffffff;
+  border: 1px solid rgb(162, 159, 197);
+  cursor: pointer; /* Add pointer for better UX */
+}

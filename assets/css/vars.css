@@ -1,0 +1,22 @@
+/* === VARIABLES === */
+:root {
+  --max-width: 500px;
+  --header-height: 49px;
+  --footer-height: 16px;
+  --menubottom-height: 45px;
+  --font-family-serif: "IBM Plex Sans Condensed", sans-serif;
+  --font-family-sans: "IBM Plex Sans Condensed", sans-serif;
+  --font-family-italic: "IBM Plex Sans Condensed", sans-serif;
+  --font-size: 1.2em;
+  --font-size-italic: 1.35em;
+  --font-color: #303030;
+  --font-color-light: #4d4c4c;
+  --em-color-orange: rgb(255, 153, 0);
+  --em-color-blue: rgb(29, 154, 173);
+  --a-color: rgb(9, 146, 226);
+  --border-color: #f1cdcd;
+  --footer-color: rgb(126, 190, 23);
+  --border-width: 1.5px;
+  --bg-color: hsl(0, 0%, 99%);
+  --focus-outline: 2px solid #00f;
+}
