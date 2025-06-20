@@ -21,7 +21,7 @@ h1 {
   font-size: 1.9em;
   font-weight: 500;
   color: var(--font-color);
-  margin: 22px 20px 26px 0;
+  margin: 26px 20px 26px 0;
 }
 
 h1::after {
@@ -119,9 +119,8 @@ p a {
 }
 
   i {
-    font-style: normal;
+    font-style: italic;
     font-family: var(--font-style-italic);
-    font-size: 1.15em;
   }
 
 .not-italic {
