@@ -12,7 +12,7 @@ intro: |
 
 <h4>Het <em>contra</em>-intuïtieve...</h4>
  
-<p><i>Ruimte, materie, tijd en beweging. Eeuwenlang beschouwden we ze als de <em>bouwstenen</em> van de <em>werkelijkheid</em>. Newton wist ze te vatten in verklarende en voorspellende wetten.</i></p>
+<p>Ruimte, materie, tijd en beweging. Eeuwenlang beschouwden we ze als de <em>bouwstenen</em> van de <em>werkelijkheid</em>. Newton wist ze te vatten in verklarende en voorspellende wetten.</p>
 <p>Toen kwam Einstein. En hij ontdekte dat ruimte en tijd <em>niet</em> vaststaan. Dat ze <em>afhankelijk</em> zijn van zwaartekracht en beweging. Daar werd het al een stuk contra-intuïtiever... </p>
 <p>En dan is er ook nog <em>leven</em>. En <em>bewustzijn</em>. Dat levert misschien nóg wel ingewikkelder vragen op. Want hoe komt leven voort uit materie? En wat is bewustzijn?  </p>
 <p>Bewustzijn is een van de grotere hersenkrakers binnen de hedendaagse wetenschap en filosofie. Het nog maar niet kunnen verklaren hoe bewustzijn en ervaringen voortkomen uit materie, wordt ‘the <em>hard problem</em> of consciousness’ genoemd.  </p>
