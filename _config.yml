@@ -1,4 +1,4 @@
-version: "2"
+version: "3"
 
 baseurl: ""
 exclude: ["node_modules", "Gemfile", "Gemfile.lock"]
