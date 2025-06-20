@@ -50,7 +50,7 @@ h4 {
 }
 
 h6 {
-  font-size: 1.25em;
+  font-size: 1.3em;
   font-weight: 500;
   margin: 16px 20px -0.7em 0px;
   color: orangered;
@@ -73,13 +73,13 @@ p {
 
 em {
   color: var(--em-color-blue);
+  font-size: 1.14em !important;
 }
 
 p a, em {
   font-style: normal;
   line-height: 1;
   margin: 0 1px 0 1px;
-  font-size: 1.18em !important;
   font-weight: 400 !important;
   font-family: var(--font-family-sans);
 }
@@ -120,13 +120,42 @@ p a {
 
   i {
     font-style: italic;
-    font-family: var(--font-style-italic);
-  }
+}
 
 .not-italic {
-  transform: skewX(8deg);
     font-style: normal;
     line-height: 1;
-    display: inline-block;}
+    display: inline-block;
+}
+
+.quote {
+  margin: 4vh 40px 0px 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+/* */  font-family: "IBM Plex Serif", serif;
+  font-weight: 700; 
+  font-style: italic;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #69a4b3 !important;
+}
+
+.quote .small {
+  margin-top: 6px;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  line-height: 28px;
+  color: #666 !important;
+}
+
+.quote img {
+  width: 40px;
+  margin-bottom: -15px;
+  margin-left: -7px;
+}
+
 
 
