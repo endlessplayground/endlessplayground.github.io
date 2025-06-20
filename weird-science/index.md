@@ -2,7 +2,7 @@
 layout: default
 intro: |
  <p>Wat gebeurt er <em>achter</em> dat wat wij <em>‘ervaren’</em> en wat we denken dat de <em>werkelijkheid</em> is? Wat is tijd, ruimte, materie, <em>bewustzijn...</em>?</p>
- <p>Volgens een aantal hedendaagse wetenschappers en filosofen lijkt het in ieder geval <em>niet</em> te zijn wat het lijkt! &#128579;</p>
+ <p>Ik vind dat <em>súper</em> interessant om over na te denken, en daarom is dit een belangrijk onderdeel van mijn site. <!--&#128579;--> &#128578;</p>
 
 ---
 
@@ -17,7 +17,7 @@ intro: |
 <li>
     <img src="/weird-science/images/vreemd.svg" alt="vreemd" class="link-icon">
     <a href="/weird-science/contra-intuitief"><div class="text">
-      <h3><em>Waar</em></h3>
+      <h3><em>Waar</em>...</h3>
       <p>...gaat <em>het</em> over...<em>?</em></p>
       <!--<p><em>Waar</em> wil ik het over hebben en <em>waarom?</em></p>-->
     </div></a>
@@ -44,7 +44,7 @@ intro: |
     <img src="/weird-science/images/media.svg" alt="media" class="link-icon">
     <a href="/weird-science/artikelen-en-videos"><div class="text">
     <h3><em>Artikelen</em>...</h3>
-    <p>...en <em>video’s</em> &#128578;</p>
+    <p>...en <em>video’s</em></p>
   </div></a>
 </li>
 
