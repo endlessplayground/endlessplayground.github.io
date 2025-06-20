@@ -1,0 +1,42 @@
+version: "3"
+
+baseurl: ""
+exclude: ["node_modules", "Gemfile", "Gemfile.lock"]
+include:
+  - assets/icons/*.svg
+  - assets/images/**/*
+
+# ========================
+# COLLECTIONS (disabled for now)
+# ========================
+# collections:
+#   projecten:
+#     output: true
+#     permalink: /projecten/projecten_sub/:name/
+#   
+#   artikelen:
+#     output: true
+#     permalink: /artikelen/artikelen_sub/:name/
+#   
+#   interviews:
+#     output: true
+#     permalink: /interviews/interviews_sub/:name/
+# 
+#   experimenten:
+#     output: true
+#     permalink: /experimenten/experimenten_sub/:name/
+
+# ========================
+# DEFAULTS (for single-page folders)
+# ========================
+defaults:
+  - scope:
+      path: ""          # Applies to all files in root folders
+      type: "pages"     # Only affects standalone pages (not collections)
+    values:
+      layout: "default" # Optional: Set your default layout
+
+# ========================
+# PERMALINKS (for prettier URLs)
+# ========================
+permalink: pretty
