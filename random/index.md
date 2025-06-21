@@ -1,7 +1,7 @@
 ---
 layout: default
 intro: |
-
+  <p>Hier gebeurt nog niet wat er moet gebeuren, maar de dobbelsteen rolt al wel. &#128578;&#128579;</p>
 ---
 
 {% include page_top.html 
