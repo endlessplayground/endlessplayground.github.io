@@ -63,6 +63,7 @@ intro: |
 
 #roll {
   cursor: pointer;
+  outline: none !important;
   display: inline-block;
 }
 
