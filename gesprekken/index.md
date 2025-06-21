@@ -2,7 +2,7 @@
 layout: default
 intro: |
   <p>Gesprekken<em>*</em> met <em>‘gewone mensen’</em>, die ik spontaan of meer doelbewust tegenkom. Lees&nbsp;ze&nbsp;hier.
-  <p class="remark"><em>*</em>Namen en verhalen zijn nog min of meer fictief.</p>
+  <p class="remark" style="margin-bottom:-20px;"><em>*</em>Namen en verhalen zijn nog min of meer fictief.</p>
 ---
 
 {% include page_top.html 
