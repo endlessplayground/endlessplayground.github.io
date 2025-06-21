@@ -61,7 +61,7 @@ intro: |
     height: 90px;
 }
 
-#roll {
+#roll, #roll:hover, #roll:active {
   cursor: pointer;
   outline: none !important;
   display: inline-block;
