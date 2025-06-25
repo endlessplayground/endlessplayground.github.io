@@ -22,7 +22,7 @@ intro: |
     </div>-->
 
 <li>
-    <img src="/projecten/images/cat.jpg" alt="Icon" class="link-icon">
+    <img src="/projecten/images/cat.svg" alt="Icon" class="link-icon">
     <a href="/projecten/ikzoeknietmijnkat"><div class="text">
       <h3>Ikzoek<em>niet</em>mijnkat</h3>
       <p>...Over een grappig experiment dat in mij opkwam...</p>
