@@ -1,8 +1,8 @@
 ---
 layout: default
 intro: |
- <p>Wat is er <em>achter</em> dat wat wij ‘ervaren’ en waarvan we denken dat het de <em>werkelijkheid</em> is? Wat is tijd, ruimte, materie, <em>bewustzijn...</em>?</p>
- <p>Ik vind dat <em>súper</em> interessant om over na te denken, en daarom is dit een belangrijk onderdeel van mijn site. <!--&#128579;--> &#128578;</p>
+ <p>Wat is er <em>achter</em> dat wat wij ‘ervaren’ en wat we denken dat de <em>werkelijkheid</em> is? Wat is tijd, ruimte, materie, <em>bewustzijn...</em>?</p>
+ <p>Ik vind dat <em>enórm</em> interessant om over na te denken, en daarom is dit een belangrijk onderdeel van mijn site. <!--&#128579;--> &#128578;</p>
 
 ---
 
