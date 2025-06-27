@@ -1,0 +1,20 @@
+// ===== Colors =====
+$primary: #3366cc;       // Brand blue
+$secondary: #ff9900;     // Accent orange
+$dark: #8349ab;            // Text
+$light: #f8f8f8;        // Backgrounds
+$background-fancy: #cbefed;        // Backgrounds
+$error: #ff3860;        // Errors/alerts
+
+// ===== Fonts =====
+$font-main: "Helvetica Neue", sans-serif;
+$font-code: "Courier New", monospace;
+
+// ===== Spacing =====
+$gap-sm: 0rem;        // 8px
+$gap-md: 1rem;          // 16px
+$gap-lg: 2rem;          // 32px
+
+// ===== Breakpoints (Mobile-first) =====
+$tablet: 768px;
+$desktop: 1024px;
