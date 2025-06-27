@@ -12,7 +12,7 @@ intro: |
 <div class="custom-section">
 
 <h4>Ikzoek<em>niet</em>mijnkat</h4>
-<p>Uitleg volgt, wordt vast leuk! Een <a href="/ikzoeknietmijnkat/index">experiment</a> in de stad. (Komen de updates nou door?)</p>
+<p>Uitleg volgt, wordt vast leuk! Een <a href="/ikzoeknietmijnkat/index">experiment</a> in de stad.</p>
 
   
 </div>
