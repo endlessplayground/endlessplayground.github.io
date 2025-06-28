@@ -12,7 +12,7 @@ intro: |
 <div class="custom-section">
 
 <h4>Ikzoek<em>niet</em>mijnkat</h4>
-<p>Uitleg volgt, wordt vast leuk! Een <a href="/ikzoeknietmijnkat/index.html">experiment*</a> in de stad.</p>
+<p>Uitleg volgt, wordt vast leuk! Een <a href="https://endlessplayground.github.io/ikzoeknietmijnkat/">experiment*</a> in de stad.</p>
 
   
 </div>
