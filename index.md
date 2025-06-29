@@ -17,19 +17,20 @@ title: Home
                 </div></a>
                 <a href="projecten/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/projecten.svg' | relative_url }}" alt="projecten">
-                    <div class="link-label">Mijn projecten</div>
+                    <div class="link-label">Ikzoeknietmijnkat</div>
                 </div></a>
                 <a href="koffie/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/koffie.svg' | relative_url }}" alt="koffie">
                     <div class="link-label">Koffie?</div>
                 </div></a>
-                <a href="uitgelicht/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/uitgelicht.svg' | relative_url }}" alt="uitgelicht">
-                    <div class="link-label">Uitgelicht</div>
-                </div></a>
                 <a href="weird-science/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/weird-science.svg' | relative_url }}" alt="weird-science">
-                    <div class="link-label"><div style="transform: skewX(18deg); display:inline-block; font-style: italic">Weird</div> <div style="font-style:italic; display:inline-block; transform: skewX(-2deg)">Science</div></div>
+                    <!--<div class="link-label"><div style="transform: skewX(18deg); display:inline-block; font-style: italic">Weird</div> <div style="font-style:italic; display:inline-block; transform: skewX(-2deg)">Science</div></div>-->
+                    <div class="link-label">Wandelen...</div>
+                </div></a>
+                <a href="uitgelicht/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/uitgelicht.svg' | relative_url }}" alt="uitgelicht">
+                    <div class="link-label">Teksten</div>
                 </div></a>
                 <a href="/gesprekken/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
