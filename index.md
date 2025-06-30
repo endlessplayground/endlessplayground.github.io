@@ -17,7 +17,7 @@ title: Home
                 </div></a>
                 <a href="projecten/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/projecten.svg' | relative_url }}" alt="projecten">
-                    <div class="link-label"><i>Ikzoeknietmijnkat</i></div>
+                    <div class="link-label"><i>Ikzoek...</i></div>
                 </div></a>
                 <a href="/gesprekken/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
