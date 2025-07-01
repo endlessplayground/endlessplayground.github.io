@@ -101,8 +101,12 @@ footer, .footer-under {
   padding: 0 6px; /* Space between items */
 }
 
+.menubottom_inner_scroll div {
+  margin: 0 -3px;
+}
+
 .mini {
-  width: 35px;
+  width: 40px;
   display: block;
   transition: transform 0.2s; /* Optional: for hover/active effects */
 }
