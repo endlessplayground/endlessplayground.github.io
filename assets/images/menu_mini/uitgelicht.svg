@@ -439,7 +439,7 @@
        r="12.36927" /><ellipse
        style="fill:#a5e5f9;fill-opacity:1;fill-rule:evenodd;stroke-width:0.200589"
        id="path19668-4"
-       cx="14.355527"
+       cx="15.943026"
        cy="15.308094"
        rx="9.3908281"
        ry="9.3642998" /><text
@@ -459,7 +459,7 @@
        d="M 39.370653,6.6538385 H 51.891057 L 52.313048,22.907766 39.370653,22.494843 Z"
        sodipodi:nodetypes="ccccc" /><g
        id="g1"
-       transform="matrix(0.65863123,-0.44081852,0.44081852,0.65863123,-0.98191437,9.2374277)"><rect
+       transform="matrix(0.65863123,-0.44081852,0.44081852,0.65863123,0.60558564,9.2374277)"><rect
          style="fill:url(#linearGradient85671);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.366291"
          id="rect83887-4"
          width="3.1372213"
