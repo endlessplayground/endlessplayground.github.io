@@ -102,7 +102,7 @@ footer, .footer-under {
 }
 
 .mini {
-  width: 40px;
+  width: 35px;
   display: block;
   transition: transform 0.2s; /* Optional: for hover/active effects */
 }
