@@ -7,7 +7,7 @@
    viewBox="0 0 26.458337 26.458331"
    version="1.1"
    id="svg2787"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="random.svg"
    xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="3.7415824"
-     inkscape:cx="-29.666592"
-     inkscape:cy="53.319686"
+     inkscape:cx="17.372329"
+     inkscape:cy="52.384253"
      inkscape:window-width="1350"
      inkscape:window-height="728"
      inkscape:window-x="0"
@@ -111,11 +111,11 @@
        transform="rotate(-13.701693)" /><circle
        style="fill:#a5e5f9;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
        id="path19668-3"
-       cx="13.229168"
+       cx="-13.229165"
        cy="13.229167"
        r="12.36927" /><g
        id="g10080"
-       transform="matrix(0.83948436,0,0,0.81662593,38.163123,5.2381523)"
+       transform="matrix(0.76428555,0,0,0.74347474,36.741628,9.7130207)"
        style="stroke-width:1.19121"><path
          id="rect3873-4-6"
          style="fill:url(#radialGradient10060-6);fill-opacity:1;fill-rule:evenodd;stroke-width:0.315173"

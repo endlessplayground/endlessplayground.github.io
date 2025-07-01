@@ -7,7 +7,7 @@
    viewBox="0 0 31.749989 31.749996"
    version="1.1"
    id="svg2787"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="home.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,12 +26,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4"
-     inkscape:cx="43.625"
-     inkscape:cy="61.25"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:cx="43.5"
+     inkscape:cy="61.375"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:lockguides="false" />
@@ -208,7 +208,7 @@
      id="layer1">
     <g
        id="g30367"
-       transform="translate(0.25689278)">
+       transform="matrix(0.9,0,0,0.9,0.693347,3.0970836)">
       <path
          id="rect77221"
          style="fill:#895e2b;fill-rule:evenodd;stroke-width:0.308871"
