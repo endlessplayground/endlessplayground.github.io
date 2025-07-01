@@ -98,7 +98,7 @@ footer, .footer-under {
   display: flex;
   align-items: flex-end;
   height: 100%;
-  padding: 0 6px; /* Space between items */
+  padding: 0 3px; /* Space between items */
 }
 
 .menubottom_inner_scroll div {
@@ -106,7 +106,7 @@ footer, .footer-under {
 }
 
 .mini {
-  width: 40px;
+  width: 39px;
   display: block;
   transition: transform 0.2s; /* Optional: for hover/active effects */
 }
