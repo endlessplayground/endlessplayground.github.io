@@ -13,15 +13,15 @@ title: Home
             <section class="grid-container">
                 <a href="mij/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/mij.svg' | relative_url }}" alt="mij">
-                    <div class="link-label">Over mij</div>
+                    <div class="link-label">Wie...</div>
                 </div></a>
                 <a href="projecten/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/projecten.svg' | relative_url }}" alt="projecten">
-                    <div class="link-label"><i>Ikzoek...</i></div>
+                    <div class="link-label"><i>Wat...</i></div>
                 </div></a>
-                <a href="/gesprekken/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
-                    <div class="link-label"><!--leeg--></div>
+                <a href="koffie/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/koffie.svg' | relative_url }}" alt="koffie">
+                    <div class="link-label">Waar?!</div>
                 </div></a>
                 <a href="actueel/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/actueel.svg' | relative_url }}" alt="actueel">
@@ -33,13 +33,12 @@ title: Home
                     <img src="{{ '/assets/images/global/uitgelicht.svg' | relative_url }}" alt="uitgelicht">
                     <div class="link-label">Teksten</div>
                 </div></a>
-                <a href="koffie/index.html"><div class="grid-item">
-                    <img src="{{ '/assets/images/global/koffie.svg' | relative_url }}" alt="koffie">
-                    <div class="link-label">Koffie!</div>
+                <a href="/gesprekken/index.html"><div class="grid-item">
+                    <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
+                    <div class="link-label"><!--leeg--></div>
                 </div></a>
                 <a href="weird-science/index.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/weird-science.svg' | relative_url }}" alt="weird-science">
-                    <!--<div class="link-label"><div style="transform: skewX(18deg); display:inline-block; font-style: italic">Weird</div> <div style="font-style:italic; display:inline-block; transform: skewX(-2deg)">Science</div></div>-->
                     <div class="link-label"></div>
                 </div></a>
                 <a href="random/index.html"><div class="grid-item">
