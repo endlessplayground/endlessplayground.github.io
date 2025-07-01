@@ -98,7 +98,7 @@ footer, .footer-under {
   display: flex;
   align-items: flex-end;
   height: 100%;
-  padding: 0 3px; /* Space between items */
+  padding: 0 3px 0 2px; /* Space between items */
 }
 
 .menubottom_inner_scroll div {
