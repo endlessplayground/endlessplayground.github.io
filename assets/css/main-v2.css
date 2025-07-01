@@ -284,13 +284,6 @@ img {
   pointer-events: auto !important;
 }
 
-
-
-
-@media (min-width: 36rem) {
-  body {
-    background-color: rgb(223, 250, 127);
-  }
 .menubottom_inner {
   width: 100%;
   max-width: 95vw;
@@ -301,6 +294,15 @@ img {
     justify-content: center;
   }
 
+
+
+
+
+
+@media (min-width: 36rem) {
+  body {
+    background-color: rgb(223, 250, 127);
+  }
 #scroll img {
   visibility: hidden;
 }
