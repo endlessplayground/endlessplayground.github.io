@@ -37,7 +37,7 @@ title: Home
                     <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
                     <div class="link-label"><!--leeg--></div>
                 </div></a>
-                <a href="weird-science/index.html"><div class="grid-item">
+                <a href="setup2026.html"><div class="grid-item">
                     <img src="{{ '/assets/images/global/weird-science.svg' | relative_url }}" alt="weird-science">
                     <div class="link-label"></div>
                 </div></a>
