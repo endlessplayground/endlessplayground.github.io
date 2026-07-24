@@ -20,6 +20,7 @@
 
 /* ---------- PAGE ---------- */
 
+
 body {
 
     min-height: 100vh;
@@ -30,6 +31,8 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: system-ui, sans-serif;
+    color: rgb(46, 64, 86);
+
 }
 
 
@@ -40,12 +43,12 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    top: 20px;
-    right: 85px;
+    top: 30px;
+    right: 80px;
     z-index: 2;
 }
 #top-mus img {
-    width: 300px;
+    width: 280px;
 }
 
 #avontuur {
@@ -53,8 +56,8 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    top: 2px;
-    left: 42px;
+    top: 0px;
+    left: 40px;
     z-index: 1;
 }
 #avontuur img {
@@ -65,10 +68,10 @@ header {
 
     width: 100%;
 
-    height: 70px;
+    height: 66px;
 
     background: hsl(34, 95%, 55%);
-    background: #35a1ba;
+    background: hsl(191, 56%, 47%);
 
     display: flex;
     justify-content: center;
@@ -85,6 +88,7 @@ main {
 
     width: 100%;
     max-width: 430px;
+    padding: 50px 0px 40px 0px;
 
     flex: 1;
 
@@ -92,9 +96,10 @@ main {
 
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items:center;
 
     padding: 30px 20px;
+    
 
 }
 
@@ -120,17 +125,16 @@ main {
 
     text-decoration: none;
 
-    color: black;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: inherit;
 }
 
 
 /* ---------- ROUND IMAGE PLACEHOLDER ---------- */
 
-.icon {
+.icon, .icon-empty {
 
     width: 70px;
     height: 70px;
@@ -139,7 +143,11 @@ main {
 
     background: #d9e2e8;
 
-    margin-bottom: 10px;
+    margin-bottom: 4px;
+}
+
+.icon-empty {
+    background: #e7ebee;
 }
 
 
@@ -176,18 +184,18 @@ footer {
         <nav class="menu-grid">
 
             <a href="#">
-                <div class="icon"></div>
-                <span>One</span>
+                <div class="icon-empty"></div>
+                <span></span>
             </a>
 
             <a href="#">
                 <div class="icon"></div>
-                <span>Two</span>
+                <span>Wie?</span>
             </a>
 
             <a href="#">
                 <div class="icon"></div>
-                <span>Three</span>
+                <span>Wat?</span>
             </a>
 
             <a href="#">
@@ -235,20 +243,7 @@ footer {
                 <span>Nine</span>
             </a>
 
-                        <a href="#">
-                <div class="icon"></div>
-                <span>Seven</span>
-            </a>
 
-            <a href="#">
-                <div class="icon"></div>
-                <span>Eight</span>
-            </a>
-
-            <a href="#">
-                <div class="icon"></div>
-                <span>Nine</span>
-            </a>
 
 
 
