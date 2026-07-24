@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* ---------- RESET ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------- PAGE ---------- */
+
+body {
+
+    min-height: 100vh;
+
+    background: #8ca6b8;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, sans-serif;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+
+    width: 100%;
+
+    height: 70px;
+
+    background: #35546d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+
+/* ---------- MAIN ---------- */
+
+
+main {
+
+    width: 100%;
+    max-width: 430px;
+
+    flex: 1;
+
+    background: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 30px 20px;
+
+}
+
+
+/* ---------- GRID ---------- */
+
+.menu-grid {
+
+    width: 100%;
+    max-width: 350px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+/* ---------- MENU ITEMS ---------- */
+
+.menu-grid a {
+
+    text-decoration: none;
+
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------- ROUND IMAGE PLACEHOLDER ---------- */
+
+.icon {
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+
+    background: #d9e2e8;
+
+    margin-bottom: 10px;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+
+    width: 100%;
+
+    height: 40px;
+
+    background: #35546d;
+
+    position: fixed;
+    bottom: 0;
+
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            My Logo
+        </div>
+    </header>
+
+    <main>
+
+        <nav class="menu-grid">
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>One</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Two</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Three</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Four</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Five</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Six</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Seven</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Eight</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Nine</span>
+            </a>
+            
+            <a href="#">
+                <div class="icon"></div>
+                <span>Seven</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Eight</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Nine</span>
+            </a>
+
+                        <a href="#">
+                <div class="icon"></div>
+                <span>Seven</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Eight</span>
+            </a>
+
+            <a href="#">
+                <div class="icon"></div>
+                <span>Nine</span>
+            </a>
+
+
+
+        </nav>
+
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
