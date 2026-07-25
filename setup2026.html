@@ -42,7 +42,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    top: 20px;
+    top: 7px;
     right: 130px;
     z-index: 2;
 }
@@ -91,9 +91,7 @@ main {
     justify-content: center;
     align-items:center;
 
-    padding: 130px 20px 70px 20px;
-
-    background: linear-gradient(to bottom, #35a2bb, white);
+    padding: 170px 20px 70px 20px;
 
     background: linear-gradient(
     to bottom,
@@ -118,7 +116,7 @@ main {
 
     grid-template-columns: repeat(3, 1fr);
 
-    gap: 20px;
+    gap: 5px 30px;
 }
 
 
@@ -134,7 +132,10 @@ main {
     color: rgb(46, 64, 86);
 }
 span {
-    color: rgb(66, 111, 173) !important;
+    height: 40px;
+    text-align: center;
+    overflow: visible;
+    line-height: 1rem;
 }
 
 
@@ -144,6 +145,9 @@ span {
 
     width: 70px;
     height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     border-radius: 50%;
 
@@ -176,8 +180,8 @@ footer {
 
 <body>
 
-    <div id="avontuur"><img src="images/avontuur.png" alt="mus"></div>
-    <div id="top-mus"><img src="images/mus.png" alt="mus"></div>
+    <div id="avontuur"><img src="images/avontuur.svg" alt="mus"></div>
+    <div id="top-mus"><img src="images/mus.svg" alt="mus"></div>
 
     <header>
         <div class="logo">
@@ -195,8 +199,8 @@ footer {
             </a>
 
             <a href="#">
-                <div class="icon"></div>
-                <span>Over mij</span>
+                <div class="icon"><img src="images/mij.svg" alt=""></div>
+                <span>Wie is die mus?</span>
             </a>
 
             <a href="#">
@@ -244,7 +248,7 @@ footer {
             
             <a href="#">
                 <div class="icon"></div>
-                <span></span>
+                <span>Random</span>
             </a>
 
             <a href="#">
@@ -254,7 +258,7 @@ footer {
 
             <a href="#">
                 <div class="icon"></div>
-                <span>Koffie</span>
+                <span>Contact</span>
             </a>
 
 <!-- -----------------------------------
