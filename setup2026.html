@@ -108,19 +108,29 @@ main {
 }
 
 .menu {
-
     width: 100%;
-    max-width: 430px;
+    width: 430px;
+    position: fixed;
     height: auto;
     position:fixed;
 
-    flex: 1;
 
     display: flex;
-    justify-content: flex-end;
-    align-items:end;
+    justify-content: end;
+    align-items: end;
 
-    padding: 42px 54px 0px 0px;
+    margin-top: 80px;
+    z-index: 120;
+
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 800;
+    margin-right: 64px;
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -181,6 +191,8 @@ main {
 
 .icon-menu {
     background-color: rgba(234, 198, 37, 0.982);
+    width: 50px;
+    height: 50px;
 }
 
 /* ---------- FOOTER ---------- */
@@ -211,12 +223,11 @@ footer {
         </div>
     </header>
 
-    <div class="menu" style="text-decoration: none;>
+<div class="menu">
             <a href="#">
-                <div class="icon-menu"">☰</div>
+                <div class="icon-menu" style="background:transparent;"><img src="images/menu.svg" alt=""></div>
             </a>
-    </div>
-
+</div>
     <main>
 
         <nav class="menu-grid">
