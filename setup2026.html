@@ -52,7 +52,7 @@ body {
     width: 100%;
     top: 27px;
     right: 130px;
-    z-index: 2;
+    z-index: 20;
 }
 #top-mus img {
     width: 270px;
@@ -65,7 +65,7 @@ body {
     width: 100%;
     top: 0px;
     left: 33px;
-    z-index: 1;
+    z-index: 10;
 }
 #avontuur img {
     width: 451  px;
@@ -107,6 +107,22 @@ main {
     padding: 170px 20px 70px 20px;
 }
 
+.menu {
+
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+    position:fixed;
+
+    flex: 1;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items:end;
+
+    padding: 42px 54px 0px 0px;
+}
+
 
 /* ---------- GRID ---------- */
 
@@ -144,7 +160,7 @@ main {
 
 /* ---------- ROUND IMAGE PLACEHOLDER ---------- */
 
-.icon, .icon-empty {
+.icon, .icon-empty, .icon-menu {
 
     width: 70px;
     height: 70px;
@@ -154,15 +170,18 @@ main {
 
     border-radius: 50%;
 
-    background-color: rgba(175, 222, 209, 0.5);
+    background-color: rgba(145, 206, 189, 0.9);
 
     margin-bottom: 4px;
 }
 
 .icon-empty {
-    background-color: rgba(175, 222, 209, 0.3);
+    background-color: rgba(145, 206, 189, 0.6);
 }
 
+.icon-menu {
+    background-color: rgba(234, 198, 37, 0.982);
+}
 
 /* ---------- FOOTER ---------- */
 
@@ -191,6 +210,12 @@ footer {
             
         </div>
     </header>
+
+    <div class="menu" style="text-decoration: none;>
+            <a href="#">
+                <div class="icon-menu"">☰</div>
+            </a>
+    </div>
 
     <main>
 
