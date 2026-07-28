@@ -8,6 +8,13 @@ p {
     margin-bottom: 1.4em;
     line-height: 1.4;
 }
+em {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3em;
+    color: rgb(10, 187, 184);
+
+}
 
 
 /* ---------- PAGE ---------- */
@@ -17,7 +24,7 @@ body {
 
     min-height: 100vh;
 
-    background: #9ad24c;
+    background: rgb(154, 210, 76);
 
     display: flex;
     flex-direction: column;
@@ -159,7 +166,7 @@ main {
 
 /* ---------- ROUND IMAGE PLACEHOLDER ---------- */
 
-.icon, .icon-empty, .icon-menu {
+.icon, .icon-empty, .icon-menu, footer.icon {
 
     width: 70px;
     height: 70px;
@@ -188,13 +195,34 @@ main {
 
 footer {
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 100%;
 
-    height: 40px;
+    height: 60px;
 
-    background: transparent;
-
+    background: linear-gradient(
+    to top,
+    rgba(154, 210, 76, 0.99) 0,
+    rgba(154, 210, 76, 0.2) 30%,
+    transparent 100%
+    );
     position: fixed;
     bottom: 0;
+ overflow: hidden;
 
+}
+
+footer .icon {
+ width: 40px !important;
+ height: 40px;
+ margin: 0px 13px 0px 13px;
+    flex-shrink: 0;
+        background-color: rgba(167, 232, 213, 0.934);
+
+}
+footer .icon img {
+    width: 80px;
 }
