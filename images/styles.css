@@ -41,7 +41,7 @@ body {
 
 /* ---------- HEADER ---------- */
 
-#top-mus {
+#top-mus, #top-icon {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -50,6 +50,12 @@ body {
     right: 130px;
     z-index: 20;
 }
+
+#top-icon {
+    top: 37px;
+    right: 160px;
+}
+
 #top-mus img {
     width: 270px;
 }
@@ -214,7 +220,6 @@ footer {
     );
     position: fixed;
     bottom: 0;
- overflow: hidden;
 
 }
 
