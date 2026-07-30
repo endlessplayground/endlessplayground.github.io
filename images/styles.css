@@ -168,8 +168,8 @@ main {
 
 .icon, .icon-empty, .icon-menu, footer.icon {
 
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,6 +179,9 @@ main {
     background-color: rgba(145, 206, 189, 0.9);
 
     margin-bottom: 4px;
+}
+.icon img {
+    width: 77px;
 }
 
 .icon-empty {
