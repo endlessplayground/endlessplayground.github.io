@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 p {
@@ -51,6 +52,8 @@ body {
     z-index: 20;
 }
 
+
+
 #top-icon {
     top: 37px;
     right: 160px;
@@ -93,7 +96,7 @@ header {
 /* ---------- MAIN ---------- */
 
 
-main {
+main, .main-kop, #folder {
 
     width: 100%;
     max-width: 430px;
@@ -109,6 +112,37 @@ main {
     padding: 170px 20px 70px 20px;
 }
 
+#folder {
+
+    width: 50px;
+    height: 30px;
+    top: 100px;
+    background: transparent;
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+    margin-left: 270px;
+}
+
+
+.main-kop {
+    background-color: transparent;
+    padding: 100px 20px 0px 20px;
+    position: fixed;
+    color: rgb(39, 41, 43);
+}
+h2 {
+    background-color:rgb(244, 244, 230);
+    border-radius: 20px;
+    padding: 4px 10px 6px 10px;
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    line-height: 80%;
+    box-shadow: 0 4px 8px rgba(46, 93, 125, 0.3);
+
+}
 .menu {
     width: 100%;
     width: 430px;
@@ -138,7 +172,7 @@ main {
 
 /* ---------- GRID ---------- */
 
-.menu-grid {
+.menu-grid, .submenu-grid {
 
     width: 100%;
     max-width: 350px;
@@ -148,6 +182,12 @@ main {
     grid-template-columns: repeat(3, 1fr);
 
     gap: 5px 30px;
+}
+
+.submenu-grid {
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 5px 20px;
 }
 
 
@@ -172,7 +212,7 @@ main {
 
 /* ---------- ROUND IMAGE PLACEHOLDER ---------- */
 
-.icon, .icon-empty, .icon-menu, footer.icon {
+.icon, .icon-empty, .icon-sub, .icon-menu, footer.icon {
 
     width: 60px;
     height: 60px;
@@ -192,6 +232,10 @@ main {
 
 .icon-empty {
     background-color: rgba(145, 206, 189, 0.4);
+}
+
+.icon-sub {
+    background: transparent;
 }
 
 .icon-menu {
