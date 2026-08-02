@@ -168,6 +168,7 @@ h2 {
 
 .submenu-grid {
     gap: 15px 30px;
+    margin-left: -15px;
 
 }
 
@@ -202,8 +203,8 @@ h2 {
 
 .icon, .icon-empty, .icon-sub, .icon-menu, footer.icon {
 
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,7 +216,7 @@ h2 {
     margin-bottom: 4px;
 }
 .icon img {
-    width: 77px;
+    width: 90px;
 }
 
 .icon-empty {
@@ -253,16 +254,4 @@ footer {
     position: fixed;
     bottom: 0;
 
-}
-
-footer .icon {
- width: 40px !important;
- height: 40px;
- margin: 0px 13px 0px 13px;
-    flex-shrink: 0;
-        background-color: rgba(167, 232, 213, 0.934);
-
-}
-footer .icon img {
-    width: 80px;
 }
