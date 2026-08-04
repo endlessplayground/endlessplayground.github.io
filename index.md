@@ -33,7 +33,7 @@ title: Home
                     <img src="{{ '/assets/images/global/uitgelicht.svg' | relative_url }}" alt="uitgelicht">
                     <div class="link-label">Teksten</div>
                 </div></a>
-                <a href="/gesprekken/index.html"><div class="grid-item">
+                <a href="/2026_uitw/"><div class="grid-item">
                     <img src="{{ '/assets/images/global/gesprekken.svg' | relative_url }}" alt="gesprekken">
                     <div class="link-label"><!--leeg--></div>
                 </div></a>
