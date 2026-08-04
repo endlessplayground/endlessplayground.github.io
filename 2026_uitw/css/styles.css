@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 1.4em;
+    line-height: 1.4;
+    color: blue;
+}
+em {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3em;
+    color: rgb(10, 187, 184);
+
+}
+h1 {
+    color: red;
+}
+
+h2 {
+    background-color:rgb(244, 244, 230);
+    border-radius: 20px;
+    padding: 4px 10px 6px 10px;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    line-height: 80%;
+    box-shadow: 0 4px 8px rgba(46, 93, 125, 0.3);
+    z-index: 102;
+    position: fixed;
+    top: 100px;
+}
+
+
+
+/* ---------- PAGE ---------- */
+
+
+body {
+
+    min-height: 100vh;
+
+    background: rgb(154, 210, 76);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, sans-serif;
+    color: rgb(46, 64, 86);
+
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+/* ---------- HEADER ---------- */
+
+#top-mus, #top-icon {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 27px;
+    right: 130px;
+    z-index: 20;
+}
+
+
+
+#top-icon {
+    top: 37px;
+    right: 160px;
+}
+
+#top-mus img {
+    width: 270px;
+}
+
+#avontuur {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 0px;
+    left: 33px;
+    z-index: 10;
+}
+#avontuur img {
+    width: 451  px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 166px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+    to bottom,
+    rgba(53, 162, 187, 0.99) 0,
+    rgba(151, 214, 228, 0.99) 60%,
+    transparent 100%
+);
+}
+
+
+/* ---------- MAIN ---------- */
+
+
+main, .main-kop, #folder {
+
+    width: 100%;
+    max-width: 430px;
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+    background-color:rgb(244, 244, 230);
+
+    padding: 160px 20px 70px 20px;
+}
+
+#folder {
+
+    width: 50px;
+    height: 30px;
+    top: 100px;
+    background: transparent;
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+    margin-left: 270px;
+}
+
+
+.main-kop {
+    background-color: transparent;
+    padding: 100px 20px 0px 20px;
+    position: fixed;
+    color: rgb(39, 41, 43);
+}
+
+/* ---------- GRID ---------- */
+
+.menu-grid, .submenu-grid {
+
+    width: 100%;
+    max-width: 350px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 5px 30px;
+}
+
+.submenu-grid {
+    gap: 15px 30px;
+    margin-left: -15px;
+
+}
+
+
+/* ---------- MENU ITEMS ---------- */
+
+.menu-grid a, .submenu-grid a {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(46, 64, 86);
+}
+.label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    text-align: center;
+    overflow: visible;
+    line-height: 1rem;
+}
+.section .label {
+        overflow: visible;
+        font-style: italic;
+}
+
+
+/* ---------- ROUND IMAGE PLACEHOLDER ---------- */
+
+.home .icon, .home .icon-empty, .section .icon,  .section .icon-empty {
+
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background-color: rgba(145, 206, 189, 0.9);
+
+    margin-bottom: 4px;
+}
+
+.home .icon-empty {
+    background-color: rgba(145, 206, 189, 0.4);
+}
+
+.section .icon,  .section .icon-empty {
+    background: transparent;
+    background-color: antiquewhite;
+}
+
+.icon img {
+    width: 90px;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 430px;
+
+
+    height: 60px;
+
+    background: linear-gradient(
+    to top,
+    rgba(154, 210, 76, 0.99) 0,
+    rgba(154, 210, 76, 0.2) 30%,
+    transparent 100%
+    );
+    position: fixed;
+    bottom: 0;
+
+}
+
+footer a {
+    margin-right: 3.5em;
+    
+}

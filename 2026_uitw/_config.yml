@@ -1,0 +1,26 @@
+title: "De Mus"
+description: "A personal experimental site"
+
+labels:
+  about: "Wie is die mus?"
+  ideas: "Wat vind ik..."
+  projects: "Projecten"
+  coffee: "Koffie?"
+  random: "Random"
+  contact: "Contact"
+
+defaults:
+  - scope:
+      path: "ideas"
+    values:
+      header: "Wat vind ik..."
+
+  - scope:
+      path: "projects"
+    values:
+      header: "Projecten"
+
+  - scope:
+      path: "mus"
+    values:
+      header: "Wie is die mus?"
