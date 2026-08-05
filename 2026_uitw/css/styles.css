@@ -140,6 +140,11 @@ main, .main-kop, #folder {
     padding: 160px 20px 70px 20px;
 }
 
+.section main {
+    justify-content: flex-start;
+    padding-top: 190px;
+}
+
 #folder {
 
     width: 50px;
@@ -228,7 +233,8 @@ main, .main-kop, #folder {
     background-color: rgba(145, 206, 189, 0.4);
 }
 
-.section .icon,  .section .icon-empty {
+.section .icon {
+    margin: 4px 0px 8px 0px;
     background: transparent;
     background-color: antiquewhite;
 }
@@ -249,20 +255,22 @@ footer {
     max-width: 430px;
 
 
-    height: 60px;
+    height: 56px;
 
     background: linear-gradient(
     to top,
-    rgba(154, 210, 76, 0.99) 0,
-    rgba(154, 210, 76, 0.2) 30%,
+    rgb(144, 204, 72) 0,
+    rgba(154, 210, 76, 0.35) 12%,
+    rgba(154, 210, 76, 0.1) 40%,
+    rgba(154, 210, 76, 0) 70%,
     transparent 100%
     );
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
 
 }
 
 footer a {
-    margin-right: 3.5em;
+    margin-right: 4.5em;
     
 }
