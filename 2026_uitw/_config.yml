@@ -1,5 +1,11 @@
+version: "3"
+
 title: "De Mus"
 description: "A personal experimental site"
+
+baseurl: "/huismusopavontuur"
+
+permalink: pretty
 
 labels:
   about: "Wie is die mus?"
