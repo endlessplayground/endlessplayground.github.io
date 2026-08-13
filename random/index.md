@@ -22,12 +22,6 @@ intro: |
 #roll {
   cursor: pointer;
   display: inline-block;
-  -webkit-tap-highlight-color: transparent !important; /* For mobile/WebKit browsers */
-}
-
-#roll:focus, #roll:active {
-  outline: none !important;
-  box-shadow: none !important;
 }
 
 #roll img {
@@ -35,8 +29,6 @@ intro: |
   height: 50px;
   transition: transform 2s ease-out;
   transform: rotate(0deg);
-    user-select: none; /* Prevent text selection during clicks */
-  -webkit-user-drag: none; /* Prevent dragging in WebKit browsers */
 }
 
 #output {
@@ -69,7 +61,7 @@ intro: |
     height: 90px;
 }
 
-#roll, #roll:hover, #roll:active {
+#roll, #roll:hover, #roll:active, #roll:focus {
   cursor: pointer;
   outline: none !important;
   display: inline-block;
