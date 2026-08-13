@@ -1,67 +1,20 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} - {{ site.title }}</title>
-
-<link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
+  {% include head.html %}
 </head>
-
-<body class="{{ page.page_type }}">
-  
-<header>
+<body>
   {% include header.html %}
-</header>
 
+  <main class="content">
+    {{ content }}
+  </main>
 
-  <!-- <div id="folder">
-    <a href="{{ '/' | append: page.parent_folder | append: '/' | relative_url }}">
-      <img src="{{ '/images/menu_back.svg' | relative_url }}" alt="Folder">
-    </a>
-  </div> -->
-
-<main>
-{% assign parts = page.path | split: '/' %}
-
-{% case parts[0] %}
-  {% when "ideas" %}
-    <h2>{{ site.labels.ideas }}</h2>
-
-  {% when "projects" %}
-    <h2>{{ site.labels.projects }}</h2>
-
-  {% when "about" %}
-    <h2>{{ site.labels.about }}</h2>
-
-  {% when "today" %}
-    <h2>{{ site.labels.today }}</h2>
-
-  {% when "random" %}
-    <h2>{{ site.labels.random }}</h2>
-
-  {% when "contact" %}
-    <h2>{{ site.labels.contact }}</h2>
-{% endcase %}
-
-  {{ content }}
-</main>
-
-<footer>
+  {% include menu_bottom.html %}
   {% include footer.html %}
-</footer>
-
-  <script src="{{ '/js/date.js' | relative_url }}" defer></script>
-
+  
+  <script src="/assets/js/date.js" defer></script>
+  <script src="/assets/js/intro_close.js" defer></script>
 
 
 </body>
