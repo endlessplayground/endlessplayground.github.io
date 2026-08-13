@@ -1,0 +1,372 @@
+:root {
+    --main-font: "Epunda Slab", serif;
+    --heading-font: "Hammersmith One", sans-serif;
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, em {
+    font-family: var(--heading-font);
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+p, h3 {
+    line-height: 1.4;
+    margin-bottom: 1.0em;
+}
+
+em, h3 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3em;
+    color: rgb(10, 187, 184);
+}
+
+h1 {
+    font-size: 1.5em;
+    color: red;
+    display: block;
+    position: absolute;
+    top: 160px;
+    z-index: 200;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: 300;
+    text-align: center;
+    line-height: 80%;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(52, 163, 188, 0.882);
+    z-index: 102;
+    position: fixed;
+    top: 120px;
+    left: 52%;
+    transform: translateX(-50%);
+}
+
+/* ---------- PAGE ---------- */
+
+
+body {
+
+    min-height: 100vh;
+
+    background-color: rgb(124, 245, 68);
+        background-color: rgb(102, 198, 17);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, sans-serif;
+    color: rgb(46, 64, 86);
+
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+/* ---------- HEADER ---------- */
+
+#top-mus, #top-icon {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 27px;
+    right: 130px;
+    z-index: 20;
+}
+
+
+
+#top-icon {
+    top: 85px;
+    right: 150px;
+}
+
+#top-mus img {
+    width: 220px;
+}
+
+#avontuur {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 0px;
+    left: 22px;
+    z-index: 10;
+}
+#avontuur img {
+    width: 438px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 166px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+    to bottom,
+    rgba(58, 185, 213, 0.99) 0,
+    rgba(130, 205, 205, 0.99) 70%,
+    transparent 100%
+);
+}
+
+
+/* ---------- MAIN ---------- */
+
+
+main, .main-kop, #folder {
+
+    width: 100%;
+    max-width: 430px;
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+    background-color:rgb(130, 205, 205);
+
+    padding: 146px 25px 70px 25px;
+}
+
+.article_1 main, .article_2 main, .submenu_1 main, .submenu_2 main, .section_index main, .short main {
+ 
+    padding-top: 190px;
+}
+
+.section_index main {
+    justify-content: flex-start;
+}
+
+.article_1 main, .article_2 main {
+    padding: 190px 40px 0px 58px;
+    justify-content: flex-start;
+}
+
+.submenu_1 main, .submenu_2 main {
+    justify-content: flex-start;
+}
+
+.short main {
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 220px 55px 70px 55px;
+}
+
+#folder {
+    width: 50px;
+    height: 30px;
+    background: transparent;
+    position: fixed;
+    z-index: 1000;
+
+    padding: 0;
+    margin-right: 330px;
+    margin-top: 200px;
+}
+#folder img {
+    width: 60px;
+}
+
+
+.main-kop {
+    background-color: transparent;
+    padding: 100px 20px 0px 20px;
+    position: fixed;
+    color: rgb(39, 41, 43);
+}
+
+/* ---------- GRID ---------- */
+
+.menu-grid, .submenu-grid {
+
+    width: 100%;
+    max-width: 350px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 5px 30px;
+}
+
+.submenu-grid {
+    gap: 15px 30px;
+    margin-left: -15px;
+
+}
+
+
+/* ---------- MENU ITEMS ---------- */
+
+.menu-grid a, .submenu-grid a {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(46, 64, 86);
+}
+.label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    margin-top: -13px;
+    margin-bottom: 16px;
+    color: white;
+    text-align: center;
+    overflow: visible;
+    font-size: 1em;
+    line-height: 1rem;
+    font-weight: 400;
+text-shadow: 1px 1px 2px rgba(41, 137, 158, 0.882);
+
+  font-family: var(--heading-font);
+  font-weight: 400;
+  font-style: normal;
+}
+.home .label {
+    font-style: normal;
+}
+
+
+/* ---------- ROUND IMAGE PLACEHOLDER ---------- */
+
+.icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+        flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background-color: rgb(185, 238, 227);
+
+    margin-bottom: 2px;
+}
+
+.home .icon, .section_index .icon, .submenu_1 .icon, .submenu_2 .icon {
+
+    width: 73px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background-color: rgb(185, 238, 227);
+
+    margin-bottom: 2px;
+}
+
+.section_index .icon, .submenu_1 .icon, .submenu_2 .icon {
+    margin: 4px 0px 8px 0px;
+    background-color: rgb(106, 196, 196);
+    margin-bottom: 2px;
+}
+
+.icon img {
+    width: 95px !important;
+    height: 95px;
+}
+
+.date {
+    position: relative;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95px;
+}
+
+#month {
+  position: relative;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-align: center;
+  font-family: var(--heading-font); 
+  z-index: 1000;
+}
+
+#date {
+  position: relative;
+  font-size: 1.7em;
+  font-weight: 700;
+  text-align: center;
+  font-family: var(--heading-font); 
+}
+
+.date #month, .date #date  {
+    position: absolute;
+    transform: translateY(62%);
+}
+
+.date #date {
+        transform: translateY(97%);
+}
+
+#top-icon .date {
+    margin-top: -10px;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 430px;
+
+
+    height: 20px;
+
+    background-color: rgb(124, 245, 68);
+    background-color: rgb(102, 198, 17);
+    position: fixed;
+    bottom: 0px;
+
+}
+
+footer a {
+    margin-right: 4.5em;
+    
+}
